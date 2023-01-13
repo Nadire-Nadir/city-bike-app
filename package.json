@@ -20,7 +20,8 @@
   "homepage": "https://github.com/Nadire-Nadir/helsinki-city-bike-app#readme",
   "dependencies": {
     "@prisma/client": "^4.8.1",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "@types/node": "^18.11.18",
