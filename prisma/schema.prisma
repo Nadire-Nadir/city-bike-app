@@ -9,3 +9,37 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+model User {
+  id String @id @default(uuid())
+  createdAt DateTime @default(now())
+  username String @unique
+  password String 
+}
+
+model Station {
+  stationId String @id
+  stationNameFi String
+  stationNameSe String
+  stationNameEn String
+  addressFi String
+  addressEn String
+  cityFi String
+  citySe String
+  operator String
+  capacities Int
+  xCoordinate Float
+  yCoordinate Float
+}
+
+model Journey {
+  journeyId String @id @default(uuid())
+  departureTime DateTime 
+  departureStationId String @unique
+  departureStationName String
+  returnTime DateTime
+  returnStationId String @unique
+  returnStationName String
+  coveredDistanceInMeter Int
+  durationInSecond Int
+}
