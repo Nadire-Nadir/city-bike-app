@@ -8,7 +8,6 @@ const app = express()
 
 app.use(morgan('dev'))
 
-// check if these needed in the future
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
