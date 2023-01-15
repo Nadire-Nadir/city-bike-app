@@ -7,19 +7,23 @@ export interface userRequest extends Request {
     user?: JwtPayload | string;
 }
 
+
 declare const process: {
     env: {
         [key: string]: string;
     };
 };
 
+
 export const comparePasswords = (password: string, hash: string) => {
     return bcrypt.compare(password, hash);
 };
 
+
 export const hashPassword = (password: string) => {
     return bcrypt.hash(password, 5);
 };
+
 
 export const createJWT = (user: User) => {
     const token = jwt.sign(
@@ -32,6 +36,7 @@ export const createJWT = (user: User) => {
 
     return token;
 };
+
 
 export const protect = (
     req: userRequest,

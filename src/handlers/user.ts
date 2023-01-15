@@ -1,25 +1,33 @@
-import { Request, Response } from "express";
-import prisma from "../db";
-import { comparePasswords, createJWT, hashPassword } from "../modules/auth";
+import { NextFunction, Request, Response } from 'express';
+import prisma from '../db';
+import { comparePasswords, createJWT, hashPassword } from '../modules/auth';
 
-export const createNewUser = async (req: Request, res: Response) => {
+export const createNewUser = async (req: Request, res: Response, next: NextFunction) => {
 
-    const hash = await hashPassword(req.body.password)
+    try {
+        const hash = await hashPassword(req.body.password)
 
-    const user = await prisma.user.create({
-        data: {
-            username: req.body.username,
-            password: hash
-        }
+        const user = await prisma.user.create({
+            data: {
+                username: req.body.username,
+                password: hash
+            }
+        })
 
-    })
+        const token = createJWT(user)
 
-    const token = createJWT(user)
+        res.json({ token })
 
-    res.json({ token })
+    } catch (e: any) {
+
+        e.type = 'input'
+        next(e)
+    }
 }
 
+
 export const signin = async (req: Request, res: Response) => {
+
     const user = await prisma.user.findUnique({
         where: {
             username: req.body.username
@@ -32,7 +40,7 @@ export const signin = async (req: Request, res: Response) => {
 
         if (!isValid) {
             res.status(401);
-            res.json({ message: "Not valid user" })
+            res.json({ message: "Wrong password! " })
 
             return;
         }
@@ -40,5 +48,11 @@ export const signin = async (req: Request, res: Response) => {
         const token = createJWT(user)
 
         res.json({ token })
+        
+    } else {
+        res.status(401);
+        res.json({ message: "User does not exist!" })
+
+        return
     }
 }

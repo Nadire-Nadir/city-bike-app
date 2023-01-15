@@ -13,6 +13,8 @@ export const handleInputErrors = (
         res.json({ errors: errors.array() });
 
     } else {
+
         next()
+        
     }
 }
