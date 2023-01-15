@@ -6,4 +6,7 @@ prerequisites:
     install typescript, ts-node
     install prisma
     install prisma client
+    istall morgan
+    install jsonwebtoken, bcrypt, dotenv
+    install express-validator
  -->

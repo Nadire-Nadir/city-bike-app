@@ -1,4 +1,8 @@
 import { Router } from 'express'
+import { body } from 'express-validator'
+import { createJourneys, getJourneys } from './handlers/journey'
+import { createStations, deleteStation, getOneStation, getStations, updateStation } from './handlers/station'
+import { handleInputErrors } from './modules/middleware'
 
 const router = Router()
 
@@ -6,25 +10,27 @@ const router = Router()
  * Journeys
  */
 
-router.get('/journey', (req, res) => {
-  res.json({ message: 'hello' })
-})
+router.get('/journey', getJourneys)
 
-router.post('/journey', () => {})
+router.post('/journey', createJourneys)
 
 /**
  * Stations
  */
+router.post('/station', createStations)
 
-router.get('/station', () => {});
+router.get('/station', getStations)
 
-router.get('/station/:id', () => {})
+router.get('/station/:id', getOneStation)
 
-router.put('/station/:id', () => {})
+router.put('/station/:id',
+    body("operator").isString(),
+    body("capacities").isInt(),
+    handleInputErrors,
+    updateStation
+)
 
-router.post('/station', () => {})
-
-router.delete('/station/:id', () => {})
+router.delete('/station/:id', deleteStation)
 
 
 export default router
