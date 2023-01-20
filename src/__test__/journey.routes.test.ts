@@ -7,7 +7,7 @@ let jwt: string
 beforeAll(async () => {
     jwt = await (
         await request(app)
-            .post("/user")
+            .post('/user')
             .send({ username: 'journeyTestUser', password: 'journeyTestUser' })
     )
         .body.token
@@ -20,7 +20,7 @@ describe('GET /api/journey', () => {
             .get('/api/journey')
 
             .set({ authorization: `Bearer ${jwt}` })
-        expect(res.headers["content-type"]).toMatch(/json/)
+        expect(res.headers['content-type']).toMatch(/json/)
         expect(res.status).toEqual(200)
     })
 })

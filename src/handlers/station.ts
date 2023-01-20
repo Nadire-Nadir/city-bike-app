@@ -57,7 +57,6 @@ export const getOneStation = async (req: Request, res: Response, next: NextFunct
 
         next(e)
     }
-
 }
 
 
@@ -80,7 +79,6 @@ export const updateStation = async (req: Request, res: Response, next: NextFunct
 
         next(e)
     }
-
 }
 
 

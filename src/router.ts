@@ -24,8 +24,8 @@ router.get('/station', getStations)
 router.get('/station/:id', getOneStation)
 
 router.put('/station/:id',
-    body("operator").isString(),
-    body("capacities").isInt(),
+    body('operator').isString(),
+    body('capacities').isInt(),
     handleInputErrors,
     updateStation
 )

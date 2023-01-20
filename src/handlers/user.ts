@@ -2,8 +2,7 @@ import { NextFunction, Request, Response } from 'express';
 import prisma from '../db';
 import { comparePasswords, createJWT, hashPassword } from '../modules/auth';
 
-export const createNewUser = async (req: Request, res: Response, next: NextFunction) => {
-
+export const createNewUser = async (req: Request, res: Response, next: NextFunction) => { 
     try {
         const hash = await hashPassword(req.body.password)
 
@@ -40,9 +39,9 @@ export const signin = async (req: Request, res: Response) => {
 
         if (!isValid) {
             res.status(401);
-            res.json({ message: "Wrong password! " })
+            res.json({ message: 'Wrong password! ' })
 
-            return;
+            return
         }
 
         const token = createJWT(user)
@@ -51,7 +50,7 @@ export const signin = async (req: Request, res: Response) => {
         
     } else {
         res.status(401);
-        res.json({ message: "User does not exist!" })
+        res.json({ message: 'User does not exist!' })
 
         return
     }

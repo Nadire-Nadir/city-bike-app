@@ -63,7 +63,7 @@ describe('PUT /api/station/:id', () => {
     it('responds with json', async () => {
         const res = await supertest(app)
             .put('/api/station/1')
-            .send({ operator: "newOperator", capacities: 44 })
+            .send({ operator: 'newOperator', capacities: 44 })
             .set({ authorization: `Bearer ${jwt}` })
 
         expect(res.headers['content-type']).toMatch(/json/)

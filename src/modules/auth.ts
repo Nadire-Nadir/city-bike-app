@@ -1,7 +1,7 @@
-import jwt, { Secret, JwtPayload } from "jsonwebtoken";
-import bcrypt from "bcrypt";
-import { User } from "@prisma/client";
-import { NextFunction, Request, Response } from "express";
+import jwt, { Secret, JwtPayload } from 'jsonwebtoken'
+import bcrypt from 'bcrypt'
+import { User } from '@prisma/client'
+import { NextFunction, Request, Response } from 'express'
 
 export interface userRequest extends Request {
     user?: JwtPayload | string;
@@ -47,16 +47,16 @@ export const protect = (
 
     if (!bearer) {
         res.status(401);
-        res.json({ message: "Not authorized!" });
+        res.json({ message: 'Not authorized!' });
 
         return;
     }
 
-    const [, token] = bearer.split(" ");
+    const [, token] = bearer.split(' ');
 
     if (!token) {
         res.status(401);
-        res.json({ message: "Not valid token! " });
+        res.json({ message: 'Not valid token!' });
 
         return;
     }
@@ -68,7 +68,7 @@ export const protect = (
     } catch (e) {
         console.error(e);
         res.status(401);
-        res.json({ message: "Not valid token! " });
+        res.json({ message: 'Not valid token!' });
 
         return;
     }

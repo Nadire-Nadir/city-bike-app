@@ -17,31 +17,48 @@ describe('POST /user', () => {
     it('responds with json', async () => {
         const res = await request(app)
             .post('/user')
-            .send({ username: 'sinupUser', password: 'signupUserPass' })
+            .send({ username: 'signupUser', password: 'signupUserPass' })
             .set('Accept', 'application/json')
 
         expect(res.headers['content-type']).toMatch(/json/)
+        expect(res.body.token).toBeTruthy()
         expect(res.status).toEqual(200)
     })
 
+    afterAll(async () => {
+        await prisma.user.delete({
+            where: {
+                username: 'signupUser'
+            }
+        })
+    })
 })
 
 describe('POST /signin', () => {
+    beforeAll(async () => {
+        await request(app)
+            .post('/user')
+            .send({ username: 'signinUser', password: 'signinUserPass' }) 
+    })
+
     it('responds with json', async () => {
+
         const res = await request(app)
-            .post("/signin")
-            .send({ username: 'sinupUser', password: 'signupUserPass' })
-            .set("Accept", "application/json")
+            .post('/signin')
+            .send({ username: 'signinUser', password: 'signinUserPass' })
+            .set('Accept', 'application/json')
 
         expect(res.headers['content-type']).toMatch(/json/)
+        expect(res.body.token).toBeTruthy()
         expect(res.status).toEqual(200)
+    })
+
+    afterAll(async () => {
+        await prisma.user.delete({
+            where: {
+                username: 'signinUser'
+            }
+        })
     })
 })
 
-afterAll(async () => {
-    await prisma.user.delete({
-        where: {
-            username: 'sinupUser'
-        }
-    })
-})
