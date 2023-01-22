@@ -35,10 +35,10 @@ model Station {
 model Journey {
   journeyId String @id @default(uuid())
   departureTime DateTime 
-  departureStationId String @unique
+  departureStationId String
   departureStationName String
   returnTime DateTime
-  returnStationId String @unique
+  returnStationId String
   returnStationName String
   coveredDistanceInMeter Int
   durationInSecond Int
