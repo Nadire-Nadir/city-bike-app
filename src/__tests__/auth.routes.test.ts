@@ -2,6 +2,8 @@ import app from '../server'
 import supertest from 'supertest'
 import request from 'supertest'
 import prisma from '../db'
+import { hashPassword } from '../modules/auth'
+
 
 describe('GET /', () => {
     it('it should send back some data', async () => {
@@ -12,6 +14,7 @@ describe('GET /', () => {
         expect(res.body.message).toBe('Hello')
     })
 })
+
 
 describe('POST /user', () => {
     it('responds with json', async () => {
@@ -34,11 +37,15 @@ describe('POST /user', () => {
     })
 })
 
+
 describe('POST /signin', () => {
     beforeAll(async () => {
-        await request(app)
-            .post('/user')
-            .send({ username: 'signinUser', password: 'signinUserPass' }) 
+        await prisma.user.create({
+            data: {
+                username: 'signinUser',
+                password: await hashPassword('signinUserPass')
+            }
+        })
     })
 
     it('responds with json', async () => {
@@ -61,4 +68,3 @@ describe('POST /signin', () => {
         })
     })
 })
-

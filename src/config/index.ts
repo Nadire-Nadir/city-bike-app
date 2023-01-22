@@ -14,6 +14,7 @@ if (stage === 'production') {
     envConfig = require('./local').default
 }
 
+
 export default merge({
     stage,
     env: process.env.NODE_ENV,
@@ -22,4 +23,4 @@ export default merge({
         jwt: process.env.JWT_SECRET,
         dbUrl: process.env.DATABASE_URL
     }
-}, envConfig)
+}, envConfig )

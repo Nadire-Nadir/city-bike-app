@@ -1,19 +1,22 @@
 import app from '../server'
 import supertest from 'supertest'
-import request from 'supertest'
 import prisma from '../db'
+import { createJWT, hashPassword } from '../modules/auth'
+
 
 let jwt: string
-beforeAll(async () => {
-    jwt = await (
-        await request(app)
-            .post('/user')
-            .send({ username: 'journeyTestUser', password: 'journeyTestUser' })
-    )
-        .body.token
-})
 
 describe('GET /api/journey', () => {
+    let jwt: string
+    beforeAll(async () => {
+        const journeyTestUser = await prisma.user.create({
+            data: {
+                username: 'journeyTestUser',
+                password: await hashPassword('journeyTestUserPass')
+            }
+        })
+        jwt = createJWT(journeyTestUser)
+    })
 
     it('responds with json', async () => {
         const res = await supertest(app)
@@ -24,6 +27,7 @@ describe('GET /api/journey', () => {
         expect(res.status).toEqual(200)
     })
 })
+
 
 afterAll(async () => {
     await prisma.user.delete({
