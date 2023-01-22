@@ -1,6 +1,7 @@
 import { NextFunction, Request, Response } from 'express'
 import prisma from '../db'
 
+
 export const createStations = async (req: Request, res: Response, next: NextFunction) => {
     try {
         const stations = await prisma.station.create({
@@ -21,23 +22,19 @@ export const createStations = async (req: Request, res: Response, next: NextFunc
         })
 
         res.json({ data: stations })
-
     } catch (e) {
-
         next(e)
     }
 }
 
 
 export const getStations = async (req: Request, res: Response, next: NextFunction) => {
-
     try {
         const stations = await prisma.station.findMany();
 
         res.json({ data: stations })
 
     } catch (e) {
-
         next(e)
     }
 }
@@ -54,15 +51,12 @@ export const getOneStation = async (req: Request, res: Response, next: NextFunct
         res.json({ data: station })
 
     } catch (e) {
-
         next(e)
     }
-
 }
 
 
 export const updateStation = async (req: Request, res: Response, next: NextFunction) => {
-
     try {
         const updated = await prisma.station.update({
             where: {
@@ -77,10 +71,8 @@ export const updateStation = async (req: Request, res: Response, next: NextFunct
         res.json({ data: updated })
 
     } catch (e) {
-
         next(e)
     }
-
 }
 
 
@@ -95,8 +87,6 @@ export const deleteStation = async (req: Request, res: Response, next: NextFunct
         res.json({ data: deleted })
 
     } catch (e) {
-
         next(e)
     }
-
 }
