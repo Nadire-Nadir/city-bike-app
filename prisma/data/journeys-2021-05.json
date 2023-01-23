@@ -1,0 +1,3992 @@
+[
+  {
+    "departureTime": "2021-05-31T23:57:25",
+    "returnTime": "2021-06-01T00:05:46",
+    "departureStationId": "94",
+    "departureStationName": "Laajalahden aukio",
+    "returnStationId": "100",
+    "returnStationName": "Teljäntie",
+    "coveredDistanceInMeter": 2043,
+    "durationInSecond": 500
+  },
+  {
+    "departureTime": "2021-05-31T23:56:59",
+    "returnTime": "2021-06-01T00:07:14",
+    "departureStationId": "82",
+    "departureStationName": "Töölöntulli",
+    "returnStationId": "113",
+    "returnStationName": "Pasilan asema",
+    "coveredDistanceInMeter": 1870,
+    "durationInSecond": 611
+  },
+  {
+    "departureTime": "2021-05-31T23:56:44",
+    "returnTime": "2021-06-01T00:03:26",
+    "departureStationId": "123",
+    "departureStationName": "Näkinsilta",
+    "returnStationId": "121",
+    "returnStationName": "Vilhonvuorenkatu",
+    "coveredDistanceInMeter": 1025,
+    "durationInSecond": 399
+  },
+  {
+    "departureTime": "2021-05-31T23:56:23",
+    "returnTime": "2021-06-01T00:29:58",
+    "departureStationId": "4",
+    "departureStationName": "Viiskulma",
+    "returnStationId": "65",
+    "returnStationName": "Hernesaarenranta",
+    "coveredDistanceInMeter": 4318,
+    "durationInSecond": 2009
+  },
+  {
+    "departureTime": "2021-05-31T23:56:11",
+    "returnTime": "2021-06-01T00:02:02",
+    "departureStationId": "4",
+    "departureStationName": "Viiskulma",
+    "returnStationId": "65",
+    "returnStationName": "Hernesaarenranta",
+    "coveredDistanceInMeter": 1400,
+    "durationInSecond": 350
+  },
+  {
+    "departureTime": "2021-05-31T23:54:48",
+    "returnTime": "2021-06-01T00:00:57",
+    "departureStationId": "292",
+    "departureStationName": "Koskelan varikko",
+    "returnStationId": "133",
+    "returnStationName": "Paavalinpuisto",
+    "coveredDistanceInMeter": 1713,
+    "durationInSecond": 366
+  },
+  {
+    "departureTime": "2021-05-31T23:54:11",
+    "returnTime": "2021-06-01T00:17:11",
+    "departureStationId": "34",
+    "departureStationName": "Kansallismuseo",
+    "returnStationId": "81",
+    "returnStationName": "Stenbäckinkatu",
+    "coveredDistanceInMeter": 2550,
+    "durationInSecond": 1377
+  },
+  {
+    "departureTime": "2021-05-31T23:53:04",
+    "returnTime": "2021-06-01T00:14:52",
+    "departureStationId": "240",
+    "departureStationName": "Viikin normaalikoulu",
+    "returnStationId": "281",
+    "returnStationName": "Puotila (M)",
+    "coveredDistanceInMeter": 5366,
+    "durationInSecond": 1304
+  },
+  {
+    "departureTime": "2021-05-31T23:52:03",
+    "returnTime": "2021-06-01T00:15:16",
+    "departureStationId": "116",
+    "departureStationName": "Linnanmäki",
+    "returnStationId": "117",
+    "returnStationName": "Brahen puistikko",
+    "coveredDistanceInMeter": 3344,
+    "durationInSecond": 1393
+  },
+  {
+    "departureTime": "2021-05-31T23:50:19",
+    "returnTime": "2021-06-01T00:05:58",
+    "departureStationId": "116",
+    "departureStationName": "Linnanmäki",
+    "returnStationId": "145",
+    "returnStationName": "Pohjolankatu",
+    "coveredDistanceInMeter": 3248,
+    "durationInSecond": 935
+  },
+  {
+    "departureTime": "2021-05-31T23:50:05",
+    "returnTime": "2021-06-01T00:01:22",
+    "departureStationId": "147",
+    "departureStationName": "Käpylän asema",
+    "returnStationId": "232",
+    "returnStationName": "Oulunkylän asema",
+    "coveredDistanceInMeter": 1633,
+    "durationInSecond": 672
+  },
+  {
+    "departureTime": "2021-05-31T23:50:00",
+    "returnTime": "2021-05-31T23:55:48",
+    "departureStationId": "69",
+    "departureStationName": "Kalevankatu",
+    "returnStationId": "62",
+    "returnStationName": "Välimerenkatu",
+    "coveredDistanceInMeter": 1131,
+    "durationInSecond": 345
+  },
+  {
+    "departureTime": "2021-05-31T23:49:59",
+    "returnTime": "2021-05-31T23:59:49",
+    "departureStationId": "147",
+    "departureStationName": "Käpylän asema",
+    "returnStationId": "232",
+    "returnStationName": "Oulunkylän asema",
+    "coveredDistanceInMeter": 1695,
+    "durationInSecond": 589
+  },
+  {
+    "departureTime": "2021-05-31T23:49:59",
+    "returnTime": "2021-05-31T23:55:38",
+    "departureStationId": "69",
+    "departureStationName": "Kalevankatu",
+    "returnStationId": "62",
+    "returnStationName": "Välimerenkatu",
+    "coveredDistanceInMeter": 1125,
+    "durationInSecond": 336
+  },
+  {
+    "departureTime": "2021-05-31T23:49:36",
+    "returnTime": "2021-06-01T00:40:20",
+    "departureStationId": "547",
+    "departureStationName": "Jämeräntaival",
+    "returnStationId": "547",
+    "returnStationName": "Jämeräntaival",
+    "coveredDistanceInMeter": 1227,
+    "durationInSecond": 3040
+  },
+  {
+    "departureTime": "2021-05-31T23:49:18",
+    "returnTime": "2021-06-01T00:05:09",
+    "departureStationId": "201",
+    "departureStationName": "Länsisatamankuja",
+    "returnStationId": "41",
+    "returnStationName": "Ympyrätalo",
+    "coveredDistanceInMeter": 4245,
+    "durationInSecond": 948
+  },
+  {
+    "departureTime": "2021-05-31T23:48:53",
+    "returnTime": "2021-06-01T00:03:49",
+    "departureStationId": "30",
+    "departureStationName": "Itämerentori",
+    "returnStationId": "50",
+    "returnStationName": "Melkonkuja",
+    "coveredDistanceInMeter": 2656,
+    "durationInSecond": 892
+  },
+  {
+    "departureTime": "2021-05-31T23:48:44",
+    "returnTime": "2021-05-31T23:56:06",
+    "departureStationId": "235",
+    "departureStationName": "Katariina Saksilaisen katu",
+    "returnStationId": "239",
+    "returnStationName": "Viikin tiedepuisto",
+    "coveredDistanceInMeter": 2107,
+    "durationInSecond": 437
+  },
+  {
+    "departureTime": "2021-05-31T23:47:49",
+    "returnTime": "2021-05-31T23:51:11",
+    "departureStationId": "727",
+    "departureStationName": "Ratsutori",
+    "returnStationId": "713",
+    "returnStationName": "Upseerinkatu",
+    "coveredDistanceInMeter": 549,
+    "durationInSecond": 198
+  },
+  {
+    "departureTime": "2021-05-31T23:46:14",
+    "returnTime": "2021-05-31T23:55:58",
+    "departureStationId": "137",
+    "departureStationName": "Arabian kauppakeskus",
+    "returnStationId": "44",
+    "returnStationName": "Sörnäinen (M)",
+    "coveredDistanceInMeter": 1970,
+    "durationInSecond": 582
+  },
+  {
+    "departureTime": "2021-05-31T23:46:13",
+    "returnTime": "2021-05-31T23:55:22",
+    "departureStationId": "137",
+    "departureStationName": "Arabian kauppakeskus",
+    "returnStationId": "118",
+    "returnStationName": "Fleminginkatu",
+    "coveredDistanceInMeter": 1952,
+    "durationInSecond": 544
+  },
+  {
+    "departureTime": "2021-05-31T23:45:26",
+    "returnTime": "2021-06-01T00:12:04",
+    "departureStationId": "264",
+    "departureStationName": "Eränkävijäntori",
+    "returnStationId": "267",
+    "returnStationName": "Roihupelto",
+    "coveredDistanceInMeter": 3134,
+    "durationInSecond": 1597
+  },
+  {
+    "departureTime": "2021-05-31T23:45:15",
+    "returnTime": "2021-05-31T23:51:54",
+    "departureStationId": "49",
+    "departureStationName": "Annankatu",
+    "returnStationId": "162",
+    "returnStationName": "Leppäsuonaukio",
+    "coveredDistanceInMeter": 1186,
+    "durationInSecond": 394
+  },
+  {
+    "departureTime": "2021-05-31T23:45:09",
+    "returnTime": "2021-05-31T23:49:23",
+    "departureStationId": "63",
+    "departureStationName": "Jätkäsaarenlaituri",
+    "returnStationId": "68",
+    "returnStationName": "Albertinkatu",
+    "coveredDistanceInMeter": 1841,
+    "durationInSecond": 249
+  },
+  {
+    "departureTime": "2021-05-31T23:44:27",
+    "returnTime": "2021-05-31T23:49:46",
+    "departureStationId": "727",
+    "departureStationName": "Ratsutori",
+    "returnStationId": "711",
+    "returnStationName": "Kirjurinkuja",
+    "coveredDistanceInMeter": 974,
+    "durationInSecond": 314
+  },
+  {
+    "departureTime": "2021-05-31T23:43:10",
+    "returnTime": "2021-05-31T23:47:44",
+    "departureStationId": "625",
+    "departureStationName": "Suomenlahdentie",
+    "returnStationId": "611",
+    "returnStationName": "Matinkartanontie",
+    "coveredDistanceInMeter": 1064,
+    "durationInSecond": 273
+  },
+  {
+    "departureTime": "2021-05-31T23:43:07",
+    "returnTime": "2021-05-31T23:46:12",
+    "departureStationId": "60",
+    "departureStationName": "Kaapelitehdas",
+    "returnStationId": "59",
+    "returnStationName": "Salmisaarenranta",
+    "coveredDistanceInMeter": 741,
+    "durationInSecond": 184
+  },
+  {
+    "departureTime": "2021-05-31T23:43:05",
+    "returnTime": "2021-05-31T23:56:16",
+    "departureStationId": "90",
+    "departureStationName": "Paciuksenkaari",
+    "returnStationId": "72",
+    "returnStationName": "Eteläinen Hesperiankatu",
+    "coveredDistanceInMeter": 2779,
+    "durationInSecond": 787
+  },
+  {
+    "departureTime": "2021-05-31T23:41:33",
+    "returnTime": "2021-06-01T00:06:01",
+    "departureStationId": "30",
+    "departureStationName": "Itämerentori",
+    "returnStationId": "19",
+    "returnStationName": "Rautatientori / itä",
+    "coveredDistanceInMeter": 2964,
+    "durationInSecond": 1464
+  },
+  {
+    "departureTime": "2021-05-31T23:40:50",
+    "returnTime": "2021-05-31T23:43:16",
+    "departureStationId": "4",
+    "departureStationName": "Viiskulma",
+    "returnStationId": "3",
+    "returnStationName": "Kapteeninpuistikko",
+    "coveredDistanceInMeter": 565,
+    "durationInSecond": 145
+  },
+  {
+    "departureTime": "2021-05-31T23:40:48",
+    "returnTime": "2021-05-31T23:55:06",
+    "departureStationId": "703",
+    "departureStationName": "Elfvik",
+    "returnStationId": "725",
+    "returnStationName": "Rummunlyöjänkatu",
+    "coveredDistanceInMeter": 2787,
+    "durationInSecond": 853
+  },
+  {
+    "departureTime": "2021-05-31T23:39:12",
+    "returnTime": "2021-05-31T23:45:44",
+    "departureStationId": "43",
+    "departureStationName": "Karhupuisto",
+    "returnStationId": "115",
+    "returnStationName": "Venttiilikuja",
+    "coveredDistanceInMeter": 1491,
+    "durationInSecond": 390
+  },
+  {
+    "departureTime": "2021-05-31T23:38:39",
+    "returnTime": "2021-05-31T23:43:38",
+    "departureStationId": "30",
+    "departureStationName": "Itämerentori",
+    "returnStationId": "201",
+    "returnStationName": "Länsisatamankuja",
+    "coveredDistanceInMeter": 904,
+    "durationInSecond": 294
+  },
+  {
+    "departureTime": "2021-05-31T23:38:24",
+    "returnTime": "2021-05-31T23:42:45",
+    "departureStationId": "94",
+    "departureStationName": "Laajalahden aukio",
+    "returnStationId": "90",
+    "returnStationName": "Paciuksenkaari",
+    "coveredDistanceInMeter": 898,
+    "durationInSecond": 255
+  },
+  {
+    "departureTime": "2021-05-31T23:37:28",
+    "returnTime": "2021-05-31T23:47:30",
+    "departureStationId": "9",
+    "departureStationName": "Erottajan aukio",
+    "returnStationId": "61",
+    "returnStationName": "Länsisatamankatu",
+    "coveredDistanceInMeter": 2496,
+    "durationInSecond": 600
+  },
+  {
+    "departureTime": "2021-05-31T23:37:25",
+    "returnTime": "2021-05-31T23:48:25",
+    "departureStationId": "96",
+    "departureStationName": "Huopalahdentie",
+    "returnStationId": "99",
+    "returnStationName": "Muusantori",
+    "coveredDistanceInMeter": 2361,
+    "durationInSecond": 660
+  },
+  {
+    "departureTime": "2021-05-31T23:37:17",
+    "returnTime": "2021-05-31T23:44:09",
+    "departureStationId": "117",
+    "departureStationName": "Brahen puistikko",
+    "returnStationId": "41",
+    "returnStationName": "Ympyrätalo",
+    "coveredDistanceInMeter": 1186,
+    "durationInSecond": 408
+  },
+  {
+    "departureTime": "2021-05-31T23:36:00",
+    "returnTime": "2021-05-31T23:54:08",
+    "departureStationId": "78",
+    "departureStationName": "Messeniuksenkatu",
+    "returnStationId": "402",
+    "returnStationName": "Bermudankuja",
+    "coveredDistanceInMeter": 3924,
+    "durationInSecond": 1083
+  },
+  {
+    "departureTime": "2021-05-31T23:34:09",
+    "returnTime": "2021-05-31T23:44:32",
+    "departureStationId": "22",
+    "departureStationName": "Rautatientori / länsi",
+    "returnStationId": "43",
+    "returnStationName": "Karhupuisto",
+    "coveredDistanceInMeter": 2007,
+    "durationInSecond": 619
+  },
+  {
+    "departureTime": "2021-05-31T23:34:08",
+    "returnTime": "2021-05-31T23:35:13",
+    "departureStationId": "16",
+    "departureStationName": "Liisanpuistikko",
+    "returnStationId": "16",
+    "returnStationName": "Liisanpuistikko",
+    "coveredDistanceInMeter": 0,
+    "durationInSecond": 61
+  },
+  {
+    "departureTime": "2021-05-31T23:33:58",
+    "returnTime": "2021-05-31T23:49:52",
+    "departureStationId": "1",
+    "departureStationName": "Kaivopuisto",
+    "returnStationId": "57",
+    "returnStationName": "Lauttasaaren ostoskeskus",
+    "coveredDistanceInMeter": 4515,
+    "durationInSecond": 954
+  },
+  {
+    "departureTime": "2021-05-31T23:33:29",
+    "returnTime": "2021-05-31T23:54:13",
+    "departureStationId": "547",
+    "departureStationName": "Jämeräntaival",
+    "returnStationId": "547",
+    "returnStationName": "Jämeräntaival",
+    "coveredDistanceInMeter": 1872,
+    "durationInSecond": 1239
+  },
+  {
+    "departureTime": "2021-05-31T23:32:38",
+    "returnTime": "2021-06-01T08:41:05",
+    "departureStationId": "21",
+    "departureStationName": "Töölönlahdenkatu",
+    "returnStationId": "34",
+    "returnStationName": "Kansallismuseo",
+    "coveredDistanceInMeter": 551,
+    "durationInSecond": 242
+  },
+  {
+    "departureTime": "2021-05-31T23:31:27",
+    "returnTime": "2021-05-31T23:57:24",
+    "departureStationId": "315",
+    "departureStationName": "Vuosaaren liikuntapuisto",
+    "returnStationId": "272",
+    "returnStationName": "Marjaniementie",
+    "coveredDistanceInMeter": 5495,
+    "durationInSecond": 1553
+  },
+  {
+    "departureTime": "2021-05-31T23:31:10",
+    "returnTime": "2021-05-31T23:35:18",
+    "departureStationId": "555",
+    "departureStationName": "Kalevalantie",
+    "returnStationId": "557",
+    "returnStationName": "Louhentori",
+    "coveredDistanceInMeter": 618,
+    "durationInSecond": 244
+  },
+  {
+    "departureTime": "2021-05-31T23:30:45",
+    "returnTime": "2021-06-01T15:45:49",
+    "departureStationId": "573",
+    "departureStationName": "Urheilupuisto (M)",
+    "returnStationId": "511",
+    "returnStationName": "Sateentie",
+    "coveredDistanceInMeter": 2834,
+    "durationInSecond": 58499
+  },
+  {
+    "departureTime": "2021-05-31T23:30:19",
+    "returnTime": "2021-05-31T23:34:35",
+    "departureStationId": "31",
+    "departureStationName": "Marian sairaala",
+    "returnStationId": "63",
+    "returnStationName": "Jätkäsaarenlaituri",
+    "coveredDistanceInMeter": 967,
+    "durationInSecond": 243
+  },
+  {
+    "departureTime": "2021-05-31T23:30:06",
+    "returnTime": "2021-05-31T23:49:17",
+    "departureStationId": "547",
+    "departureStationName": "Jämeräntaival",
+    "returnStationId": "547",
+    "returnStationName": "Jämeräntaival",
+    "coveredDistanceInMeter": 739,
+    "durationInSecond": 1146
+  },
+  {
+    "departureTime": "2021-05-31T23:29:30",
+    "returnTime": "2021-05-31T23:49:01",
+    "departureStationId": "41",
+    "departureStationName": "Ympyrätalo",
+    "returnStationId": "28",
+    "returnStationName": "Lastenlehto",
+    "coveredDistanceInMeter": 2717,
+    "durationInSecond": 1166
+  },
+  {
+    "departureTime": "2021-05-31T23:28:16",
+    "returnTime": "2021-05-31T23:31:00",
+    "departureStationId": "82",
+    "departureStationName": "Töölöntulli",
+    "returnStationId": "84",
+    "returnStationName": "Paciuksenkatu",
+    "coveredDistanceInMeter": 665,
+    "durationInSecond": 159
+  },
+  {
+    "departureTime": "2021-05-31T23:27:33",
+    "returnTime": "2021-05-31T23:30:47",
+    "departureStationId": "70",
+    "departureStationName": "Sammonpuistikko",
+    "returnStationId": "31",
+    "returnStationName": "Marian sairaala",
+    "coveredDistanceInMeter": 724,
+    "durationInSecond": 193
+  },
+  {
+    "departureTime": "2021-05-31T23:27:20",
+    "returnTime": "2021-05-31T23:53:07",
+    "departureStationId": "205",
+    "departureStationName": "Ilmalan asema",
+    "returnStationId": "34",
+    "returnStationName": "Kansallismuseo",
+    "coveredDistanceInMeter": 4284,
+    "durationInSecond": 1542
+  },
+  {
+    "departureTime": "2021-05-31T23:27:13",
+    "returnTime": "2021-05-31T23:38:48",
+    "departureStationId": "579",
+    "departureStationName": "Niittymaa",
+    "returnStationId": "651",
+    "returnStationName": "Suurpellonaukio",
+    "coveredDistanceInMeter": 2979,
+    "durationInSecond": 691
+  },
+  {
+    "departureTime": "2021-05-31T23:26:32",
+    "returnTime": "2021-05-31T23:30:21",
+    "departureStationId": "6",
+    "departureStationName": "Hietalahdentori",
+    "returnStationId": "30",
+    "returnStationName": "Itämerentori",
+    "coveredDistanceInMeter": 1039,
+    "durationInSecond": 224
+  },
+  {
+    "departureTime": "2021-05-31T23:23:34",
+    "returnTime": "2021-05-31T23:49:44",
+    "departureStationId": "42",
+    "departureStationName": "Haapaniemenkatu",
+    "returnStationId": "147",
+    "returnStationName": "Käpylän asema",
+    "coveredDistanceInMeter": 4712,
+    "durationInSecond": 1564
+  },
+  {
+    "departureTime": "2021-05-31T23:23:31",
+    "returnTime": "2021-05-31T23:49:39",
+    "departureStationId": "42",
+    "departureStationName": "Haapaniemenkatu",
+    "returnStationId": "147",
+    "returnStationName": "Käpylän asema",
+    "coveredDistanceInMeter": 4903,
+    "durationInSecond": 1567
+  },
+  {
+    "departureTime": "2021-05-31T23:23:27",
+    "returnTime": "2021-05-31T23:33:02",
+    "departureStationId": "711",
+    "departureStationName": "Kirjurinkuja",
+    "returnStationId": "727",
+    "returnStationName": "Ratsutori",
+    "coveredDistanceInMeter": 1325,
+    "durationInSecond": 569
+  },
+  {
+    "departureTime": "2021-05-31T23:23:22",
+    "returnTime": "2021-05-31T23:31:24",
+    "departureStationId": "46",
+    "departureStationName": "Diakoniapuisto",
+    "returnStationId": "77",
+    "returnStationName": "Nordenskiöldinaukio",
+    "coveredDistanceInMeter": 1670,
+    "durationInSecond": 477
+  },
+  {
+    "departureTime": "2021-05-31T23:23:00",
+    "returnTime": "2021-05-31T23:30:36",
+    "departureStationId": "20",
+    "departureStationName": "Kaisaniemenpuisto",
+    "returnStationId": "43",
+    "returnStationName": "Karhupuisto",
+    "coveredDistanceInMeter": 1742,
+    "durationInSecond": 455
+  },
+  {
+    "departureTime": "2021-05-31T23:22:28",
+    "returnTime": "2021-05-31T23:44:19",
+    "departureStationId": "517",
+    "departureStationName": "Länsituuli",
+    "returnStationId": "143",
+    "returnStationName": "Kuikkarinne",
+    "coveredDistanceInMeter": 5711,
+    "durationInSecond": 1306
+  },
+  {
+    "departureTime": "2021-05-31T23:22:09",
+    "returnTime": "2021-05-31T23:43:09",
+    "departureStationId": "68",
+    "departureStationName": "Albertinkatu",
+    "returnStationId": "95",
+    "returnStationName": "Munkkiniemen aukio",
+    "coveredDistanceInMeter": 5405,
+    "durationInSecond": 1256
+  },
+  {
+    "departureTime": "2021-05-31T23:21:02",
+    "returnTime": "2021-05-31T23:25:15",
+    "departureStationId": "579",
+    "departureStationName": "Niittymaa",
+    "returnStationId": "581",
+    "returnStationName": "Niittykumpu (M)",
+    "coveredDistanceInMeter": 688,
+    "durationInSecond": 248
+  },
+  {
+    "departureTime": "2021-05-31T23:21:01",
+    "returnTime": "2021-05-31T23:24:52",
+    "departureStationId": "519",
+    "departureStationName": "Tapionaukio",
+    "returnStationId": "511",
+    "returnStationName": "Sateentie",
+    "coveredDistanceInMeter": 918,
+    "durationInSecond": 231
+  },
+  {
+    "departureTime": "2021-05-31T23:20:51",
+    "returnTime": "2021-05-31T23:25:48",
+    "departureStationId": "547",
+    "departureStationName": "Jämeräntaival",
+    "returnStationId": "533",
+    "returnStationName": "Tekniikantie",
+    "coveredDistanceInMeter": 1128,
+    "durationInSecond": 295
+  },
+  {
+    "departureTime": "2021-05-31T23:19:56",
+    "returnTime": "2021-05-31T23:26:59",
+    "departureStationId": "529",
+    "departureStationName": "Keilaniemi (M)",
+    "returnStationId": "547",
+    "returnStationName": "Jämeräntaival",
+    "coveredDistanceInMeter": 1733,
+    "durationInSecond": 418
+  },
+  {
+    "departureTime": "2021-05-31T23:19:02",
+    "returnTime": "2021-05-31T23:23:23",
+    "departureStationId": "33",
+    "departureStationName": "Kauppakorkeakoulu",
+    "returnStationId": "63",
+    "returnStationName": "Jätkäsaarenlaituri",
+    "coveredDistanceInMeter": 1197,
+    "durationInSecond": 257
+  },
+  {
+    "departureTime": "2021-05-31T23:17:52",
+    "returnTime": "2021-05-31T23:33:38",
+    "departureStationId": "31",
+    "departureStationName": "Marian sairaala",
+    "returnStationId": "16",
+    "returnStationName": "Liisanpuistikko",
+    "coveredDistanceInMeter": 3050,
+    "durationInSecond": 941
+  },
+  {
+    "departureTime": "2021-05-31T23:17:45",
+    "returnTime": "2021-05-31T23:24:15",
+    "departureStationId": "30",
+    "departureStationName": "Itämerentori",
+    "returnStationId": "402",
+    "returnStationName": "Bermudankuja",
+    "coveredDistanceInMeter": 1378,
+    "durationInSecond": 386
+  },
+  {
+    "departureTime": "2021-05-31T23:16:59",
+    "returnTime": "2021-05-31T23:42:33",
+    "departureStationId": "711",
+    "departureStationName": "Kirjurinkuja",
+    "returnStationId": "565",
+    "returnStationName": "Mankkaanaukio",
+    "coveredDistanceInMeter": 5827,
+    "durationInSecond": 1527
+  },
+  {
+    "departureTime": "2021-05-31T23:16:15",
+    "returnTime": "2021-05-31T23:18:23",
+    "departureStationId": "737",
+    "departureStationName": "Muurarinkuja",
+    "returnStationId": "731",
+    "returnStationName": "Leppävaarankäytävä",
+    "coveredDistanceInMeter": 396,
+    "durationInSecond": 123
+  },
+  {
+    "departureTime": "2021-05-31T23:15:47",
+    "returnTime": "2021-05-31T23:26:07",
+    "departureStationId": "122",
+    "departureStationName": "Lintulahdenkatu",
+    "returnStationId": "245",
+    "returnStationName": "Kulosaari (M)",
+    "coveredDistanceInMeter": 2903,
+    "durationInSecond": 618
+  },
+  {
+    "departureTime": "2021-05-31T23:15:17",
+    "returnTime": "2021-05-31T23:27:36",
+    "departureStationId": "40",
+    "departureStationName": "Hakaniemi (M)",
+    "returnStationId": "68",
+    "returnStationName": "Albertinkatu",
+    "coveredDistanceInMeter": 2693,
+    "durationInSecond": 733
+  },
+  {
+    "departureTime": "2021-05-31T23:15:11",
+    "returnTime": "2021-05-31T23:25:06",
+    "departureStationId": "41",
+    "departureStationName": "Ympyrätalo",
+    "returnStationId": "32",
+    "returnStationName": "Eläinmuseo",
+    "coveredDistanceInMeter": 1866,
+    "durationInSecond": 591
+  },
+  {
+    "departureTime": "2021-05-31T23:14:24",
+    "returnTime": "2021-05-31T23:21:04",
+    "departureStationId": "27",
+    "departureStationName": "Eerikinkatu",
+    "returnStationId": "63",
+    "returnStationName": "Jätkäsaarenlaituri",
+    "coveredDistanceInMeter": 1037,
+    "durationInSecond": 395
+  },
+  {
+    "departureTime": "2021-05-31T23:14:12",
+    "returnTime": "2021-05-31T23:19:43",
+    "departureStationId": "119",
+    "departureStationName": "Gebhardinaukio",
+    "returnStationId": "45",
+    "returnStationName": "Brahen kenttä",
+    "coveredDistanceInMeter": 833,
+    "durationInSecond": 332
+  },
+  {
+    "departureTime": "2021-05-31T23:14:11",
+    "returnTime": "2021-05-31T23:23:28",
+    "departureStationId": "503",
+    "departureStationName": "Keilalahti",
+    "returnStationId": "513",
+    "returnStationName": "Hakalehto",
+    "coveredDistanceInMeter": 2532,
+    "durationInSecond": 556
+  },
+  {
+    "departureTime": "2021-05-31T23:13:52",
+    "returnTime": "2021-05-31T23:23:20",
+    "departureStationId": "579",
+    "departureStationName": "Niittymaa",
+    "returnStationId": "629",
+    "returnStationName": "Piispanportti",
+    "coveredDistanceInMeter": 2554,
+    "durationInSecond": 567
+  },
+  {
+    "departureTime": "2021-05-31T23:13:41",
+    "returnTime": "2021-05-31T23:26:38",
+    "departureStationId": "725",
+    "departureStationName": "Rummunlyöjänkatu",
+    "returnStationId": "703",
+    "returnStationName": "Elfvik",
+    "coveredDistanceInMeter": 12,
+    "durationInSecond": 772
+  },
+  {
+    "departureTime": "2021-05-31T23:13:34",
+    "returnTime": "2021-05-31T23:17:20",
+    "departureStationId": "751",
+    "departureStationName": "Vallipolku",
+    "returnStationId": "749",
+    "returnStationName": "Vallikatu",
+    "coveredDistanceInMeter": 643,
+    "durationInSecond": 221
+  },
+  {
+    "departureTime": "2021-05-31T23:13:15",
+    "returnTime": "2021-05-31T23:21:54",
+    "departureStationId": "72",
+    "departureStationName": "Eteläinen Hesperiankatu",
+    "returnStationId": "78",
+    "returnStationName": "Messeniuksenkatu",
+    "coveredDistanceInMeter": 1490,
+    "durationInSecond": 515
+  },
+  {
+    "departureTime": "2021-05-31T23:11:06",
+    "returnTime": "2021-05-31T23:31:03",
+    "departureStationId": "28",
+    "departureStationName": "Lastenlehto",
+    "returnStationId": "79",
+    "returnStationName": "Uimastadion",
+    "coveredDistanceInMeter": 3405,
+    "durationInSecond": 1196
+  },
+  {
+    "departureTime": "2021-05-31T23:10:39",
+    "returnTime": "2021-05-31T23:19:57",
+    "departureStationId": "30",
+    "departureStationName": "Itämerentori",
+    "returnStationId": "27",
+    "returnStationName": "Eerikinkatu",
+    "coveredDistanceInMeter": 1455,
+    "durationInSecond": 558
+  },
+  {
+    "departureTime": "2021-05-31T23:10:17",
+    "returnTime": "2021-05-31T23:21:34",
+    "departureStationId": "900",
+    "departureStationName": "Orionintie",
+    "returnStationId": "555",
+    "returnStationName": "Kalevalantie",
+    "coveredDistanceInMeter": 2450,
+    "durationInSecond": 672
+  },
+  {
+    "departureTime": "2021-05-31T23:10:10",
+    "returnTime": "2021-05-31T23:23:26",
+    "departureStationId": "73",
+    "departureStationName": "Kesäkatu",
+    "returnStationId": "118",
+    "returnStationName": "Fleminginkatu",
+    "coveredDistanceInMeter": 2789,
+    "durationInSecond": 792
+  },
+  {
+    "departureTime": "2021-05-31T23:10:01",
+    "returnTime": "2021-05-31T23:20:34",
+    "departureStationId": "30",
+    "departureStationName": "Itämerentori",
+    "returnStationId": "27",
+    "returnStationName": "Eerikinkatu",
+    "coveredDistanceInMeter": 1429,
+    "durationInSecond": 629
+  },
+  {
+    "departureTime": "2021-05-31T23:09:57",
+    "returnTime": "2021-05-31T23:19:22",
+    "departureStationId": "553",
+    "departureStationName": "Metsänneidonpolku",
+    "returnStationId": "547",
+    "returnStationName": "Jämeräntaival",
+    "coveredDistanceInMeter": 2200,
+    "durationInSecond": 564
+  },
+  {
+    "departureTime": "2021-05-31T23:09:26",
+    "returnTime": "2021-05-31T23:22:29",
+    "departureStationId": "13",
+    "departureStationName": "Merisotilaantori",
+    "returnStationId": "21",
+    "returnStationName": "Töölönlahdenkatu",
+    "coveredDistanceInMeter": 2922,
+    "durationInSecond": 779
+  },
+  {
+    "departureTime": "2021-05-31T23:09:15",
+    "returnTime": "2021-05-31T23:33:36",
+    "departureStationId": "294",
+    "departureStationName": "Postipuisto",
+    "returnStationId": "37",
+    "returnStationName": "Töölönkatu",
+    "coveredDistanceInMeter": 6450,
+    "durationInSecond": 1457
+  },
+  {
+    "departureTime": "2021-05-31T23:09:04",
+    "returnTime": "2021-05-31T23:20:30",
+    "departureStationId": "40",
+    "departureStationName": "Hakaniemi (M)",
+    "returnStationId": "13",
+    "returnStationName": "Merisotilaantori",
+    "coveredDistanceInMeter": 2668,
+    "durationInSecond": 681
+  },
+  {
+    "departureTime": "2021-05-31T23:08:41",
+    "returnTime": "2021-05-31T23:26:16",
+    "departureStationId": "239",
+    "departureStationName": "Viikin tiedepuisto",
+    "returnStationId": "141",
+    "returnStationName": "Intiankatu",
+    "coveredDistanceInMeter": 4399,
+    "durationInSecond": 1054
+  },
+  {
+    "departureTime": "2021-05-31T23:08:39",
+    "returnTime": "2021-05-31T23:15:10",
+    "departureStationId": "7",
+    "departureStationName": "Designmuseo",
+    "returnStationId": "17",
+    "returnStationName": "Varsapuistikko",
+    "coveredDistanceInMeter": 1274,
+    "durationInSecond": 391
+  },
+  {
+    "departureTime": "2021-05-31T23:08:29",
+    "returnTime": "2021-05-31T23:15:17",
+    "departureStationId": "731",
+    "departureStationName": "Leppävaarankäytävä",
+    "returnStationId": "707",
+    "returnStationName": "Majurinkulma",
+    "coveredDistanceInMeter": 1433,
+    "durationInSecond": 401
+  },
+  {
+    "departureTime": "2021-05-31T23:07:58",
+    "returnTime": "2021-05-31T23:33:33",
+    "departureStationId": "6",
+    "departureStationName": "Hietalahdentori",
+    "returnStationId": "54",
+    "returnStationName": "Gyldenintie",
+    "coveredDistanceInMeter": 4422,
+    "durationInSecond": 1532
+  },
+  {
+    "departureTime": "2021-05-31T23:07:55",
+    "returnTime": "2021-05-31T23:08:18",
+    "departureStationId": "294",
+    "departureStationName": "Postipuisto",
+    "returnStationId": "294",
+    "returnStationName": "Postipuisto",
+    "coveredDistanceInMeter": 0,
+    "durationInSecond": 21
+  },
+  {
+    "departureTime": "2021-05-31T23:06:34",
+    "returnTime": "2021-05-31T23:17:12",
+    "departureStationId": "26",
+    "departureStationName": "Kamppi (M)",
+    "returnStationId": "46",
+    "returnStationName": "Diakoniapuisto",
+    "coveredDistanceInMeter": 3272,
+    "durationInSecond": 636
+  },
+  {
+    "departureTime": "2021-05-31T23:06:33",
+    "returnTime": "2021-05-31T23:24:26",
+    "departureStationId": "115",
+    "departureStationName": "Venttiilikuja",
+    "returnStationId": "116",
+    "returnStationName": "Linnanmäki",
+    "coveredDistanceInMeter": 4351,
+    "durationInSecond": 1070
+  },
+  {
+    "departureTime": "2021-05-31T23:06:02",
+    "returnTime": "2021-05-31T23:19:28",
+    "departureStationId": "900",
+    "departureStationName": "Orionintie",
+    "returnStationId": "625",
+    "returnStationName": "Suomenlahdentie",
+    "coveredDistanceInMeter": 4135,
+    "durationInSecond": 802
+  },
+  {
+    "departureTime": "2021-05-31T23:05:53",
+    "returnTime": "2021-05-31T23:13:39",
+    "departureStationId": "625",
+    "departureStationName": "Suomenlahdentie",
+    "returnStationId": "603",
+    "returnStationName": "Matinlahdenranta",
+    "coveredDistanceInMeter": 1774,
+    "durationInSecond": 461
+  },
+  {
+    "departureTime": "2021-05-31T23:05:38",
+    "returnTime": "2021-05-31T23:10:48",
+    "departureStationId": "711",
+    "departureStationName": "Kirjurinkuja",
+    "returnStationId": "719",
+    "returnStationName": "Säteri",
+    "coveredDistanceInMeter": 1210,
+    "durationInSecond": 305
+  },
+  {
+    "departureTime": "2021-05-31T23:05:38",
+    "returnTime": "2021-05-31T23:08:15",
+    "departureStationId": "609",
+    "departureStationName": "Sepetlahdentie",
+    "returnStationId": "607",
+    "returnStationName": "Nuottaniementie",
+    "coveredDistanceInMeter": 665,
+    "durationInSecond": 152
+  },
+  {
+    "departureTime": "2021-05-31T23:05:22",
+    "returnTime": "2021-05-31T23:12:55",
+    "departureStationId": "239",
+    "departureStationName": "Viikin tiedepuisto",
+    "returnStationId": "240",
+    "returnStationName": "Viikin normaalikoulu",
+    "coveredDistanceInMeter": 1403,
+    "durationInSecond": 452
+  },
+  {
+    "departureTime": "2021-05-31T23:05:10",
+    "returnTime": "2021-05-31T23:10:25",
+    "departureStationId": "270",
+    "departureStationName": "Tulisuontie",
+    "returnStationId": "262",
+    "returnStationName": "Siilitie (M)",
+    "coveredDistanceInMeter": 1235,
+    "durationInSecond": 311
+  },
+  {
+    "departureTime": "2021-05-31T23:03:42",
+    "returnTime": "2021-05-31T23:15:16",
+    "departureStationId": "627",
+    "departureStationName": "Piispansilta",
+    "returnStationId": "607",
+    "returnStationName": "Nuottaniementie",
+    "coveredDistanceInMeter": 2178,
+    "durationInSecond": 689
+  },
+  {
+    "departureTime": "2021-05-31T23:03:38",
+    "returnTime": "2021-05-31T23:15:29",
+    "departureStationId": "631",
+    "departureStationName": "Friisilänaukio",
+    "returnStationId": "625",
+    "returnStationName": "Suomenlahdentie",
+    "coveredDistanceInMeter": 1417,
+    "durationInSecond": 707
+  },
+  {
+    "departureTime": "2021-05-31T23:03:03",
+    "returnTime": "2021-05-31T23:13:32",
+    "departureStationId": "37",
+    "departureStationName": "Töölönkatu",
+    "returnStationId": "45",
+    "returnStationName": "Brahen kenttä",
+    "coveredDistanceInMeter": 2083,
+    "durationInSecond": 628
+  },
+  {
+    "departureTime": "2021-05-31T23:02:23",
+    "returnTime": "2021-05-31T23:08:06",
+    "departureStationId": "18",
+    "departureStationName": "Porthania",
+    "returnStationId": "2",
+    "returnStationName": "Laivasillankatu",
+    "coveredDistanceInMeter": 1184,
+    "durationInSecond": 338
+  },
+  {
+    "departureTime": "2021-05-31T23:02:03",
+    "returnTime": "2021-05-31T23:22:39",
+    "departureStationId": "63",
+    "departureStationName": "Jätkäsaarenlaituri",
+    "returnStationId": "124",
+    "returnStationName": "Isoisänsilta",
+    "coveredDistanceInMeter": 5606,
+    "durationInSecond": 1234
+  },
+  {
+    "departureTime": "2021-05-31T23:02:03",
+    "returnTime": "2021-05-31T23:26:59",
+    "departureStationId": "130",
+    "departureStationName": "Teollisuuskatu",
+    "returnStationId": "143",
+    "returnStationName": "Kuikkarinne",
+    "coveredDistanceInMeter": 7510,
+    "durationInSecond": 1491
+  },
+  {
+    "departureTime": "2021-05-31T23:00:51",
+    "returnTime": "2021-05-31T23:38:04",
+    "departureStationId": "653",
+    "departureStationName": "Lukutori",
+    "returnStationId": "653",
+    "returnStationName": "Lukutori",
+    "coveredDistanceInMeter": 2519,
+    "durationInSecond": 2229
+  },
+  {
+    "departureTime": "2021-05-31T23:00:44",
+    "returnTime": "2021-05-31T23:17:58",
+    "departureStationId": "15",
+    "departureStationName": "Ritarikatu",
+    "returnStationId": "75",
+    "returnStationName": "Korjaamo",
+    "coveredDistanceInMeter": 3285,
+    "durationInSecond": 1030
+  },
+  {
+    "departureTime": "2021-05-31T23:00:32",
+    "returnTime": "2021-05-31T23:24:17",
+    "departureStationId": "763",
+    "departureStationName": "Kalkkipellonmäki",
+    "returnStationId": "105",
+    "returnStationName": "Tilkantori",
+    "coveredDistanceInMeter": 5093,
+    "durationInSecond": 1425
+  },
+  {
+    "departureTime": "2021-05-31T22:59:56",
+    "returnTime": "2021-05-31T23:10:08",
+    "departureStationId": "121",
+    "departureStationName": "Vilhonvuorenkatu",
+    "returnStationId": "16",
+    "returnStationName": "Liisanpuistikko",
+    "coveredDistanceInMeter": 1721,
+    "durationInSecond": 607
+  },
+  {
+    "departureTime": "2021-05-31T22:59:18",
+    "returnTime": "2021-05-31T23:11:47",
+    "departureStationId": "137",
+    "departureStationName": "Arabian kauppakeskus",
+    "returnStationId": "138",
+    "returnStationName": "Arabiankatu",
+    "coveredDistanceInMeter": 1509,
+    "durationInSecond": 744
+  },
+  {
+    "departureTime": "2021-05-31T22:59:11",
+    "returnTime": "2021-05-31T23:16:00",
+    "departureStationId": "90",
+    "departureStationName": "Paciuksenkaari",
+    "returnStationId": "78",
+    "returnStationName": "Messeniuksenkatu",
+    "coveredDistanceInMeter": 3236,
+    "durationInSecond": 1004
+  },
+  {
+    "departureTime": "2021-05-31T22:59:07",
+    "returnTime": "2021-05-31T23:12:02",
+    "departureStationId": "900",
+    "departureStationName": "Orionintie",
+    "returnStationId": "637",
+    "returnStationName": "Ruomelantie",
+    "coveredDistanceInMeter": 3089,
+    "durationInSecond": 774
+  },
+  {
+    "departureTime": "2021-05-31T22:58:52",
+    "returnTime": "2021-05-31T23:06:17",
+    "departureStationId": "111",
+    "departureStationName": "Esterinportti",
+    "returnStationId": "77",
+    "returnStationName": "Nordenskiöldinaukio",
+    "coveredDistanceInMeter": 1680,
+    "durationInSecond": 440
+  },
+  {
+    "departureTime": "2021-05-31T22:58:45",
+    "returnTime": "2021-05-31T22:59:06",
+    "departureStationId": "121",
+    "departureStationName": "Vilhonvuorenkatu",
+    "returnStationId": "121",
+    "returnStationName": "Vilhonvuorenkatu",
+    "coveredDistanceInMeter": 0,
+    "durationInSecond": 17
+  },
+  {
+    "departureTime": "2021-05-31T22:58:42",
+    "returnTime": "2021-05-31T23:04:14",
+    "departureStationId": "40",
+    "departureStationName": "Hakaniemi (M)",
+    "returnStationId": "19",
+    "returnStationName": "Rautatientori / itä",
+    "coveredDistanceInMeter": 1202,
+    "durationInSecond": 327
+  },
+  {
+    "departureTime": "2021-05-31T22:57:45",
+    "returnTime": "2021-05-31T23:19:21",
+    "departureStationId": "141",
+    "departureStationName": "Intiankatu",
+    "returnStationId": "89",
+    "returnStationName": "Tilkanvierto",
+    "coveredDistanceInMeter": 4425,
+    "durationInSecond": 1292
+  },
+  {
+    "departureTime": "2021-05-31T22:57:08",
+    "returnTime": "2021-05-31T23:16:49",
+    "departureStationId": "57",
+    "departureStationName": "Lauttasaaren ostoskeskus",
+    "returnStationId": "3",
+    "returnStationName": "Kapteeninpuistikko",
+    "coveredDistanceInMeter": 4028,
+    "durationInSecond": 1178
+  },
+  {
+    "departureTime": "2021-05-31T22:56:47",
+    "returnTime": "2021-05-31T23:01:00",
+    "departureStationId": "24",
+    "departureStationName": "Mannerheimintie",
+    "returnStationId": "49",
+    "returnStationName": "Annankatu",
+    "coveredDistanceInMeter": 786,
+    "durationInSecond": 248
+  },
+  {
+    "departureTime": "2021-05-31T22:56:29",
+    "returnTime": "2021-05-31T23:01:07",
+    "departureStationId": "162",
+    "departureStationName": "Leppäsuonaukio",
+    "returnStationId": "36",
+    "returnStationName": "Apollonkatu",
+    "coveredDistanceInMeter": 796,
+    "durationInSecond": 272
+  },
+  {
+    "departureTime": "2021-05-31T22:55:42",
+    "returnTime": "2021-05-31T22:56:03",
+    "departureStationId": "262",
+    "departureStationName": "Siilitie (M)",
+    "returnStationId": "262",
+    "returnStationName": "Siilitie (M)",
+    "coveredDistanceInMeter": 0,
+    "durationInSecond": 17
+  },
+  {
+    "departureTime": "2021-05-31T22:55:07",
+    "returnTime": "2021-05-31T23:27:06",
+    "departureStationId": "41",
+    "departureStationName": "Ympyrätalo",
+    "returnStationId": "76",
+    "returnStationName": "Olympiastadion",
+    "coveredDistanceInMeter": 1651,
+    "durationInSecond": 1915
+  },
+  {
+    "departureTime": "2021-05-31T22:55:04",
+    "returnTime": "2021-05-31T23:02:57",
+    "departureStationId": "115",
+    "departureStationName": "Venttiilikuja",
+    "returnStationId": "46",
+    "returnStationName": "Diakoniapuisto",
+    "coveredDistanceInMeter": 1104,
+    "durationInSecond": 468
+  },
+  {
+    "departureTime": "2021-05-31T22:54:55",
+    "returnTime": "2021-05-31T23:07:45",
+    "departureStationId": "505",
+    "departureStationName": "Westendinasema",
+    "returnStationId": "517",
+    "returnStationName": "Länsituuli",
+    "coveredDistanceInMeter": 2454,
+    "durationInSecond": 766
+  },
+  {
+    "departureTime": "2021-05-31T22:54:46",
+    "returnTime": "2021-05-31T22:55:09",
+    "departureStationId": "262",
+    "departureStationName": "Siilitie (M)",
+    "returnStationId": "262",
+    "returnStationName": "Siilitie (M)",
+    "coveredDistanceInMeter": 0,
+    "durationInSecond": 18
+  },
+  {
+    "departureTime": "2021-05-31T22:54:45",
+    "returnTime": "2021-05-31T22:59:57",
+    "departureStationId": "20",
+    "departureStationName": "Kaisaniemenpuisto",
+    "returnStationId": "123",
+    "returnStationName": "Näkinsilta",
+    "coveredDistanceInMeter": 1241,
+    "durationInSecond": 308
+  },
+  {
+    "departureTime": "2021-05-31T22:54:10",
+    "returnTime": "2021-05-31T23:17:34",
+    "departureStationId": "328",
+    "departureStationName": "Lallukankuja",
+    "returnStationId": "314",
+    "returnStationName": "Lokitie",
+    "coveredDistanceInMeter": 4653,
+    "durationInSecond": 1400
+  },
+  {
+    "departureTime": "2021-05-31T22:53:57",
+    "returnTime": "2021-05-31T23:14:12",
+    "departureStationId": "587",
+    "departureStationName": "Hauenkallio",
+    "returnStationId": "651",
+    "returnStationName": "Suurpellonaukio",
+    "coveredDistanceInMeter": 3957,
+    "durationInSecond": 1213
+  },
+  {
+    "departureTime": "2021-05-31T22:53:55",
+    "returnTime": "2021-05-31T22:54:18",
+    "departureStationId": "262",
+    "departureStationName": "Siilitie (M)",
+    "returnStationId": "262",
+    "returnStationName": "Siilitie (M)",
+    "coveredDistanceInMeter": 0,
+    "durationInSecond": 18
+  },
+  {
+    "departureTime": "2021-05-31T22:53:55",
+    "returnTime": "2021-05-31T23:02:33",
+    "departureStationId": "245",
+    "departureStationName": "Kulosaari (M)",
+    "returnStationId": "121",
+    "returnStationName": "Vilhonvuorenkatu",
+    "coveredDistanceInMeter": 2309,
+    "durationInSecond": 515
+  },
+  {
+    "departureTime": "2021-05-31T22:53:48",
+    "returnTime": "2021-05-31T23:14:28",
+    "departureStationId": "587",
+    "departureStationName": "Hauenkallio",
+    "returnStationId": "651",
+    "returnStationName": "Suurpellonaukio",
+    "coveredDistanceInMeter": 3826,
+    "durationInSecond": 1235
+  },
+  {
+    "departureTime": "2021-05-31T22:53:40",
+    "returnTime": "2021-05-31T22:57:19",
+    "departureStationId": "30",
+    "departureStationName": "Itämerentori",
+    "returnStationId": "63",
+    "returnStationName": "Jätkäsaarenlaituri",
+    "coveredDistanceInMeter": 561,
+    "durationInSecond": 215
+  },
+  {
+    "departureTime": "2021-05-31T22:53:34",
+    "returnTime": "2021-05-31T23:02:58",
+    "departureStationId": "111",
+    "departureStationName": "Esterinportti",
+    "returnStationId": "86",
+    "returnStationName": "Kuusitie",
+    "coveredDistanceInMeter": 2007,
+    "durationInSecond": 560
+  },
+  {
+    "departureTime": "2021-05-31T22:53:03",
+    "returnTime": "2021-05-31T23:02:27",
+    "departureStationId": "69",
+    "departureStationName": "Kalevankatu",
+    "returnStationId": "5",
+    "returnStationName": "Sepänkatu",
+    "coveredDistanceInMeter": 1092,
+    "durationInSecond": 560
+  },
+  {
+    "departureTime": "2021-05-31T22:52:16",
+    "returnTime": "2021-05-31T23:09:13",
+    "departureStationId": "19",
+    "departureStationName": "Rautatientori / itä",
+    "returnStationId": "132",
+    "returnStationName": "Hollolantie",
+    "coveredDistanceInMeter": 3602,
+    "durationInSecond": 1013
+  },
+  {
+    "departureTime": "2021-05-31T22:52:07",
+    "returnTime": "2021-05-31T23:01:53",
+    "departureStationId": "22",
+    "departureStationName": "Rautatientori / länsi",
+    "returnStationId": "149",
+    "returnStationName": "Toinen linja",
+    "coveredDistanceInMeter": 2046,
+    "durationInSecond": 582
+  },
+  {
+    "departureTime": "2021-05-31T22:52:00",
+    "returnTime": "2021-05-31T22:57:40",
+    "departureStationId": "15",
+    "departureStationName": "Ritarikatu",
+    "returnStationId": "161",
+    "returnStationName": "Eteläesplanadi",
+    "coveredDistanceInMeter": 786,
+    "durationInSecond": 335
+  },
+  {
+    "departureTime": "2021-05-31T22:51:51",
+    "returnTime": "2021-05-31T22:59:50",
+    "departureStationId": "30",
+    "departureStationName": "Itämerentori",
+    "returnStationId": "54",
+    "returnStationName": "Gyldenintie",
+    "coveredDistanceInMeter": 2327,
+    "durationInSecond": 476
+  },
+  {
+    "departureTime": "2021-05-31T22:51:49",
+    "returnTime": "2021-05-31T23:06:02",
+    "departureStationId": "40",
+    "departureStationName": "Hakaniemi (M)",
+    "returnStationId": "124",
+    "returnStationName": "Isoisänsilta",
+    "coveredDistanceInMeter": 3943,
+    "durationInSecond": 848
+  },
+  {
+    "departureTime": "2021-05-31T22:51:17",
+    "returnTime": "2021-05-31T23:01:09",
+    "departureStationId": "12",
+    "departureStationName": "Kanavaranta",
+    "returnStationId": "26",
+    "returnStationName": "Kamppi (M)",
+    "coveredDistanceInMeter": 1894,
+    "durationInSecond": 592
+  },
+  {
+    "departureTime": "2021-05-31T22:50:18",
+    "returnTime": "2021-05-31T23:02:31",
+    "departureStationId": "311",
+    "departureStationName": "Ramsinniementie",
+    "returnStationId": "311",
+    "returnStationName": "Ramsinniementie",
+    "coveredDistanceInMeter": 1768,
+    "durationInSecond": 728
+  },
+  {
+    "departureTime": "2021-05-31T22:49:25",
+    "returnTime": "2021-05-31T23:10:04",
+    "departureStationId": "76",
+    "departureStationName": "Olympiastadion",
+    "returnStationId": "103",
+    "returnStationName": "Vihdintie",
+    "coveredDistanceInMeter": 3651,
+    "durationInSecond": 1234
+  },
+  {
+    "departureTime": "2021-05-31T22:48:58",
+    "returnTime": "2021-05-31T23:05:19",
+    "departureStationId": "252",
+    "departureStationName": "Humalniementie",
+    "returnStationId": "252",
+    "returnStationName": "Humalniementie",
+    "coveredDistanceInMeter": 1139,
+    "durationInSecond": 976
+  },
+  {
+    "departureTime": "2021-05-31T22:48:58",
+    "returnTime": "2021-05-31T22:59:00",
+    "departureStationId": "235",
+    "departureStationName": "Katariina Saksilaisen katu",
+    "returnStationId": "235",
+    "returnStationName": "Katariina Saksilaisen katu",
+    "coveredDistanceInMeter": 1660,
+    "durationInSecond": 598
+  },
+  {
+    "departureTime": "2021-05-31T22:48:31",
+    "returnTime": "2021-05-31T22:50:41",
+    "departureStationId": "133",
+    "departureStationName": "Paavalinpuisto",
+    "returnStationId": "134",
+    "returnStationName": "Haukilahdenkatu",
+    "coveredDistanceInMeter": 485,
+    "durationInSecond": 129
+  },
+  {
+    "departureTime": "2021-05-31T22:48:22",
+    "returnTime": "2021-05-31T23:16:22",
+    "departureStationId": "103",
+    "departureStationName": "Vihdintie",
+    "returnStationId": "711",
+    "returnStationName": "Kirjurinkuja",
+    "coveredDistanceInMeter": 5648,
+    "durationInSecond": 1675
+  },
+  {
+    "departureTime": "2021-05-31T22:48:22",
+    "returnTime": "2021-05-31T22:55:50",
+    "departureStationId": "95",
+    "departureStationName": "Munkkiniemen aukio",
+    "returnStationId": "103",
+    "returnStationName": "Vihdintie",
+    "coveredDistanceInMeter": 1725,
+    "durationInSecond": 444
+  },
+  {
+    "departureTime": "2021-05-31T22:48:03",
+    "returnTime": "2021-05-31T22:58:47",
+    "departureStationId": "40",
+    "departureStationName": "Hakaniemi (M)",
+    "returnStationId": "161",
+    "returnStationName": "Eteläesplanadi",
+    "coveredDistanceInMeter": 1508,
+    "durationInSecond": 640
+  },
+  {
+    "departureTime": "2021-05-31T22:47:56",
+    "returnTime": "2021-05-31T23:00:32",
+    "departureStationId": "75",
+    "departureStationName": "Korjaamo",
+    "returnStationId": "43",
+    "returnStationName": "Karhupuisto",
+    "coveredDistanceInMeter": 2150,
+    "durationInSecond": 751
+  },
+  {
+    "departureTime": "2021-05-31T22:47:50",
+    "returnTime": "2021-05-31T23:13:52",
+    "departureStationId": "69",
+    "departureStationName": "Kalevankatu",
+    "returnStationId": "69",
+    "returnStationName": "Kalevankatu",
+    "coveredDistanceInMeter": 3091,
+    "durationInSecond": 1557
+  },
+  {
+    "departureTime": "2021-05-31T22:47:40",
+    "returnTime": "2021-05-31T22:58:26",
+    "departureStationId": "119",
+    "departureStationName": "Gebhardinaukio",
+    "returnStationId": "111",
+    "returnStationName": "Esterinportti",
+    "coveredDistanceInMeter": 2121,
+    "durationInSecond": 642
+  },
+  {
+    "departureTime": "2021-05-31T22:47:32",
+    "returnTime": "2021-05-31T23:07:19",
+    "departureStationId": "311",
+    "departureStationName": "Ramsinniementie",
+    "returnStationId": "311",
+    "returnStationName": "Ramsinniementie",
+    "coveredDistanceInMeter": 2399,
+    "durationInSecond": 1182
+  },
+  {
+    "departureTime": "2021-05-31T22:46:54",
+    "returnTime": "2021-05-31T23:34:40",
+    "departureStationId": "559",
+    "departureStationName": "Pohjankulma",
+    "returnStationId": "565",
+    "returnStationName": "Mankkaanaukio",
+    "coveredDistanceInMeter": 2246,
+    "durationInSecond": 2862
+  },
+  {
+    "departureTime": "2021-05-31T22:46:09",
+    "returnTime": "2021-05-31T22:51:24",
+    "departureStationId": "30",
+    "departureStationName": "Itämerentori",
+    "returnStationId": "28",
+    "returnStationName": "Lastenlehto",
+    "coveredDistanceInMeter": 947,
+    "durationInSecond": 316
+  },
+  {
+    "departureTime": "2021-05-31T22:44:59",
+    "returnTime": "2021-05-31T22:53:38",
+    "departureStationId": "7",
+    "departureStationName": "Designmuseo",
+    "returnStationId": "30",
+    "returnStationName": "Itämerentori",
+    "coveredDistanceInMeter": 2166,
+    "durationInSecond": 514
+  },
+  {
+    "departureTime": "2021-05-31T22:44:50",
+    "returnTime": "2021-05-31T22:54:44",
+    "departureStationId": "41",
+    "departureStationName": "Ympyrätalo",
+    "returnStationId": "125",
+    "returnStationName": "Arielinkatu",
+    "coveredDistanceInMeter": 2152,
+    "durationInSecond": 589
+  },
+  {
+    "departureTime": "2021-05-31T22:44:44",
+    "returnTime": "2021-05-31T22:45:57",
+    "departureStationId": "559",
+    "departureStationName": "Pohjankulma",
+    "returnStationId": "559",
+    "returnStationName": "Pohjankulma",
+    "coveredDistanceInMeter": 32,
+    "durationInSecond": 72
+  },
+  {
+    "departureTime": "2021-05-31T22:44:31",
+    "returnTime": "2021-05-31T22:49:32",
+    "departureStationId": "573",
+    "departureStationName": "Urheilupuisto (M)",
+    "returnStationId": "900",
+    "returnStationName": "Orionintie",
+    "coveredDistanceInMeter": 833,
+    "durationInSecond": 296
+  },
+  {
+    "departureTime": "2021-05-31T22:44:19",
+    "returnTime": "2021-05-31T23:01:59",
+    "departureStationId": "246",
+    "departureStationName": "Tupasaarentie",
+    "returnStationId": "124",
+    "returnStationName": "Isoisänsilta",
+    "coveredDistanceInMeter": 2577,
+    "durationInSecond": 1055
+  },
+  {
+    "departureTime": "2021-05-31T22:43:31",
+    "returnTime": "2021-05-31T22:49:37",
+    "departureStationId": "45",
+    "departureStationName": "Brahen kenttä",
+    "returnStationId": "114",
+    "returnStationName": "Ratapihantie",
+    "coveredDistanceInMeter": 1474,
+    "durationInSecond": 361
+  },
+  {
+    "departureTime": "2021-05-31T22:42:44",
+    "returnTime": "2021-05-31T22:51:03",
+    "departureStationId": "573",
+    "departureStationName": "Urheilupuisto (M)",
+    "returnStationId": "509",
+    "returnStationName": "Revontulentie",
+    "coveredDistanceInMeter": 1917,
+    "durationInSecond": 494
+  },
+  {
+    "departureTime": "2021-05-31T22:42:24",
+    "returnTime": "2021-05-31T22:51:36",
+    "departureStationId": "9",
+    "departureStationName": "Erottajan aukio",
+    "returnStationId": "37",
+    "returnStationName": "Töölönkatu",
+    "coveredDistanceInMeter": 1470,
+    "durationInSecond": 547
+  },
+  {
+    "departureTime": "2021-05-31T22:42:13",
+    "returnTime": "2021-05-31T23:07:31",
+    "departureStationId": "65",
+    "departureStationName": "Hernesaarenranta",
+    "returnStationId": "6",
+    "returnStationName": "Hietalahdentori",
+    "coveredDistanceInMeter": 3822,
+    "durationInSecond": 1514
+  },
+  {
+    "departureTime": "2021-05-31T22:42:03",
+    "returnTime": "2021-05-31T22:58:47",
+    "departureStationId": "645",
+    "departureStationName": "Piispankallio",
+    "returnStationId": "579",
+    "returnStationName": "Niittymaa",
+    "coveredDistanceInMeter": 4118,
+    "durationInSecond": 999
+  },
+  {
+    "departureTime": "2021-05-31T22:41:42",
+    "returnTime": "2021-05-31T23:18:34",
+    "departureStationId": "65",
+    "departureStationName": "Hernesaarenranta",
+    "returnStationId": "67",
+    "returnStationName": "Perämiehenkatu",
+    "coveredDistanceInMeter": 976,
+    "durationInSecond": 2208
+  },
+  {
+    "departureTime": "2021-05-31T22:41:41",
+    "returnTime": "2021-05-31T23:15:36",
+    "departureStationId": "67",
+    "departureStationName": "Perämiehenkatu",
+    "returnStationId": "29",
+    "returnStationName": "Baana",
+    "coveredDistanceInMeter": 1248,
+    "durationInSecond": 2034
+  },
+  {
+    "departureTime": "2021-05-31T22:40:42",
+    "returnTime": "2021-05-31T23:01:55",
+    "departureStationId": "149",
+    "departureStationName": "Toinen linja",
+    "returnStationId": "1",
+    "returnStationName": "Kaivopuisto",
+    "coveredDistanceInMeter": 10566.67,
+    "durationInSecond": 1268
+  },
+  {
+    "departureTime": "2021-05-31T22:40:26",
+    "returnTime": "2021-05-31T22:46:23",
+    "departureStationId": "9",
+    "departureStationName": "Erottajan aukio",
+    "returnStationId": "70",
+    "returnStationName": "Sammonpuistikko",
+    "coveredDistanceInMeter": 1484,
+    "durationInSecond": 353
+  },
+  {
+    "departureTime": "2021-05-31T22:39:35",
+    "returnTime": "2021-06-01T03:42:48",
+    "departureStationId": "48",
+    "departureStationName": "Mastokatu",
+    "returnStationId": "13",
+    "returnStationName": "Merisotilaantori",
+    "coveredDistanceInMeter": 802,
+    "durationInSecond": 1295
+  },
+  {
+    "departureTime": "2021-05-31T22:38:43",
+    "returnTime": "2021-05-31T22:59:24",
+    "departureStationId": "272",
+    "departureStationName": "Marjaniementie",
+    "returnStationId": "314",
+    "returnStationName": "Lokitie",
+    "coveredDistanceInMeter": 4155,
+    "durationInSecond": 1235
+  },
+  {
+    "departureTime": "2021-05-31T22:38:42",
+    "returnTime": "2021-05-31T22:55:33",
+    "departureStationId": "88",
+    "departureStationName": "Kiskontie",
+    "returnStationId": "37",
+    "returnStationName": "Töölönkatu",
+    "coveredDistanceInMeter": 2969,
+    "durationInSecond": 1006
+  },
+  {
+    "departureTime": "2021-05-31T22:38:38",
+    "returnTime": "2021-05-31T23:12:23",
+    "departureStationId": "29",
+    "departureStationName": "Baana",
+    "returnStationId": "29",
+    "returnStationName": "Baana",
+    "coveredDistanceInMeter": 6714,
+    "durationInSecond": 2023
+  },
+  {
+    "departureTime": "2021-05-31T22:38:11",
+    "returnTime": "2021-05-31T22:46:47",
+    "departureStationId": "123",
+    "departureStationName": "Näkinsilta",
+    "returnStationId": "22",
+    "returnStationName": "Rautatientori / länsi",
+    "coveredDistanceInMeter": 1705,
+    "durationInSecond": 511
+  },
+  {
+    "departureTime": "2021-05-31T22:38:08",
+    "returnTime": "2021-05-31T23:08:24",
+    "departureStationId": "30",
+    "departureStationName": "Itämerentori",
+    "returnStationId": "75",
+    "returnStationName": "Korjaamo",
+    "coveredDistanceInMeter": 5439,
+    "durationInSecond": 1813
+  },
+  {
+    "departureTime": "2021-05-31T22:37:59",
+    "returnTime": "2021-05-31T22:46:15",
+    "departureStationId": "112",
+    "departureStationName": "Rautatieläisenkatu",
+    "returnStationId": "117",
+    "returnStationName": "Brahen puistikko",
+    "coveredDistanceInMeter": 1643,
+    "durationInSecond": 491
+  },
+  {
+    "departureTime": "2021-05-31T22:37:50",
+    "returnTime": "2021-05-31T22:44:27",
+    "departureStationId": "21",
+    "departureStationName": "Töölönlahdenkatu",
+    "returnStationId": "39",
+    "returnStationName": "Ooppera",
+    "coveredDistanceInMeter": 1679,
+    "durationInSecond": 393
+  },
+  {
+    "departureTime": "2021-05-31T22:37:36",
+    "returnTime": "2021-05-31T23:18:42",
+    "departureStationId": "101",
+    "departureStationName": "Munkkivuoren ostoskeskus",
+    "returnStationId": "41",
+    "returnStationName": "Ympyrätalo",
+    "coveredDistanceInMeter": 7380,
+    "durationInSecond": 2464
+  },
+  {
+    "departureTime": "2021-05-31T22:37:14",
+    "returnTime": "2021-05-31T23:01:10",
+    "departureStationId": "41",
+    "departureStationName": "Ympyrätalo",
+    "returnStationId": "57",
+    "returnStationName": "Lauttasaaren ostoskeskus",
+    "coveredDistanceInMeter": 5623,
+    "durationInSecond": 1432
+  },
+  {
+    "departureTime": "2021-05-31T22:37:12",
+    "returnTime": "2021-05-31T23:02:42",
+    "departureStationId": "55",
+    "departureStationName": "Puistokaari",
+    "returnStationId": "37",
+    "returnStationName": "Töölönkatu",
+    "coveredDistanceInMeter": 5732,
+    "durationInSecond": 1530
+  },
+  {
+    "departureTime": "2021-05-31T22:37:01",
+    "returnTime": "2021-06-01T03:53:36",
+    "departureStationId": "27",
+    "departureStationName": "Eerikinkatu",
+    "returnStationId": "22",
+    "returnStationName": "Rautatientori / länsi",
+    "coveredDistanceInMeter": 455,
+    "durationInSecond": 204
+  },
+  {
+    "departureTime": "2021-05-31T22:36:36",
+    "returnTime": "2021-05-31T22:42:33",
+    "departureStationId": "126",
+    "departureStationName": "Kalasatama (M)",
+    "returnStationId": "134",
+    "returnStationName": "Haukilahdenkatu",
+    "coveredDistanceInMeter": 1431,
+    "durationInSecond": 353
+  },
+  {
+    "departureTime": "2021-05-31T22:36:30",
+    "returnTime": "2021-05-31T22:45:50",
+    "departureStationId": "362",
+    "departureStationName": "Teerisuontie",
+    "returnStationId": "364",
+    "returnStationName": "Ala-Malmin tori",
+    "coveredDistanceInMeter": 2001,
+    "durationInSecond": 555
+  },
+  {
+    "departureTime": "2021-05-31T22:36:29",
+    "returnTime": "2021-05-31T22:44:35",
+    "departureStationId": "308",
+    "departureStationName": "Mosaiikkitori",
+    "returnStationId": "317",
+    "returnStationName": "Haapasaarentie",
+    "coveredDistanceInMeter": 1376,
+    "durationInSecond": 480
+  },
+  {
+    "departureTime": "2021-05-31T22:35:29",
+    "returnTime": "2021-05-31T22:41:15",
+    "departureStationId": "95",
+    "departureStationName": "Munkkiniemen aukio",
+    "returnStationId": "98",
+    "returnStationName": "Ulvilantie",
+    "coveredDistanceInMeter": 1284,
+    "durationInSecond": 342
+  },
+  {
+    "departureTime": "2021-05-31T22:35:19",
+    "returnTime": "2021-05-31T22:38:45",
+    "departureStationId": "543",
+    "departureStationName": "Otaranta",
+    "returnStationId": "547",
+    "returnStationName": "Jämeräntaival",
+    "coveredDistanceInMeter": 445,
+    "durationInSecond": 202
+  },
+  {
+    "departureTime": "2021-05-31T22:35:14",
+    "returnTime": "2021-05-31T22:50:00",
+    "departureStationId": "262",
+    "departureStationName": "Siilitie (M)",
+    "returnStationId": "263",
+    "returnStationName": "Herttoniemen kirkko",
+    "coveredDistanceInMeter": 1290,
+    "durationInSecond": 880
+  },
+  {
+    "departureTime": "2021-05-31T22:34:56",
+    "returnTime": "2021-05-31T22:49:39",
+    "departureStationId": "126",
+    "departureStationName": "Kalasatama (M)",
+    "returnStationId": "141",
+    "returnStationName": "Intiankatu",
+    "coveredDistanceInMeter": 2634,
+    "durationInSecond": 879
+  },
+  {
+    "departureTime": "2021-05-31T22:34:52",
+    "returnTime": "2021-05-31T22:38:32",
+    "departureStationId": "69",
+    "departureStationName": "Kalevankatu",
+    "returnStationId": "68",
+    "returnStationName": "Albertinkatu",
+    "coveredDistanceInMeter": 512,
+    "durationInSecond": 216
+  },
+  {
+    "departureTime": "2021-05-31T22:34:29",
+    "returnTime": "2021-05-31T22:47:12",
+    "departureStationId": "39",
+    "departureStationName": "Ooppera",
+    "returnStationId": "111",
+    "returnStationName": "Esterinportti",
+    "coveredDistanceInMeter": 2203,
+    "durationInSecond": 758
+  },
+  {
+    "departureTime": "2021-05-31T22:34:28",
+    "returnTime": "2021-05-31T22:47:27",
+    "departureStationId": "17",
+    "departureStationName": "Varsapuistikko",
+    "returnStationId": "33",
+    "returnStationName": "Kauppakorkeakoulu",
+    "coveredDistanceInMeter": 2278,
+    "durationInSecond": 776
+  },
+  {
+    "departureTime": "2021-05-31T22:33:52",
+    "returnTime": "2021-05-31T22:42:17",
+    "departureStationId": "731",
+    "departureStationName": "Leppävaarankäytävä",
+    "returnStationId": "749",
+    "returnStationName": "Vallikatu",
+    "coveredDistanceInMeter": 990,
+    "durationInSecond": 500
+  },
+  {
+    "departureTime": "2021-05-31T22:33:49",
+    "returnTime": "2021-05-31T22:40:43",
+    "departureStationId": "121",
+    "departureStationName": "Vilhonvuorenkatu",
+    "returnStationId": "41",
+    "returnStationName": "Ympyrätalo",
+    "coveredDistanceInMeter": 1417,
+    "durationInSecond": 410
+  },
+  {
+    "departureTime": "2021-05-31T22:33:36",
+    "returnTime": "2021-05-31T23:14:37",
+    "departureStationId": "647",
+    "departureStationName": "Lystimäki",
+    "returnStationId": "647",
+    "returnStationName": "Lystimäki",
+    "coveredDistanceInMeter": 1600,
+    "durationInSecond": 2456
+  },
+  {
+    "departureTime": "2021-05-31T22:33:33",
+    "returnTime": "2021-05-31T22:54:33",
+    "departureStationId": "226",
+    "departureStationName": "Lepolantie",
+    "returnStationId": "136",
+    "returnStationName": "Sofianlehdonkatu",
+    "coveredDistanceInMeter": 4547,
+    "durationInSecond": 1256
+  },
+  {
+    "departureTime": "2021-05-31T22:33:21",
+    "returnTime": "2021-05-31T22:39:45",
+    "departureStationId": "126",
+    "departureStationName": "Kalasatama (M)",
+    "returnStationId": "134",
+    "returnStationName": "Haukilahdenkatu",
+    "coveredDistanceInMeter": 1435,
+    "durationInSecond": 380
+  },
+  {
+    "departureTime": "2021-05-31T22:33:19",
+    "returnTime": "2021-05-31T22:40:14",
+    "departureStationId": "627",
+    "departureStationName": "Piispansilta",
+    "returnStationId": "611",
+    "returnStationName": "Matinkartanontie",
+    "coveredDistanceInMeter": 1314,
+    "durationInSecond": 413
+  },
+  {
+    "departureTime": "2021-05-31T22:33:02",
+    "returnTime": "2021-05-31T22:40:56",
+    "departureStationId": "45",
+    "departureStationName": "Brahen kenttä",
+    "returnStationId": "135",
+    "returnStationName": "Velodrominrinne",
+    "coveredDistanceInMeter": 1945,
+    "durationInSecond": 474
+  },
+  {
+    "departureTime": "2021-05-31T22:32:55",
+    "returnTime": "2021-05-31T22:55:30",
+    "departureStationId": "404",
+    "departureStationName": "Sompasaari",
+    "returnStationId": "8",
+    "returnStationName": "Vanha kirkkopuisto",
+    "coveredDistanceInMeter": 3749,
+    "durationInSecond": 1351
+  },
+  {
+    "departureTime": "2021-05-31T22:32:53",
+    "returnTime": "2021-05-31T22:37:08",
+    "departureStationId": "44",
+    "departureStationName": "Sörnäinen (M)",
+    "returnStationId": "43",
+    "returnStationName": "Karhupuisto",
+    "coveredDistanceInMeter": 887,
+    "durationInSecond": 264
+  },
+  {
+    "departureTime": "2021-05-31T22:32:41",
+    "returnTime": "2021-05-31T22:51:28",
+    "departureStationId": "113",
+    "departureStationName": "Pasilan asema",
+    "returnStationId": "26",
+    "returnStationName": "Kamppi (M)",
+    "coveredDistanceInMeter": 4032,
+    "durationInSecond": 1123
+  },
+  {
+    "departureTime": "2021-05-31T22:31:58",
+    "returnTime": "2021-05-31T22:41:28",
+    "departureStationId": "110",
+    "departureStationName": "Maistraatintori",
+    "returnStationId": "115",
+    "returnStationName": "Venttiilikuja",
+    "coveredDistanceInMeter": 1288,
+    "durationInSecond": 566
+  },
+  {
+    "departureTime": "2021-05-31T22:31:55",
+    "returnTime": "2021-05-31T22:54:27",
+    "departureStationId": "62",
+    "departureStationName": "Välimerenkatu",
+    "returnStationId": "111",
+    "returnStationName": "Esterinportti",
+    "coveredDistanceInMeter": 5180,
+    "durationInSecond": 1349
+  },
+  {
+    "departureTime": "2021-05-31T22:31:52",
+    "returnTime": "2021-05-31T22:45:07",
+    "departureStationId": "116",
+    "departureStationName": "Linnanmäki",
+    "returnStationId": "44",
+    "returnStationName": "Sörnäinen (M)",
+    "coveredDistanceInMeter": 2369,
+    "durationInSecond": 791
+  },
+  {
+    "departureTime": "2021-05-31T22:31:47",
+    "returnTime": "2021-06-01T03:32:03",
+    "departureStationId": "62",
+    "departureStationName": "Välimerenkatu",
+    "returnStationId": "402",
+    "returnStationName": "Bermudankuja",
+    "coveredDistanceInMeter": 641,
+    "durationInSecond": 204
+  },
+  {
+    "departureTime": "2021-05-31T22:31:43",
+    "returnTime": "2021-05-31T22:40:13",
+    "departureStationId": "587",
+    "departureStationName": "Hauenkallio",
+    "returnStationId": "585",
+    "returnStationName": "Haukilahdenaukio",
+    "coveredDistanceInMeter": 1777,
+    "durationInSecond": 509
+  },
+  {
+    "departureTime": "2021-05-31T22:31:29",
+    "returnTime": "2021-05-31T22:40:52",
+    "departureStationId": "236",
+    "departureStationName": "Hernepellontie",
+    "returnStationId": "239",
+    "returnStationName": "Viikin tiedepuisto",
+    "coveredDistanceInMeter": 1893,
+    "durationInSecond": 562
+  },
+  {
+    "departureTime": "2021-05-31T22:31:21",
+    "returnTime": "2021-05-31T22:34:59",
+    "departureStationId": "51",
+    "departureStationName": "Itälahdenkatu",
+    "returnStationId": "54",
+    "returnStationName": "Gyldenintie",
+    "coveredDistanceInMeter": 1140,
+    "durationInSecond": 219
+  },
+  {
+    "departureTime": "2021-05-31T22:31:10",
+    "returnTime": "2021-05-31T22:36:33",
+    "departureStationId": "727",
+    "departureStationName": "Ratsutori",
+    "returnStationId": "733",
+    "returnStationName": "Läkkitori",
+    "coveredDistanceInMeter": 785,
+    "durationInSecond": 322
+  },
+  {
+    "departureTime": "2021-05-31T22:30:59",
+    "returnTime": "2021-05-31T22:42:23",
+    "departureStationId": "509",
+    "departureStationName": "Revontulentie",
+    "returnStationId": "563",
+    "returnStationName": "Mankkaanlaaksontie",
+    "coveredDistanceInMeter": 2619,
+    "durationInSecond": 679
+  },
+  {
+    "departureTime": "2021-05-31T22:30:48",
+    "returnTime": "2021-05-31T22:38:01",
+    "departureStationId": "134",
+    "departureStationName": "Haukilahdenkatu",
+    "returnStationId": "290",
+    "returnStationName": "Vallilan varikko",
+    "coveredDistanceInMeter": 1253,
+    "durationInSecond": 431
+  },
+  {
+    "departureTime": "2021-05-31T22:30:41",
+    "returnTime": "2021-05-31T22:38:21",
+    "departureStationId": "134",
+    "departureStationName": "Haukilahdenkatu",
+    "returnStationId": "290",
+    "returnStationName": "Vallilan varikko",
+    "coveredDistanceInMeter": 1082,
+    "durationInSecond": 454
+  },
+  {
+    "departureTime": "2021-05-31T22:30:35",
+    "returnTime": "2021-05-31T22:47:42",
+    "departureStationId": "137",
+    "departureStationName": "Arabian kauppakeskus",
+    "returnStationId": "40",
+    "returnStationName": "Hakaniemi (M)",
+    "coveredDistanceInMeter": 3229,
+    "durationInSecond": 1025
+  },
+  {
+    "departureTime": "2021-05-31T22:30:32",
+    "returnTime": "2021-05-31T23:01:17",
+    "departureStationId": "126",
+    "departureStationName": "Kalasatama (M)",
+    "returnStationId": "272",
+    "returnStationName": "Marjaniementie",
+    "coveredDistanceInMeter": 7089,
+    "durationInSecond": 1845
+  },
+  {
+    "departureTime": "2021-05-31T22:30:25",
+    "returnTime": "2021-05-31T22:49:35",
+    "departureStationId": "9",
+    "departureStationName": "Erottajan aukio",
+    "returnStationId": "38",
+    "returnStationName": "Töölöntori",
+    "coveredDistanceInMeter": 3526,
+    "durationInSecond": 1145
+  },
+  {
+    "departureTime": "2021-05-31T22:30:09",
+    "returnTime": "2021-05-31T22:35:43",
+    "departureStationId": "117",
+    "departureStationName": "Brahen puistikko",
+    "returnStationId": "41",
+    "returnStationName": "Ympyrätalo",
+    "coveredDistanceInMeter": 1219,
+    "durationInSecond": 332
+  },
+  {
+    "departureTime": "2021-05-31T22:29:56",
+    "returnTime": "2021-05-31T22:35:09",
+    "departureStationId": "639",
+    "departureStationName": "Itäportti",
+    "returnStationId": "647",
+    "returnStationName": "Lystimäki",
+    "coveredDistanceInMeter": 635,
+    "durationInSecond": 308
+  },
+  {
+    "departureTime": "2021-05-31T22:29:53",
+    "returnTime": "2021-05-31T22:37:47",
+    "departureStationId": "111",
+    "departureStationName": "Esterinportti",
+    "returnStationId": "89",
+    "returnStationName": "Tilkanvierto",
+    "coveredDistanceInMeter": 1662,
+    "durationInSecond": 470
+  },
+  {
+    "departureTime": "2021-05-31T22:29:45",
+    "returnTime": "2021-05-31T22:36:35",
+    "departureStationId": "727",
+    "departureStationName": "Ratsutori",
+    "returnStationId": "733",
+    "returnStationName": "Läkkitori",
+    "coveredDistanceInMeter": 661,
+    "durationInSecond": 406
+  },
+  {
+    "departureTime": "2021-05-31T22:29:43",
+    "returnTime": "2021-05-31T22:36:40",
+    "departureStationId": "69",
+    "departureStationName": "Kalevankatu",
+    "returnStationId": "5",
+    "returnStationName": "Sepänkatu",
+    "coveredDistanceInMeter": 1067,
+    "durationInSecond": 413
+  },
+  {
+    "departureTime": "2021-05-31T22:29:42",
+    "returnTime": "2021-05-31T22:33:47",
+    "departureStationId": "30",
+    "departureStationName": "Itämerentori",
+    "returnStationId": "6",
+    "returnStationName": "Hietalahdentori",
+    "coveredDistanceInMeter": 1004,
+    "durationInSecond": 240
+  },
+  {
+    "departureTime": "2021-05-31T22:29:32",
+    "returnTime": "2021-05-31T22:38:55",
+    "departureStationId": "71",
+    "departureStationName": "Hietaniemenkatu",
+    "returnStationId": "70",
+    "returnStationName": "Sammonpuistikko",
+    "coveredDistanceInMeter": 1266,
+    "durationInSecond": 559
+  },
+  {
+    "departureTime": "2021-05-31T22:29:28",
+    "returnTime": "2021-05-31T22:53:13",
+    "departureStationId": "201",
+    "departureStationName": "Länsisatamankuja",
+    "returnStationId": "84",
+    "returnStationName": "Paciuksenkatu",
+    "coveredDistanceInMeter": 5301,
+    "durationInSecond": 1421
+  },
+  {
+    "departureTime": "2021-05-31T22:29:19",
+    "returnTime": "2021-05-31T22:53:06",
+    "departureStationId": "122",
+    "departureStationName": "Lintulahdenkatu",
+    "returnStationId": "63",
+    "returnStationName": "Jätkäsaarenlaituri",
+    "coveredDistanceInMeter": 5560,
+    "durationInSecond": 1422
+  },
+  {
+    "departureTime": "2021-05-31T22:29:09",
+    "returnTime": "2021-05-31T22:46:30",
+    "departureStationId": "122",
+    "departureStationName": "Lintulahdenkatu",
+    "returnStationId": "38",
+    "returnStationName": "Töölöntori",
+    "coveredDistanceInMeter": 3219,
+    "durationInSecond": 1039
+  },
+  {
+    "departureTime": "2021-05-31T22:28:57",
+    "returnTime": "2021-05-31T22:36:17",
+    "departureStationId": "117",
+    "departureStationName": "Brahen puistikko",
+    "returnStationId": "40",
+    "returnStationName": "Hakaniemi (M)",
+    "coveredDistanceInMeter": 2111,
+    "durationInSecond": 439
+  },
+  {
+    "departureTime": "2021-05-31T22:28:45",
+    "returnTime": "2021-05-31T22:34:31",
+    "departureStationId": "163",
+    "departureStationName": "Lehtisaarentie",
+    "returnStationId": "543",
+    "returnStationName": "Otaranta",
+    "coveredDistanceInMeter": 1439,
+    "durationInSecond": 342
+  },
+  {
+    "departureTime": "2021-05-31T22:28:40",
+    "returnTime": "2021-05-31T22:33:02",
+    "departureStationId": "275",
+    "departureStationName": "Itäkeskus (M)",
+    "returnStationId": "291",
+    "returnStationName": "Itäkeskus Metrovarikko",
+    "coveredDistanceInMeter": 855,
+    "durationInSecond": 258
+  },
+  {
+    "departureTime": "2021-05-31T22:28:25",
+    "returnTime": "2021-05-31T22:28:35",
+    "departureStationId": "117",
+    "departureStationName": "Brahen puistikko",
+    "returnStationId": "117",
+    "returnStationName": "Brahen puistikko",
+    "coveredDistanceInMeter": 0,
+    "durationInSecond": 9
+  },
+  {
+    "departureTime": "2021-05-31T22:28:18",
+    "returnTime": "2021-05-31T22:40:46",
+    "departureStationId": "144",
+    "departureStationName": "Käpyläntie",
+    "returnStationId": "144",
+    "returnStationName": "Käpyläntie",
+    "coveredDistanceInMeter": 1080,
+    "durationInSecond": 744
+  },
+  {
+    "departureTime": "2021-05-31T22:28:07",
+    "returnTime": "2021-05-31T22:49:28",
+    "departureStationId": "101",
+    "departureStationName": "Munkkivuoren ostoskeskus",
+    "returnStationId": "135",
+    "returnStationName": "Velodrominrinne",
+    "coveredDistanceInMeter": 4819,
+    "durationInSecond": 1276
+  },
+  {
+    "departureTime": "2021-05-31T22:27:42",
+    "returnTime": "2021-05-31T22:38:14",
+    "departureStationId": "126",
+    "departureStationName": "Kalasatama (M)",
+    "returnStationId": "137",
+    "returnStationName": "Arabian kauppakeskus",
+    "coveredDistanceInMeter": 2488,
+    "durationInSecond": 633
+  },
+  {
+    "departureTime": "2021-05-31T22:27:33",
+    "returnTime": "2021-05-31T22:54:04",
+    "departureStationId": "140",
+    "departureStationName": "Verkatehtaanpuisto",
+    "returnStationId": "12",
+    "returnStationName": "Kanavaranta",
+    "coveredDistanceInMeter": 6702,
+    "durationInSecond": 1589
+  },
+  {
+    "departureTime": "2021-05-31T22:27:28",
+    "returnTime": "2021-05-31T22:39:11",
+    "departureStationId": "204",
+    "departureStationName": "A.I. Virtasen aukio",
+    "returnStationId": "235",
+    "returnStationName": "Katariina Saksilaisen katu",
+    "coveredDistanceInMeter": 2527,
+    "durationInSecond": 698
+  },
+  {
+    "departureTime": "2021-05-31T22:26:42",
+    "returnTime": "2021-05-31T22:48:26",
+    "departureStationId": "285",
+    "departureStationName": "Orpaanporras",
+    "returnStationId": "241",
+    "returnStationName": "Agronominkatu",
+    "coveredDistanceInMeter": 2651,
+    "durationInSecond": 1301
+  },
+  {
+    "departureTime": "2021-05-31T22:26:22",
+    "returnTime": "2021-05-31T22:38:19",
+    "departureStationId": "100",
+    "departureStationName": "Teljäntie",
+    "returnStationId": "96",
+    "returnStationName": "Huopalahdentie",
+    "coveredDistanceInMeter": 2211,
+    "durationInSecond": 713
+  },
+  {
+    "departureTime": "2021-05-31T22:26:19",
+    "returnTime": "2021-05-31T22:51:55",
+    "departureStationId": "290",
+    "departureStationName": "Vallilan varikko",
+    "returnStationId": "33",
+    "returnStationName": "Kauppakorkeakoulu",
+    "coveredDistanceInMeter": 4282,
+    "durationInSecond": 1532
+  },
+  {
+    "departureTime": "2021-05-31T22:26:19",
+    "returnTime": "2021-05-31T22:30:37",
+    "departureStationId": "290",
+    "departureStationName": "Vallilan varikko",
+    "returnStationId": "44",
+    "returnStationName": "Sörnäinen (M)",
+    "coveredDistanceInMeter": 940,
+    "durationInSecond": 258
+  },
+  {
+    "departureTime": "2021-05-31T22:26:14",
+    "returnTime": "2021-05-31T22:36:54",
+    "departureStationId": "137",
+    "departureStationName": "Arabian kauppakeskus",
+    "returnStationId": "135",
+    "returnStationName": "Velodrominrinne",
+    "coveredDistanceInMeter": 1543,
+    "durationInSecond": 635
+  },
+  {
+    "departureTime": "2021-05-31T22:26:01",
+    "returnTime": "2021-05-31T22:30:02",
+    "departureStationId": "541",
+    "departureStationName": "Aalto-yliopisto (M), Korkeakouluaukio",
+    "returnStationId": "547",
+    "returnStationName": "Jämeräntaival",
+    "coveredDistanceInMeter": 1074,
+    "durationInSecond": 237
+  },
+  {
+    "departureTime": "2021-05-31T22:25:45",
+    "returnTime": "2021-05-31T22:43:46",
+    "departureStationId": "285",
+    "departureStationName": "Orpaanporras",
+    "returnStationId": "239",
+    "returnStationName": "Viikin tiedepuisto",
+    "coveredDistanceInMeter": 4028,
+    "durationInSecond": 1076
+  },
+  {
+    "departureTime": "2021-05-31T22:25:03",
+    "returnTime": "2021-05-31T22:30:42",
+    "departureStationId": "28",
+    "departureStationName": "Lastenlehto",
+    "returnStationId": "30",
+    "returnStationName": "Itämerentori",
+    "coveredDistanceInMeter": 949,
+    "durationInSecond": 337
+  },
+  {
+    "departureTime": "2021-05-31T22:24:57",
+    "returnTime": "2021-05-31T22:40:52",
+    "departureStationId": "627",
+    "departureStationName": "Piispansilta",
+    "returnStationId": "513",
+    "returnStationName": "Hakalehto",
+    "coveredDistanceInMeter": 3565,
+    "durationInSecond": 951
+  },
+  {
+    "departureTime": "2021-05-31T22:24:19",
+    "returnTime": "2021-05-31T22:37:52",
+    "departureStationId": "75",
+    "departureStationName": "Korjaamo",
+    "returnStationId": "30",
+    "returnStationName": "Itämerentori",
+    "coveredDistanceInMeter": 2775,
+    "durationInSecond": 807
+  },
+  {
+    "departureTime": "2021-05-31T22:23:52",
+    "returnTime": "2021-05-31T22:29:20",
+    "departureStationId": "573",
+    "departureStationName": "Urheilupuisto (M)",
+    "returnStationId": "577",
+    "returnStationName": "Olarinluoma",
+    "coveredDistanceInMeter": 1691,
+    "durationInSecond": 327
+  },
+  {
+    "departureTime": "2021-05-31T22:23:24",
+    "returnTime": "2021-05-31T22:41:40",
+    "departureStationId": "135",
+    "departureStationName": "Velodrominrinne",
+    "returnStationId": "28",
+    "returnStationName": "Lastenlehto",
+    "coveredDistanceInMeter": 5421,
+    "durationInSecond": 1095
+  },
+  {
+    "departureTime": "2021-05-31T22:23:11",
+    "returnTime": "2021-05-31T22:29:32",
+    "departureStationId": "30",
+    "departureStationName": "Itämerentori",
+    "returnStationId": "6",
+    "returnStationName": "Hietalahdentori",
+    "coveredDistanceInMeter": 1039,
+    "durationInSecond": 377
+  },
+  {
+    "departureTime": "2021-05-31T22:22:31",
+    "returnTime": "2021-05-31T22:28:06",
+    "departureStationId": "531",
+    "departureStationName": "Keilaranta",
+    "returnStationId": "163",
+    "returnStationName": "Lehtisaarentie",
+    "coveredDistanceInMeter": 969,
+    "durationInSecond": 330
+  },
+  {
+    "departureTime": "2021-05-31T22:22:02",
+    "returnTime": "2021-05-31T22:27:47",
+    "departureStationId": "731",
+    "departureStationName": "Leppävaarankäytävä",
+    "returnStationId": "749",
+    "returnStationName": "Vallikatu",
+    "coveredDistanceInMeter": 982,
+    "durationInSecond": 340
+  },
+  {
+    "departureTime": "2021-05-31T22:21:43",
+    "returnTime": "2021-05-31T22:39:07",
+    "departureStationId": "28",
+    "departureStationName": "Lastenlehto",
+    "returnStationId": "122",
+    "returnStationName": "Lintulahdenkatu",
+    "coveredDistanceInMeter": 3256,
+    "durationInSecond": 1040
+  },
+  {
+    "departureTime": "2021-05-31T22:21:32",
+    "returnTime": "2021-05-31T22:31:58",
+    "departureStationId": "333",
+    "departureStationName": "Kivikonkaari",
+    "returnStationId": "338",
+    "returnStationName": "Jakomäentie",
+    "coveredDistanceInMeter": 2015,
+    "durationInSecond": 621
+  },
+  {
+    "departureTime": "2021-05-31T22:21:16",
+    "returnTime": "2021-05-31T22:24:37",
+    "departureStationId": "162",
+    "departureStationName": "Leppäsuonaukio",
+    "returnStationId": "69",
+    "returnStationName": "Kalevankatu",
+    "coveredDistanceInMeter": 543,
+    "durationInSecond": 196
+  },
+  {
+    "departureTime": "2021-05-31T22:20:26",
+    "returnTime": "2021-05-31T22:28:39",
+    "departureStationId": "43",
+    "departureStationName": "Karhupuisto",
+    "returnStationId": "115",
+    "returnStationName": "Venttiilikuja",
+    "coveredDistanceInMeter": 1654,
+    "durationInSecond": 488
+  },
+  {
+    "departureTime": "2021-05-31T22:20:16",
+    "returnTime": "2021-05-31T22:26:56",
+    "departureStationId": "24",
+    "departureStationName": "Mannerheimintie",
+    "returnStationId": "37",
+    "returnStationName": "Töölönkatu",
+    "coveredDistanceInMeter": 1116,
+    "durationInSecond": 395
+  },
+  {
+    "departureTime": "2021-05-31T22:19:59",
+    "returnTime": "2021-05-31T22:30:23",
+    "departureStationId": "118",
+    "departureStationName": "Fleminginkatu",
+    "returnStationId": "110",
+    "returnStationName": "Maistraatintori",
+    "coveredDistanceInMeter": 2060,
+    "durationInSecond": 619
+  },
+  {
+    "departureTime": "2021-05-31T22:19:57",
+    "returnTime": "2021-05-31T22:25:04",
+    "departureStationId": "63",
+    "departureStationName": "Jätkäsaarenlaituri",
+    "returnStationId": "27",
+    "returnStationName": "Eerikinkatu",
+    "coveredDistanceInMeter": 1033,
+    "durationInSecond": 302
+  },
+  {
+    "departureTime": "2021-05-31T22:19:49",
+    "returnTime": "2021-05-31T22:36:58",
+    "departureStationId": "135",
+    "departureStationName": "Velodrominrinne",
+    "returnStationId": "78",
+    "returnStationName": "Messeniuksenkatu",
+    "coveredDistanceInMeter": 2485,
+    "durationInSecond": 1025
+  },
+  {
+    "departureTime": "2021-05-31T22:19:42",
+    "returnTime": "2021-05-31T22:24:57",
+    "departureStationId": "63",
+    "departureStationName": "Jätkäsaarenlaituri",
+    "returnStationId": "27",
+    "returnStationName": "Eerikinkatu",
+    "coveredDistanceInMeter": 1023,
+    "durationInSecond": 311
+  },
+  {
+    "departureTime": "2021-05-31T22:19:40",
+    "returnTime": "2021-05-31T22:32:40",
+    "departureStationId": "37",
+    "departureStationName": "Töölönkatu",
+    "returnStationId": "16",
+    "returnStationName": "Liisanpuistikko",
+    "coveredDistanceInMeter": 2577,
+    "durationInSecond": 776
+  },
+  {
+    "departureTime": "2021-05-31T22:19:36",
+    "returnTime": "2021-05-31T22:27:36",
+    "departureStationId": "647",
+    "departureStationName": "Lystimäki",
+    "returnStationId": "575",
+    "returnStationName": "Tontunmäentie",
+    "coveredDistanceInMeter": 1609,
+    "durationInSecond": 475
+  },
+  {
+    "departureTime": "2021-05-31T22:19:32",
+    "returnTime": "2021-05-31T22:34:34",
+    "departureStationId": "62",
+    "departureStationName": "Välimerenkatu",
+    "returnStationId": "82",
+    "returnStationName": "Töölöntulli",
+    "coveredDistanceInMeter": 3867,
+    "durationInSecond": 897
+  },
+  {
+    "departureTime": "2021-05-31T22:19:07",
+    "returnTime": "2021-05-31T22:21:15",
+    "departureStationId": "231",
+    "departureStationName": "Siltavoudintie",
+    "returnStationId": "229",
+    "returnStationName": "Käskynhaltijantie",
+    "coveredDistanceInMeter": 426,
+    "durationInSecond": 123
+  },
+  {
+    "departureTime": "2021-05-31T22:18:58",
+    "returnTime": "2021-05-31T22:21:13",
+    "departureStationId": "571",
+    "departureStationName": "Tapiolan urheilupuisto",
+    "returnStationId": "573",
+    "returnStationName": "Urheilupuisto (M)",
+    "coveredDistanceInMeter": 628,
+    "durationInSecond": 130
+  },
+  {
+    "departureTime": "2021-05-31T22:18:27",
+    "returnTime": "2021-05-31T22:31:35",
+    "departureStationId": "76",
+    "departureStationName": "Olympiastadion",
+    "returnStationId": "121",
+    "returnStationName": "Vilhonvuorenkatu",
+    "coveredDistanceInMeter": 2521,
+    "durationInSecond": 783
+  },
+  {
+    "departureTime": "2021-05-31T22:18:15",
+    "returnTime": "2021-05-31T22:26:49",
+    "departureStationId": "17",
+    "departureStationName": "Varsapuistikko",
+    "returnStationId": "36",
+    "returnStationName": "Apollonkatu",
+    "coveredDistanceInMeter": 2037,
+    "durationInSecond": 510
+  },
+  {
+    "departureTime": "2021-05-31T22:17:56",
+    "returnTime": "2021-05-31T22:25:04",
+    "departureStationId": "46",
+    "departureStationName": "Diakoniapuisto",
+    "returnStationId": "115",
+    "returnStationName": "Venttiilikuja",
+    "coveredDistanceInMeter": 996,
+    "durationInSecond": 423
+  },
+  {
+    "departureTime": "2021-05-31T22:17:44",
+    "returnTime": "2021-05-31T22:24:07",
+    "departureStationId": "56",
+    "departureStationName": "Luoteisväylä",
+    "returnStationId": "57",
+    "returnStationName": "Lauttasaaren ostoskeskus",
+    "coveredDistanceInMeter": 1557,
+    "durationInSecond": 381
+  },
+  {
+    "departureTime": "2021-05-31T22:17:35",
+    "returnTime": "2021-05-31T22:47:51",
+    "departureStationId": "46",
+    "departureStationName": "Diakoniapuisto",
+    "returnStationId": "103",
+    "returnStationName": "Vihdintie",
+    "coveredDistanceInMeter": 6250,
+    "durationInSecond": 1812
+  },
+  {
+    "departureTime": "2021-05-31T22:17:31",
+    "returnTime": "2021-05-31T22:22:56",
+    "departureStationId": "731",
+    "departureStationName": "Leppävaarankäytävä",
+    "returnStationId": "763",
+    "returnStationName": "Kalkkipellonmäki",
+    "coveredDistanceInMeter": 1152,
+    "durationInSecond": 326
+  },
+  {
+    "departureTime": "2021-05-31T22:17:22",
+    "returnTime": "2021-05-31T22:24:27",
+    "departureStationId": "32",
+    "departureStationName": "Eläinmuseo",
+    "returnStationId": "38",
+    "returnStationName": "Töölöntori",
+    "coveredDistanceInMeter": 1065,
+    "durationInSecond": 421
+  },
+  {
+    "departureTime": "2021-05-31T22:17:12",
+    "returnTime": "2021-05-31T22:27:02",
+    "departureStationId": "32",
+    "departureStationName": "Eläinmuseo",
+    "returnStationId": "62",
+    "returnStationName": "Välimerenkatu",
+    "coveredDistanceInMeter": 2095,
+    "durationInSecond": 585
+  },
+  {
+    "departureTime": "2021-05-31T22:17:00",
+    "returnTime": "2021-05-31T22:41:46",
+    "departureStationId": "3",
+    "departureStationName": "Kapteeninpuistikko",
+    "returnStationId": "65",
+    "returnStationName": "Hernesaarenranta",
+    "coveredDistanceInMeter": 3130,
+    "durationInSecond": 1478
+  },
+  {
+    "departureTime": "2021-05-31T22:16:47",
+    "returnTime": "2021-05-31T22:24:44",
+    "departureStationId": "70",
+    "departureStationName": "Sammonpuistikko",
+    "returnStationId": "161",
+    "returnStationName": "Eteläesplanadi",
+    "coveredDistanceInMeter": 1829,
+    "durationInSecond": 470
+  },
+  {
+    "departureTime": "2021-05-31T22:16:32",
+    "returnTime": "2021-05-31T22:43:23",
+    "departureStationId": "1",
+    "departureStationName": "Kaivopuisto",
+    "returnStationId": "122",
+    "returnStationName": "Lintulahdenkatu",
+    "coveredDistanceInMeter": 5176,
+    "durationInSecond": 1607
+  },
+  {
+    "departureTime": "2021-05-31T22:16:17",
+    "returnTime": "2021-05-31T22:32:19",
+    "departureStationId": "86",
+    "departureStationName": "Kuusitie",
+    "returnStationId": "113",
+    "returnStationName": "Pasilan asema",
+    "coveredDistanceInMeter": 2781,
+    "durationInSecond": 957
+  },
+  {
+    "departureTime": "2021-05-31T22:16:13",
+    "returnTime": "2021-05-31T22:43:22",
+    "departureStationId": "1",
+    "departureStationName": "Kaivopuisto",
+    "returnStationId": "122",
+    "returnStationName": "Lintulahdenkatu",
+    "coveredDistanceInMeter": 5186,
+    "durationInSecond": 1625
+  },
+  {
+    "departureTime": "2021-05-31T22:16:11",
+    "returnTime": "2021-05-31T22:33:56",
+    "departureStationId": "86",
+    "departureStationName": "Kuusitie",
+    "returnStationId": "118",
+    "returnStationName": "Fleminginkatu",
+    "coveredDistanceInMeter": 3612,
+    "durationInSecond": 1059
+  },
+  {
+    "departureTime": "2021-05-31T22:15:57",
+    "returnTime": "2021-05-31T22:21:10",
+    "departureStationId": "543",
+    "departureStationName": "Otaranta",
+    "returnStationId": "541",
+    "returnStationName": "Aalto-yliopisto (M), Korkeakouluaukio",
+    "coveredDistanceInMeter": 1031,
+    "durationInSecond": 308
+  },
+  {
+    "departureTime": "2021-05-31T22:15:46",
+    "returnTime": "2021-05-31T22:21:52",
+    "departureStationId": "202",
+    "departureStationName": "Merihaka",
+    "returnStationId": "17",
+    "returnStationName": "Varsapuistikko",
+    "coveredDistanceInMeter": 1646,
+    "durationInSecond": 365
+  },
+  {
+    "departureTime": "2021-05-31T22:15:26",
+    "returnTime": "2021-05-31T22:26:19",
+    "departureStationId": "76",
+    "departureStationName": "Olympiastadion",
+    "returnStationId": "162",
+    "returnStationName": "Leppäsuonaukio",
+    "coveredDistanceInMeter": 2405,
+    "durationInSecond": 649
+  },
+  {
+    "departureTime": "2021-05-31T22:15:18",
+    "returnTime": "2021-05-31T22:20:13",
+    "departureStationId": "69",
+    "departureStationName": "Kalevankatu",
+    "returnStationId": "30",
+    "returnStationName": "Itämerentori",
+    "coveredDistanceInMeter": 1053,
+    "durationInSecond": 290
+  },
+  {
+    "departureTime": "2021-05-31T22:15:16",
+    "returnTime": "2021-05-31T22:27:07",
+    "departureStationId": "142",
+    "departureStationName": "Koskelantie",
+    "returnStationId": "122",
+    "returnStationName": "Lintulahdenkatu",
+    "coveredDistanceInMeter": 3504,
+    "durationInSecond": 708
+  },
+  {
+    "departureTime": "2021-05-31T22:15:09",
+    "returnTime": "2021-05-31T22:38:49",
+    "departureStationId": "142",
+    "departureStationName": "Koskelantie",
+    "returnStationId": "99",
+    "returnStationName": "Muusantori",
+    "coveredDistanceInMeter": 5766,
+    "durationInSecond": 1416
+  },
+  {
+    "departureTime": "2021-05-31T22:14:48",
+    "returnTime": "2021-05-31T22:26:03",
+    "departureStationId": "41",
+    "departureStationName": "Ympyrätalo",
+    "returnStationId": "116",
+    "returnStationName": "Linnanmäki",
+    "coveredDistanceInMeter": 1596,
+    "durationInSecond": 671
+  },
+  {
+    "departureTime": "2021-05-31T22:13:56",
+    "returnTime": "2021-05-31T23:42:42",
+    "departureStationId": "635",
+    "departureStationName": "Kuunkatu",
+    "returnStationId": "615",
+    "returnStationName": "Tiistiläntie",
+    "coveredDistanceInMeter": 2360,
+    "durationInSecond": 5321
+  },
+  {
+    "departureTime": "2021-05-31T22:13:45",
+    "returnTime": "2021-05-31T22:34:06",
+    "departureStationId": "96",
+    "departureStationName": "Huopalahdentie",
+    "returnStationId": "62",
+    "returnStationName": "Välimerenkatu",
+    "coveredDistanceInMeter": 5742,
+    "durationInSecond": 1223
+  },
+  {
+    "departureTime": "2021-05-31T22:13:39",
+    "returnTime": "2021-05-31T22:35:45",
+    "departureStationId": "613",
+    "departureStationName": "Matinkyläntie",
+    "returnStationId": "581",
+    "returnStationName": "Niittykumpu (M)",
+    "coveredDistanceInMeter": 3712,
+    "durationInSecond": 1322
+  },
+  {
+    "departureTime": "2021-05-31T22:13:25",
+    "returnTime": "2021-05-31T22:27:12",
+    "departureStationId": "84",
+    "departureStationName": "Paciuksenkatu",
+    "returnStationId": "111",
+    "returnStationName": "Esterinportti",
+    "coveredDistanceInMeter": 2372,
+    "durationInSecond": 822
+  },
+  {
+    "departureTime": "2021-05-31T22:13:13",
+    "returnTime": "2021-05-31T22:31:45",
+    "departureStationId": "84",
+    "departureStationName": "Paciuksenkatu",
+    "returnStationId": "41",
+    "returnStationName": "Ympyrätalo",
+    "coveredDistanceInMeter": 3581,
+    "durationInSecond": 1113
+  },
+  {
+    "departureTime": "2021-05-31T22:12:45",
+    "returnTime": "2021-05-31T22:27:58",
+    "departureStationId": "80",
+    "departureStationName": "Jäähalli",
+    "returnStationId": "87",
+    "returnStationName": "Kustaankatu",
+    "coveredDistanceInMeter": 2701,
+    "durationInSecond": 908
+  },
+  {
+    "departureTime": "2021-05-31T22:12:42",
+    "returnTime": "2021-05-31T22:35:28",
+    "departureStationId": "92",
+    "departureStationName": "Saunalahdentie",
+    "returnStationId": "38",
+    "returnStationName": "Töölöntori",
+    "coveredDistanceInMeter": 4032,
+    "durationInSecond": 1360
+  },
+  {
+    "departureTime": "2021-05-31T22:12:31",
+    "returnTime": "2021-06-01T00:51:34",
+    "departureStationId": "64",
+    "departureStationName": "Tyynenmerenkatu",
+    "returnStationId": "109",
+    "returnStationName": "Hertanmäenkatu",
+    "coveredDistanceInMeter": 7481,
+    "durationInSecond": 9540
+  },
+  {
+    "departureTime": "2021-05-31T22:12:19",
+    "returnTime": "2021-05-31T22:20:50",
+    "departureStationId": "142",
+    "departureStationName": "Koskelantie",
+    "returnStationId": "138",
+    "returnStationName": "Arabiankatu",
+    "coveredDistanceInMeter": 2215,
+    "durationInSecond": 507
+  },
+  {
+    "departureTime": "2021-05-31T22:12:03",
+    "returnTime": "2021-05-31T22:28:00",
+    "departureStationId": "84",
+    "departureStationName": "Paciuksenkatu",
+    "returnStationId": "38",
+    "returnStationName": "Töölöntori",
+    "coveredDistanceInMeter": 2054,
+    "durationInSecond": 952
+  },
+  {
+    "departureTime": "2021-05-31T22:12:01",
+    "returnTime": "2021-05-31T22:17:33",
+    "departureStationId": "84",
+    "departureStationName": "Paciuksenkatu",
+    "returnStationId": "95",
+    "returnStationName": "Munkkiniemen aukio",
+    "coveredDistanceInMeter": 1100,
+    "durationInSecond": 329
+  },
+  {
+    "departureTime": "2021-05-31T22:11:40",
+    "returnTime": "2021-05-31T22:35:00",
+    "departureStationId": "124",
+    "departureStationName": "Isoisänsilta",
+    "returnStationId": "95",
+    "returnStationName": "Munkkiniemen aukio",
+    "coveredDistanceInMeter": 5952,
+    "durationInSecond": 1394
+  },
+  {
+    "departureTime": "2021-05-31T22:11:14",
+    "returnTime": "2021-05-31T22:27:40",
+    "departureStationId": "5",
+    "departureStationName": "Sepänkatu",
+    "returnStationId": "36",
+    "returnStationName": "Apollonkatu",
+    "coveredDistanceInMeter": 2960,
+    "durationInSecond": 982
+  },
+  {
+    "departureTime": "2021-05-31T22:11:11",
+    "returnTime": "2021-05-31T22:18:07",
+    "departureStationId": "80",
+    "departureStationName": "Jäähalli",
+    "returnStationId": "89",
+    "returnStationName": "Tilkanvierto",
+    "coveredDistanceInMeter": 1682,
+    "durationInSecond": 412
+  },
+  {
+    "departureTime": "2021-05-31T22:10:59",
+    "returnTime": "2021-05-31T22:32:13",
+    "departureStationId": "5",
+    "departureStationName": "Sepänkatu",
+    "returnStationId": "81",
+    "returnStationName": "Stenbäckinkatu",
+    "coveredDistanceInMeter": 4423,
+    "durationInSecond": 1272
+  },
+  {
+    "departureTime": "2021-05-31T22:10:58",
+    "returnTime": "2021-05-31T22:40:47",
+    "departureStationId": "579",
+    "departureStationName": "Niittymaa",
+    "returnStationId": "645",
+    "returnStationName": "Piispankallio",
+    "coveredDistanceInMeter": 6373,
+    "durationInSecond": 1786
+  },
+  {
+    "departureTime": "2021-05-31T22:10:54",
+    "returnTime": "2021-05-31T22:32:54",
+    "departureStationId": "126",
+    "departureStationName": "Kalasatama (M)",
+    "returnStationId": "124",
+    "returnStationName": "Isoisänsilta",
+    "coveredDistanceInMeter": 4234,
+    "durationInSecond": 1319
+  },
+  {
+    "departureTime": "2021-05-31T22:10:34",
+    "returnTime": "2021-05-31T22:27:50",
+    "departureStationId": "1",
+    "departureStationName": "Kaivopuisto",
+    "returnStationId": "37",
+    "returnStationName": "Töölönkatu",
+    "coveredDistanceInMeter": 3510,
+    "durationInSecond": 1033
+  },
+  {
+    "departureTime": "2021-05-31T22:10:23",
+    "returnTime": "2021-05-31T22:28:21",
+    "departureStationId": "72",
+    "departureStationName": "Eteläinen Hesperiankatu",
+    "returnStationId": "75",
+    "returnStationName": "Korjaamo",
+    "coveredDistanceInMeter": 1372,
+    "durationInSecond": 1073
+  },
+  {
+    "departureTime": "2021-05-31T22:10:12",
+    "returnTime": "2021-05-31T22:31:24",
+    "departureStationId": "243",
+    "departureStationName": "Mustikkamaa",
+    "returnStationId": "45",
+    "returnStationName": "Brahen kenttä",
+    "coveredDistanceInMeter": 3959,
+    "durationInSecond": 1268
+  },
+  {
+    "departureTime": "2021-05-31T22:10:04",
+    "returnTime": "2021-05-31T22:17:20",
+    "departureStationId": "32",
+    "departureStationName": "Eläinmuseo",
+    "returnStationId": "4",
+    "returnStationName": "Viiskulma",
+    "coveredDistanceInMeter": 1635,
+    "durationInSecond": 432
+  },
+  {
+    "departureTime": "2021-05-31T22:09:38",
+    "returnTime": "2021-05-31T22:11:20",
+    "departureStationId": "39",
+    "departureStationName": "Ooppera",
+    "returnStationId": "76",
+    "returnStationName": "Olympiastadion",
+    "coveredDistanceInMeter": 261,
+    "durationInSecond": 98
+  },
+  {
+    "departureTime": "2021-05-31T22:09:38",
+    "returnTime": "2021-05-31T22:32:37",
+    "departureStationId": "639",
+    "departureStationName": "Itäportti",
+    "returnStationId": "639",
+    "returnStationName": "Itäportti",
+    "coveredDistanceInMeter": 4894,
+    "durationInSecond": 1375
+  },
+  {
+    "departureTime": "2021-05-31T22:09:13",
+    "returnTime": "2021-05-31T22:18:30",
+    "departureStationId": "220",
+    "departureStationName": "Ida Aalbergin tie",
+    "returnStationId": "211",
+    "returnStationName": "Haagan tori",
+    "coveredDistanceInMeter": 2681,
+    "durationInSecond": 556
+  },
+  {
+    "departureTime": "2021-05-31T22:09:06",
+    "returnTime": "2021-05-31T22:26:44",
+    "departureStationId": "41",
+    "departureStationName": "Ympyrätalo",
+    "returnStationId": "121",
+    "returnStationName": "Vilhonvuorenkatu",
+    "coveredDistanceInMeter": 2029,
+    "durationInSecond": 1053
+  },
+  {
+    "departureTime": "2021-05-31T22:08:59",
+    "returnTime": "2021-05-31T22:30:04",
+    "departureStationId": "611",
+    "departureStationName": "Matinkartanontie",
+    "returnStationId": "517",
+    "returnStationName": "Länsituuli",
+    "coveredDistanceInMeter": 4744,
+    "durationInSecond": 1264
+  },
+  {
+    "departureTime": "2021-05-31T22:08:43",
+    "returnTime": "2021-05-31T22:15:04",
+    "departureStationId": "723",
+    "departureStationName": "Säterinniitty",
+    "returnStationId": "727",
+    "returnStationName": "Ratsutori",
+    "coveredDistanceInMeter": 929,
+    "durationInSecond": 376
+  },
+  {
+    "departureTime": "2021-05-31T22:08:32",
+    "returnTime": "2021-05-31T22:16:54",
+    "departureStationId": "24",
+    "departureStationName": "Mannerheimintie",
+    "returnStationId": "48",
+    "returnStationName": "Mastokatu",
+    "coveredDistanceInMeter": 1841,
+    "durationInSecond": 497
+  },
+  {
+    "departureTime": "2021-05-31T22:08:24",
+    "returnTime": "2021-05-31T22:16:08",
+    "departureStationId": "12",
+    "departureStationName": "Kanavaranta",
+    "returnStationId": "3",
+    "returnStationName": "Kapteeninpuistikko",
+    "coveredDistanceInMeter": 1927,
+    "durationInSecond": 459
+  },
+  {
+    "departureTime": "2021-05-31T22:08:23",
+    "returnTime": "2021-05-31T22:48:12",
+    "departureStationId": "543",
+    "departureStationName": "Otaranta",
+    "returnStationId": "543",
+    "returnStationName": "Otaranta",
+    "coveredDistanceInMeter": 7541,
+    "durationInSecond": 2385
+  },
+  {
+    "departureTime": "2021-05-31T22:08:17",
+    "returnTime": "2021-05-31T22:25:55",
+    "departureStationId": "121",
+    "departureStationName": "Vilhonvuorenkatu",
+    "returnStationId": "12",
+    "returnStationName": "Kanavaranta",
+    "coveredDistanceInMeter": 2630,
+    "durationInSecond": 1053
+  },
+  {
+    "departureTime": "2021-05-31T22:08:03",
+    "returnTime": "2021-05-31T22:26:23",
+    "departureStationId": "70",
+    "departureStationName": "Sammonpuistikko",
+    "returnStationId": "53",
+    "returnStationName": "Heikkiläntie",
+    "coveredDistanceInMeter": 3455,
+    "durationInSecond": 1095
+  },
+  {
+    "departureTime": "2021-05-31T22:07:49",
+    "returnTime": "2021-05-31T22:14:42",
+    "departureStationId": "32",
+    "departureStationName": "Eläinmuseo",
+    "returnStationId": "10",
+    "returnStationName": "Kasarmitori",
+    "coveredDistanceInMeter": 1429,
+    "durationInSecond": 409
+  },
+  {
+    "departureTime": "2021-05-31T22:07:47",
+    "returnTime": "2021-05-31T22:26:50",
+    "departureStationId": "70",
+    "departureStationName": "Sammonpuistikko",
+    "returnStationId": "53",
+    "returnStationName": "Heikkiläntie",
+    "coveredDistanceInMeter": 3432,
+    "durationInSecond": 1138
+  },
+  {
+    "departureTime": "2021-05-31T22:07:32",
+    "returnTime": "2021-06-01T09:05:26",
+    "departureStationId": "127",
+    "departureStationName": "Teurastamo",
+    "returnStationId": "65",
+    "returnStationName": "Hernesaarenranta",
+    "coveredDistanceInMeter": 5584,
+    "durationInSecond": 39469
+  },
+  {
+    "departureTime": "2021-05-31T22:06:59",
+    "returnTime": "2021-05-31T22:15:49",
+    "departureStationId": "79",
+    "departureStationName": "Uimastadion",
+    "returnStationId": "109",
+    "returnStationName": "Hertanmäenkatu",
+    "coveredDistanceInMeter": 1854,
+    "durationInSecond": 523
+  },
+  {
+    "departureTime": "2021-05-31T22:06:55",
+    "returnTime": "2021-05-31T22:11:33",
+    "departureStationId": "713",
+    "departureStationName": "Upseerinkatu",
+    "returnStationId": "711",
+    "returnStationName": "Kirjurinkuja",
+    "coveredDistanceInMeter": 727,
+    "durationInSecond": 278
+  },
+  {
+    "departureTime": "2021-05-31T22:06:51",
+    "returnTime": "2021-05-31T22:22:50",
+    "departureStationId": "221",
+    "departureStationName": "Thalianaukio",
+    "returnStationId": "761",
+    "returnStationName": "Mäkkylän asema",
+    "coveredDistanceInMeter": 4206,
+    "durationInSecond": 955
+  },
+  {
+    "departureTime": "2021-05-31T22:06:45",
+    "returnTime": "2021-05-31T22:18:20",
+    "departureStationId": "108",
+    "departureStationName": "Radiokatu",
+    "returnStationId": "103",
+    "returnStationName": "Vihdintie",
+    "coveredDistanceInMeter": 2284,
+    "durationInSecond": 691
+  },
+  {
+    "departureTime": "2021-05-31T22:06:35",
+    "returnTime": "2021-05-31T22:09:47",
+    "departureStationId": "900",
+    "departureStationName": "Orionintie",
+    "returnStationId": "573",
+    "returnStationName": "Urheilupuisto (M)",
+    "coveredDistanceInMeter": 859,
+    "durationInSecond": 187
+  },
+  {
+    "departureTime": "2021-05-31T22:06:25",
+    "returnTime": "2021-05-31T22:14:15",
+    "departureStationId": "203",
+    "departureStationName": "Opastinsilta",
+    "returnStationId": "110",
+    "returnStationName": "Maistraatintori",
+    "coveredDistanceInMeter": 961,
+    "durationInSecond": 466
+  },
+  {
+    "departureTime": "2021-05-31T22:06:15",
+    "returnTime": "2021-05-31T22:18:32",
+    "departureStationId": "214",
+    "departureStationName": "Valimon asema",
+    "returnStationId": "89",
+    "returnStationName": "Tilkanvierto",
+    "coveredDistanceInMeter": 3363,
+    "durationInSecond": 733
+  },
+  {
+    "departureTime": "2021-05-31T22:06:11",
+    "returnTime": "2021-05-31T22:18:44",
+    "departureStationId": "335",
+    "departureStationName": "Kurkimäentie",
+    "returnStationId": "240",
+    "returnStationName": "Viikin normaalikoulu",
+    "coveredDistanceInMeter": 3009,
+    "durationInSecond": 750
+  },
+  {
+    "departureTime": "2021-05-31T22:05:41",
+    "returnTime": "2021-05-31T22:11:25",
+    "departureStationId": "69",
+    "departureStationName": "Kalevankatu",
+    "returnStationId": "36",
+    "returnStationName": "Apollonkatu",
+    "coveredDistanceInMeter": 1315,
+    "durationInSecond": 339
+  },
+  {
+    "departureTime": "2021-05-31T22:04:58",
+    "returnTime": "2021-05-31T22:10:13",
+    "departureStationId": "162",
+    "departureStationName": "Leppäsuonaukio",
+    "returnStationId": "36",
+    "returnStationName": "Apollonkatu",
+    "coveredDistanceInMeter": 939,
+    "durationInSecond": 310
+  },
+  {
+    "departureTime": "2021-05-31T22:04:49",
+    "returnTime": "2021-05-31T22:14:35",
+    "departureStationId": "292",
+    "departureStationName": "Koskelan varikko",
+    "returnStationId": "128",
+    "returnStationName": "Päijänteentie",
+    "coveredDistanceInMeter": 2327,
+    "durationInSecond": 582
+  },
+  {
+    "departureTime": "2021-05-31T22:04:43",
+    "returnTime": "2021-05-31T22:10:50",
+    "departureStationId": "206",
+    "departureStationName": "Ruskeasuon varikko",
+    "returnStationId": "96",
+    "returnStationName": "Huopalahdentie",
+    "coveredDistanceInMeter": 1549,
+    "durationInSecond": 363
+  },
+  {
+    "departureTime": "2021-05-31T22:04:41",
+    "returnTime": "2021-05-31T22:11:15",
+    "departureStationId": "220",
+    "departureStationName": "Ida Aalbergin tie",
+    "returnStationId": "213",
+    "returnStationName": "Huopalahden asema",
+    "coveredDistanceInMeter": 1698,
+    "durationInSecond": 393
+  },
+  {
+    "departureTime": "2021-05-31T22:04:18",
+    "returnTime": "2021-05-31T22:28:13",
+    "departureStationId": "240",
+    "departureStationName": "Viikin normaalikoulu",
+    "returnStationId": "137",
+    "returnStationName": "Arabian kauppakeskus",
+    "coveredDistanceInMeter": 5313,
+    "durationInSecond": 1434
+  },
+  {
+    "departureTime": "2021-05-31T22:04:07",
+    "returnTime": "2021-05-31T22:28:09",
+    "departureStationId": "204",
+    "departureStationName": "A.I. Virtasen aukio",
+    "returnStationId": "370",
+    "returnStationName": "Rapakiventie",
+    "coveredDistanceInMeter": 5784,
+    "durationInSecond": 1437
+  },
+  {
+    "departureTime": "2021-05-31T22:03:42",
+    "returnTime": "2021-05-31T22:11:59",
+    "departureStationId": "589",
+    "departureStationName": "Haukilahdenranta",
+    "returnStationId": "627",
+    "returnStationName": "Piispansilta",
+    "coveredDistanceInMeter": 2174,
+    "durationInSecond": 496
+  },
+  {
+    "departureTime": "2021-05-31T22:03:39",
+    "returnTime": "2021-05-31T22:20:32",
+    "departureStationId": "4",
+    "departureStationName": "Viiskulma",
+    "returnStationId": "203",
+    "returnStationName": "Opastinsilta",
+    "coveredDistanceInMeter": 5205,
+    "durationInSecond": 1009
+  },
+  {
+    "departureTime": "2021-05-31T22:03:37",
+    "returnTime": "2021-05-31T22:15:17",
+    "departureStationId": "1",
+    "departureStationName": "Kaivopuisto",
+    "returnStationId": "12",
+    "returnStationName": "Kanavaranta",
+    "coveredDistanceInMeter": 2650,
+    "durationInSecond": 696
+  },
+  {
+    "departureTime": "2021-05-31T22:03:24",
+    "returnTime": "2021-05-31T22:13:41",
+    "departureStationId": "30",
+    "departureStationName": "Itämerentori",
+    "returnStationId": "17",
+    "returnStationName": "Varsapuistikko",
+    "coveredDistanceInMeter": 2801,
+    "durationInSecond": 613
+  },
+  {
+    "departureTime": "2021-05-31T22:02:59",
+    "returnTime": "2021-05-31T22:15:01",
+    "departureStationId": "543",
+    "departureStationName": "Otaranta",
+    "returnStationId": "518",
+    "returnStationName": "Tuulimäki",
+    "coveredDistanceInMeter": 2601,
+    "durationInSecond": 718
+  },
+  {
+    "departureTime": "2021-05-31T22:02:43",
+    "returnTime": "2021-05-31T22:14:01",
+    "departureStationId": "25",
+    "departureStationName": "Narinkka",
+    "returnStationId": "31",
+    "returnStationName": "Marian sairaala",
+    "coveredDistanceInMeter": 1294,
+    "durationInSecond": 673
+  },
+  {
+    "departureTime": "2021-05-31T22:02:37",
+    "returnTime": "2021-05-31T22:08:56",
+    "departureStationId": "123",
+    "departureStationName": "Näkinsilta",
+    "returnStationId": "44",
+    "returnStationName": "Sörnäinen (M)",
+    "coveredDistanceInMeter": 1522,
+    "durationInSecond": 378
+  },
+  {
+    "departureTime": "2021-05-31T22:02:20",
+    "returnTime": "2021-06-01T00:34:45",
+    "departureStationId": "64",
+    "departureStationName": "Tyynenmerenkatu",
+    "returnStationId": "64",
+    "returnStationName": "Tyynenmerenkatu",
+    "coveredDistanceInMeter": 2866,
+    "durationInSecond": 9142
+  },
+  {
+    "departureTime": "2021-05-31T22:02:18",
+    "returnTime": "2021-05-31T22:16:42",
+    "departureStationId": "126",
+    "departureStationName": "Kalasatama (M)",
+    "returnStationId": "139",
+    "returnStationName": "Muotoilijankatu",
+    "coveredDistanceInMeter": 3030,
+    "durationInSecond": 859
+  },
+  {
+    "departureTime": "2021-05-31T22:02:10",
+    "returnTime": "2021-05-31T22:09:04",
+    "departureStationId": "126",
+    "departureStationName": "Kalasatama (M)",
+    "returnStationId": "134",
+    "returnStationName": "Haukilahdenkatu",
+    "coveredDistanceInMeter": 1474,
+    "durationInSecond": 409
+  },
+  {
+    "departureTime": "2021-05-31T22:02:01",
+    "returnTime": "2021-05-31T22:19:29",
+    "departureStationId": "120",
+    "departureStationName": "Mäkelänkatu",
+    "returnStationId": "44",
+    "returnStationName": "Sörnäinen (M)",
+    "coveredDistanceInMeter": 3532,
+    "durationInSecond": 1044
+  },
+  {
+    "departureTime": "2021-05-31T22:01:59",
+    "returnTime": "2021-05-31T22:20:55",
+    "departureStationId": "60",
+    "departureStationName": "Kaapelitehdas",
+    "returnStationId": "22",
+    "returnStationName": "Rautatientori / länsi",
+    "coveredDistanceInMeter": 3368,
+    "durationInSecond": 1134
+  },
+  {
+    "departureTime": "2021-05-31T22:01:56",
+    "returnTime": "2021-05-31T22:18:50",
+    "departureStationId": "18",
+    "departureStationName": "Porthania",
+    "returnStationId": "15",
+    "returnStationName": "Ritarikatu",
+    "coveredDistanceInMeter": 2732,
+    "durationInSecond": 1014
+  },
+  {
+    "departureTime": "2021-05-31T22:01:45",
+    "returnTime": "2021-05-31T22:08:01",
+    "departureStationId": "33",
+    "departureStationName": "Kauppakorkeakoulu",
+    "returnStationId": "37",
+    "returnStationName": "Töölönkatu",
+    "coveredDistanceInMeter": 1076,
+    "durationInSecond": 371
+  },
+  {
+    "departureTime": "2021-05-31T22:01:37",
+    "returnTime": "2021-05-31T22:17:21",
+    "departureStationId": "92",
+    "departureStationName": "Saunalahdentie",
+    "returnStationId": "56",
+    "returnStationName": "Luoteisväylä",
+    "coveredDistanceInMeter": 4069,
+    "durationInSecond": 940
+  },
+  {
+    "departureTime": "2021-05-31T22:01:32",
+    "returnTime": "2021-05-31T22:06:06",
+    "departureStationId": "519",
+    "departureStationName": "Tapionaukio",
+    "returnStationId": "527",
+    "returnStationName": "Otsolahti",
+    "coveredDistanceInMeter": 802,
+    "durationInSecond": 269
+  },
+  {
+    "departureTime": "2021-05-31T22:01:22",
+    "returnTime": "2021-05-31T22:01:33",
+    "departureStationId": "60",
+    "departureStationName": "Kaapelitehdas",
+    "returnStationId": "60",
+    "returnStationName": "Kaapelitehdas",
+    "coveredDistanceInMeter": 0,
+    "durationInSecond": 9
+  },
+  {
+    "departureTime": "2021-05-31T22:01:12",
+    "returnTime": "2021-05-31T22:07:24",
+    "departureStationId": "62",
+    "departureStationName": "Välimerenkatu",
+    "returnStationId": "69",
+    "returnStationName": "Kalevankatu",
+    "coveredDistanceInMeter": 1116,
+    "durationInSecond": 367
+  },
+  {
+    "departureTime": "2021-05-31T22:01:11",
+    "returnTime": "2021-05-31T22:07:28",
+    "departureStationId": "62",
+    "departureStationName": "Välimerenkatu",
+    "returnStationId": "69",
+    "returnStationName": "Kalevankatu",
+    "coveredDistanceInMeter": 1119,
+    "durationInSecond": 373
+  },
+  {
+    "departureTime": "2021-05-31T22:01:08",
+    "returnTime": "2021-05-31T22:06:08",
+    "departureStationId": "227",
+    "departureStationName": "Kylävoudintie",
+    "returnStationId": "232",
+    "returnStationName": "Oulunkylän asema",
+    "coveredDistanceInMeter": 1047,
+    "durationInSecond": 296
+  },
+  {
+    "departureTime": "2021-05-31T22:00:54",
+    "returnTime": "2021-05-31T22:08:53",
+    "departureStationId": "135",
+    "departureStationName": "Velodrominrinne",
+    "returnStationId": "133",
+    "returnStationName": "Paavalinpuisto",
+    "coveredDistanceInMeter": 1446,
+    "durationInSecond": 478
+  },
+  {
+    "departureTime": "2021-05-31T22:00:18",
+    "returnTime": "2021-05-31T22:09:20",
+    "departureStationId": "64",
+    "departureStationName": "Tyynenmerenkatu",
+    "returnStationId": "21",
+    "returnStationName": "Töölönlahdenkatu",
+    "coveredDistanceInMeter": 2444,
+    "durationInSecond": 541
+  },
+  {
+    "departureTime": "2021-05-31T22:00:14",
+    "returnTime": "2021-05-31T22:15:22",
+    "departureStationId": "216",
+    "departureStationName": "Jännetie",
+    "returnStationId": "208",
+    "returnStationName": "Valimotie",
+    "coveredDistanceInMeter": 3747,
+    "durationInSecond": 904
+  },
+  {
+    "departureTime": "2021-05-31T22:00:12",
+    "returnTime": "2021-05-31T22:13:43",
+    "departureStationId": "571",
+    "departureStationName": "Tapiolan urheilupuisto",
+    "returnStationId": "559",
+    "returnStationName": "Pohjankulma",
+    "coveredDistanceInMeter": 2356,
+    "durationInSecond": 807
+  },
+  {
+    "departureTime": "2021-05-31T22:00:12",
+    "returnTime": "2021-05-31T22:03:14",
+    "departureStationId": "17",
+    "departureStationName": "Varsapuistikko",
+    "returnStationId": "16",
+    "returnStationName": "Liisanpuistikko",
+    "coveredDistanceInMeter": 723,
+    "durationInSecond": 181
+  },
+  {
+    "departureTime": "2021-05-31T22:00:06",
+    "returnTime": "2021-05-31T22:29:02",
+    "departureStationId": "94",
+    "departureStationName": "Laajalahden aukio",
+    "returnStationId": "94",
+    "returnStationName": "Laajalahden aukio",
+    "coveredDistanceInMeter": 4130,
+    "durationInSecond": 1735
+  },
+  {
+    "departureTime": "2021-05-31T21:59:52",
+    "returnTime": "2021-05-31T22:07:17",
+    "departureStationId": "161",
+    "departureStationName": "Eteläesplanadi",
+    "returnStationId": "2",
+    "returnStationName": "Laivasillankatu",
+    "coveredDistanceInMeter": 1045,
+    "durationInSecond": 441
+  },
+  {
+    "departureTime": "2021-05-31T21:59:31",
+    "returnTime": "2021-05-31T22:00:09",
+    "departureStationId": "1",
+    "departureStationName": "Kaivopuisto",
+    "returnStationId": "1",
+    "returnStationName": "Kaivopuisto",
+    "coveredDistanceInMeter": 2,
+    "durationInSecond": 34
+  },
+  {
+    "departureTime": "2021-05-31T21:59:28",
+    "returnTime": "2021-05-31T22:20:29",
+    "departureStationId": "72",
+    "departureStationName": "Eteläinen Hesperiankatu",
+    "returnStationId": "143",
+    "returnStationName": "Kuikkarinne",
+    "coveredDistanceInMeter": 4406,
+    "durationInSecond": 1255
+  },
+  {
+    "departureTime": "2021-05-31T21:58:58",
+    "returnTime": "2021-05-31T22:08:46",
+    "departureStationId": "114",
+    "departureStationName": "Ratapihantie",
+    "returnStationId": "37",
+    "returnStationName": "Töölönkatu",
+    "coveredDistanceInMeter": 2597,
+    "durationInSecond": 583
+  },
+  {
+    "departureTime": "2021-05-31T21:58:57",
+    "returnTime": "2021-05-31T22:09:03",
+    "departureStationId": "735",
+    "departureStationName": "Mestarinkatu",
+    "returnStationId": "727",
+    "returnStationName": "Ratsutori",
+    "coveredDistanceInMeter": 1216,
+    "durationInSecond": 604
+  },
+  {
+    "departureTime": "2021-05-31T21:58:41",
+    "returnTime": "2021-05-31T22:07:17",
+    "departureStationId": "651",
+    "departureStationName": "Suurpellonaukio",
+    "returnStationId": "581",
+    "returnStationName": "Niittykumpu (M)",
+    "coveredDistanceInMeter": 2317,
+    "durationInSecond": 512
+  },
+  {
+    "departureTime": "2021-05-31T21:58:39",
+    "returnTime": "2021-05-31T22:03:12",
+    "departureStationId": "4",
+    "departureStationName": "Viiskulma",
+    "returnStationId": "26",
+    "returnStationName": "Kamppi (M)",
+    "coveredDistanceInMeter": 998,
+    "durationInSecond": 269
+  },
+  {
+    "departureTime": "2021-05-31T21:58:28",
+    "returnTime": "2021-05-31T22:09:04",
+    "departureStationId": "735",
+    "departureStationName": "Mestarinkatu",
+    "returnStationId": "727",
+    "returnStationName": "Ratsutori",
+    "coveredDistanceInMeter": 1186,
+    "durationInSecond": 631
+  },
+  {
+    "departureTime": "2021-05-31T21:58:26",
+    "returnTime": "2021-05-31T22:08:51",
+    "departureStationId": "82",
+    "departureStationName": "Töölöntulli",
+    "returnStationId": "45",
+    "returnStationName": "Brahen kenttä",
+    "coveredDistanceInMeter": 2617,
+    "durationInSecond": 625
+  },
+  {
+    "departureTime": "2021-05-31T21:58:26",
+    "returnTime": "2021-05-31T22:02:08",
+    "departureStationId": "735",
+    "departureStationName": "Mestarinkatu",
+    "returnStationId": "737",
+    "returnStationName": "Muurarinkuja",
+    "coveredDistanceInMeter": 759,
+    "durationInSecond": 217
+  },
+  {
+    "departureTime": "2021-05-31T21:58:19",
+    "returnTime": "2021-05-31T22:07:44",
+    "departureStationId": "70",
+    "departureStationName": "Sammonpuistikko",
+    "returnStationId": "61",
+    "returnStationName": "Länsisatamankatu",
+    "coveredDistanceInMeter": 2421,
+    "durationInSecond": 564
+  },
+  {
+    "departureTime": "2021-05-31T21:58:14",
+    "returnTime": "2021-05-31T22:10:49",
+    "departureStationId": "72",
+    "departureStationName": "Eteläinen Hesperiankatu",
+    "returnStationId": "54",
+    "returnStationName": "Gyldenintie",
+    "coveredDistanceInMeter": 3791,
+    "durationInSecond": 750
+  },
+  {
+    "departureTime": "2021-05-31T21:58:01",
+    "returnTime": "2021-05-31T22:17:35",
+    "departureStationId": "116",
+    "departureStationName": "Linnanmäki",
+    "returnStationId": "46",
+    "returnStationName": "Diakoniapuisto",
+    "coveredDistanceInMeter": 2197,
+    "durationInSecond": 1169
+  },
+  {
+    "departureTime": "2021-05-31T21:58:00",
+    "returnTime": "2021-05-31T22:09:39",
+    "departureStationId": "370",
+    "departureStationName": "Rapakiventie",
+    "returnStationId": "240",
+    "returnStationName": "Viikin normaalikoulu",
+    "coveredDistanceInMeter": 2423,
+    "durationInSecond": 697
+  },
+  {
+    "departureTime": "2021-05-31T21:57:55",
+    "returnTime": "2021-05-31T22:11:12",
+    "departureStationId": "26",
+    "departureStationName": "Kamppi (M)",
+    "returnStationId": "3",
+    "returnStationName": "Kapteeninpuistikko",
+    "coveredDistanceInMeter": 1621,
+    "durationInSecond": 792
+  },
+  {
+    "departureTime": "2021-05-31T21:57:54",
+    "returnTime": "2021-05-31T22:05:30",
+    "departureStationId": "114",
+    "departureStationName": "Ratapihantie",
+    "returnStationId": "129",
+    "returnStationName": "Pernajantie",
+    "coveredDistanceInMeter": 1406,
+    "durationInSecond": 451
+  },
+  {
+    "departureTime": "2021-05-31T21:57:22",
+    "returnTime": "2021-05-31T22:23:33",
+    "departureStationId": "212",
+    "departureStationName": "Tunnelitie",
+    "returnStationId": "95",
+    "returnStationName": "Munkkiniemen aukio",
+    "coveredDistanceInMeter": 5452,
+    "durationInSecond": 1567
+  },
+  {
+    "departureTime": "2021-05-31T21:57:15",
+    "returnTime": "2021-05-31T22:09:03",
+    "departureStationId": "69",
+    "departureStationName": "Kalevankatu",
+    "returnStationId": "39",
+    "returnStationName": "Ooppera",
+    "coveredDistanceInMeter": 2403,
+    "durationInSecond": 703
+  },
+  {
+    "departureTime": "2021-05-31T21:57:14",
+    "returnTime": "2021-05-31T22:09:53",
+    "departureStationId": "31",
+    "departureStationName": "Marian sairaala",
+    "returnStationId": "38",
+    "returnStationName": "Töölöntori",
+    "coveredDistanceInMeter": 1805,
+    "durationInSecond": 753
+  },
+  {
+    "departureTime": "2021-05-31T21:57:09",
+    "returnTime": "2021-05-31T22:03:39",
+    "departureStationId": "26",
+    "departureStationName": "Kamppi (M)",
+    "returnStationId": "4",
+    "returnStationName": "Viiskulma",
+    "coveredDistanceInMeter": 1253,
+    "durationInSecond": 386
+  },
+  {
+    "departureTime": "2021-05-31T21:56:48",
+    "returnTime": "2021-05-31T22:08:38",
+    "departureStationId": "22",
+    "departureStationName": "Rautatientori / länsi",
+    "returnStationId": "61",
+    "returnStationName": "Länsisatamankatu",
+    "coveredDistanceInMeter": 2795,
+    "durationInSecond": 709
+  },
+  {
+    "departureTime": "2021-05-31T21:56:38",
+    "returnTime": "2021-05-31T22:00:47",
+    "departureStationId": "126",
+    "departureStationName": "Kalasatama (M)",
+    "returnStationId": "121",
+    "returnStationName": "Vilhonvuorenkatu",
+    "coveredDistanceInMeter": 637,
+    "durationInSecond": 245
+  },
+  {
+    "departureTime": "2021-05-31T21:56:33",
+    "returnTime": "2021-05-31T21:56:54",
+    "departureStationId": "69",
+    "departureStationName": "Kalevankatu",
+    "returnStationId": "69",
+    "returnStationName": "Kalevankatu",
+    "coveredDistanceInMeter": 0,
+    "durationInSecond": 16
+  },
+  {
+    "departureTime": "2021-05-31T21:56:27",
+    "returnTime": "2021-05-31T22:14:34",
+    "departureStationId": "44",
+    "departureStationName": "Sörnäinen (M)",
+    "returnStationId": "107",
+    "returnStationName": "Tenholantie",
+    "coveredDistanceInMeter": 4653,
+    "durationInSecond": 1082
+  },
+  {
+    "departureTime": "2021-05-31T21:56:26",
+    "returnTime": "2021-05-31T21:59:43",
+    "departureStationId": "275",
+    "departureStationName": "Itäkeskus (M)",
+    "returnStationId": "272",
+    "returnStationName": "Marjaniementie",
+    "coveredDistanceInMeter": 635,
+    "durationInSecond": 195
+  },
+  {
+    "departureTime": "2021-05-31T21:56:14",
+    "returnTime": "2021-05-31T22:05:09",
+    "departureStationId": "745",
+    "departureStationName": "Leppävaaran urheilupuisto",
+    "returnStationId": "731",
+    "returnStationName": "Leppävaarankäytävä",
+    "coveredDistanceInMeter": 1306,
+    "durationInSecond": 530
+  },
+  {
+    "departureTime": "2021-05-31T21:55:56",
+    "returnTime": "2021-05-31T21:58:30",
+    "departureStationId": "541",
+    "departureStationName": "Aalto-yliopisto (M), Korkeakouluaukio",
+    "returnStationId": "533",
+    "returnStationName": "Tekniikantie",
+    "coveredDistanceInMeter": 510,
+    "durationInSecond": 153
+  },
+  {
+    "departureTime": "2021-05-31T21:55:51",
+    "returnTime": "2021-06-01T17:00:07",
+    "departureStationId": "59",
+    "departureStationName": "Salmisaarenranta",
+    "returnStationId": "22",
+    "returnStationName": "Rautatientori / länsi",
+    "coveredDistanceInMeter": 3800,
+    "durationInSecond": 68651
+  },
+  {
+    "departureTime": "2021-05-31T21:55:51",
+    "returnTime": "2021-05-31T22:23:57",
+    "departureStationId": "49",
+    "departureStationName": "Annankatu",
+    "returnStationId": "117",
+    "returnStationName": "Brahen puistikko",
+    "coveredDistanceInMeter": 5331,
+    "durationInSecond": 1681
+  },
+  {
+    "departureTime": "2021-05-31T21:55:42",
+    "returnTime": "2021-05-31T22:20:22",
+    "departureStationId": "59",
+    "departureStationName": "Salmisaarenranta",
+    "returnStationId": "22",
+    "returnStationName": "Rautatientori / länsi",
+    "coveredDistanceInMeter": 4098,
+    "durationInSecond": 1481
+  },
+  {
+    "departureTime": "2021-05-31T21:55:32",
+    "returnTime": "2021-05-31T22:04:57",
+    "departureStationId": "745",
+    "departureStationName": "Leppävaaran urheilupuisto",
+    "returnStationId": "731",
+    "returnStationName": "Leppävaarankäytävä",
+    "coveredDistanceInMeter": 1315,
+    "durationInSecond": 563
+  },
+  {
+    "departureTime": "2021-05-31T21:55:06",
+    "returnTime": "2021-05-31T22:17:06",
+    "departureStationId": "86",
+    "departureStationName": "Kuusitie",
+    "returnStationId": "40",
+    "returnStationName": "Hakaniemi (M)",
+    "coveredDistanceInMeter": 3691,
+    "durationInSecond": 1316
+  },
+  {
+    "departureTime": "2021-05-31T21:54:47",
+    "returnTime": "2021-05-31T22:02:43",
+    "departureStationId": "239",
+    "departureStationName": "Viikin tiedepuisto",
+    "returnStationId": "237",
+    "returnStationName": "Aulangontie",
+    "coveredDistanceInMeter": 1149,
+    "durationInSecond": 471
+  },
+  {
+    "departureTime": "2021-05-31T21:54:45",
+    "returnTime": "2021-05-31T21:59:19",
+    "departureStationId": "30",
+    "departureStationName": "Itämerentori",
+    "returnStationId": "64",
+    "returnStationName": "Tyynenmerenkatu",
+    "coveredDistanceInMeter": 948,
+    "durationInSecond": 274
+  },
+  {
+    "departureTime": "2021-05-31T21:54:43",
+    "returnTime": "2021-05-31T22:13:19",
+    "departureStationId": "581",
+    "departureStationName": "Niittykumpu (M)",
+    "returnStationId": "613",
+    "returnStationName": "Matinkyläntie",
+    "coveredDistanceInMeter": 2842,
+    "durationInSecond": 1111
+  },
+  {
+    "departureTime": "2021-05-31T21:54:40",
+    "returnTime": "2021-05-31T22:05:23",
+    "departureStationId": "33",
+    "departureStationName": "Kauppakorkeakoulu",
+    "returnStationId": "3",
+    "returnStationName": "Kapteeninpuistikko",
+    "coveredDistanceInMeter": 1935,
+    "durationInSecond": 639
+  },
+  {
+    "departureTime": "2021-05-31T21:54:38",
+    "returnTime": "2021-05-31T22:00:01",
+    "departureStationId": "255",
+    "departureStationName": "Laivalahden puistotie",
+    "returnStationId": "259",
+    "returnStationName": "Petter Wetterin tie",
+    "coveredDistanceInMeter": 900,
+    "durationInSecond": 319
+  },
+  {
+    "departureTime": "2021-05-31T21:54:38",
+    "returnTime": "2021-05-31T22:00:13",
+    "departureStationId": "109",
+    "departureStationName": "Hertanmäenkatu",
+    "returnStationId": "108",
+    "returnStationName": "Radiokatu",
+    "coveredDistanceInMeter": 457,
+    "durationInSecond": 331
+  }
+]

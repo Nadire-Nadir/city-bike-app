@@ -1,6 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -34,12 +31,12 @@ model Station {
 
 model Journey {
   journeyId String @id @default(uuid())
-  departureTime DateTime 
+  departureTime String
   departureStationId String
   departureStationName String
-  returnTime DateTime
+  returnTime String
   returnStationId String
   returnStationName String
-  coveredDistanceInMeter Int
-  durationInSecond Int
+  coveredDistanceInMeter Float
+  durationInSecond Float
 }

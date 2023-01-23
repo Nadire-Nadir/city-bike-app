@@ -7,6 +7,9 @@
     "test": "jest",
     "dev": "nodemon src/index.ts"
   },
+  "prisma": {
+      "seed": "ts-node prisma/seed.ts" 
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Nadire-Nadir/helsinki-city-bike-app.git"

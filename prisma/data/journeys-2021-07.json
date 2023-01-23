@@ -1,0 +1,3992 @@
+[
+ {
+   "Departure": "2021-07-31T23:59:59",
+   "Return": "2021-08-01T00:09:15",
+   "Departure station id": 113,
+   "Departure station name": "Pasilan asema",
+   "Return station id": 78,
+   "Return station name": "Messeniuksenkatu",
+   "Covered distance (m)": 1602,
+   "Duration (sec.)": 553
+ },
+ {
+   "Departure": "2021-07-31T23:59:55",
+   "Return": "2021-08-01T00:08:45",
+   "Departure station id": 135,
+   "Departure station name": "Velodrominrinne",
+   "Return station id": 115,
+   "Return station name": "Venttiilikuja",
+   "Covered distance (m)": 1307,
+   "Duration (sec.)": 532
+ },
+ {
+   "Departure": "2021-07-31T23:59:55",
+   "Return": "2021-08-01T00:03:24",
+   "Departure station id": 258,
+   "Departure station name": "Abraham Wetterin tie",
+   "Return station id": 260,
+   "Return station name": "Herttoniemi (M)",
+   "Covered distance (m)": 820,
+   "Duration (sec.)": 205
+ },
+ {
+   "Departure": "2021-07-31T23:59:47",
+   "Return": "2021-08-01T00:05:52",
+   "Departure station id": 122,
+   "Departure station name": "Lintulahdenkatu",
+   "Return station id": 16,
+   "Return station name": "Liisanpuistikko",
+   "Covered distance (m)": 1298,
+   "Duration (sec.)": 369
+ },
+ {
+   "Departure": "2021-07-31T23:59:33",
+   "Return": "2021-08-01T00:14:49",
+   "Departure station id": 126,
+   "Departure station name": "Kalasatama (M)",
+   "Return station id": 255,
+   "Return station name": "Laivalahden puistotie",
+   "Covered distance (m)": 3875,
+   "Duration (sec.)": 912
+ },
+ {
+   "Departure": "2021-07-31T23:59:28",
+   "Return": "2021-08-01T00:06:23",
+   "Departure station id": 115,
+   "Departure station name": "Venttiilikuja",
+   "Return station id": 43,
+   "Return station name": "Karhupuisto",
+   "Covered distance (m)": 1482,
+   "Duration (sec.)": 410
+ },
+ {
+   "Departure": "2021-07-31T23:59:22",
+   "Return": "2021-08-01T00:06:14",
+   "Departure station id": 347,
+   "Departure station name": "Sateenkaarentie",
+   "Return station id": 344,
+   "Return station name": "Puistolan asema",
+   "Covered distance (m)": 1698,
+   "Duration (sec.)": 410
+ },
+ {
+   "Departure": "2021-07-31T23:59:11",
+   "Return": "2021-08-01T00:06:11",
+   "Departure station id": 347,
+   "Departure station name": "Sateenkaarentie",
+   "Return station id": 344,
+   "Return station name": "Puistolan asema",
+   "Covered distance (m)": 1658,
+   "Duration (sec.)": 416
+ },
+ {
+   "Departure": "2021-07-31T23:59:01",
+   "Return": "2021-08-01T00:09:56",
+   "Departure station id": 21,
+   "Departure station name": "Töölönlahdenkatu",
+   "Return station id": 58,
+   "Return station name": "Lauttasaarensilta",
+   "Covered distance (m)": 3150,
+   "Duration (sec.)": 649
+ },
+ {
+   "Departure": "2021-07-31T23:58:35",
+   "Return": "2021-08-01T00:23:48",
+   "Departure station id": 87,
+   "Departure station name": "Kustaankatu",
+   "Return station id": 95,
+   "Return station name": "Munkkiniemen aukio",
+   "Covered distance (m)": 4835,
+   "Duration (sec.)": 1509
+ },
+ {
+   "Departure": "2021-07-31T23:58:30",
+   "Return": "2021-08-01T00:03:09",
+   "Departure station id": 121,
+   "Departure station name": "Vilhonvuorenkatu",
+   "Return station id": 404,
+   "Return station name": "Sompasaari",
+   "Covered distance (m)": 865,
+   "Duration (sec.)": 273
+ },
+ {
+   "Departure": "2021-07-31T23:58:28",
+   "Return": "2021-08-01T00:07:44",
+   "Departure station id": 120,
+   "Departure station name": "Mäkelänkatu",
+   "Return station id": 141,
+   "Return station name": "Intiankatu",
+   "Covered distance (m)": 2119,
+   "Duration (sec.)": 552
+ },
+ {
+   "Departure": "2021-07-31T23:58:13",
+   "Return": "2021-08-01T00:14:14",
+   "Departure station id": 161,
+   "Departure station name": "Eteläesplanadi",
+   "Return station id": 31,
+   "Return station name": "Marian sairaala",
+   "Covered distance (m)": 2352,
+   "Duration (sec.)": 959
+ },
+ {
+   "Departure": "2021-07-31T23:58:13",
+   "Return": "2021-08-01T00:02:55",
+   "Departure station id": 259,
+   "Departure station name": "Petter Wetterin tie",
+   "Return station id": 254,
+   "Return station name": "Agnetankuja",
+   "Covered distance (m)": 880,
+   "Duration (sec.)": 277
+ },
+ {
+   "Departure": "2021-07-31T23:58:07",
+   "Return": "2021-08-01T00:00:18",
+   "Departure station id": 581,
+   "Departure station name": "Niittykumpu (M)",
+   "Return station id": 581,
+   "Return station name": "Niittykumpu (M)",
+   "Covered distance (m)": 14,
+   "Duration (sec.)": 126
+ },
+ {
+   "Departure": "2021-07-31T23:58:00",
+   "Return": "2021-08-01T00:23:16",
+   "Departure station id": 87,
+   "Departure station name": "Kustaankatu",
+   "Return station id": 58,
+   "Return station name": "Lauttasaarensilta",
+   "Covered distance (m)": 5954,
+   "Duration (sec.)": 1513
+ },
+ {
+   "Departure": "2021-07-31T23:57:38",
+   "Return": "2021-08-01T00:13:42",
+   "Departure station id": 161,
+   "Departure station name": "Eteläesplanadi",
+   "Return station id": 31,
+   "Return station name": "Marian sairaala",
+   "Covered distance (m)": 2450,
+   "Duration (sec.)": 959
+ },
+ {
+   "Departure": "2021-07-31T23:57:32",
+   "Return": "2021-08-01T00:05:06",
+   "Departure station id": 19,
+   "Departure station name": "Rautatientori / itä",
+   "Return station id": 76,
+   "Return station name": "Olympiastadion",
+   "Covered distance (m)": 2199,
+   "Duration (sec.)": 452
+ },
+ {
+   "Departure": "2021-07-31T23:57:25",
+   "Return": "2021-08-01T00:20:46",
+   "Departure station id": 78,
+   "Departure station name": "Messeniuksenkatu",
+   "Return station id": 140,
+   "Return station name": "Verkatehtaanpuisto",
+   "Covered distance (m)": 5131,
+   "Duration (sec.)": 1397
+ },
+ {
+   "Departure": "2021-07-31T23:57:18",
+   "Return": "2021-08-01T00:23:23",
+   "Departure station id": 64,
+   "Departure station name": "Tyynenmerenkatu",
+   "Return station id": 202,
+   "Return station name": "Merihaka",
+   "Covered distance (m)": 4925,
+   "Duration (sec.)": 1564
+ },
+ {
+   "Departure": "2021-07-31T23:57:15",
+   "Return": "2021-08-01T00:37:27",
+   "Departure station id": 123,
+   "Departure station name": "Näkinsilta",
+   "Return station id": 19,
+   "Return station name": "Rautatientori / itä",
+   "Covered distance (m)": 1813,
+   "Duration (sec.)": 2408
+ },
+ {
+   "Departure": "2021-07-31T23:57:10",
+   "Return": "2021-08-01T00:28:43",
+   "Departure station id": 123,
+   "Departure station name": "Näkinsilta",
+   "Return station id": 19,
+   "Return station name": "Rautatientori / itä",
+   "Covered distance (m)": 1852,
+   "Duration (sec.)": 1888
+ },
+ {
+   "Departure": "2021-07-31T23:56:56",
+   "Return": "2021-08-01T00:14:07",
+   "Departure station id": 161,
+   "Departure station name": "Eteläesplanadi",
+   "Return station id": 31,
+   "Return station name": "Marian sairaala",
+   "Covered distance (m)": 2289,
+   "Duration (sec.)": 1027
+ },
+ {
+   "Departure": "2021-07-31T23:56:51",
+   "Return": "2021-08-01T00:21:34",
+   "Departure station id": 120,
+   "Departure station name": "Mäkelänkatu",
+   "Return station id": 94,
+   "Return station name": "Laajalahden aukio",
+   "Covered distance (m)": 5646,
+   "Duration (sec.)": 1479
+ },
+ {
+   "Departure": "2021-07-31T23:56:48",
+   "Return": "2021-08-01T00:03:53",
+   "Departure station id": 116,
+   "Departure station name": "Linnanmäki",
+   "Return station id": 113,
+   "Return station name": "Pasilan asema",
+   "Covered distance (m)": 1080,
+   "Duration (sec.)": 422
+ },
+ {
+   "Departure": "2021-07-31T23:56:38",
+   "Return": "2021-08-01T00:14:58",
+   "Departure station id": 131,
+   "Departure station name": "Elimäenkatu",
+   "Return station id": 35,
+   "Return station name": "Cygnaeuksenkatu",
+   "Covered distance (m)": 3755,
+   "Duration (sec.)": 1096
+ },
+ {
+   "Departure": "2021-07-31T23:56:24",
+   "Return": "2021-08-01T00:12:36",
+   "Departure station id": 98,
+   "Departure station name": "Ulvilantie",
+   "Return station id": 727,
+   "Return station name": "Ratsutori",
+   "Covered distance (m)": 4496,
+   "Duration (sec.)": 967
+ },
+ {
+   "Departure": "2021-07-31T23:56:24",
+   "Return": "2021-07-31T23:57:29",
+   "Departure station id": 259,
+   "Departure station name": "Petter Wetterin tie",
+   "Return station id": 259,
+   "Return station name": "Petter Wetterin tie",
+   "Covered distance (m)": 32,
+   "Duration (sec.)": 61
+ },
+ {
+   "Departure": "2021-07-31T23:56:00",
+   "Return": "2021-08-01T00:23:33",
+   "Departure station id": 93,
+   "Departure station name": "Torpanranta",
+   "Return station id": 98,
+   "Return station name": "Ulvilantie",
+   "Covered distance (m)": 5214,
+   "Duration (sec.)": 1652
+ },
+ {
+   "Departure": "2021-07-31T23:55:40",
+   "Return": "2021-07-31T23:59:50",
+   "Departure station id": 252,
+   "Departure station name": "Humalniementie",
+   "Return station id": 254,
+   "Return station name": "Agnetankuja",
+   "Covered distance (m)": 1214,
+   "Duration (sec.)": 244
+ },
+ {
+   "Departure": "2021-07-31T23:55:37",
+   "Return": "2021-08-01T00:03:57",
+   "Departure station id": 116,
+   "Departure station name": "Linnanmäki",
+   "Return station id": 121,
+   "Return station name": "Vilhonvuorenkatu",
+   "Covered distance (m)": 1774,
+   "Duration (sec.)": 497
+ },
+ {
+   "Departure": "2021-07-31T23:55:35",
+   "Return": "2021-08-01T00:18:44",
+   "Departure station id": 258,
+   "Departure station name": "Abraham Wetterin tie",
+   "Return station id": 202,
+   "Return station name": "Merihaka",
+   "Covered distance (m)": 5636,
+   "Duration (sec.)": 1387
+ },
+ {
+   "Departure": "2021-07-31T23:55:30",
+   "Return": "2021-08-01T00:17:56",
+   "Departure station id": 259,
+   "Departure station name": "Petter Wetterin tie",
+   "Return station id": 242,
+   "Return station name": "Von Daehnin katu",
+   "Covered distance (m)": 6264,
+   "Duration (sec.)": 1345
+ },
+ {
+   "Departure": "2021-07-31T23:55:29",
+   "Return": "2021-08-01T00:14:49",
+   "Departure station id": 39,
+   "Departure station name": "Ooppera",
+   "Return station id": 11,
+   "Return station name": "Unioninkatu",
+   "Covered distance (m)": 2683,
+   "Duration (sec.)": 1155
+ },
+ {
+   "Departure": "2021-07-31T23:55:08",
+   "Return": "2021-08-01T00:16:18",
+   "Departure station id": 258,
+   "Departure station name": "Abraham Wetterin tie",
+   "Return station id": 274,
+   "Return station name": "Voikukantie",
+   "Covered distance (m)": 4143,
+   "Duration (sec.)": 1265
+ },
+ {
+   "Departure": "2021-07-31T23:55:01",
+   "Return": "2021-08-01T00:15:11",
+   "Departure station id": 258,
+   "Departure station name": "Abraham Wetterin tie",
+   "Return station id": 274,
+   "Return station name": "Voikukantie",
+   "Covered distance (m)": 4231,
+   "Duration (sec.)": 1205
+ },
+ {
+   "Departure": "2021-07-31T23:54:55",
+   "Return": "2021-07-31T23:55:13",
+   "Departure station id": 258,
+   "Departure station name": "Abraham Wetterin tie",
+   "Return station id": 258,
+   "Return station name": "Abraham Wetterin tie",
+   "Covered distance (m)": 0,
+   "Duration (sec.)": 12
+ },
+ {
+   "Departure": "2021-07-31T23:54:47",
+   "Return": "2021-08-01T00:04:43",
+   "Departure station id": 134,
+   "Departure station name": "Haukilahdenkatu",
+   "Return station id": 202,
+   "Return station name": "Merihaka",
+   "Covered distance (m)": 2511,
+   "Duration (sec.)": 592
+ },
+ {
+   "Departure": "2021-07-31T23:54:47",
+   "Return": "2021-08-01T00:03:42",
+   "Departure station id": 68,
+   "Departure station name": "Albertinkatu",
+   "Return station id": 30,
+   "Return station name": "Itämerentori",
+   "Covered distance (m)": 1586,
+   "Duration (sec.)": 532
+ },
+ {
+   "Departure": "2021-07-31T23:54:31",
+   "Return": "2021-08-01T00:05:16",
+   "Departure station id": 291,
+   "Departure station name": "Itäkeskus Metrovarikko",
+   "Return station id": 262,
+   "Return station name": "Siilitie (M)",
+   "Covered distance (m)": 1944,
+   "Duration (sec.)": 649
+ },
+ {
+   "Departure": "2021-07-31T23:54:24",
+   "Return": "2021-08-01T00:03:33",
+   "Departure station id": 68,
+   "Departure station name": "Albertinkatu",
+   "Return station id": 30,
+   "Return station name": "Itämerentori",
+   "Covered distance (m)": 1605,
+   "Duration (sec.)": 547
+ },
+ {
+   "Departure": "2021-07-31T23:54:23",
+   "Return": "2021-08-01T00:03:15",
+   "Departure station id": 141,
+   "Departure station name": "Intiankatu",
+   "Return station id": 137,
+   "Return station name": "Arabian kauppakeskus",
+   "Covered distance (m)": 857,
+   "Duration (sec.)": 532
+ },
+ {
+   "Departure": "2021-07-31T23:54:20",
+   "Return": "2021-08-01T00:19:40",
+   "Departure station id": 214,
+   "Departure station name": "Valimon asema",
+   "Return station id": 87,
+   "Return station name": "Kustaankatu",
+   "Covered distance (m)": 6187,
+   "Duration (sec.)": 1517
+ },
+ {
+   "Departure": "2021-07-31T23:53:56",
+   "Return": "2021-08-01T00:00:00",
+   "Departure station id": 121,
+   "Departure station name": "Vilhonvuorenkatu",
+   "Return station id": 124,
+   "Return station name": "Isoisänsilta",
+   "Covered distance (m)": 1127,
+   "Duration (sec.)": 360
+ },
+ {
+   "Departure": "2021-07-31T23:53:54",
+   "Return": "2021-08-01T00:19:50",
+   "Departure station id": 214,
+   "Departure station name": "Valimon asema",
+   "Return station id": 119,
+   "Return station name": "Gebhardinaukio",
+   "Covered distance (m)": 6313,
+   "Duration (sec.)": 1552
+ },
+ {
+   "Departure": "2021-07-31T23:53:48",
+   "Return": "2021-07-31T23:57:16",
+   "Departure station id": 80,
+   "Departure station name": "Jäähalli",
+   "Return station id": 76,
+   "Return station name": "Olympiastadion",
+   "Covered distance (m)": 637,
+   "Duration (sec.)": 203
+ },
+ {
+   "Departure": "2021-07-31T23:53:34",
+   "Return": "2021-08-01T00:02:27",
+   "Departure station id": 126,
+   "Departure station name": "Kalasatama (M)",
+   "Return station id": 134,
+   "Return station name": "Haukilahdenkatu",
+   "Covered distance (m)": 1457,
+   "Duration (sec.)": 529
+ },
+ {
+   "Departure": "2021-07-31T23:53:31",
+   "Return": "2021-08-01T00:26:15",
+   "Departure station id": 85,
+   "Departure station name": "Jalavatie",
+   "Return station id": 78,
+   "Return station name": "Messeniuksenkatu",
+   "Covered distance (m)": 1004,
+   "Duration (sec.)": 1959
+ },
+ {
+   "Departure": "2021-07-31T23:53:25",
+   "Return": "2021-08-01T00:10:48",
+   "Departure station id": 281,
+   "Departure station name": "Puotila (M)",
+   "Return station id": 286,
+   "Return station name": "Mamsellimyllynkatu",
+   "Covered distance (m)": 2958,
+   "Duration (sec.)": 1038
+ },
+ {
+   "Departure": "2021-07-31T23:53:19",
+   "Return": "2021-08-01T00:03:05",
+   "Departure station id": 116,
+   "Departure station name": "Linnanmäki",
+   "Return station id": 42,
+   "Return station name": "Haapaniemenkatu",
+   "Covered distance (m)": 1962,
+   "Duration (sec.)": 582
+ },
+ {
+   "Departure": "2021-07-31T23:53:18",
+   "Return": "2021-08-01T13:09:54",
+   "Departure station id": 99,
+   "Departure station name": "Muusantori",
+   "Return station id": 719,
+   "Return station name": "Säteri",
+   "Covered distance (m)": 3308,
+   "Duration (sec.)": 872
+ },
+ {
+   "Departure": "2021-07-31T23:53:17",
+   "Return": "2021-08-01T00:04:09",
+   "Departure station id": 116,
+   "Departure station name": "Linnanmäki",
+   "Return station id": 42,
+   "Return station name": "Haapaniemenkatu",
+   "Covered distance (m)": 1990,
+   "Duration (sec.)": 648
+ },
+ {
+   "Departure": "2021-07-31T23:53:15",
+   "Return": "2021-07-31T23:54:04",
+   "Departure station id": 214,
+   "Departure station name": "Valimon asema",
+   "Return station id": 214,
+   "Return station name": "Valimon asema",
+   "Covered distance (m)": 0,
+   "Duration (sec.)": 45
+ },
+ {
+   "Departure": "2021-07-31T23:53:14",
+   "Return": "2021-08-01T00:04:11",
+   "Departure station id": 78,
+   "Departure station name": "Messeniuksenkatu",
+   "Return station id": 106,
+   "Return station name": "Korppaanmäentie",
+   "Covered distance (m)": 2144,
+   "Duration (sec.)": 653
+ },
+ {
+   "Departure": "2021-07-31T23:53:03",
+   "Return": "2021-08-01T00:00:46",
+   "Departure station id": 17,
+   "Departure station name": "Varsapuistikko",
+   "Return station id": 41,
+   "Return station name": "Ympyrätalo",
+   "Covered distance (m)": 1029,
+   "Duration (sec.)": 460
+ },
+ {
+   "Departure": "2021-07-31T23:53:02",
+   "Return": "2021-08-01T00:00:32",
+   "Departure station id": 19,
+   "Departure station name": "Rautatientori / itä",
+   "Return station id": 64,
+   "Return station name": "Tyynenmerenkatu",
+   "Covered distance (m)": 2788,
+   "Duration (sec.)": 451
+ },
+ {
+   "Departure": "2021-07-31T23:52:59",
+   "Return": "2021-08-01T00:10:33",
+   "Departure station id": 75,
+   "Departure station name": "Korjaamo",
+   "Return station id": 162,
+   "Return station name": "Leppäsuonaukio",
+   "Covered distance (m)": 2329,
+   "Duration (sec.)": 1049
+ },
+ {
+   "Departure": "2021-07-31T23:52:59",
+   "Return": "2021-08-01T00:15:02",
+   "Departure station id": 101,
+   "Departure station name": "Munkkivuoren ostoskeskus",
+   "Return station id": 73,
+   "Return station name": "Kesäkatu",
+   "Covered distance (m)": 3589,
+   "Duration (sec.)": 1319
+ },
+ {
+   "Departure": "2021-07-31T23:52:57",
+   "Return": "2021-08-01T00:06:14",
+   "Departure station id": 264,
+   "Departure station name": "Eränkävijäntori",
+   "Return station id": 244,
+   "Return station name": "Relanderinaukio",
+   "Covered distance (m)": 3063,
+   "Duration (sec.)": 792
+ },
+ {
+   "Departure": "2021-07-31T23:52:55",
+   "Return": "2021-08-01T00:14:53",
+   "Departure station id": 101,
+   "Departure station name": "Munkkivuoren ostoskeskus",
+   "Return station id": 73,
+   "Return station name": "Kesäkatu",
+   "Covered distance (m)": 3632,
+   "Duration (sec.)": 1314
+ },
+ {
+   "Departure": "2021-07-31T23:52:33",
+   "Return": "2021-08-01T00:05:14",
+   "Departure station id": 293,
+   "Departure station name": "Korkeasaari",
+   "Return station id": 202,
+   "Return station name": "Merihaka",
+   "Covered distance (m)": 1854,
+   "Duration (sec.)": 760
+ },
+ {
+   "Departure": "2021-07-31T23:52:33",
+   "Return": "2021-08-01T00:05:48",
+   "Departure station id": 293,
+   "Departure station name": "Korkeasaari",
+   "Return station id": 202,
+   "Return station name": "Merihaka",
+   "Covered distance (m)": 1737,
+   "Duration (sec.)": 791
+ },
+ {
+   "Departure": "2021-07-31T23:52:32",
+   "Return": "2021-08-01T00:20:38",
+   "Departure station id": 141,
+   "Departure station name": "Intiankatu",
+   "Return station id": 116,
+   "Return station name": "Linnanmäki",
+   "Covered distance (m)": 3081,
+   "Duration (sec.)": 1681
+ },
+ {
+   "Departure": "2021-07-31T23:52:25",
+   "Return": "2021-08-01T00:10:05",
+   "Departure station id": 40,
+   "Departure station name": "Hakaniemi (M)",
+   "Return station id": 404,
+   "Return station name": "Sompasaari",
+   "Covered distance (m)": 1790,
+   "Duration (sec.)": 1055
+ },
+ {
+   "Departure": "2021-07-31T23:52:15",
+   "Return": "2021-08-01T00:18:12",
+   "Departure station id": 211,
+   "Departure station name": "Haagan tori",
+   "Return station id": 137,
+   "Return station name": "Arabian kauppakeskus",
+   "Covered distance (m)": 5207,
+   "Duration (sec.)": 1552
+ },
+ {
+   "Departure": "2021-07-31T23:52:12",
+   "Return": "2021-07-31T23:56:56",
+   "Departure station id": 118,
+   "Departure station name": "Fleminginkatu",
+   "Return station id": 115,
+   "Return station name": "Venttiilikuja",
+   "Covered distance (m)": 815,
+   "Duration (sec.)": 284
+ },
+ {
+   "Departure": "2021-07-31T23:52:09",
+   "Return": "2021-08-01T00:02:57",
+   "Departure station id": 94,
+   "Departure station name": "Laajalahden aukio",
+   "Return station id": 100,
+   "Return station name": "Teljäntie",
+   "Covered distance (m)": 1627,
+   "Duration (sec.)": 643
+ },
+ {
+   "Departure": "2021-07-31T23:51:49",
+   "Return": "2021-08-01T01:01:45",
+   "Departure station id": 85,
+   "Departure station name": "Jalavatie",
+   "Return station id": 78,
+   "Return station name": "Messeniuksenkatu",
+   "Covered distance (m)": 933,
+   "Duration (sec.)": 283
+ },
+ {
+   "Departure": "2021-07-31T23:51:40",
+   "Return": "2021-08-01T00:08:17",
+   "Departure station id": 404,
+   "Departure station name": "Sompasaari",
+   "Return station id": 11,
+   "Return station name": "Unioninkatu",
+   "Covered distance (m)": 3675,
+   "Duration (sec.)": 993
+ },
+ {
+   "Departure": "2021-07-31T23:51:37",
+   "Return": "2021-07-31T23:56:24",
+   "Departure station id": 26,
+   "Departure station name": "Kamppi (M)",
+   "Return station id": 35,
+   "Return station name": "Cygnaeuksenkatu",
+   "Covered distance (m)": 1117,
+   "Duration (sec.)": 286
+ },
+ {
+   "Departure": "2021-07-31T23:51:31",
+   "Return": "2021-07-31T23:58:22",
+   "Departure station id": 29,
+   "Departure station name": "Baana",
+   "Return station id": 4,
+   "Return station name": "Viiskulma",
+   "Covered distance (m)": 1600,
+   "Duration (sec.)": 410
+ },
+ {
+   "Departure": "2021-07-31T23:51:19",
+   "Return": "2021-08-01T00:18:18",
+   "Departure station id": 387,
+   "Departure station name": "Kauppakeskus Kaari",
+   "Return station id": 727,
+   "Return station name": "Ratsutori",
+   "Covered distance (m)": 5807,
+   "Duration (sec.)": 1615
+ },
+ {
+   "Departure": "2021-07-31T23:51:14",
+   "Return": "2021-08-01T00:00:46",
+   "Departure station id": 129,
+   "Departure station name": "Pernajantie",
+   "Return station id": 115,
+   "Return station name": "Venttiilikuja",
+   "Covered distance (m)": 1553,
+   "Duration (sec.)": 568
+ },
+ {
+   "Departure": "2021-07-31T23:51:08",
+   "Return": "2021-08-01T00:06:13",
+   "Departure station id": 325,
+   "Departure station name": "Mellunmäki (M)",
+   "Return station id": 283,
+   "Return station name": "Alakiventie",
+   "Covered distance (m)": 3389,
+   "Duration (sec.)": 900
+ },
+ {
+   "Departure": "2021-07-31T23:51:08",
+   "Return": "2021-08-01T00:18:44",
+   "Departure station id": 387,
+   "Departure station name": "Kauppakeskus Kaari",
+   "Return station id": 711,
+   "Return station name": "Kirjurinkuja",
+   "Covered distance (m)": 5868,
+   "Duration (sec.)": 1653
+ },
+ {
+   "Departure": "2021-07-31T23:51:02",
+   "Return": "2021-08-01T00:04:07",
+   "Departure station id": 12,
+   "Departure station name": "Kanavaranta",
+   "Return station id": 26,
+   "Return station name": "Kamppi (M)",
+   "Covered distance (m)": 2191,
+   "Duration (sec.)": 780
+ },
+ {
+   "Departure": "2021-07-31T23:50:50",
+   "Return": "2021-08-01T00:04:39",
+   "Departure station id": 265,
+   "Departure station name": "Siilitie 9",
+   "Return station id": 259,
+   "Return station name": "Petter Wetterin tie",
+   "Covered distance (m)": 2985,
+   "Duration (sec.)": 824
+ },
+ {
+   "Departure": "2021-07-31T23:50:46",
+   "Return": "2021-08-01T00:13:52",
+   "Departure station id": 142,
+   "Departure station name": "Koskelantie",
+   "Return station id": 240,
+   "Return station name": "Viikin normaalikoulu",
+   "Covered distance (m)": 5650,
+   "Duration (sec.)": 1384
+ },
+ {
+   "Departure": "2021-07-31T23:50:40",
+   "Return": "2021-08-01T00:20:41",
+   "Departure station id": 141,
+   "Departure station name": "Intiankatu",
+   "Return station id": 116,
+   "Return station name": "Linnanmäki",
+   "Covered distance (m)": 3161,
+   "Duration (sec.)": 1797
+ },
+ {
+   "Departure": "2021-07-31T23:50:38",
+   "Return": "2021-07-31T23:54:23",
+   "Departure station id": 292,
+   "Departure station name": "Koskelan varikko",
+   "Return station id": 139,
+   "Return station name": "Muotoilijankatu",
+   "Covered distance (m)": 667,
+   "Duration (sec.)": 222
+ },
+ {
+   "Departure": "2021-07-31T23:50:36",
+   "Return": "2021-08-01T00:04:22",
+   "Departure station id": 12,
+   "Departure station name": "Kanavaranta",
+   "Return station id": 26,
+   "Return station name": "Kamppi (M)",
+   "Covered distance (m)": 2166,
+   "Duration (sec.)": 821
+ },
+ {
+   "Departure": "2021-07-31T23:50:33",
+   "Return": "2021-07-31T23:52:31",
+   "Departure station id": 141,
+   "Departure station name": "Intiankatu",
+   "Return station id": 141,
+   "Return station name": "Intiankatu",
+   "Covered distance (m)": 1,
+   "Duration (sec.)": 117
+ },
+ {
+   "Departure": "2021-07-31T23:50:31",
+   "Return": "2021-07-31T23:50:59",
+   "Departure station id": 387,
+   "Departure station name": "Kauppakeskus Kaari",
+   "Return station id": 387,
+   "Return station name": "Kauppakeskus Kaari",
+   "Covered distance (m)": 0,
+   "Duration (sec.)": 24
+ },
+ {
+   "Departure": "2021-07-31T23:50:25",
+   "Return": "2021-07-31T23:59:42",
+   "Departure station id": 117,
+   "Departure station name": "Brahen puistikko",
+   "Return station id": 142,
+   "Return station name": "Koskelantie",
+   "Covered distance (m)": 2539,
+   "Duration (sec.)": 557
+ },
+ {
+   "Departure": "2021-07-31T23:50:22",
+   "Return": "2021-08-01T00:04:44",
+   "Departure station id": 262,
+   "Departure station name": "Siilitie (M)",
+   "Return station id": 240,
+   "Return station name": "Viikin normaalikoulu",
+   "Covered distance (m)": 3091,
+   "Duration (sec.)": 858
+ },
+ {
+   "Departure": "2021-07-31T23:50:21",
+   "Return": "2021-08-01T00:18:37",
+   "Departure station id": 387,
+   "Departure station name": "Kauppakeskus Kaari",
+   "Return station id": 711,
+   "Return station name": "Kirjurinkuja",
+   "Covered distance (m)": 6110,
+   "Duration (sec.)": 1695
+ },
+ {
+   "Departure": "2021-07-31T23:50:11",
+   "Return": "2021-07-31T23:50:50",
+   "Departure station id": 134,
+   "Departure station name": "Haukilahdenkatu",
+   "Return station id": 134,
+   "Return station name": "Haukilahdenkatu",
+   "Covered distance (m)": 6,
+   "Duration (sec.)": 34
+ },
+ {
+   "Departure": "2021-07-31T23:50:11",
+   "Return": "2021-07-31T23:50:48",
+   "Departure station id": 134,
+   "Departure station name": "Haukilahdenkatu",
+   "Return station id": 134,
+   "Return station name": "Haukilahdenkatu",
+   "Covered distance (m)": 0,
+   "Duration (sec.)": 33
+ },
+ {
+   "Departure": "2021-07-31T23:50:01",
+   "Return": "2021-08-01T00:10:54",
+   "Departure station id": 403,
+   "Departure station name": "Verkkosaari",
+   "Return station id": 13,
+   "Return station name": "Merisotilaantori",
+   "Covered distance (m)": 4633,
+   "Duration (sec.)": 1248
+ },
+ {
+   "Departure": "2021-07-31T23:49:47",
+   "Return": "2021-08-01T00:03:18",
+   "Departure station id": 26,
+   "Departure station name": "Kamppi (M)",
+   "Return station id": 46,
+   "Return station name": "Diakoniapuisto",
+   "Covered distance (m)": 2685,
+   "Duration (sec.)": 806
+ },
+ {
+   "Departure": "2021-07-31T23:49:36",
+   "Return": "2021-08-01T00:01:32",
+   "Departure station id": 57,
+   "Departure station name": "Lauttasaaren ostoskeskus",
+   "Return station id": 50,
+   "Return station name": "Melkonkuja",
+   "Covered distance (m)": 1368,
+   "Duration (sec.)": 711
+ },
+ {
+   "Departure": "2021-07-31T23:49:26",
+   "Return": "2021-07-31T23:56:39",
+   "Departure station id": 281,
+   "Departure station name": "Puotila (M)",
+   "Return station id": 274,
+   "Return station name": "Voikukantie",
+   "Covered distance (m)": 1119,
+   "Duration (sec.)": 428
+ },
+ {
+   "Departure": "2021-07-31T23:49:24",
+   "Return": "2021-08-01T00:16:52",
+   "Departure station id": 543,
+   "Departure station name": "Otaranta",
+   "Return station id": 209,
+   "Return station name": "Takomotie",
+   "Covered distance (m)": 7567,
+   "Duration (sec.)": 1644
+ },
+ {
+   "Departure": "2021-07-31T23:49:21",
+   "Return": "2021-08-01T00:32:33",
+   "Departure station id": 126,
+   "Departure station name": "Kalasatama (M)",
+   "Return station id": 404,
+   "Return station name": "Sompasaari",
+   "Covered distance (m)": 565,
+   "Duration (sec.)": 166
+ },
+ {
+   "Departure": "2021-07-31T23:49:19",
+   "Return": "2021-08-01T00:08:39",
+   "Departure station id": 69,
+   "Departure station name": "Kalevankatu",
+   "Return station id": 69,
+   "Return station name": "Kalevankatu",
+   "Covered distance (m)": 2,
+   "Duration (sec.)": 1155
+ },
+ {
+   "Departure": "2021-07-31T23:49:18",
+   "Return": "2021-08-01T00:01:13",
+   "Departure station id": 218,
+   "Departure station name": "Pohjois-Haagan asema",
+   "Return station id": 391,
+   "Return station name": "Tollinpolku",
+   "Covered distance (m)": 2650,
+   "Duration (sec.)": 709
+ },
+ {
+   "Departure": "2021-07-31T23:49:10",
+   "Return": "2021-08-01T00:16:59",
+   "Departure station id": 543,
+   "Departure station name": "Otaranta",
+   "Return station id": 209,
+   "Return station name": "Takomotie",
+   "Covered distance (m)": 7377,
+   "Duration (sec.)": 1665
+ },
+ {
+   "Departure": "2021-07-31T23:49:08",
+   "Return": "2021-07-31T23:54:57",
+   "Departure station id": 581,
+   "Departure station name": "Niittykumpu (M)",
+   "Return station id": 647,
+   "Return station name": "Lystimäki",
+   "Covered distance (m)": 1159,
+   "Duration (sec.)": 343
+ },
+ {
+   "Departure": "2021-07-31T23:48:53",
+   "Return": "2021-07-31T23:55:24",
+   "Departure station id": 387,
+   "Departure station name": "Kauppakeskus Kaari",
+   "Return station id": 221,
+   "Return station name": "Thalianaukio",
+   "Covered distance (m)": 1372,
+   "Duration (sec.)": 387
+ },
+ {
+   "Departure": "2021-07-31T23:48:51",
+   "Return": "2021-07-31T23:55:12",
+   "Departure station id": 162,
+   "Departure station name": "Leppäsuonaukio",
+   "Return station id": 67,
+   "Return station name": "Perämiehenkatu",
+   "Covered distance (m)": 1931,
+   "Duration (sec.)": 376
+ },
+ {
+   "Departure": "2021-07-31T23:48:50",
+   "Return": "2021-07-31T23:59:26",
+   "Departure station id": 737,
+   "Departure station name": "Muurarinkuja",
+   "Return station id": 754,
+   "Return station name": "Lintumetsä",
+   "Covered distance (m)": 2252,
+   "Duration (sec.)": 640
+ },
+ {
+   "Departure": "2021-07-31T23:48:48",
+   "Return": "2021-08-01T00:00:18",
+   "Departure station id": 41,
+   "Departure station name": "Ympyrätalo",
+   "Return station id": 125,
+   "Return station name": "Arielinkatu",
+   "Covered distance (m)": 2403,
+   "Duration (sec.)": 686
+ },
+ {
+   "Departure": "2021-07-31T23:48:41",
+   "Return": "2021-08-01T00:01:05",
+   "Departure station id": 41,
+   "Departure station name": "Ympyrätalo",
+   "Return station id": 10,
+   "Return station name": "Kasarmitori",
+   "Covered distance (m)": 1872,
+   "Duration (sec.)": 739
+ },
+ {
+   "Departure": "2021-07-31T23:48:39",
+   "Return": "2021-08-01T00:05:23",
+   "Departure station id": 9,
+   "Departure station name": "Erottajan aukio",
+   "Return station id": 68,
+   "Return station name": "Albertinkatu",
+   "Covered distance (m)": 932,
+   "Duration (sec.)": 378
+ },
+ {
+   "Departure": "2021-07-31T23:48:36",
+   "Return": "2021-07-31T23:57:59",
+   "Departure station id": 62,
+   "Departure station name": "Välimerenkatu",
+   "Return station id": 24,
+   "Return station name": "Mannerheimintie",
+   "Covered distance (m)": 1909,
+   "Duration (sec.)": 564
+ },
+ {
+   "Departure": "2021-07-31T23:48:36",
+   "Return": "2021-08-01T00:01:25",
+   "Departure station id": 118,
+   "Departure station name": "Fleminginkatu",
+   "Return station id": 135,
+   "Return station name": "Velodrominrinne",
+   "Covered distance (m)": 2005,
+   "Duration (sec.)": 759
+ },
+ {
+   "Departure": "2021-07-31T23:48:36",
+   "Return": "2021-08-01T00:01:46",
+   "Departure station id": 122,
+   "Departure station name": "Lintulahdenkatu",
+   "Return station id": 137,
+   "Return station name": "Arabian kauppakeskus",
+   "Covered distance (m)": 2915,
+   "Duration (sec.)": 786
+ },
+ {
+   "Departure": "2021-07-31T23:48:15",
+   "Return": "2021-08-01T00:00:29",
+   "Departure station id": 597,
+   "Departure station name": "Linnakepolku",
+   "Return station id": 561,
+   "Return station name": "Koivu-Mankkaa",
+   "Covered distance (m)": 2525,
+   "Duration (sec.)": 733
+ },
+ {
+   "Departure": "2021-07-31T23:48:07",
+   "Return": "2021-07-31T23:55:58",
+   "Departure station id": 99,
+   "Departure station name": "Muusantori",
+   "Return station id": 101,
+   "Return station name": "Munkkivuoren ostoskeskus",
+   "Covered distance (m)": 1660,
+   "Duration (sec.)": 467
+ },
+ {
+   "Departure": "2021-07-31T23:48:06",
+   "Return": "2021-07-31T23:59:45",
+   "Departure station id": 279,
+   "Departure station name": "Puotinkylän kartano",
+   "Return station id": 272,
+   "Return station name": "Marjaniementie",
+   "Covered distance (m)": 2174,
+   "Duration (sec.)": 694
+ },
+ {
+   "Departure": "2021-07-31T23:48:01",
+   "Return": "2021-08-01T00:06:29",
+   "Departure station id": 106,
+   "Departure station name": "Korppaanmäentie",
+   "Return station id": 36,
+   "Return station name": "Apollonkatu",
+   "Covered distance (m)": 3381,
+   "Duration (sec.)": 1105
+ },
+ {
+   "Departure": "2021-07-31T23:48:01",
+   "Return": "2021-08-01T00:06:29",
+   "Departure station id": 547,
+   "Departure station name": "Jämeräntaival",
+   "Return station id": 96,
+   "Return station name": "Huopalahdentie",
+   "Covered distance (m)": 5041,
+   "Duration (sec.)": 1103
+ },
+ {
+   "Departure": "2021-07-31T23:47:56",
+   "Return": "2021-08-01T00:16:41",
+   "Departure station id": 63,
+   "Departure station name": "Jätkäsaarenlaituri",
+   "Return station id": 63,
+   "Return station name": "Jätkäsaarenlaituri",
+   "Covered distance (m)": 5245,
+   "Duration (sec.)": 1721
+ },
+ {
+   "Departure": "2021-07-31T23:47:55",
+   "Return": "2021-08-01T00:05:12",
+   "Departure station id": 65,
+   "Departure station name": "Hernesaarenranta",
+   "Return station id": 31,
+   "Return station name": "Marian sairaala",
+   "Covered distance (m)": 2448,
+   "Duration (sec.)": 1032
+ },
+ {
+   "Departure": "2021-07-31T23:47:43",
+   "Return": "2021-08-01T00:28:41",
+   "Departure station id": 11,
+   "Departure station name": "Unioninkatu",
+   "Return station id": 597,
+   "Return station name": "Linnakepolku",
+   "Covered distance (m)": 10191,
+   "Duration (sec.)": 2457
+ },
+ {
+   "Departure": "2021-07-31T23:47:43",
+   "Return": "2021-08-01T00:02:43",
+   "Departure station id": 24,
+   "Departure station name": "Mannerheimintie",
+   "Return station id": 71,
+   "Return station name": "Hietaniemenkatu",
+   "Covered distance (m)": 2726,
+   "Duration (sec.)": 896
+ },
+ {
+   "Departure": "2021-07-31T23:47:37",
+   "Return": "2021-07-31T23:49:30",
+   "Departure station id": 8,
+   "Departure station name": "Vanha kirkkopuisto",
+   "Return station id": 49,
+   "Return station name": "Annankatu",
+   "Covered distance (m)": 255,
+   "Duration (sec.)": 106
+ },
+ {
+   "Departure": "2021-07-31T23:47:37",
+   "Return": "2021-08-01T00:05:09",
+   "Departure station id": 65,
+   "Departure station name": "Hernesaarenranta",
+   "Return station id": 31,
+   "Return station name": "Marian sairaala",
+   "Covered distance (m)": 2464,
+   "Duration (sec.)": 1047
+ },
+ {
+   "Departure": "2021-07-31T23:47:23",
+   "Return": "2021-08-01T00:01:41",
+   "Departure station id": 259,
+   "Departure station name": "Petter Wetterin tie",
+   "Return station id": 249,
+   "Return station name": "Isosaarentie",
+   "Covered distance (m)": 2719,
+   "Duration (sec.)": 855
+ },
+ {
+   "Departure": "2021-07-31T23:46:50",
+   "Return": "2021-08-01T00:02:39",
+   "Departure station id": 245,
+   "Departure station name": "Kulosaari (M)",
+   "Return station id": 257,
+   "Return station name": "Margareetankuja",
+   "Covered distance (m)": 2039,
+   "Duration (sec.)": 943
+ },
+ {
+   "Departure": "2021-07-31T23:46:35",
+   "Return": "2021-07-31T23:50:46",
+   "Departure station id": 123,
+   "Departure station name": "Näkinsilta",
+   "Return station id": 122,
+   "Return station name": "Lintulahdenkatu",
+   "Covered distance (m)": 608,
+   "Duration (sec.)": 247
+ },
+ {
+   "Departure": "2021-07-31T23:46:35",
+   "Return": "2021-07-31T23:55:25",
+   "Departure station id": 87,
+   "Departure station name": "Kustaankatu",
+   "Return station id": 116,
+   "Return station name": "Linnanmäki",
+   "Covered distance (m)": 1208,
+   "Duration (sec.)": 526
+ },
+ {
+   "Departure": "2021-07-31T23:46:29",
+   "Return": "2021-08-01T00:07:30",
+   "Departure station id": 358,
+   "Departure station name": "Syystie",
+   "Return station id": 362,
+   "Return station name": "Teerisuontie",
+   "Covered distance (m)": 2658,
+   "Duration (sec.)": 1259
+ },
+ {
+   "Departure": "2021-07-31T23:46:27",
+   "Return": "2021-07-31T23:54:11",
+   "Departure station id": 8,
+   "Departure station name": "Vanha kirkkopuisto",
+   "Return station id": 12,
+   "Return station name": "Kanavaranta",
+   "Covered distance (m)": 1200,
+   "Duration (sec.)": 458
+ },
+ {
+   "Departure": "2021-07-31T23:46:18",
+   "Return": "2021-08-01T00:00:12",
+   "Departure station id": 26,
+   "Departure station name": "Kamppi (M)",
+   "Return station id": 49,
+   "Return station name": "Annankatu",
+   "Covered distance (m)": 974,
+   "Duration (sec.)": 829
+ },
+ {
+   "Departure": "2021-07-31T23:46:10",
+   "Return": "2021-07-31T23:48:48",
+   "Departure station id": 32,
+   "Departure station name": "Eläinmuseo",
+   "Return station id": 19,
+   "Return station name": "Rautatientori / itä",
+   "Covered distance (m)": 765,
+   "Duration (sec.)": 156
+ },
+ {
+   "Departure": "2021-07-31T23:45:51",
+   "Return": "2021-07-31T23:54:11",
+   "Departure station id": 116,
+   "Departure station name": "Linnanmäki",
+   "Return station id": 132,
+   "Return station name": "Hollolantie",
+   "Covered distance (m)": 1327,
+   "Duration (sec.)": 496
+ },
+ {
+   "Departure": "2021-07-31T23:45:49",
+   "Return": "2021-07-31T23:48:27",
+   "Departure station id": 87,
+   "Departure station name": "Kustaankatu",
+   "Return station id": 43,
+   "Return station name": "Karhupuisto",
+   "Covered distance (m)": 737,
+   "Duration (sec.)": 154
+ },
+ {
+   "Departure": "2021-07-31T23:45:46",
+   "Return": "2021-07-31T23:56:23",
+   "Departure station id": 577,
+   "Departure station name": "Olarinluoma",
+   "Return station id": 515,
+   "Return station name": "Oravannahkatori",
+   "Covered distance (m)": 3181,
+   "Duration (sec.)": 633
+ },
+ {
+   "Departure": "2021-07-31T23:45:45",
+   "Return": "2021-07-31T23:53:24",
+   "Departure station id": 388,
+   "Departure station name": "Kaustisentie",
+   "Return station id": 218,
+   "Return station name": "Pohjois-Haagan asema",
+   "Covered distance (m)": 1609,
+   "Duration (sec.)": 455
+ },
+ {
+   "Departure": "2021-07-31T23:45:36",
+   "Return": "2021-07-31T23:53:22",
+   "Departure station id": 135,
+   "Departure station name": "Velodrominrinne",
+   "Return station id": 113,
+   "Return station name": "Pasilan asema",
+   "Covered distance (m)": 863,
+   "Duration (sec.)": 461
+ },
+ {
+   "Departure": "2021-07-31T23:45:33",
+   "Return": "2021-07-31T23:57:39",
+   "Departure station id": 641,
+   "Departure station name": "Komeetankatu",
+   "Return station id": 583,
+   "Return station name": "Haukilahdensolmu",
+   "Covered distance (m)": 2405,
+   "Duration (sec.)": 721
+ },
+ {
+   "Departure": "2021-07-31T23:45:31",
+   "Return": "2021-08-01T00:07:11",
+   "Departure station id": 40,
+   "Departure station name": "Hakaniemi (M)",
+   "Return station id": 29,
+   "Return station name": "Baana",
+   "Covered distance (m)": 3177,
+   "Duration (sec.)": 1295
+ },
+ {
+   "Departure": "2021-07-31T23:45:29",
+   "Return": "2021-08-01T00:00:05",
+   "Departure station id": 40,
+   "Departure station name": "Hakaniemi (M)",
+   "Return station id": 70,
+   "Return station name": "Sammonpuistikko",
+   "Covered distance (m)": 2493,
+   "Duration (sec.)": 872
+ },
+ {
+   "Departure": "2021-07-31T23:45:28",
+   "Return": "2021-08-01T13:01:12",
+   "Departure station id": 305,
+   "Departure station name": "Kalkkihiekantie",
+   "Return station id": 305,
+   "Return station name": "Kalkkihiekantie",
+   "Covered distance (m)": 175,
+   "Duration (sec.)": 47735
+ },
+ {
+   "Departure": "2021-07-31T23:45:24",
+   "Return": "2021-08-01T00:02:33",
+   "Departure station id": 12,
+   "Departure station name": "Kanavaranta",
+   "Return station id": 62,
+   "Return station name": "Välimerenkatu",
+   "Covered distance (m)": 2848,
+   "Duration (sec.)": 1025
+ },
+ {
+   "Departure": "2021-07-31T23:45:21",
+   "Return": "2021-07-31T23:59:57",
+   "Departure station id": 40,
+   "Departure station name": "Hakaniemi (M)",
+   "Return station id": 70,
+   "Return station name": "Sammonpuistikko",
+   "Covered distance (m)": 2613,
+   "Duration (sec.)": 872
+ },
+ {
+   "Departure": "2021-07-31T23:45:14",
+   "Return": "2021-08-01T00:12:34",
+   "Departure station id": 40,
+   "Departure station name": "Hakaniemi (M)",
+   "Return station id": 54,
+   "Return station name": "Gyldenintie",
+   "Covered distance (m)": 5776,
+   "Duration (sec.)": 1635
+ },
+ {
+   "Departure": "2021-07-31T23:45:10",
+   "Return": "2021-07-31T23:52:52",
+   "Departure station id": 19,
+   "Departure station name": "Rautatientori / itä",
+   "Return station id": 162,
+   "Return station name": "Leppäsuonaukio",
+   "Covered distance (m)": 1186,
+   "Duration (sec.)": 458
+ },
+ {
+   "Departure": "2021-07-31T23:45:09",
+   "Return": "2021-08-01T00:13:45",
+   "Departure station id": 65,
+   "Departure station name": "Hernesaarenranta",
+   "Return station id": 78,
+   "Return station name": "Messeniuksenkatu",
+   "Covered distance (m)": 4494,
+   "Duration (sec.)": 1711
+ },
+ {
+   "Departure": "2021-07-31T23:45:07",
+   "Return": "2021-07-31T23:54:08",
+   "Departure station id": 332,
+   "Departure station name": "Kontulankaari",
+   "Return station id": 338,
+   "Return station name": "Jakomäentie",
+   "Covered distance (m)": 2104,
+   "Duration (sec.)": 541
+ },
+ {
+   "Departure": "2021-07-31T23:44:43",
+   "Return": "2021-07-31T23:54:19",
+   "Departure station id": 313,
+   "Departure station name": "Rastila (M)",
+   "Return station id": 281,
+   "Return station name": "Puotila (M)",
+   "Covered distance (m)": 2495,
+   "Duration (sec.)": 571
+ },
+ {
+   "Departure": "2021-07-31T23:44:42",
+   "Return": "2021-07-31T23:48:57",
+   "Departure station id": 115,
+   "Departure station name": "Venttiilikuja",
+   "Return station id": 118,
+   "Return station name": "Fleminginkatu",
+   "Covered distance (m)": 778,
+   "Duration (sec.)": 250
+ },
+ {
+   "Departure": "2021-07-31T23:44:36",
+   "Return": "2021-07-31T23:58:50",
+   "Departure station id": 45,
+   "Departure station name": "Brahen kenttä",
+   "Return station id": 78,
+   "Return station name": "Messeniuksenkatu",
+   "Covered distance (m)": 2287,
+   "Duration (sec.)": 850
+ },
+ {
+   "Departure": "2021-07-31T23:44:33",
+   "Return": "2021-08-01T00:08:29",
+   "Departure station id": 135,
+   "Departure station name": "Velodrominrinne",
+   "Return station id": 403,
+   "Return station name": "Verkkosaari",
+   "Covered distance (m)": 3483,
+   "Duration (sec.)": 1431
+ },
+ {
+   "Departure": "2021-07-31T23:44:32",
+   "Return": "2021-07-31T23:55:41",
+   "Departure station id": 583,
+   "Departure station name": "Haukilahdensolmu",
+   "Return station id": 577,
+   "Return station name": "Olarinluoma",
+   "Covered distance (m)": 2093,
+   "Duration (sec.)": 665
+ },
+ {
+   "Departure": "2021-07-31T23:44:27",
+   "Return": "2021-08-01T00:02:34",
+   "Departure station id": 135,
+   "Departure station name": "Velodrominrinne",
+   "Return station id": 134,
+   "Return station name": "Haukilahdenkatu",
+   "Covered distance (m)": 2088,
+   "Duration (sec.)": 1082
+ },
+ {
+   "Departure": "2021-07-31T23:44:24",
+   "Return": "2021-07-31T23:48:31",
+   "Departure station id": 17,
+   "Departure station name": "Varsapuistikko",
+   "Return station id": 22,
+   "Return station name": "Rautatientori / länsi",
+   "Covered distance (m)": 682,
+   "Duration (sec.)": 242
+ },
+ {
+   "Departure": "2021-07-31T23:44:14",
+   "Return": "2021-08-01T00:04:38",
+   "Departure station id": 149,
+   "Departure station name": "Toinen linja",
+   "Return station id": 116,
+   "Return station name": "Linnanmäki",
+   "Covered distance (m)": 1907,
+   "Duration (sec.)": 1220
+ },
+ {
+   "Departure": "2021-07-31T23:44:10",
+   "Return": "2021-07-31T23:54:02",
+   "Departure station id": 94,
+   "Departure station name": "Laajalahden aukio",
+   "Return station id": 101,
+   "Return station name": "Munkkivuoren ostoskeskus",
+   "Covered distance (m)": 1423,
+   "Duration (sec.)": 587
+ },
+ {
+   "Departure": "2021-07-31T23:44:02",
+   "Return": "2021-08-01T00:12:27",
+   "Departure station id": 24,
+   "Departure station name": "Mannerheimintie",
+   "Return station id": 138,
+   "Return station name": "Arabiankatu",
+   "Covered distance (m)": 6784,
+   "Duration (sec.)": 1704
+ },
+ {
+   "Departure": "2021-07-31T23:44:02",
+   "Return": "2021-07-31T23:57:30",
+   "Departure station id": 45,
+   "Departure station name": "Brahen kenttä",
+   "Return station id": 78,
+   "Return station name": "Messeniuksenkatu",
+   "Covered distance (m)": 2295,
+   "Duration (sec.)": 804
+ },
+ {
+   "Departure": "2021-07-31T23:43:55",
+   "Return": "2021-08-01T00:04:18",
+   "Departure station id": 146,
+   "Departure station name": "Pohjolanaukio",
+   "Return station id": 121,
+   "Return station name": "Vilhonvuorenkatu",
+   "Covered distance (m)": 4657,
+   "Duration (sec.)": 1221
+ },
+ {
+   "Departure": "2021-07-31T23:43:50",
+   "Return": "2021-07-31T23:51:03",
+   "Departure station id": 344,
+   "Departure station name": "Puistolan asema",
+   "Return station id": 347,
+   "Return station name": "Sateenkaarentie",
+   "Covered distance (m)": 1711,
+   "Duration (sec.)": 429
+ },
+ {
+   "Departure": "2021-07-31T23:43:41",
+   "Return": "2021-08-01T00:04:22",
+   "Departure station id": 16,
+   "Departure station name": "Liisanpuistikko",
+   "Return station id": 88,
+   "Return station name": "Kiskontie",
+   "Covered distance (m)": 5276,
+   "Duration (sec.)": 1237
+ },
+ {
+   "Departure": "2021-07-31T23:43:20",
+   "Return": "2021-07-31T23:55:31",
+   "Departure station id": 8,
+   "Departure station name": "Vanha kirkkopuisto",
+   "Return station id": 48,
+   "Return station name": "Mastokatu",
+   "Covered distance (m)": 1813,
+   "Duration (sec.)": 724
+ },
+ {
+   "Departure": "2021-07-31T23:43:19",
+   "Return": "2021-07-31T23:46:33",
+   "Departure station id": 133,
+   "Departure station name": "Paavalinpuisto",
+   "Return station id": 128,
+   "Return station name": "Päijänteentie",
+   "Covered distance (m)": 628,
+   "Duration (sec.)": 189
+ },
+ {
+   "Departure": "2021-07-31T23:43:15",
+   "Return": "2021-08-01T00:00:26",
+   "Departure station id": 54,
+   "Departure station name": "Gyldenintie",
+   "Return station id": 23,
+   "Return station name": "Kiasma",
+   "Covered distance (m)": 4008,
+   "Duration (sec.)": 1026
+ },
+ {
+   "Departure": "2021-07-31T23:43:13",
+   "Return": "2021-08-01T00:07:30",
+   "Departure station id": 69,
+   "Departure station name": "Kalevankatu",
+   "Return station id": 9,
+   "Return station name": "Erottajan aukio",
+   "Covered distance (m)": 3834,
+   "Duration (sec.)": 1452
+ },
+ {
+   "Departure": "2021-07-31T23:43:08",
+   "Return": "2021-08-01T00:04:40",
+   "Departure station id": 150,
+   "Departure station name": "Töölönlahden puisto",
+   "Return station id": 113,
+   "Return station name": "Pasilan asema",
+   "Covered distance (m)": 3528,
+   "Duration (sec.)": 1290
+ },
+ {
+   "Departure": "2021-07-31T23:43:01",
+   "Return": "2021-08-01T00:02:22",
+   "Departure station id": 113,
+   "Departure station name": "Pasilan asema",
+   "Return station id": 212,
+   "Return station name": "Tunnelitie",
+   "Covered distance (m)": 3532,
+   "Duration (sec.)": 1157
+ },
+ {
+   "Departure": "2021-07-31T23:42:45",
+   "Return": "2021-07-31T23:55:31",
+   "Departure station id": 8,
+   "Departure station name": "Vanha kirkkopuisto",
+   "Return station id": 48,
+   "Return station name": "Mastokatu",
+   "Covered distance (m)": 1717,
+   "Duration (sec.)": 760
+ },
+ {
+   "Departure": "2021-07-31T23:42:41",
+   "Return": "2021-07-31T23:43:04",
+   "Departure station id": 583,
+   "Departure station name": "Haukilahdensolmu",
+   "Return station id": 583,
+   "Return station name": "Haukilahdensolmu",
+   "Covered distance (m)": 0,
+   "Duration (sec.)": 19
+ },
+ {
+   "Departure": "2021-07-31T23:42:33",
+   "Return": "2021-07-31T23:43:31",
+   "Departure station id": 344,
+   "Departure station name": "Puistolan asema",
+   "Return station id": 344,
+   "Return station name": "Puistolan asema",
+   "Covered distance (m)": 12,
+   "Duration (sec.)": 54
+ },
+ {
+   "Departure": "2021-07-31T23:42:32",
+   "Return": "2021-07-31T23:42:41",
+   "Departure station id": 150,
+   "Departure station name": "Töölönlahden puisto",
+   "Return station id": 150,
+   "Return station name": "Töölönlahden puisto",
+   "Covered distance (m)": 0,
+   "Duration (sec.)": 8
+ },
+ {
+   "Departure": "2021-07-31T23:42:32",
+   "Return": "2021-08-01T00:08:12",
+   "Departure station id": 69,
+   "Departure station name": "Kalevankatu",
+   "Return station id": 404,
+   "Return station name": "Sompasaari",
+   "Covered distance (m)": 4694,
+   "Duration (sec.)": 1536
+ },
+ {
+   "Departure": "2021-07-31T23:42:22",
+   "Return": "2021-08-01T00:06:26",
+   "Departure station id": 150,
+   "Departure station name": "Töölönlahden puisto",
+   "Return station id": 113,
+   "Return station name": "Pasilan asema",
+   "Covered distance (m)": 3355,
+   "Duration (sec.)": 1438
+ },
+ {
+   "Departure": "2021-07-31T23:42:21",
+   "Return": "2021-07-31T23:53:29",
+   "Departure station id": 59,
+   "Departure station name": "Salmisaarenranta",
+   "Return station id": 71,
+   "Return station name": "Hietaniemenkatu",
+   "Covered distance (m)": 2356,
+   "Duration (sec.)": 663
+ },
+ {
+   "Departure": "2021-07-31T23:42:08",
+   "Return": "2021-08-01T00:07:28",
+   "Departure station id": 150,
+   "Departure station name": "Töölönlahden puisto",
+   "Return station id": 5,
+   "Return station name": "Sepänkatu",
+   "Covered distance (m)": 4277,
+   "Duration (sec.)": 1520
+ },
+ {
+   "Departure": "2021-07-31T23:42:02",
+   "Return": "2021-07-31T23:48:08",
+   "Departure station id": 40,
+   "Departure station name": "Hakaniemi (M)",
+   "Return station id": 22,
+   "Return station name": "Rautatientori / länsi",
+   "Covered distance (m)": 1366,
+   "Duration (sec.)": 361
+ },
+ {
+   "Departure": "2021-07-31T23:41:57",
+   "Return": "2021-07-31T23:52:12",
+   "Departure station id": 573,
+   "Departure station name": "Urheilupuisto (M)",
+   "Return station id": 649,
+   "Return station name": "Lystimäensilta",
+   "Covered distance (m)": 1772,
+   "Duration (sec.)": 610
+ },
+ {
+   "Departure": "2021-07-31T23:41:47",
+   "Return": "2021-07-31T23:46:58",
+   "Departure station id": 402,
+   "Departure station name": "Bermudankuja",
+   "Return station id": 62,
+   "Return station name": "Välimerenkatu",
+   "Covered distance (m)": 667,
+   "Duration (sec.)": 309
+ },
+ {
+   "Departure": "2021-07-31T23:41:47",
+   "Return": "2021-07-31T23:57:35",
+   "Departure station id": 386,
+   "Departure station name": "Kannelmäen liikuntapuisto",
+   "Return station id": 222,
+   "Return station name": "Huovitie",
+   "Covered distance (m)": 3081,
+   "Duration (sec.)": 944
+ },
+ {
+   "Departure": "2021-07-31T23:41:38",
+   "Return": "2021-07-31T23:41:51",
+   "Departure station id": 150,
+   "Departure station name": "Töölönlahden puisto",
+   "Return station id": 150,
+   "Return station name": "Töölönlahden puisto",
+   "Covered distance (m)": 0,
+   "Duration (sec.)": 12
+ },
+ {
+   "Departure": "2021-07-31T23:41:38",
+   "Return": "2021-07-31T23:51:47",
+   "Departure station id": 260,
+   "Departure station name": "Herttoniemi (M)",
+   "Return station id": 264,
+   "Return station name": "Eränkävijäntori",
+   "Covered distance (m)": 1278,
+   "Duration (sec.)": 605
+ },
+ {
+   "Departure": "2021-07-31T23:41:37",
+   "Return": "2021-07-31T23:49:25",
+   "Departure station id": 86,
+   "Departure station name": "Kuusitie",
+   "Return station id": 211,
+   "Return station name": "Haagan tori",
+   "Covered distance (m)": 1968,
+   "Duration (sec.)": 464
+ },
+ {
+   "Departure": "2021-07-31T23:41:31",
+   "Return": "2021-07-31T23:50:26",
+   "Departure station id": 12,
+   "Departure station name": "Kanavaranta",
+   "Return station id": 8,
+   "Return station name": "Vanha kirkkopuisto",
+   "Covered distance (m)": 1217,
+   "Duration (sec.)": 532
+ },
+ {
+   "Departure": "2021-07-31T23:41:28",
+   "Return": "2021-08-01T00:18:48",
+   "Departure station id": 280,
+   "Departure station name": "Puotilan ostoskeskus",
+   "Return station id": 138,
+   "Return station name": "Arabiankatu",
+   "Covered distance (m)": 10540,
+   "Duration (sec.)": 2237
+ },
+ {
+   "Departure": "2021-07-31T23:41:09",
+   "Return": "2021-07-31T23:41:38",
+   "Departure station id": 150,
+   "Departure station name": "Töölönlahden puisto",
+   "Return station id": 150,
+   "Return station name": "Töölönlahden puisto",
+   "Covered distance (m)": 0,
+   "Duration (sec.)": 25
+ },
+ {
+   "Departure": "2021-07-31T23:40:58",
+   "Return": "2021-07-31T23:51:47",
+   "Departure station id": 45,
+   "Departure station name": "Brahen kenttä",
+   "Return station id": 42,
+   "Return station name": "Haapaniemenkatu",
+   "Covered distance (m)": 1096,
+   "Duration (sec.)": 644
+ },
+ {
+   "Departure": "2021-07-31T23:40:52",
+   "Return": "2021-07-31T23:51:22",
+   "Departure station id": 12,
+   "Departure station name": "Kanavaranta",
+   "Return station id": 25,
+   "Return station name": "Narinkka",
+   "Covered distance (m)": 1631,
+   "Duration (sec.)": 626
+ },
+ {
+   "Departure": "2021-07-31T23:40:49",
+   "Return": "2021-07-31T23:44:39",
+   "Departure station id": 367,
+   "Departure station name": "Karhusuontie",
+   "Return station id": 368,
+   "Return station name": "Pukinmäen liikuntapuisto",
+   "Covered distance (m)": 577,
+   "Duration (sec.)": 226
+ },
+ {
+   "Departure": "2021-07-31T23:40:47",
+   "Return": "2021-08-01T00:00:54",
+   "Departure station id": 571,
+   "Departure station name": "Tapiolan urheilupuisto",
+   "Return station id": 631,
+   "Return station name": "Friisilänaukio",
+   "Covered distance (m)": 4310,
+   "Duration (sec.)": 1202
+ },
+ {
+   "Departure": "2021-07-31T23:40:43",
+   "Return": "2021-07-31T23:55:34",
+   "Departure station id": 262,
+   "Departure station name": "Siilitie (M)",
+   "Return station id": 240,
+   "Return station name": "Viikin normaalikoulu",
+   "Covered distance (m)": 3257,
+   "Duration (sec.)": 890
+ },
+ {
+   "Departure": "2021-07-31T23:40:42",
+   "Return": "2021-07-31T23:59:09",
+   "Departure station id": 393,
+   "Departure station name": "Malminkartanon asema",
+   "Return station id": 392,
+   "Return station name": "Viljelijäntie",
+   "Covered distance (m)": 789,
+   "Duration (sec.)": 1105
+ },
+ {
+   "Departure": "2021-07-31T23:40:42",
+   "Return": "2021-07-31T23:52:38",
+   "Departure station id": 276,
+   "Departure station name": "Puotinharju",
+   "Return station id": 270,
+   "Return station name": "Tulisuontie",
+   "Covered distance (m)": 2064,
+   "Duration (sec.)": 712
+ },
+ {
+   "Departure": "2021-07-31T23:40:41",
+   "Return": "2021-07-31T23:54:06",
+   "Departure station id": 113,
+   "Departure station name": "Pasilan asema",
+   "Return station id": 133,
+   "Return station name": "Paavalinpuisto",
+   "Covered distance (m)": 1954,
+   "Duration (sec.)": 801
+ },
+ {
+   "Departure": "2021-07-31T23:40:39",
+   "Return": "2021-07-31T23:45:10",
+   "Departure station id": 76,
+   "Departure station name": "Olympiastadion",
+   "Return station id": 39,
+   "Return station name": "Ooppera",
+   "Covered distance (m)": 420,
+   "Duration (sec.)": 267
+ },
+ {
+   "Departure": "2021-07-31T23:40:27",
+   "Return": "2021-07-31T23:50:58",
+   "Departure station id": 12,
+   "Departure station name": "Kanavaranta",
+   "Return station id": 8,
+   "Return station name": "Vanha kirkkopuisto",
+   "Covered distance (m)": 1233,
+   "Duration (sec.)": 628
+ },
+ {
+   "Departure": "2021-07-31T23:40:26",
+   "Return": "2021-07-31T23:53:04",
+   "Departure station id": 353,
+   "Departure station name": "Helluntairaitti",
+   "Return station id": 339,
+   "Return station name": "Alppikylä",
+   "Covered distance (m)": 2164,
+   "Duration (sec.)": 753
+ },
+ {
+   "Departure": "2021-07-31T23:40:23",
+   "Return": "2021-07-31T23:56:20",
+   "Departure station id": 129,
+   "Departure station name": "Pernajantie",
+   "Return station id": 86,
+   "Return station name": "Kuusitie",
+   "Covered distance (m)": 3827,
+   "Duration (sec.)": 955
+ },
+ {
+   "Departure": "2021-07-31T23:40:08",
+   "Return": "2021-07-31T23:47:53",
+   "Departure station id": 308,
+   "Departure station name": "Mosaiikkitori",
+   "Return station id": 317,
+   "Return station name": "Haapasaarentie",
+   "Covered distance (m)": 1681,
+   "Duration (sec.)": 464
+ },
+ {
+   "Departure": "2021-07-31T23:40:02",
+   "Return": "2021-07-31T23:55:23",
+   "Departure station id": 1,
+   "Departure station name": "Kaivopuisto",
+   "Return station id": 23,
+   "Return station name": "Kiasma",
+   "Covered distance (m)": 2082,
+   "Duration (sec.)": 916
+ },
+ {
+   "Departure": "2021-07-31T23:39:55",
+   "Return": "2021-07-31T23:43:28",
+   "Departure station id": 360,
+   "Departure station name": "Malmin asema",
+   "Return station id": 361,
+   "Return station name": "Huhtakuja",
+   "Covered distance (m)": 708,
+   "Duration (sec.)": 208
+ },
+ {
+   "Departure": "2021-07-31T23:39:51",
+   "Return": "2021-08-01T00:00:29",
+   "Departure station id": 127,
+   "Departure station name": "Teurastamo",
+   "Return station id": 19,
+   "Return station name": "Rautatientori / itä",
+   "Covered distance (m)": 3455,
+   "Duration (sec.)": 1232
+ },
+ {
+   "Departure": "2021-07-31T23:39:48",
+   "Return": "2021-07-31T23:56:48",
+   "Departure station id": 122,
+   "Departure station name": "Lintulahdenkatu",
+   "Return station id": 4,
+   "Return station name": "Viiskulma",
+   "Covered distance (m)": 3698,
+   "Duration (sec.)": 1016
+ },
+ {
+   "Departure": "2021-07-31T23:39:47",
+   "Return": "2021-07-31T23:51:01",
+   "Departure station id": 12,
+   "Departure station name": "Kanavaranta",
+   "Return station id": 8,
+   "Return station name": "Vanha kirkkopuisto",
+   "Covered distance (m)": 1225,
+   "Duration (sec.)": 672
+ },
+ {
+   "Departure": "2021-07-31T23:39:43",
+   "Return": "2021-07-31T23:52:52",
+   "Departure station id": 369,
+   "Departure station name": "Pukinmäen asema",
+   "Return station id": 237,
+   "Return station name": "Aulangontie",
+   "Covered distance (m)": 2044,
+   "Duration (sec.)": 784
+ },
+ {
+   "Departure": "2021-07-31T23:39:38",
+   "Return": "2021-07-31T23:53:32",
+   "Departure station id": 353,
+   "Departure station name": "Helluntairaitti",
+   "Return station id": 339,
+   "Return station name": "Alppikylä",
+   "Covered distance (m)": 2070,
+   "Duration (sec.)": 829
+ },
+ {
+   "Departure": "2021-07-31T23:39:37",
+   "Return": "2021-07-31T23:46:47",
+   "Departure station id": 101,
+   "Departure station name": "Munkkivuoren ostoskeskus",
+   "Return station id": 101,
+   "Return station name": "Munkkivuoren ostoskeskus",
+   "Covered distance (m)": 1335,
+   "Duration (sec.)": 426
+ },
+ {
+   "Departure": "2021-07-31T23:39:36",
+   "Return": "2021-07-31T23:54:35",
+   "Departure station id": 12,
+   "Departure station name": "Kanavaranta",
+   "Return station id": 8,
+   "Return station name": "Vanha kirkkopuisto",
+   "Covered distance (m)": 1265,
+   "Duration (sec.)": 897
+ },
+ {
+   "Departure": "2021-07-31T23:39:33",
+   "Return": "2021-07-31T23:50:08",
+   "Departure station id": 259,
+   "Departure station name": "Petter Wetterin tie",
+   "Return station id": 270,
+   "Return station name": "Tulisuontie",
+   "Covered distance (m)": 2272,
+   "Duration (sec.)": 631
+ },
+ {
+   "Departure": "2021-07-31T23:39:32",
+   "Return": "2021-07-31T23:50:09",
+   "Departure station id": 12,
+   "Departure station name": "Kanavaranta",
+   "Return station id": 8,
+   "Return station name": "Vanha kirkkopuisto",
+   "Covered distance (m)": 1272,
+   "Duration (sec.)": 640
+ },
+ {
+   "Departure": "2021-07-31T23:39:16",
+   "Return": "2021-07-31T23:51:01",
+   "Departure station id": 12,
+   "Departure station name": "Kanavaranta",
+   "Return station id": 8,
+   "Return station name": "Vanha kirkkopuisto",
+   "Covered distance (m)": 1255,
+   "Duration (sec.)": 701
+ },
+ {
+   "Departure": "2021-07-31T23:39:15",
+   "Return": "2021-07-31T23:39:46",
+   "Departure station id": 129,
+   "Departure station name": "Pernajantie",
+   "Return station id": 129,
+   "Return station name": "Pernajantie",
+   "Covered distance (m)": 12,
+   "Duration (sec.)": 26
+ },
+ {
+   "Departure": "2021-07-31T23:39:11",
+   "Return": "2021-07-31T23:51:34",
+   "Departure station id": 12,
+   "Departure station name": "Kanavaranta",
+   "Return station id": 8,
+   "Return station name": "Vanha kirkkopuisto",
+   "Covered distance (m)": 1251,
+   "Duration (sec.)": 739
+ },
+ {
+   "Departure": "2021-07-31T23:39:11",
+   "Return": "2021-07-31T23:53:48",
+   "Departure station id": 278,
+   "Departure station name": "Puotilantie",
+   "Return station id": 319,
+   "Return station name": "Purjetie",
+   "Covered distance (m)": 2983,
+   "Duration (sec.)": 872
+ },
+ {
+   "Departure": "2021-07-31T23:38:53",
+   "Return": "2021-08-01T00:02:06",
+   "Departure station id": 260,
+   "Departure station name": "Herttoniemi (M)",
+   "Return station id": 248,
+   "Return station name": "Gunillantie",
+   "Covered distance (m)": 3957,
+   "Duration (sec.)": 1389
+ },
+ {
+   "Departure": "2021-07-31T23:38:49",
+   "Return": "2021-07-31T23:42:22",
+   "Departure station id": 123,
+   "Departure station name": "Näkinsilta",
+   "Return station id": 41,
+   "Return station name": "Ympyrätalo",
+   "Covered distance (m)": 475,
+   "Duration (sec.)": 209
+ },
+ {
+   "Departure": "2021-07-31T23:38:37",
+   "Return": "2021-07-31T23:59:26",
+   "Departure station id": 111,
+   "Departure station name": "Esterinportti",
+   "Return station id": 228,
+   "Return station name": "Kustaankartano",
+   "Covered distance (m)": 4447,
+   "Duration (sec.)": 1244
+ },
+ {
+   "Departure": "2021-07-31T23:38:21",
+   "Return": "2021-07-31T23:50:37",
+   "Departure station id": 84,
+   "Departure station name": "Paciuksenkatu",
+   "Return station id": 100,
+   "Return station name": "Teljäntie",
+   "Covered distance (m)": 3018,
+   "Duration (sec.)": 724
+ },
+ {
+   "Departure": "2021-07-31T23:38:03",
+   "Return": "2021-07-31T23:38:26",
+   "Departure station id": 260,
+   "Departure station name": "Herttoniemi (M)",
+   "Return station id": 260,
+   "Return station name": "Herttoniemi (M)",
+   "Covered distance (m)": 0,
+   "Duration (sec.)": 18
+ },
+ {
+   "Departure": "2021-07-31T23:37:56",
+   "Return": "2021-07-31T23:54:23",
+   "Departure station id": 374,
+   "Departure station name": "Etupellonpuisto",
+   "Return station id": 358,
+   "Return station name": "Syystie",
+   "Covered distance (m)": 3671,
+   "Duration (sec.)": 982
+ },
+ {
+   "Departure": "2021-07-31T23:37:44",
+   "Return": "2021-07-31T23:44:37",
+   "Departure station id": 555,
+   "Departure station name": "Kalevalantie",
+   "Return station id": 519,
+   "Return station name": "Tapionaukio",
+   "Covered distance (m)": 1143,
+   "Duration (sec.)": 409
+ },
+ {
+   "Departure": "2021-07-31T23:37:40",
+   "Return": "2021-07-31T23:41:59",
+   "Departure station id": 162,
+   "Departure station name": "Leppäsuonaukio",
+   "Return station id": 69,
+   "Return station name": "Kalevankatu",
+   "Covered distance (m)": 612,
+   "Duration (sec.)": 254
+ },
+ {
+   "Departure": "2021-07-31T23:37:27",
+   "Return": "2021-08-01T00:06:55",
+   "Departure station id": 208,
+   "Departure station name": "Valimotie",
+   "Return station id": 103,
+   "Return station name": "Vihdintie",
+   "Covered distance (m)": 2581,
+   "Duration (sec.)": 1764
+ },
+ {
+   "Departure": "2021-07-31T23:37:23",
+   "Return": "2021-07-31T23:43:51",
+   "Departure station id": 133,
+   "Departure station name": "Paavalinpuisto",
+   "Return station id": 136,
+   "Return station name": "Sofianlehdonkatu",
+   "Covered distance (m)": 1184,
+   "Duration (sec.)": 384
+ },
+ {
+   "Departure": "2021-07-31T23:37:15",
+   "Return": "2021-07-31T23:51:07",
+   "Departure station id": 545,
+   "Departure station name": "Sähkömies",
+   "Return station id": 518,
+   "Return station name": "Tuulimäki",
+   "Covered distance (m)": 2630,
+   "Duration (sec.)": 829
+ },
+ {
+   "Departure": "2021-07-31T23:37:14",
+   "Return": "2021-08-01T00:01:30",
+   "Departure station id": 120,
+   "Departure station name": "Mäkelänkatu",
+   "Return station id": 78,
+   "Return station name": "Messeniuksenkatu",
+   "Covered distance (m)": 3180,
+   "Duration (sec.)": 838
+ },
+ {
+   "Departure": "2021-07-31T23:37:13",
+   "Return": "2021-07-31T23:44:35",
+   "Departure station id": 127,
+   "Departure station name": "Teurastamo",
+   "Return station id": 134,
+   "Return station name": "Haukilahdenkatu",
+   "Covered distance (m)": 1204,
+   "Duration (sec.)": 436
+ },
+ {
+   "Departure": "2021-07-31T23:37:12",
+   "Return": "2021-07-31T23:44:52",
+   "Departure station id": 2,
+   "Departure station name": "Laivasillankatu",
+   "Return station id": 12,
+   "Return station name": "Kanavaranta",
+   "Covered distance (m)": 1225,
+   "Duration (sec.)": 457
+ },
+ {
+   "Departure": "2021-07-31T23:37:07",
+   "Return": "2021-07-31T23:44:26",
+   "Departure station id": 2,
+   "Departure station name": "Laivasillankatu",
+   "Return station id": 12,
+   "Return station name": "Kanavaranta",
+   "Covered distance (m)": 1188,
+   "Duration (sec.)": 434
+ },
+ {
+   "Departure": "2021-07-31T23:36:59",
+   "Return": "2021-07-31T23:44:16",
+   "Departure station id": 555,
+   "Departure station name": "Kalevalantie",
+   "Return station id": 519,
+   "Return station name": "Tapionaukio",
+   "Covered distance (m)": 1221,
+   "Duration (sec.)": 435
+ },
+ {
+   "Departure": "2021-07-31T23:36:47",
+   "Return": "2021-08-01T11:04:51",
+   "Departure station id": 573,
+   "Departure station name": "Urheilupuisto (M)",
+   "Return station id": 575,
+   "Return station name": "Tontunmäentie",
+   "Covered distance (m)": 604,
+   "Duration (sec.)": 41278
+ },
+ {
+   "Departure": "2021-07-31T23:36:43",
+   "Return": "2021-07-31T23:40:05",
+   "Departure station id": 213,
+   "Departure station name": "Huopalahden asema",
+   "Return station id": 211,
+   "Return station name": "Haagan tori",
+   "Covered distance (m)": 851,
+   "Duration (sec.)": 197
+ },
+ {
+   "Departure": "2021-07-31T23:36:40",
+   "Return": "2021-07-31T23:45:17",
+   "Departure station id": 16,
+   "Departure station name": "Liisanpuistikko",
+   "Return station id": 40,
+   "Return station name": "Hakaniemi (M)",
+   "Covered distance (m)": 1070,
+   "Duration (sec.)": 512
+ },
+ {
+   "Departure": "2021-07-31T23:36:32",
+   "Return": "2021-07-31T23:41:26",
+   "Departure station id": 517,
+   "Departure station name": "Länsituuli",
+   "Return station id": 515,
+   "Return station name": "Oravannahkatori",
+   "Covered distance (m)": 690,
+   "Duration (sec.)": 290
+ },
+ {
+   "Departure": "2021-07-31T23:36:31",
+   "Return": "2021-07-31T23:39:01",
+   "Departure station id": 259,
+   "Departure station name": "Petter Wetterin tie",
+   "Return station id": 256,
+   "Return station name": "Herttoniemenranta",
+   "Covered distance (m)": 598,
+   "Duration (sec.)": 150
+ },
+ {
+   "Departure": "2021-07-31T23:36:27",
+   "Return": "2021-07-31T23:46:25",
+   "Departure station id": 579,
+   "Departure station name": "Niittymaa",
+   "Return station id": 557,
+   "Return station name": "Louhentori",
+   "Covered distance (m)": 2387,
+   "Duration (sec.)": 596
+ },
+ {
+   "Departure": "2021-07-31T23:36:23",
+   "Return": "2021-07-31T23:43:24",
+   "Departure station id": 307,
+   "Departure station name": "Ulappasilta",
+   "Return station id": 320,
+   "Return station name": "Koukkusaarentie",
+   "Covered distance (m)": 996,
+   "Duration (sec.)": 417
+ },
+ {
+   "Departure": "2021-07-31T23:36:17",
+   "Return": "2021-07-31T23:42:07",
+   "Departure station id": 307,
+   "Departure station name": "Ulappasilta",
+   "Return station id": 320,
+   "Return station name": "Koukkusaarentie",
+   "Covered distance (m)": 1010,
+   "Duration (sec.)": 345
+ },
+ {
+   "Departure": "2021-07-31T23:36:05",
+   "Return": "2021-07-31T23:49:04",
+   "Departure station id": 76,
+   "Departure station name": "Olympiastadion",
+   "Return station id": 87,
+   "Return station name": "Kustaankatu",
+   "Covered distance (m)": 2193,
+   "Duration (sec.)": 774
+ },
+ {
+   "Departure": "2021-07-31T23:35:45",
+   "Return": "2021-07-31T23:48:16",
+   "Departure station id": 30,
+   "Departure station name": "Itämerentori",
+   "Return station id": 54,
+   "Return station name": "Gyldenintie",
+   "Covered distance (m)": 2636,
+   "Duration (sec.)": 746
+ },
+ {
+   "Departure": "2021-07-31T23:35:44",
+   "Return": "2021-07-31T23:39:10",
+   "Departure station id": 368,
+   "Departure station name": "Pukinmäen liikuntapuisto",
+   "Return station id": 369,
+   "Return station name": "Pukinmäen asema",
+   "Covered distance (m)": 520,
+   "Duration (sec.)": 201
+ },
+ {
+   "Departure": "2021-07-31T23:35:41",
+   "Return": "2021-07-31T23:41:02",
+   "Departure station id": 625,
+   "Departure station name": "Suomenlahdentie",
+   "Return station id": 641,
+   "Return station name": "Komeetankatu",
+   "Covered distance (m)": 1006,
+   "Duration (sec.)": 317
+ },
+ {
+   "Departure": "2021-07-31T23:35:35",
+   "Return": "2021-07-31T23:54:11",
+   "Departure station id": 21,
+   "Departure station name": "Töölönlahdenkatu",
+   "Return station id": 132,
+   "Return station name": "Hollolantie",
+   "Covered distance (m)": 3614,
+   "Duration (sec.)": 1112
+ },
+ {
+   "Departure": "2021-07-31T23:35:19",
+   "Return": "2021-07-31T23:51:40",
+   "Departure station id": 22,
+   "Departure station name": "Rautatientori / länsi",
+   "Return station id": 61,
+   "Return station name": "Länsisatamankatu",
+   "Covered distance (m)": 3540,
+   "Duration (sec.)": 980
+ },
+ {
+   "Departure": "2021-07-31T23:35:18",
+   "Return": "2021-07-31T23:42:32",
+   "Departure station id": 8,
+   "Departure station name": "Vanha kirkkopuisto",
+   "Return station id": 15,
+   "Return station name": "Ritarikatu",
+   "Covered distance (m)": 1323,
+   "Duration (sec.)": 430
+ },
+ {
+   "Departure": "2021-07-31T23:35:13",
+   "Return": "2021-07-31T23:43:38",
+   "Departure station id": 621,
+   "Departure station name": "Hauenkalliontie",
+   "Return station id": 583,
+   "Return station name": "Haukilahdensolmu",
+   "Covered distance (m)": 1345,
+   "Duration (sec.)": 501
+ },
+ {
+   "Departure": "2021-07-31T23:35:12",
+   "Return": "2021-07-31T23:45:30",
+   "Departure station id": 23,
+   "Departure station name": "Kiasma",
+   "Return station id": 75,
+   "Return station name": "Korjaamo",
+   "Covered distance (m)": 3034,
+   "Duration (sec.)": 614
+ },
+ {
+   "Departure": "2021-07-31T23:35:11",
+   "Return": "2021-07-31T23:49:39",
+   "Departure station id": 21,
+   "Departure station name": "Töölönlahdenkatu",
+   "Return station id": 61,
+   "Return station name": "Länsisatamankatu",
+   "Covered distance (m)": 2983,
+   "Duration (sec.)": 866
+ },
+ {
+   "Departure": "2021-07-31T23:34:49",
+   "Return": "2021-07-31T23:44:17",
+   "Departure station id": 39,
+   "Departure station name": "Ooppera",
+   "Return station id": 24,
+   "Return station name": "Mannerheimintie",
+   "Covered distance (m)": 1611,
+   "Duration (sec.)": 564
+ },
+ {
+   "Departure": "2021-07-31T23:34:46",
+   "Return": "2021-07-31T23:37:46",
+   "Departure station id": 145,
+   "Departure station name": "Pohjolankatu",
+   "Return station id": 146,
+   "Return station name": "Pohjolanaukio",
+   "Covered distance (m)": 722,
+   "Duration (sec.)": 176
+ },
+ {
+   "Departure": "2021-07-31T23:34:46",
+   "Return": "2021-07-31T23:40:17",
+   "Departure station id": 24,
+   "Departure station name": "Mannerheimintie",
+   "Return station id": 12,
+   "Return station name": "Kanavaranta",
+   "Covered distance (m)": 1129,
+   "Duration (sec.)": 327
+ },
+ {
+   "Departure": "2021-07-31T23:34:42",
+   "Return": "2021-07-31T23:46:19",
+   "Departure station id": 19,
+   "Departure station name": "Rautatientori / itä",
+   "Return station id": 62,
+   "Return station name": "Välimerenkatu",
+   "Covered distance (m)": 2564,
+   "Duration (sec.)": 692
+ },
+ {
+   "Departure": "2021-07-31T23:34:30",
+   "Return": "2021-07-31T23:48:58",
+   "Departure station id": 205,
+   "Departure station name": "Ilmalan asema",
+   "Return station id": 218,
+   "Return station name": "Pohjois-Haagan asema",
+   "Covered distance (m)": 3789,
+   "Duration (sec.)": 864
+ },
+ {
+   "Departure": "2021-07-31T23:34:30",
+   "Return": "2021-07-31T23:39:02",
+   "Departure station id": 113,
+   "Departure station name": "Pasilan asema",
+   "Return station id": 131,
+   "Return station name": "Elimäenkatu",
+   "Covered distance (m)": 980,
+   "Duration (sec.)": 269
+ },
+ {
+   "Departure": "2021-07-31T23:34:11",
+   "Return": "2021-07-31T23:49:58",
+   "Departure station id": 71,
+   "Departure station name": "Hietaniemenkatu",
+   "Return station id": 26,
+   "Return station name": "Kamppi (M)",
+   "Covered distance (m)": 1547,
+   "Duration (sec.)": 941
+ },
+ {
+   "Departure": "2021-07-31T23:34:09",
+   "Return": "2021-07-31T23:36:11",
+   "Departure station id": 78,
+   "Departure station name": "Messeniuksenkatu",
+   "Return station id": 77,
+   "Return station name": "Nordenskiöldinaukio",
+   "Covered distance (m)": 319,
+   "Duration (sec.)": 124
+ },
+ {
+   "Departure": "2021-07-31T23:34:01",
+   "Return": "2021-07-31T23:37:12",
+   "Departure station id": 561,
+   "Departure station name": "Koivu-Mankkaa",
+   "Return station id": 571,
+   "Return station name": "Tapiolan urheilupuisto",
+   "Covered distance (m)": 692,
+   "Duration (sec.)": 187
+ },
+ {
+   "Departure": "2021-07-31T23:34:00",
+   "Return": "2021-07-31T23:37:57",
+   "Departure station id": 366,
+   "Departure station name": "Tilketori",
+   "Return station id": 368,
+   "Return station name": "Pukinmäen liikuntapuisto",
+   "Covered distance (m)": 784,
+   "Duration (sec.)": 232
+ },
+ {
+   "Departure": "2021-07-31T23:33:59",
+   "Return": "2021-07-31T23:58:54",
+   "Departure station id": 142,
+   "Departure station name": "Koskelantie",
+   "Return station id": 8,
+   "Return station name": "Vanha kirkkopuisto",
+   "Covered distance (m)": 6546,
+   "Duration (sec.)": 1491
+ },
+ {
+   "Departure": "2021-07-31T23:33:58",
+   "Return": "2021-07-31T23:50:26",
+   "Departure station id": 162,
+   "Departure station name": "Leppäsuonaukio",
+   "Return station id": 142,
+   "Return station name": "Koskelantie",
+   "Covered distance (m)": 3606,
+   "Duration (sec.)": 987
+ },
+ {
+   "Departure": "2021-07-31T23:33:55",
+   "Return": "2021-07-31T23:53:00",
+   "Departure station id": 753,
+   "Departure station name": "Linnuntie",
+   "Return station id": 214,
+   "Return station name": "Valimon asema",
+   "Covered distance (m)": 4608,
+   "Duration (sec.)": 1140
+ },
+ {
+   "Departure": "2021-07-31T23:33:43",
+   "Return": "2021-08-01T00:02:14",
+   "Departure station id": 112,
+   "Departure station name": "Rautatieläisenkatu",
+   "Return station id": 377,
+   "Return station name": "Paloheinän maja",
+   "Covered distance (m)": 6516,
+   "Duration (sec.)": 1706
+ },
+ {
+   "Departure": "2021-07-31T23:33:36",
+   "Return": "2021-07-31T23:39:00",
+   "Departure station id": 387,
+   "Departure station name": "Kauppakeskus Kaari",
+   "Return station id": 387,
+   "Return station name": "Kauppakeskus Kaari",
+   "Covered distance (m)": 612,
+   "Duration (sec.)": 320
+ },
+ {
+   "Departure": "2021-07-31T23:33:35",
+   "Return": "2021-07-31T23:50:30",
+   "Departure station id": 56,
+   "Departure station name": "Luoteisväylä",
+   "Return station id": 28,
+   "Return station name": "Lastenlehto",
+   "Covered distance (m)": 4235,
+   "Duration (sec.)": 1011
+ },
+ {
+   "Departure": "2021-07-31T23:33:34",
+   "Return": "2021-07-31T23:53:34",
+   "Departure station id": 753,
+   "Departure station name": "Linnuntie",
+   "Return station id": 214,
+   "Return station name": "Valimon asema",
+   "Covered distance (m)": 4663,
+   "Duration (sec.)": 1194
+ },
+ {
+   "Departure": "2021-07-31T23:33:34",
+   "Return": "2021-07-31T23:41:58",
+   "Departure station id": 48,
+   "Departure station name": "Mastokatu",
+   "Return station id": 16,
+   "Return station name": "Liisanpuistikko",
+   "Covered distance (m)": 1388,
+   "Duration (sec.)": 499
+ },
+ {
+   "Departure": "2021-07-31T23:33:31",
+   "Return": "2021-07-31T23:36:56",
+   "Departure station id": 61,
+   "Departure station name": "Länsisatamankatu",
+   "Return station id": 30,
+   "Return station name": "Itämerentori",
+   "Covered distance (m)": 679,
+   "Duration (sec.)": 199
+ },
+ {
+   "Departure": "2021-07-31T23:33:22",
+   "Return": "2021-08-01T00:05:57",
+   "Departure station id": 78,
+   "Departure station name": "Messeniuksenkatu",
+   "Return station id": 104,
+   "Return station name": "Kriikunakuja",
+   "Covered distance (m)": 2619,
+   "Duration (sec.)": 642
+ },
+ {
+   "Departure": "2021-07-31T23:33:21",
+   "Return": "2021-07-31T23:38:34",
+   "Departure station id": 581,
+   "Departure station name": "Niittykumpu (M)",
+   "Return station id": 649,
+   "Return station name": "Lystimäensilta",
+   "Covered distance (m)": 861,
+   "Duration (sec.)": 309
+ },
+ {
+   "Departure": "2021-07-31T23:33:20",
+   "Return": "2021-07-31T23:49:43",
+   "Departure station id": 225,
+   "Departure station name": "Maunula",
+   "Return station id": 373,
+   "Return station name": "Mikkolantie",
+   "Covered distance (m)": 2948,
+   "Duration (sec.)": 977
+ },
+ {
+   "Departure": "2021-07-31T23:33:09",
+   "Return": "2021-08-01T22:51:53",
+   "Departure station id": 150,
+   "Departure station name": "Töölönlahden puisto",
+   "Return station id": 39,
+   "Return station name": "Ooppera",
+   "Covered distance (m)": 1193,
+   "Duration (sec.)": 410
+ },
+ {
+   "Departure": "2021-07-31T23:33:02",
+   "Return": "2021-07-31T23:42:30",
+   "Departure station id": 48,
+   "Departure station name": "Mastokatu",
+   "Return station id": 16,
+   "Return station name": "Liisanpuistikko",
+   "Covered distance (m)": 1402,
+   "Duration (sec.)": 563
+ },
+ {
+   "Departure": "2021-07-31T23:32:57",
+   "Return": "2021-08-01T00:04:13",
+   "Departure station id": 398,
+   "Departure station name": "Ajomiehentie",
+   "Return station id": 142,
+   "Return station name": "Koskelantie",
+   "Covered distance (m)": 7722,
+   "Duration (sec.)": 1872
+ },
+ {
+   "Departure": "2021-07-31T23:32:56",
+   "Return": "2021-07-31T23:48:22",
+   "Departure station id": 129,
+   "Departure station name": "Pernajantie",
+   "Return station id": 36,
+   "Return station name": "Apollonkatu",
+   "Covered distance (m)": 3340,
+   "Duration (sec.)": 924
+ },
+ {
+   "Departure": "2021-07-31T23:32:54",
+   "Return": "2021-07-31T23:42:31",
+   "Departure station id": 243,
+   "Departure station name": "Mustikkamaa",
+   "Return station id": 124,
+   "Return station name": "Isoisänsilta",
+   "Covered distance (m)": 726,
+   "Duration (sec.)": 572
+ },
+ {
+   "Departure": "2021-07-31T23:32:51",
+   "Return": "2021-07-31T23:49:41",
+   "Departure station id": 30,
+   "Departure station name": "Itämerentori",
+   "Return station id": 62,
+   "Return station name": "Välimerenkatu",
+   "Covered distance (m)": 1002,
+   "Duration (sec.)": 1005
+ },
+ {
+   "Departure": "2021-07-31T23:32:44",
+   "Return": "2021-07-31T23:32:58",
+   "Departure station id": 56,
+   "Departure station name": "Luoteisväylä",
+   "Return station id": 56,
+   "Return station name": "Luoteisväylä",
+   "Covered distance (m)": 0,
+   "Duration (sec.)": 12
+ },
+ {
+   "Departure": "2021-07-31T23:32:42",
+   "Return": "2021-07-31T23:40:23",
+   "Departure station id": 213,
+   "Departure station name": "Huopalahden asema",
+   "Return station id": 221,
+   "Return station name": "Thalianaukio",
+   "Covered distance (m)": 1282,
+   "Duration (sec.)": 456
+ },
+ {
+   "Departure": "2021-07-31T23:32:41",
+   "Return": "2021-07-31T23:50:04",
+   "Departure station id": 259,
+   "Departure station name": "Petter Wetterin tie",
+   "Return station id": 293,
+   "Return station name": "Korkeasaari",
+   "Covered distance (m)": 3812,
+   "Duration (sec.)": 1042
+ },
+ {
+   "Departure": "2021-07-31T23:32:40",
+   "Return": "2021-07-31T23:50:24",
+   "Departure station id": 1,
+   "Departure station name": "Kaivopuisto",
+   "Return station id": 40,
+   "Return station name": "Hakaniemi (M)",
+   "Covered distance (m)": 4326,
+   "Duration (sec.)": 1059
+ },
+ {
+   "Departure": "2021-07-31T23:32:38",
+   "Return": "2021-07-31T23:39:16",
+   "Departure station id": 38,
+   "Departure station name": "Töölöntori",
+   "Return station id": 77,
+   "Return station name": "Nordenskiöldinaukio",
+   "Covered distance (m)": 861,
+   "Duration (sec.)": 395
+ },
+ {
+   "Departure": "2021-07-31T23:32:37",
+   "Return": "2021-07-31T23:50:09",
+   "Departure station id": 259,
+   "Departure station name": "Petter Wetterin tie",
+   "Return station id": 293,
+   "Return station name": "Korkeasaari",
+   "Covered distance (m)": 3647,
+   "Duration (sec.)": 1047
+ },
+ {
+   "Departure": "2021-07-31T23:32:29",
+   "Return": "2021-07-31T23:36:12",
+   "Departure station id": 515,
+   "Departure station name": "Oravannahkatori",
+   "Return station id": 573,
+   "Return station name": "Urheilupuisto (M)",
+   "Covered distance (m)": 848,
+   "Duration (sec.)": 221
+ },
+ {
+   "Departure": "2021-07-31T23:32:15",
+   "Return": "2021-07-31T23:56:05",
+   "Departure station id": 137,
+   "Departure station name": "Arabian kauppakeskus",
+   "Return station id": 98,
+   "Return station name": "Ulvilantie",
+   "Covered distance (m)": 6538,
+   "Duration (sec.)": 1425
+ },
+ {
+   "Departure": "2021-07-31T23:32:13",
+   "Return": "2021-07-31T23:50:14",
+   "Departure station id": 225,
+   "Departure station name": "Maunula",
+   "Return station id": 373,
+   "Return station name": "Mikkolantie",
+   "Covered distance (m)": 2918,
+   "Duration (sec.)": 1076
+ },
+ {
+   "Departure": "2021-07-31T23:32:13",
+   "Return": "2021-07-31T23:42:02",
+   "Departure station id": 243,
+   "Departure station name": "Mustikkamaa",
+   "Return station id": 124,
+   "Return station name": "Isoisänsilta",
+   "Covered distance (m)": 708,
+   "Duration (sec.)": 584
+ },
+ {
+   "Departure": "2021-07-31T23:32:10",
+   "Return": "2021-08-01T00:10:21",
+   "Departure station id": 54,
+   "Departure station name": "Gyldenintie",
+   "Return station id": 16,
+   "Return station name": "Liisanpuistikko",
+   "Covered distance (m)": 6330,
+   "Duration (sec.)": 2298
+ },
+ {
+   "Departure": "2021-07-31T23:32:06",
+   "Return": "2021-07-31T23:43:33",
+   "Departure station id": 6,
+   "Departure station name": "Hietalahdentori",
+   "Return station id": 24,
+   "Return station name": "Mannerheimintie",
+   "Covered distance (m)": 1275,
+   "Duration (sec.)": 686
+ },
+ {
+   "Departure": "2021-07-31T23:32:06",
+   "Return": "2021-07-31T23:38:25",
+   "Departure station id": 247,
+   "Departure station name": "Haakoninlahdenkatu",
+   "Return station id": 247,
+   "Return station name": "Haakoninlahdenkatu",
+   "Covered distance (m)": 716,
+   "Duration (sec.)": 375
+ },
+ {
+   "Departure": "2021-07-31T23:32:01",
+   "Return": "2021-07-31T23:52:35",
+   "Departure station id": 109,
+   "Departure station name": "Hertanmäenkatu",
+   "Return station id": 385,
+   "Return station name": "Pajupillintie",
+   "Covered distance (m)": 5940,
+   "Duration (sec.)": 1229
+ },
+ {
+   "Departure": "2021-07-31T23:31:38",
+   "Return": "2021-07-31T23:39:10",
+   "Departure station id": 262,
+   "Departure station name": "Siilitie (M)",
+   "Return station id": 269,
+   "Return station name": "Peukaloisentie",
+   "Covered distance (m)": 1457,
+   "Duration (sec.)": 449
+ },
+ {
+   "Departure": "2021-07-31T23:31:34",
+   "Return": "2021-08-01T00:05:55",
+   "Departure station id": 20,
+   "Departure station name": "Kaisaniemenpuisto",
+   "Return station id": 213,
+   "Return station name": "Huopalahden asema",
+   "Covered distance (m)": 6336,
+   "Duration (sec.)": 2054
+ },
+ {
+   "Departure": "2021-07-31T23:31:32",
+   "Return": "2021-07-31T23:38:03",
+   "Departure station id": 86,
+   "Departure station name": "Kuusitie",
+   "Return station id": 96,
+   "Return station name": "Huopalahdentie",
+   "Covered distance (m)": 1571,
+   "Duration (sec.)": 390
+ },
+ {
+   "Departure": "2021-07-31T23:31:32",
+   "Return": "2021-07-31T23:44:34",
+   "Departure station id": 124,
+   "Departure station name": "Isoisänsilta",
+   "Return station id": 132,
+   "Return station name": "Hollolantie",
+   "Covered distance (m)": 2442,
+   "Duration (sec.)": 778
+ },
+ {
+   "Departure": "2021-07-31T23:31:24",
+   "Return": "2021-07-31T23:39:34",
+   "Departure station id": 16,
+   "Departure station name": "Liisanpuistikko",
+   "Return station id": 13,
+   "Return station name": "Merisotilaantori",
+   "Covered distance (m)": 1789,
+   "Duration (sec.)": 489
+ },
+ {
+   "Departure": "2021-07-31T23:31:24",
+   "Return": "2021-07-31T23:39:12",
+   "Departure station id": 262,
+   "Departure station name": "Siilitie (M)",
+   "Return station id": 269,
+   "Return station name": "Peukaloisentie",
+   "Covered distance (m)": 1443,
+   "Duration (sec.)": 464
+ },
+ {
+   "Departure": "2021-07-31T23:31:12",
+   "Return": "2021-07-31T23:48:26",
+   "Departure station id": 146,
+   "Departure station name": "Pohjolanaukio",
+   "Return station id": 134,
+   "Return station name": "Haukilahdenkatu",
+   "Covered distance (m)": 2836,
+   "Duration (sec.)": 1029
+ },
+ {
+   "Departure": "2021-07-31T23:30:57",
+   "Return": "2021-08-01T00:07:15",
+   "Departure station id": 216,
+   "Departure station name": "Jännetie",
+   "Return station id": 221,
+   "Return station name": "Thalianaukio",
+   "Covered distance (m)": 4222,
+   "Duration (sec.)": 2170
+ },
+ {
+   "Departure": "2021-07-31T23:30:47",
+   "Return": "2021-07-31T23:41:49",
+   "Departure station id": 41,
+   "Departure station name": "Ympyrätalo",
+   "Return station id": 161,
+   "Return station name": "Eteläesplanadi",
+   "Covered distance (m)": 1660,
+   "Duration (sec.)": 656
+ },
+ {
+   "Departure": "2021-07-31T23:30:46",
+   "Return": "2021-07-31T23:48:59",
+   "Departure station id": 146,
+   "Departure station name": "Pohjolanaukio",
+   "Return station id": 134,
+   "Return station name": "Haukilahdenkatu",
+   "Covered distance (m)": 2787,
+   "Duration (sec.)": 1085
+ },
+ {
+   "Departure": "2021-07-31T23:30:42",
+   "Return": "2021-07-31T23:38:53",
+   "Departure station id": 20,
+   "Departure station name": "Kaisaniemenpuisto",
+   "Return station id": 8,
+   "Return station name": "Vanha kirkkopuisto",
+   "Covered distance (m)": 1051,
+   "Duration (sec.)": 487
+ },
+ {
+   "Departure": "2021-07-31T23:30:24",
+   "Return": "2021-07-31T23:38:13",
+   "Departure station id": 129,
+   "Departure station name": "Pernajantie",
+   "Return station id": 76,
+   "Return station name": "Olympiastadion",
+   "Covered distance (m)": 2293,
+   "Duration (sec.)": 465
+ },
+ {
+   "Departure": "2021-07-31T23:30:17",
+   "Return": "2021-07-31T23:39:42",
+   "Departure station id": 31,
+   "Departure station name": "Marian sairaala",
+   "Return station id": 76,
+   "Return station name": "Olympiastadion",
+   "Covered distance (m)": 2538,
+   "Duration (sec.)": 561
+ },
+ {
+   "Departure": "2021-07-31T23:30:11",
+   "Return": "2021-07-31T23:40:16",
+   "Departure station id": 30,
+   "Departure station name": "Itämerentori",
+   "Return station id": 50,
+   "Return station name": "Melkonkuja",
+   "Covered distance (m)": 2730,
+   "Duration (sec.)": 600
+ },
+ {
+   "Departure": "2021-07-31T23:30:10",
+   "Return": "2021-07-31T23:35:33",
+   "Departure station id": 290,
+   "Departure station name": "Vallilan varikko",
+   "Return station id": 87,
+   "Return station name": "Kustaankatu",
+   "Covered distance (m)": 1208,
+   "Duration (sec.)": 319
+ },
+ {
+   "Departure": "2021-07-31T23:30:06",
+   "Return": "2021-07-31T23:40:13",
+   "Departure station id": 30,
+   "Departure station name": "Itämerentori",
+   "Return station id": 50,
+   "Return station name": "Melkonkuja",
+   "Covered distance (m)": 2703,
+   "Duration (sec.)": 603
+ },
+ {
+   "Departure": "2021-07-31T23:29:53",
+   "Return": "2021-07-31T23:38:13",
+   "Departure station id": 64,
+   "Departure station name": "Tyynenmerenkatu",
+   "Return station id": 31,
+   "Return station name": "Marian sairaala",
+   "Covered distance (m)": 1502,
+   "Duration (sec.)": 496
+ },
+ {
+   "Departure": "2021-07-31T23:29:53",
+   "Return": "2021-07-31T23:41:01",
+   "Departure station id": 235,
+   "Departure station name": "Katariina Saksilaisen katu",
+   "Return station id": 240,
+   "Return station name": "Viikin normaalikoulu",
+   "Covered distance (m)": 3240,
+   "Duration (sec.)": 664
+ },
+ {
+   "Departure": "2021-07-31T23:29:48",
+   "Return": "2021-07-31T23:48:24",
+   "Departure station id": 146,
+   "Departure station name": "Pohjolanaukio",
+   "Return station id": 134,
+   "Return station name": "Haukilahdenkatu",
+   "Covered distance (m)": 3030,
+   "Duration (sec.)": 1111
+ },
+ {
+   "Departure": "2021-07-31T23:29:47",
+   "Return": "2021-07-31T23:56:24",
+   "Departure station id": 87,
+   "Departure station name": "Kustaankatu",
+   "Return station id": 211,
+   "Return station name": "Haagan tori",
+   "Covered distance (m)": 5560,
+   "Duration (sec.)": 1593
+ },
+ {
+   "Departure": "2021-07-31T23:29:43",
+   "Return": "2021-07-31T23:47:59",
+   "Departure station id": 146,
+   "Departure station name": "Pohjolanaukio",
+   "Return station id": 134,
+   "Return station name": "Haukilahdenkatu",
+   "Covered distance (m)": 2744,
+   "Duration (sec.)": 1091
+ },
+ {
+   "Departure": "2021-07-31T23:29:21",
+   "Return": "2021-07-31T23:40:24",
+   "Departure station id": 41,
+   "Departure station name": "Ympyrätalo",
+   "Return station id": 113,
+   "Return station name": "Pasilan asema",
+   "Covered distance (m)": 2615,
+   "Duration (sec.)": 658
+ },
+ {
+   "Departure": "2021-07-31T23:29:21",
+   "Return": "2021-07-31T23:49:17",
+   "Departure station id": 80,
+   "Departure station name": "Jäähalli",
+   "Return station id": 127,
+   "Return station name": "Teurastamo",
+   "Covered distance (m)": 3236,
+   "Duration (sec.)": 1193
+ },
+ {
+   "Departure": "2021-07-31T23:29:15",
+   "Return": "2021-08-01T11:31:00",
+   "Departure station id": 117,
+   "Departure station name": "Brahen puistikko",
+   "Return station id": 144,
+   "Return station name": "Käpyläntie",
+   "Covered distance (m)": 3461,
+   "Duration (sec.)": 43302
+ },
+ {
+   "Departure": "2021-07-31T23:29:12",
+   "Return": "2021-07-31T23:40:29",
+   "Departure station id": 547,
+   "Departure station name": "Jämeräntaival",
+   "Return station id": 547,
+   "Return station name": "Jämeräntaival",
+   "Covered distance (m)": 957,
+   "Duration (sec.)": 672
+ },
+ {
+   "Departure": "2021-07-31T23:29:10",
+   "Return": "2021-07-31T23:57:37",
+   "Departure station id": 115,
+   "Departure station name": "Venttiilikuja",
+   "Return station id": 387,
+   "Return station name": "Kauppakeskus Kaari",
+   "Covered distance (m)": 7054,
+   "Duration (sec.)": 1705
+ },
+ {
+   "Departure": "2021-07-31T23:28:51",
+   "Return": "2021-07-31T23:48:54",
+   "Departure station id": 388,
+   "Departure station name": "Kaustisentie",
+   "Return station id": 733,
+   "Return station name": "Läkkitori",
+   "Covered distance (m)": 5307,
+   "Duration (sec.)": 1198
+ },
+ {
+   "Departure": "2021-07-31T23:28:39",
+   "Return": "2021-07-31T23:38:23",
+   "Departure station id": 19,
+   "Departure station name": "Rautatientori / itä",
+   "Return station id": 41,
+   "Return station name": "Ympyrätalo",
+   "Covered distance (m)": 1651,
+   "Duration (sec.)": 581
+ },
+ {
+   "Departure": "2021-07-31T23:28:24",
+   "Return": "2021-07-31T23:38:22",
+   "Departure station id": 19,
+   "Departure station name": "Rautatientori / itä",
+   "Return station id": 41,
+   "Return station name": "Ympyrätalo",
+   "Covered distance (m)": 1635,
+   "Duration (sec.)": 595
+ },
+ {
+   "Departure": "2021-07-31T23:28:22",
+   "Return": "2021-07-31T23:43:19",
+   "Departure station id": 1,
+   "Departure station name": "Kaivopuisto",
+   "Return station id": 37,
+   "Return station name": "Töölönkatu",
+   "Covered distance (m)": 2862,
+   "Duration (sec.)": 892
+ },
+ {
+   "Departure": "2021-07-31T23:28:21",
+   "Return": "2021-07-31T23:43:47",
+   "Departure station id": 521,
+   "Departure station name": "Kulttuuriaukio",
+   "Return station id": 507,
+   "Return station name": "Golfpolku",
+   "Covered distance (m)": 2362,
+   "Duration (sec.)": 924
+ },
+ {
+   "Departure": "2021-07-31T23:27:59",
+   "Return": "2021-08-01T07:37:36",
+   "Departure station id": 26,
+   "Departure station name": "Kamppi (M)",
+   "Return station id": 38,
+   "Return station name": "Töölöntori",
+   "Covered distance (m)": 1612,
+   "Duration (sec.)": 497
+ },
+ {
+   "Departure": "2021-07-31T23:27:59",
+   "Return": "2021-07-31T23:34:50",
+   "Departure station id": 101,
+   "Departure station name": "Munkkivuoren ostoskeskus",
+   "Return station id": 211,
+   "Return station name": "Haagan tori",
+   "Covered distance (m)": 1664,
+   "Duration (sec.)": 406
+ },
+ {
+   "Departure": "2021-07-31T23:27:58",
+   "Return": "2021-07-31T23:54:14",
+   "Departure station id": 45,
+   "Departure station name": "Brahen kenttä",
+   "Return station id": 51,
+   "Return station name": "Itälahdenkatu",
+   "Covered distance (m)": 7028,
+   "Duration (sec.)": 1571
+ },
+ {
+   "Departure": "2021-07-31T23:27:50",
+   "Return": "2021-07-31T23:32:28",
+   "Departure station id": 62,
+   "Departure station name": "Välimerenkatu",
+   "Return station id": 402,
+   "Return station name": "Bermudankuja",
+   "Covered distance (m)": 657,
+   "Duration (sec.)": 271
+ },
+ {
+   "Departure": "2021-07-31T23:27:47",
+   "Return": "2021-07-31T23:34:45",
+   "Departure station id": 404,
+   "Departure station name": "Sompasaari",
+   "Return station id": 243,
+   "Return station name": "Mustikkamaa",
+   "Covered distance (m)": 1112,
+   "Duration (sec.)": 413
+ },
+ {
+   "Departure": "2021-07-31T23:27:36",
+   "Return": "2021-07-31T23:38:20",
+   "Departure station id": 75,
+   "Departure station name": "Korjaamo",
+   "Return station id": 113,
+   "Return station name": "Pasilan asema",
+   "Covered distance (m)": 2564,
+   "Duration (sec.)": 639
+ },
+ {
+   "Departure": "2021-07-31T23:27:34",
+   "Return": "2021-07-31T23:34:08",
+   "Departure station id": 404,
+   "Departure station name": "Sompasaari",
+   "Return station id": 243,
+   "Return station name": "Mustikkamaa",
+   "Covered distance (m)": 1129,
+   "Duration (sec.)": 389
+ },
+ {
+   "Departure": "2021-07-31T23:27:23",
+   "Return": "2021-07-31T23:39:21",
+   "Departure station id": 112,
+   "Departure station name": "Rautatieläisenkatu",
+   "Return station id": 145,
+   "Return station name": "Pohjolankatu",
+   "Covered distance (m)": 1694,
+   "Duration (sec.)": 716
+ },
+ {
+   "Departure": "2021-07-31T23:27:08",
+   "Return": "2021-07-31T23:36:46",
+   "Departure station id": 70,
+   "Departure station name": "Sammonpuistikko",
+   "Return station id": 69,
+   "Return station name": "Kalevankatu",
+   "Covered distance (m)": 1067,
+   "Duration (sec.)": 573
+ },
+ {
+   "Departure": "2021-07-31T23:27:04",
+   "Return": "2021-07-31T23:36:39",
+   "Departure station id": 39,
+   "Departure station name": "Ooppera",
+   "Return station id": 8,
+   "Return station name": "Vanha kirkkopuisto",
+   "Covered distance (m)": 2240,
+   "Duration (sec.)": 570
+ },
+ {
+   "Departure": "2021-07-31T23:27:01",
+   "Return": "2021-07-31T23:40:43",
+   "Departure station id": 581,
+   "Departure station name": "Niittykumpu (M)",
+   "Return station id": 581,
+   "Return station name": "Niittykumpu (M)",
+   "Covered distance (m)": 2293,
+   "Duration (sec.)": 818
+ },
+ {
+   "Departure": "2021-07-31T23:26:51",
+   "Return": "2021-07-31T23:36:19",
+   "Departure station id": 39,
+   "Departure station name": "Ooppera",
+   "Return station id": 8,
+   "Return station name": "Vanha kirkkopuisto",
+   "Covered distance (m)": 2209,
+   "Duration (sec.)": 563
+ },
+ {
+   "Departure": "2021-07-31T23:26:47",
+   "Return": "2021-07-31T23:33:18",
+   "Departure station id": 39,
+   "Departure station name": "Ooppera",
+   "Return station id": 45,
+   "Return station name": "Brahen kenttä",
+   "Covered distance (m)": 1488,
+   "Duration (sec.)": 386
+ },
+ {
+   "Departure": "2021-07-31T23:26:31",
+   "Return": "2021-07-31T23:30:22",
+   "Departure station id": 101,
+   "Departure station name": "Munkkivuoren ostoskeskus",
+   "Return station id": 98,
+   "Return station name": "Ulvilantie",
+   "Covered distance (m)": 643,
+   "Duration (sec.)": 226
+ },
+ {
+   "Departure": "2021-07-31T23:26:30",
+   "Return": "2021-07-31T23:38:33",
+   "Departure station id": 279,
+   "Departure station name": "Puotinkylän kartano",
+   "Return station id": 274,
+   "Return station name": "Voikukantie",
+   "Covered distance (m)": 1549,
+   "Duration (sec.)": 718
+ },
+ {
+   "Departure": "2021-07-31T23:26:28",
+   "Return": "2021-07-31T23:37:16",
+   "Departure station id": 70,
+   "Departure station name": "Sammonpuistikko",
+   "Return station id": 69,
+   "Return station name": "Kalevankatu",
+   "Covered distance (m)": 1059,
+   "Duration (sec.)": 642
+ },
+ {
+   "Departure": "2021-07-31T23:26:28",
+   "Return": "2021-07-31T23:36:58",
+   "Departure station id": 529,
+   "Departure station name": "Keilaniemi (M)",
+   "Return station id": 547,
+   "Return station name": "Jämeräntaival",
+   "Covered distance (m)": 1694,
+   "Duration (sec.)": 627
+ },
+ {
+   "Departure": "2021-07-31T23:26:24",
+   "Return": "2021-07-31T23:39:09",
+   "Departure station id": 15,
+   "Departure station name": "Ritarikatu",
+   "Return station id": 127,
+   "Return station name": "Teurastamo",
+   "Covered distance (m)": 2993,
+   "Duration (sec.)": 761
+ },
+ {
+   "Departure": "2021-07-31T23:26:19",
+   "Return": "2021-07-31T23:29:10",
+   "Departure station id": 541,
+   "Departure station name": "Aalto-yliopisto (M), Korkeakouluaukio",
+   "Return station id": 547,
+   "Return station name": "Jämeräntaival",
+   "Covered distance (m)": 709,
+   "Duration (sec.)": 170
+ },
+ {
+   "Departure": "2021-07-31T23:26:11",
+   "Return": "2021-07-31T23:40:24",
+   "Departure station id": 43,
+   "Departure station name": "Karhupuisto",
+   "Return station id": 9,
+   "Return station name": "Erottajan aukio",
+   "Covered distance (m)": 2677,
+   "Duration (sec.)": 849
+ },
+ {
+   "Departure": "2021-07-31T23:26:10",
+   "Return": "2021-07-31T23:32:57",
+   "Departure station id": 23,
+   "Departure station name": "Kiasma",
+   "Return station id": 162,
+   "Return station name": "Leppäsuonaukio",
+   "Covered distance (m)": 878,
+   "Duration (sec.)": 402
+ },
+ {
+   "Departure": "2021-07-31T23:26:09",
+   "Return": "2021-07-31T23:40:49",
+   "Departure station id": 43,
+   "Departure station name": "Karhupuisto",
+   "Return station id": 9,
+   "Return station name": "Erottajan aukio",
+   "Covered distance (m)": 2709,
+   "Duration (sec.)": 876
+ },
+ {
+   "Departure": "2021-07-31T23:26:07",
+   "Return": "2021-07-31T23:36:10",
+   "Departure station id": 212,
+   "Departure station name": "Tunnelitie",
+   "Return station id": 101,
+   "Return station name": "Munkkivuoren ostoskeskus",
+   "Covered distance (m)": 1978,
+   "Duration (sec.)": 599
+ },
+ {
+   "Departure": "2021-07-31T23:26:04",
+   "Return": "2021-07-31T23:52:52",
+   "Departure station id": 163,
+   "Departure station name": "Lehtisaarentie",
+   "Return station id": 623,
+   "Return station name": "Nelikkotie",
+   "Covered distance (m)": 7026,
+   "Duration (sec.)": 1604
+ },
+ {
+   "Departure": "2021-07-31T23:25:44",
+   "Return": "2021-07-31T23:46:54",
+   "Departure station id": 240,
+   "Departure station name": "Viikin normaalikoulu",
+   "Return station id": 338,
+   "Return station name": "Jakomäentie",
+   "Covered distance (m)": 5439,
+   "Duration (sec.)": 1267
+ },
+ {
+   "Departure": "2021-07-31T23:25:40",
+   "Return": "2021-07-31T23:42:14",
+   "Departure station id": 140,
+   "Departure station name": "Verkatehtaanpuisto",
+   "Return station id": 237,
+   "Return station name": "Aulangontie",
+   "Covered distance (m)": 3171,
+   "Duration (sec.)": 989
+ },
+ {
+   "Departure": "2021-07-31T23:25:23",
+   "Return": "2021-07-31T23:29:48",
+   "Departure station id": 217,
+   "Departure station name": "Marttila",
+   "Return station id": 218,
+   "Return station name": "Pohjois-Haagan asema",
+   "Covered distance (m)": 694,
+   "Duration (sec.)": 260
+ },
+ {
+   "Departure": "2021-07-31T23:25:18",
+   "Return": "2021-07-31T23:31:45",
+   "Departure station id": 711,
+   "Departure station name": "Kirjurinkuja",
+   "Return station id": 761,
+   "Return station name": "Mäkkylän asema",
+   "Covered distance (m)": 982,
+   "Duration (sec.)": 381
+ },
+ {
+   "Departure": "2021-07-31T23:25:13",
+   "Return": "2021-07-31T23:50:14",
+   "Departure station id": 527,
+   "Departure station name": "Otsolahti",
+   "Return station id": 62,
+   "Return station name": "Välimerenkatu",
+   "Covered distance (m)": 7479,
+   "Duration (sec.)": 1500
+ },
+ {
+   "Departure": "2021-07-31T23:25:12",
+   "Return": "2021-07-31T23:28:26",
+   "Departure station id": 117,
+   "Departure station name": "Brahen puistikko",
+   "Return station id": 87,
+   "Return station name": "Kustaankatu",
+   "Covered distance (m)": 612,
+   "Duration (sec.)": 190
+ },
+ {
+   "Departure": "2021-07-31T23:25:02",
+   "Return": "2021-07-31T23:28:24",
+   "Departure station id": 117,
+   "Departure station name": "Brahen puistikko",
+   "Return station id": 87,
+   "Return station name": "Kustaankatu",
+   "Covered distance (m)": 498,
+   "Duration (sec.)": 198
+ },
+ {
+   "Departure": "2021-07-31T23:25:00",
+   "Return": "2021-07-31T23:25:52",
+   "Departure station id": 15,
+   "Departure station name": "Ritarikatu",
+   "Return station id": 15,
+   "Return station name": "Ritarikatu",
+   "Covered distance (m)": 13,
+   "Duration (sec.)": 51
+ },
+ {
+   "Departure": "2021-07-31T23:24:55",
+   "Return": "2021-07-31T23:37:36",
+   "Departure station id": 43,
+   "Departure station name": "Karhupuisto",
+   "Return station id": 77,
+   "Return station name": "Nordenskiöldinaukio",
+   "Covered distance (m)": 2460,
+   "Duration (sec.)": 758
+ },
+ {
+   "Departure": "2021-07-31T23:24:45",
+   "Return": "2021-07-31T23:47:53",
+   "Departure station id": 116,
+   "Departure station name": "Linnanmäki",
+   "Return station id": 222,
+   "Return station name": "Huovitie",
+   "Covered distance (m)": 4670,
+   "Duration (sec.)": 1383
+ },
+ {
+   "Departure": "2021-07-31T23:24:45",
+   "Return": "2021-07-31T23:42:04",
+   "Departure station id": 127,
+   "Departure station name": "Teurastamo",
+   "Return station id": 78,
+   "Return station name": "Messeniuksenkatu",
+   "Covered distance (m)": 3728,
+   "Duration (sec.)": 1035
+ },
+ {
+   "Departure": "2021-07-31T23:24:37",
+   "Return": "2021-07-31T23:29:53",
+   "Departure station id": 116,
+   "Departure station name": "Linnanmäki",
+   "Return station id": 45,
+   "Return station name": "Brahen kenttä",
+   "Covered distance (m)": 882,
+   "Duration (sec.)": 310
+ },
+ {
+   "Departure": "2021-07-31T23:24:37",
+   "Return": "2021-07-31T23:28:28",
+   "Departure station id": 63,
+   "Departure station name": "Jätkäsaarenlaituri",
+   "Return station id": 201,
+   "Return station name": "Länsisatamankuja",
+   "Covered distance (m)": 831,
+   "Duration (sec.)": 227
+ },
+ {
+   "Departure": "2021-07-31T23:24:29",
+   "Return": "2021-07-31T23:53:06",
+   "Departure station id": 276,
+   "Departure station name": "Puotinharju",
+   "Return station id": 281,
+   "Return station name": "Puotila (M)",
+   "Covered distance (m)": 1431,
+   "Duration (sec.)": 1713
+ },
+ {
+   "Departure": "2021-07-31T23:24:28",
+   "Return": "2021-07-31T23:28:26",
+   "Departure station id": 101,
+   "Departure station name": "Munkkivuoren ostoskeskus",
+   "Return station id": 207,
+   "Return station name": "Vanha Viertotie",
+   "Covered distance (m)": 614,
+   "Duration (sec.)": 233
+ },
+ {
+   "Departure": "2021-07-31T23:24:28",
+   "Return": "2021-07-31T23:42:17",
+   "Departure station id": 13,
+   "Departure station name": "Merisotilaantori",
+   "Return station id": 63,
+   "Return station name": "Jätkäsaarenlaituri",
+   "Covered distance (m)": 3665,
+   "Duration (sec.)": 1064
+ },
+ {
+   "Departure": "2021-07-31T23:24:27",
+   "Return": "2021-07-31T23:30:20",
+   "Departure station id": 80,
+   "Departure station name": "Jäähalli",
+   "Return station id": 116,
+   "Return station name": "Linnanmäki",
+   "Covered distance (m)": 1239,
+   "Duration (sec.)": 348
+ },
+ {
+   "Departure": "2021-07-31T23:24:19",
+   "Return": "2021-07-31T23:40:18",
+   "Departure station id": 113,
+   "Departure station name": "Pasilan asema",
+   "Return station id": 150,
+   "Return station name": "Töölönlahden puisto",
+   "Covered distance (m)": 3020,
+   "Duration (sec.)": 956
+ },
+ {
+   "Departure": "2021-07-31T23:24:18",
+   "Return": "2021-07-31T23:24:38",
+   "Departure station id": 280,
+   "Departure station name": "Puotilan ostoskeskus",
+   "Return station id": 280,
+   "Return station name": "Puotilan ostoskeskus",
+   "Covered distance (m)": 0,
+   "Duration (sec.)": 18
+ },
+ {
+   "Departure": "2021-07-31T23:24:15",
+   "Return": "2021-07-31T23:32:05",
+   "Departure station id": 129,
+   "Departure station name": "Pernajantie",
+   "Return station id": 139,
+   "Return station name": "Muotoilijankatu",
+   "Covered distance (m)": 2305,
+   "Duration (sec.)": 465
+ },
+ {
+   "Departure": "2021-07-31T23:24:14",
+   "Return": "2021-08-01T00:04:14",
+   "Departure station id": 13,
+   "Departure station name": "Merisotilaantori",
+   "Return station id": 1,
+   "Return station name": "Kaivopuisto",
+   "Covered distance (m)": 6146,
+   "Duration (sec.)": 2396
+ },
+ {
+   "Departure": "2021-07-31T23:24:06",
+   "Return": "2021-07-31T23:29:26",
+   "Departure station id": 54,
+   "Departure station name": "Gyldenintie",
+   "Return station id": 55,
+   "Return station name": "Puistokaari",
+   "Covered distance (m)": 906,
+   "Duration (sec.)": 314
+ },
+ {
+   "Departure": "2021-07-31T23:23:49",
+   "Return": "2021-07-31T23:28:43",
+   "Departure station id": 635,
+   "Departure station name": "Kuunkatu",
+   "Return station id": 639,
+   "Return station name": "Itäportti",
+   "Covered distance (m)": 816,
+   "Duration (sec.)": 290
+ },
+ {
+   "Departure": "2021-07-31T23:23:45",
+   "Return": "2021-07-31T23:42:39",
+   "Departure station id": 23,
+   "Departure station name": "Kiasma",
+   "Return station id": 115,
+   "Return station name": "Venttiilikuja",
+   "Covered distance (m)": 3810,
+   "Duration (sec.)": 1133
+ },
+ {
+   "Departure": "2021-07-31T23:23:30",
+   "Return": "2021-07-31T23:38:36",
+   "Departure station id": 87,
+   "Departure station name": "Kustaankatu",
+   "Return station id": 34,
+   "Return station name": "Kansallismuseo",
+   "Covered distance (m)": 2836,
+   "Duration (sec.)": 901
+ },
+ {
+   "Departure": "2021-07-31T23:23:28",
+   "Return": "2021-07-31T23:35:24",
+   "Departure station id": 518,
+   "Departure station name": "Tuulimäki",
+   "Return station id": 547,
+   "Return station name": "Jämeräntaival",
+   "Covered distance (m)": 2742,
+   "Duration (sec.)": 711
+ },
+ {
+   "Departure": "2021-07-31T23:23:24",
+   "Return": "2021-07-31T23:23:45",
+   "Departure station id": 54,
+   "Departure station name": "Gyldenintie",
+   "Return station id": 54,
+   "Return station name": "Gyldenintie",
+   "Covered distance (m)": 0,
+   "Duration (sec.)": 16
+ },
+ {
+   "Departure": "2021-07-31T23:23:18",
+   "Return": "2021-07-31T23:43:09",
+   "Departure station id": 87,
+   "Departure station name": "Kustaankatu",
+   "Return station id": 29,
+   "Return station name": "Baana",
+   "Covered distance (m)": 4237,
+   "Duration (sec.)": 1187
+ },
+ {
+   "Departure": "2021-07-31T23:23:18",
+   "Return": "2021-07-31T23:29:59",
+   "Departure station id": 274,
+   "Departure station name": "Voikukantie",
+   "Return station id": 278,
+   "Return station name": "Puotilantie",
+   "Covered distance (m)": 951,
+   "Duration (sec.)": 397
+ },
+ {
+   "Departure": "2021-07-31T23:23:02",
+   "Return": "2021-07-31T23:26:03",
+   "Departure station id": 731,
+   "Departure station name": "Leppävaarankäytävä",
+   "Return station id": 737,
+   "Return station name": "Muurarinkuja",
+   "Covered distance (m)": 461,
+   "Duration (sec.)": 176
+ },
+ {
+   "Departure": "2021-07-31T23:22:58",
+   "Return": "2021-07-31T23:28:12",
+   "Departure station id": 243,
+   "Departure station name": "Mustikkamaa",
+   "Return station id": 245,
+   "Return station name": "Kulosaari (M)",
+   "Covered distance (m)": 1470,
+   "Duration (sec.)": 313
+ },
+ {
+   "Departure": "2021-07-31T23:22:56",
+   "Return": "2021-07-31T23:29:21",
+   "Departure station id": 54,
+   "Departure station name": "Gyldenintie",
+   "Return station id": 55,
+   "Return station name": "Puistokaari",
+   "Covered distance (m)": 910,
+   "Duration (sec.)": 380
+ },
+ {
+   "Departure": "2021-07-31T23:22:50",
+   "Return": "2021-07-31T23:44:26",
+   "Departure station id": 94,
+   "Departure station name": "Laajalahden aukio",
+   "Return station id": 390,
+   "Return station name": "Trumpettikuja",
+   "Covered distance (m)": 6285,
+   "Duration (sec.)": 1293
+ },
+ {
+   "Departure": "2021-07-31T23:22:50",
+   "Return": "2021-07-31T23:26:47",
+   "Departure station id": 94,
+   "Departure station name": "Laajalahden aukio",
+   "Return station id": 95,
+   "Return station name": "Munkkiniemen aukio",
+   "Covered distance (m)": 477,
+   "Duration (sec.)": 233
+ },
+ {
+   "Departure": "2021-07-31T23:22:43",
+   "Return": "2021-07-31T23:41:06",
+   "Departure station id": 71,
+   "Departure station name": "Hietaniemenkatu",
+   "Return station id": 26,
+   "Return station name": "Kamppi (M)",
+   "Covered distance (m)": 1766,
+   "Duration (sec.)": 1097
+ },
+ {
+   "Departure": "2021-07-31T23:22:43",
+   "Return": "2021-07-31T23:44:03",
+   "Departure station id": 731,
+   "Departure station name": "Leppävaarankäytävä",
+   "Return station id": 753,
+   "Return station name": "Linnuntie",
+   "Covered distance (m)": 3303,
+   "Duration (sec.)": 1275
+ },
+ {
+   "Departure": "2021-07-31T23:22:41",
+   "Return": "2021-07-31T23:32:05",
+   "Departure station id": 358,
+   "Departure station name": "Syystie",
+   "Return station id": 362,
+   "Return station name": "Teerisuontie",
+   "Covered distance (m)": 2007,
+   "Duration (sec.)": 559
+ },
+ {
+   "Departure": "2021-07-31T23:22:35",
+   "Return": "2021-07-31T23:33:40",
+   "Departure station id": 208,
+   "Departure station name": "Valimotie",
+   "Return station id": 103,
+   "Return station name": "Vihdintie",
+   "Covered distance (m)": 1400,
+   "Duration (sec.)": 660
+ },
+ {
+   "Departure": "2021-07-31T23:22:30",
+   "Return": "2021-07-31T23:37:37",
+   "Departure station id": 113,
+   "Departure station name": "Pasilan asema",
+   "Return station id": 290,
+   "Return station name": "Vallilan varikko",
+   "Covered distance (m)": 2462,
+   "Duration (sec.)": 903
+ },
+ {
+   "Departure": "2021-07-31T23:22:20",
+   "Return": "2021-07-31T23:44:25",
+   "Departure station id": 117,
+   "Departure station name": "Brahen puistikko",
+   "Return station id": 12,
+   "Return station name": "Kanavaranta",
+   "Covered distance (m)": 4494,
+   "Duration (sec.)": 1325
+ },
+ {
+   "Departure": "2021-07-31T23:22:02",
+   "Return": "2021-07-31T23:38:15",
+   "Departure station id": 20,
+   "Departure station name": "Kaisaniemenpuisto",
+   "Return station id": 65,
+   "Return station name": "Hernesaarenranta",
+   "Covered distance (m)": 3054,
+   "Duration (sec.)": 968
+ },
+ {
+   "Departure": "2021-07-31T23:22:00",
+   "Return": "2021-07-31T23:38:13",
+   "Departure station id": 20,
+   "Departure station name": "Kaisaniemenpuisto",
+   "Return station id": 65,
+   "Return station name": "Hernesaarenranta",
+   "Covered distance (m)": 3020,
+   "Duration (sec.)": 968
+ },
+ {
+   "Departure": "2021-07-31T23:21:58",
+   "Return": "2021-08-01T00:11:56",
+   "Departure station id": 16,
+   "Departure station name": "Liisanpuistikko",
+   "Return station id": 15,
+   "Return station name": "Ritarikatu",
+   "Covered distance (m)": 4809,
+   "Duration (sec.)": 2996
+ },
+ {
+   "Departure": "2021-07-31T23:21:48",
+   "Return": "2021-07-31T23:25:05",
+   "Departure station id": 541,
+   "Departure station name": "Aalto-yliopisto (M), Korkeakouluaukio",
+   "Return station id": 547,
+   "Return station name": "Jämeräntaival",
+   "Covered distance (m)": 694,
+   "Duration (sec.)": 193
+ },
+ {
+   "Departure": "2021-07-31T23:21:44",
+   "Return": "2021-07-31T23:38:17",
+   "Departure station id": 20,
+   "Departure station name": "Kaisaniemenpuisto",
+   "Return station id": 65,
+   "Return station name": "Hernesaarenranta",
+   "Covered distance (m)": 3036,
+   "Duration (sec.)": 987
+ },
+ {
+   "Departure": "2021-07-31T23:21:37",
+   "Return": "2021-07-31T23:45:31",
+   "Departure station id": 8,
+   "Departure station name": "Vanha kirkkopuisto",
+   "Return station id": 116,
+   "Return station name": "Linnanmäki",
+   "Covered distance (m)": 4291,
+   "Duration (sec.)": 1433
+ },
+ {
+   "Departure": "2021-07-31T23:21:32",
+   "Return": "2021-07-31T23:38:38",
+   "Departure station id": 116,
+   "Departure station name": "Linnanmäki",
+   "Return station id": 14,
+   "Return station name": "Senaatintori",
+   "Covered distance (m)": 4034,
+   "Duration (sec.)": 1025
+ },
+ {
+   "Departure": "2021-07-31T23:21:29",
+   "Return": "2021-07-31T23:22:52",
+   "Departure station id": 274,
+   "Departure station name": "Voikukantie",
+   "Return station id": 274,
+   "Return station name": "Voikukantie",
+   "Covered distance (m)": 2,
+   "Duration (sec.)": 78
+ },
+ {
+   "Departure": "2021-07-31T23:21:24",
+   "Return": "2021-07-31T23:24:06",
+   "Departure station id": 284,
+   "Departure station name": "Myllypuro (M)",
+   "Return station id": 329,
+   "Return station name": "Kurkimäki",
+   "Covered distance (m)": 584,
+   "Duration (sec.)": 158
+ },
+ {
+   "Departure": "2021-07-31T23:20:54",
+   "Return": "2021-07-31T23:36:02",
+   "Departure station id": 274,
+   "Departure station name": "Voikukantie",
+   "Return station id": 278,
+   "Return station name": "Puotilantie",
+   "Covered distance (m)": 1415,
+   "Duration (sec.)": 904
+ },
+ {
+   "Departure": "2021-07-31T23:20:39",
+   "Return": "2021-07-31T23:38:25",
+   "Departure station id": 116,
+   "Departure station name": "Linnanmäki",
+   "Return station id": 14,
+   "Return station name": "Senaatintori",
+   "Covered distance (m)": 4124,
+   "Duration (sec.)": 1065
+ },
+ {
+   "Departure": "2021-07-31T23:20:37",
+   "Return": "2021-07-31T23:39:00",
+   "Departure station id": 113,
+   "Departure station name": "Pasilan asema",
+   "Return station id": 292,
+   "Return station name": "Koskelan varikko",
+   "Covered distance (m)": 3478,
+   "Duration (sec.)": 1102
+ },
+ {
+   "Departure": "2021-07-31T23:20:20",
+   "Return": "2021-07-31T23:30:19",
+   "Departure station id": 76,
+   "Departure station name": "Olympiastadion",
+   "Return station id": 111,
+   "Return station name": "Esterinportti",
+   "Covered distance (m)": 1717,
+   "Duration (sec.)": 593
+ },
+ {
+   "Departure": "2021-07-31T23:20:17",
+   "Return": "2021-07-31T23:30:45",
+   "Departure station id": 625,
+   "Departure station name": "Suomenlahdentie",
+   "Return station id": 601,
+   "Return station name": "Nokkala",
+   "Covered distance (m)": 1649,
+   "Duration (sec.)": 623
+ },
+ {
+   "Departure": "2021-07-31T23:20:14",
+   "Return": "2021-07-31T23:30:23",
+   "Departure station id": 76,
+   "Departure station name": "Olympiastadion",
+   "Return station id": 111,
+   "Return station name": "Esterinportti",
+   "Covered distance (m)": 1676,
+   "Duration (sec.)": 604
+ },
+ {
+   "Departure": "2021-07-31T23:20:00",
+   "Return": "2021-07-31T23:28:38",
+   "Departure station id": 133,
+   "Departure station name": "Paavalinpuisto",
+   "Return station id": 117,
+   "Return station name": "Brahen puistikko",
+   "Covered distance (m)": 1211,
+   "Duration (sec.)": 516
+ },
+ {
+   "Departure": "2021-07-31T23:19:56",
+   "Return": "2021-07-31T23:25:47",
+   "Departure station id": 251,
+   "Departure station name": "Laajasalon ostoskeskus",
+   "Return station id": 250,
+   "Return station name": "Reiherintie",
+   "Covered distance (m)": 1516,
+   "Duration (sec.)": 350
+ },
+ {
+   "Departure": "2021-07-31T23:19:54",
+   "Return": "2021-07-31T23:30:05",
+   "Departure station id": 76,
+   "Departure station name": "Olympiastadion",
+   "Return station id": 111,
+   "Return station name": "Esterinportti",
+   "Covered distance (m)": 1799,
+   "Duration (sec.)": 609
+ },
+ {
+   "Departure": "2021-07-31T23:19:49",
+   "Return": "2021-07-31T23:27:03",
+   "Departure station id": 85,
+   "Departure station name": "Jalavatie",
+   "Return station id": 96,
+   "Return station name": "Huopalahdentie",
+   "Covered distance (m)": 1813,
+   "Duration (sec.)": 430
+ },
+ {
+   "Departure": "2021-07-31T23:19:48",
+   "Return": "2021-07-31T23:26:33",
+   "Departure station id": 71,
+   "Departure station name": "Hietaniemenkatu",
+   "Return station id": 37,
+   "Return station name": "Töölönkatu",
+   "Covered distance (m)": 1388,
+   "Duration (sec.)": 400
+ },
+ {
+   "Departure": "2021-07-31T23:19:45",
+   "Return": "2021-07-31T23:33:45",
+   "Departure station id": 259,
+   "Departure station name": "Petter Wetterin tie",
+   "Return station id": 249,
+   "Return station name": "Isosaarentie",
+   "Covered distance (m)": 2566,
+   "Duration (sec.)": 836
+ }
+]
