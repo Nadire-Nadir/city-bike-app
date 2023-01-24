@@ -1,19 +1,26 @@
 import './App.css';
-import { Admin, Resource } from 'react-admin'
-import jsonServerProvider from 'ra-data-json-server'
+import * as React from 'react';
+
+import { Admin, Resource, fetchUtils } from 'react-admin';
 import authProvider from './authProvider';
-import LoginPage from './login';
+import Register from './registerPage';
+import simpleRestProvider from 'ra-data-simple-rest';
 
+const httpClient = (url: string, options: any = {}) => {
+  if (!options.headers) {
+    options.headers = new Headers({ Accept: 'application/json' });
+  }
+  const token = localStorage.getItem('token');
+  options.headers.set('Authorization', `Bearer ${token}`);
+  return fetchUtils.fetchJson(url, options);
+}
 
-const dataProvider = jsonServerProvider('http://localhost:8000')
+const dataProvider = simpleRestProvider('https://helsinki-city-bike-281t.onrender.com/', httpClient)
 
 const App = () => {
 
   return (
-    <Admin dataProvider={dataProvider} authProvider={authProvider} loginPage={LoginPage}>
-      <div className='App'>
-        "Hello world"
-        </div>
+    <Admin title="Helsinki city bike" dataProvider={dataProvider} authProvider={authProvider} loginPage={Register}>
     </Admin>
   );
 };

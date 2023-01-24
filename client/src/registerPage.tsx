@@ -2,7 +2,7 @@ import * as React from 'react';
 import { useState } from 'react';
 import { useLogin, useNotify, Notification } from 'react-admin';
 
-const LoginPage = () => {
+const Register = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const login = useLogin();
@@ -10,7 +10,7 @@ const LoginPage = () => {
 
     const handleSubmit = (e: React.SyntheticEvent) => {
         e.preventDefault();
-        // will call authProvider.login({ username, password })
+
         login({ username, password }).catch(() =>
             notify('Invalid username or password')
         );
@@ -30,8 +30,9 @@ const LoginPage = () => {
                 value={password}
                 onChange={e => setPassword(e.target.value)}
             />
+            <button onClick={handleSubmit}>login</button>
         </form>
     );
 };
 
-export default LoginPage;
+export default Register;

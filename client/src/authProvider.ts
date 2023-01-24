@@ -3,27 +3,31 @@ import { AUTH_LOGIN, AUTH_LOGOUT, AUTH_ERROR, AUTH_CHECK } from 'react-admin';
 export default (type: any, params: any) => {
     if (type === AUTH_LOGIN) {
         const { username, password } = params;
-        const request = new Request('http://localhost:8000/user', {
+        const request = new Request('https://helsinki-city-bike-281t.onrender.com/signin', {
             method: 'POST',
             body: JSON.stringify({ username, password }),
-            headers: new Headers({ 'content-type': 'application/json' }),
+            headers: new Headers({
+                'content-type': 'application/json',
+            })           
         })
         return fetch(request)
             .then(response => {
                 if (response.status < 200 || response.status >= 300) {
                     throw new Error(response.statusText);
                 }
-                return response.json();
+                return response.json()
             })
             .then(({ token }) => {
                 localStorage.setItem('token', token);
+                Promise.resolve({ redirectTo: '/home'})
             });
         
     }
 
     if (type === AUTH_LOGOUT) {
-        localStorage.removeItem('token')
-        return Promise.resolve()
+        localStorage.removeItem('token');
+        localStorage.removeItem('permissions');
+        return Promise.resolve();
 
     }
 
@@ -39,5 +43,7 @@ export default (type: any, params: any) => {
     if (type === AUTH_CHECK) {
         return localStorage.getItem('token') ? Promise.resolve() : Promise.reject({ redirectTo: '/login' });
     }
+
+
     return Promise.reject('Unknown method');
 }
