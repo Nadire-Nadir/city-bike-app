@@ -1,4 +1,3 @@
-import { Button } from '@material-ui/core';
 import * as React from 'react';
 import { useState } from 'react';
 import { useLogin, useNotify } from 'react-admin';
@@ -30,7 +29,7 @@ const Register = () => {
                 />
                 <input
                     name='password'
-                    type='text'
+                    type='password'
                     placeholder='password'
                     value={password}
                     onChange={e => setPassword(e.target.value)}
