@@ -3,8 +3,9 @@ import * as React from 'react';
 
 import { Admin, Resource, fetchUtils } from 'react-admin';
 import authProvider from './authProvider';
-import Register from './registerPage';
+import Register from './components/registerPage';
 import simpleRestProvider from 'ra-data-simple-rest';
+import JourneyList from './components/journeyList';
 
 const httpClient = (url: string, options: any = {}) => {
   if (!options.headers) {
@@ -20,7 +21,13 @@ const dataProvider = simpleRestProvider('https://helsinki-city-bike-281t.onrende
 const App = () => {
 
   return (
-    <Admin title="Helsinki city bike" dataProvider={dataProvider} authProvider={authProvider} loginPage={Register}>
+    <Admin
+      title="Helsinki city bike"
+      dataProvider={dataProvider}
+      authProvider={authProvider}
+      loginPage={Register}
+    >
+      <Resource name="journey" list={JourneyList} />
     </Admin>
   );
 };
