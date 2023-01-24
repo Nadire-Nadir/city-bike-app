@@ -19,7 +19,6 @@ export default (type: any, params: any) => {
             })
             .then(({ token }) => {
                 localStorage.setItem('token', token);
-                Promise.resolve({ redirectTo: '/home'})
             });
         
     }

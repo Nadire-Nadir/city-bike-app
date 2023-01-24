@@ -1,5 +1,4 @@
 import './App.css';
-import * as React from 'react';
 
 import { Admin, Resource, fetchUtils } from 'react-admin';
 import authProvider from './authProvider';
@@ -25,9 +24,11 @@ const App = () => {
       title="Helsinki city bike"
       dataProvider={dataProvider}
       authProvider={authProvider}
+      requireAuth
       loginPage={Register}
     >
       <Resource name="journey" list={JourneyList} />
+
     </Admin>
   );
 };

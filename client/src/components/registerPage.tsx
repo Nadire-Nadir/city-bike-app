@@ -1,6 +1,8 @@
+import { Button } from '@material-ui/core';
 import * as React from 'react';
 import { useState } from 'react';
-import { useLogin, useNotify, Notification } from 'react-admin';
+import { useLogin, useNotify } from 'react-admin';
+import '../loginPage.css';
 
 const Register = () => {
     const [username, setUsername] = useState('');
@@ -17,21 +19,27 @@ const Register = () => {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
-            <input
-                name="username"
-                type="username"
-                value={username}
-                onChange={e => setUsername(e.target.value)}
-            />
-            <input
-                name="password"
-                type="password"
-                value={password}
-                onChange={e => setPassword(e.target.value)}
-            />
-            <button onClick={handleSubmit}>login</button>
-        </form>
+        <div className='login-page'>
+            <form onSubmit={handleSubmit} className='form'>
+                <input
+                    name='username'
+                    type='text'
+                    placeholder='username'
+                    value={username}
+                    onChange={e => setUsername(e.target.value)}
+                />
+                <input
+                    name='password'
+                    type='text'
+                    placeholder='password'
+                    value={password}
+                    onChange={e => setPassword(e.target.value)}
+                />
+
+                <button onClick={handleSubmit}>login</button>
+                <p className='message'>Not registered? <a href="#">Create an account</a></p>
+            </form>
+        </div>
     );
 };
 
