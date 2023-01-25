@@ -1,6 +1,6 @@
 const StationList = () => {
     return (
-        <div>journey list</div>
+        <div>station list</div>
     )
 }
 
