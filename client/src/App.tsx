@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import NavBar from './components/navBar';
+import SideBar from './components/sideBar';
 import JourneyPage from './pages/journeyPage';
 import LoginPage from './pages/loginPage';
 import NotFoundPage from './pages/notFoundPage';
@@ -10,9 +11,11 @@ const App = () => {
   return (
     <div>
       <NavBar />
+      <SideBar />
       <Routes>
-        <Route path='/journeys' element={<JourneyPage />} />
-        <Route path='/stations' element={<StationPage />} />
+        <Route path='/journey' element={<JourneyPage />} />
+        <Route path='/station' element={<StationPage />} />
+        <Route path='/station/:id' element={<StationPage />} />
         <Route path='/' element={<LoginPage />} />
         <Route element={<NotFoundPage />} />
       </Routes>
