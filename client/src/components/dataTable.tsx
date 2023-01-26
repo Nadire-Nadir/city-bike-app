@@ -10,6 +10,7 @@ const DataTable = (props: any) => {
     const [sortedData, setSortedData] = useState([]);
 
     const { rows, headers, onRowSelect, isLoading, showPagination, initialPageSize, keyPrefix } = props;
+
     useEffect(() => {
         setSortedData(rows);
         setRowsPerPage(initialPageSize);
@@ -17,8 +18,8 @@ const DataTable = (props: any) => {
 
     const handleSort = (sortKey: any) => {
         setSortDirection(sortDirection === 'asc' ? 'desc' : 'asc');
-        
-        const newSortedData: any = [...sortDirection].sort((a, b) => {
+
+        const newSortedData: any = [...sortedData].sort((a, b) => {
             if (sortDirection === 'asc') {
                 if (a[sortKey] < b[sortKey]) {
                     return -1;
@@ -38,7 +39,7 @@ const DataTable = (props: any) => {
             }
         });
         setSortedData(newSortedData);
-        
+
     };
 
     const handleSelect = (item: any, index: any) => {
@@ -47,7 +48,7 @@ const DataTable = (props: any) => {
             setSelectedIdx(index);
             setActive(true);
             onRowSelect(item);
-            
+
         } else if (selected !== null && selectedIdx !== index) {
             setSelected(item);
             setSelectedIdx(index);
@@ -63,9 +64,9 @@ const DataTable = (props: any) => {
 
     const handleFilter = (e: any, dataKey: any) => {
         const newSortedData = rows.filter((item: any) => {
-            return item[dataKey].toString().toLowerCase().include(e.target.value);
+            return item[dataKey].toString().toLowerCase().includes(e.target.value.toLowerCase());
         })
-        console.log("newSortedData", newSortedData);
+        console.log('newSortedData', newSortedData);
         setSortedData(newSortedData);
         setPage(0);
     };
@@ -85,44 +86,22 @@ const DataTable = (props: any) => {
     );
 
     const renderCellValue = (item: any, accessor: any, width: any) => {
-        if (accessor === 'subSolutions') {
-            if (item.subSolutions === undefined || item.subSolutions.length === 0) {
-                return <div>{""}</div>
-            }
+        if (item[accessor] == undefined) return (
+            <div>{''}</div>
+        )
+        if (accessor === 'coveredDistanceInMeter') {
             return (
                 <div>
-                    {accessor === 'subSolutions' && item.subSolutions.map((d: any, idx: any) => {
-                        return (
-                            <li key={idx}>
-                                <span>{d.name}</span>
-                                <span>{d.subId}</span>
-                            </li>
-                        )
-                    })}
+                    {(item.coveredDistanceInMeter / 1000).toFixed(3)}
                 </div>
             )
-        } else if (accessor === 'subSolutionsRow') {
-            if (item.subSolutionsRow === undefined || item.subSolutionsRow.length === 0) {
-                return <div>{""}</div>
-            }
+        } else if (accessor === 'durationInSecond') {
             return (
                 <div>
-                    {accessor === 'subSolutionRow' && item.subSolutionRow.map((d: any, idx: any) => {
-                        return (
-                            <li key={idx}>
-                                <span>{d.name}</span>
-                                <span>{d.subId}</span>
-                            </li>
-                        )
-                    })}
+                    {(item.durationInSecond / 60).toFixed(2)}
                 </div>
             )
-        } else if (accessor === 'internalOnly') {
-            return <div>{item.internalOnly === true ? "Yes" : "No"} </div>
         } else {
-            if (item[accessor] === undefined || item[accessor].length === 0) return (
-                <div>{""}</div>
-            )
             return (
                 <div>
                     <span>{item[accessor]} </span>
@@ -132,74 +111,132 @@ const DataTable = (props: any) => {
     };
 
     return (
-        <div className="flex-table-container">
-            <div className="RbacTable table-style -striped -highlight">
-                <div className="rt-table" role="grid">
-
-                    <div className="rt-thead -header">
-                        <div className="rt-tr" role="row">
-                            {
-                                headers.map((value: any, index: any) => (
-                                    <div style={{ maxWidth: value.width }} className="rt-th rt-resizable-header -cursor-pointer" role="columnheader" tabIndex={-1} key={index}>
-                                        <div className="rt-resizable-header-content" onClick={() => handleSort(value["accessor"])}>{value.Header}</div>
-                                        <div className="rt-resizer"></div>
-                                    </div>))
-                            }
-                        </div>
-                    </div>
-                    <div className="rt-thead -filters">
-                        <div className="rt-tr" role="row">
-                            {headers.map((value: any, index: any) => (
-                                <div style={{ maxWidth: value.width }} className="rt-th" role="columnheader" tabIndex={-1} key={value["accessor"]}>
-                                    <input name={value["accessor"]} type="text" onChange={(e) => handleFilter(e, value["accessor"])} />
-                                </div>))}
-                        </div>
-                    </div>
-
-                    <div className="rt-tbody">
-                        {pageRows.map((item, index) => (
-                            <div className={((active && selectedIdx === index) && 'rt-tr-group selectedRow') || 'rt-tr-group'} role="rowgroup" key={`${item[keyPrefix]}${index}`}>
-                                <div className={(index % 2 && 'rt-tr -even') || 'rt-tr -odd'} role="row" onClick={() => handleSelect(item, index)}>
-                                    {headers.map((value: any, index: any) => (
-                                        <div style={{ maxWidth: value.width }} className={`rt-td width-${value.width}`} role="gridcell" key={index}>
-                                            {renderCellValue(item, value.accessor, value.width)}
-                                        </div>))}
+        <div className='table striped'>
+            <div className='rt-table' role='grid'>
+                <div className='table-head header'>
+                    <div className='table-row' role='row'>
+                        {
+                            headers.map((value: any, index: any) => (
+                                <div
+                                    style={{ maxWidth: value.width }}
+                                    className='column-header'
+                                    role='columnheader'
+                                    tabIndex={-1}
+                                    key={index}
+                                >
+                                    <div
+                                        className='header-content'
+                                        onClick={() => handleSort(value['accessor'])}
+                                    >
+                                        {value.Header}
+                                    </div>
                                 </div>
+                            ))
+                        }
+                    </div>
+                </div>
+                <div className='table-head filters'>
+                    <div className='table-row' role='row'>
+                        {headers.map((value: any, index: any) => (
+                            <div
+                                style={{ maxWidth: value.width }}
+                                className='column-header'
+                                role='columnheader'
+                                tabIndex={-1}
+                                key={value['accessor']}
+                            >
+                                <input
+                                    name={value['accessor']}
+                                    type='text'
+                                    onChange={(e) => handleFilter(e, value['accessor'])}
+                                />
                             </div>
                         ))}
                     </div>
                 </div>
-                {
-                    showPagination && (<div className="pagination-bottom">
-                        <div className="-pagination">
-                            <div className="-previous">
-                                <button type="button" disabled={page === 0} className="-btn" onClick={() => handleChangePage(page - 1)}>Previous</button>
+
+                <div className='table-body'>
+                    {pageRows.map((item, index) => (
+                        <div
+                            className={((active && selectedIdx === index) && 'row-group selected-row') || 'row-group'}
+                            role='rowgroup'
+                            key={`${item[keyPrefix]}${index}`}
+                        >
+                            <div
+                                className={(index % 2 && 'table-row -even') || 'table-row -odd'}
+                                role='row'
+                                onClick={() => handleSelect(item, index)}
+                            >
+                                {headers.map((value: any, index: any) => (
+                                    <div
+                                        style={{ maxWidth: value.width }}
+                                        className={`table-cell width-${value.width}`}
+                                        role='gridcell'
+                                        key={index}
+                                    >
+                                        {renderCellValue(item, value.accessor, value.width)}
+                                    </div>))}
                             </div>
-                            <div className="-center"><span className="-pageInfo">Page <div className="-pageJump">
-                                <input aria-label="jump to page" value={page + 1} readOnly />
-                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+            {
+                showPagination && (<div className='pagination-bottom'>
+                    <div className='pagination'>
+                        <div className='previous'>
+                            <button
+                                type='button'
+                                disabled={page === 0}
+                                className='btn'
+                                onClick={() => handleChangePage(page - 1)}
+                            >
+                                Previous
+                            </button>
+                        </div>
+                        <div className='center'>
+                            <span className='page-info'>
+                                Page
+                                <div className='page-jump'>
+                                    <span>{page + 1}</span>
+                                </div>
                                 <span>of</span>
 
-                                <span className="-totalPages">{Math.ceil(sortedData.length / rowsPerPage)}</span>
-                            </span><span className="select-wrap -pageSizeOptions">
-                                    <select value={rowsPerPage} aria-label="rows per page" onChange={(e: FormEvent<HTMLSelectElement>) => handleChangeRowsPerPage((e.target as any).value)}>
-                                        <option value="5">5 rows</option>
-                                        <option value="10">10 rows</option>
-                                        <option value="20">20 rows</option>
-                                        <option value="25">25 rows</option>
-                                        <option value="50">50 rows</option>
-                                        <option value="100">100 rows</option>
-                                    </select></span></div>
-                            <div className="-next"><button disabled={page === Math.floor(sortedData.length / rowsPerPage)} type="button" className="-btn" onClick={() => handleChangePage(page + 1)}>Next</button></div>
+                                <span className='total-pages'>
+                                    {Math.ceil(sortedData.length / rowsPerPage)}
+                                </span>
+                            </span>
+                            <span className='page-size-options'>
+                                <select
+                                    value={rowsPerPage}
+                                    aria-label='rows per page'
+                                    onChange={(e: FormEvent<HTMLSelectElement>) => handleChangeRowsPerPage((e.target as any).value)}
+                                >
+                                    <option value='5'>5 rows</option>
+                                    <option value='10'>10 rows</option>
+                                    <option value='20'>20 rows</option>
+                                    <option value='25'>25 rows</option>
+                                    <option value='50'>50 rows</option>
+                                    <option value='100'>100 rows</option>
+                                </select>
+                            </span>
                         </div>
-                    </div>)
-                }
-                {
-                    pageRows.length === 0 && (<div className='rt-noData'>No rows found.</div>)
-                }
-                <div className={isLoading ? '-loading -active' : '-loading'}>
-                    <div className="-loading-inner">Loading...</div>
-                </div>
+                        <div className='next'>
+                            <button
+                                disabled={page === Math.floor(sortedData.length / rowsPerPage)}
+                                type='button'
+                                className='btn'
+                                onClick={() => handleChangePage(page + 1)}
+                            >
+                                Next
+                            </button>
+                        </div>
+                    </div>
+                </div>)
+            }
+            {pageRows.length === 0 && (<div className='no-data'>No rows found.</div>)}
+            <div className={isLoading ? 'loading active' : 'loading'}>
+                <div>Loading...</div>
             </div>
         </div>
     )
