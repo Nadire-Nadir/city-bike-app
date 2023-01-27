@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate, useParams } from "react-router-dom";
 import DataTable from '../components/dataTable';
 import '../styles/dataTable.css';
 
@@ -16,6 +17,14 @@ const StationPage = () => {
     useEffect(() => {
         fetchData()
     }, []);
+
+    let navigate = useNavigate(); 
+    const navigatePage = (item: any) => {
+        let path = window.location.pathname + `/${item.stationId}`    
+        navigate(path);
+        localStorage.setItem('item', JSON.stringify(item));
+        
+    }
 
     const fetchData = () => {
         setLoading(true);
@@ -39,7 +48,7 @@ const StationPage = () => {
                 <DataTable
                     headers={STATION_HEADER}
                     rows={stationData}
-                    onRowSelect={(item: any) => console.log(item)}
+                    onRowSelect={(item: any) => navigatePage(item)}
                     isLoading={false}
                     showPagination={true}
                     initialPageSize={25}

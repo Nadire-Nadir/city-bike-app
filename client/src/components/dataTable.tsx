@@ -66,7 +66,6 @@ const DataTable = (props: any) => {
         const newSortedData = rows.filter((item: any) => {
             return item[dataKey].toString().toLowerCase().includes(e.target.value.toLowerCase());
         })
-        console.log('newSortedData', newSortedData);
         setSortedData(newSortedData);
         setPage(0);
     };
