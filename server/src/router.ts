@@ -1,6 +1,6 @@
 import { Router } from 'express'
 import { body } from 'express-validator'
-import { createJourneys, getJourneys } from './handlers/journey'
+import { countJourneys, createJourneys, getJourneys } from './handlers/journey'
 import { createStations, deleteStation, getOneStation, getStations, updateStation } from './handlers/station'
 import { handleInputErrors } from './modules/middleware'
 
@@ -13,6 +13,8 @@ const router = Router()
 router.get('/journey', getJourneys)
 
 router.post('/journey', createJourneys)
+
+router.post('/journey/count', countJourneys)
 
 /**
  * Stations

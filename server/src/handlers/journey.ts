@@ -36,3 +36,49 @@ export const createJourneys = async (req: Request, res: Response, next: NextFunc
         next(e)
     }  
 }
+
+export const countJourneys = async (req: Request, res: Response, next: NextFunction) => {
+    try {
+        const journeyNumberFrom = await prisma.journey.count({
+            where: {
+                departureStationId: req.body.departureStationId
+            }
+        })
+
+        const journeyNumberTo = await prisma.journey.count({
+            where: {
+                returnStationId: req.body.returnStationId
+            }
+        })
+
+        const avgJourneyFrom = await prisma.journey.aggregate({
+            where: {
+                departureStationId: req.body.departureStationId
+            },
+            _avg: {
+                coveredDistanceInMeter: true
+            }
+        })
+
+        const avgJourneyTo = await prisma.journey.aggregate({
+            where: {
+                returnStationId: req.body.returnStationId
+            },
+            _avg: {
+                coveredDistanceInMeter: true
+            }
+
+        })
+
+        res.json({
+            data: {
+                'departureJourneyNum': journeyNumberFrom,
+                'returnJourneyNum': journeyNumberTo,
+                'avgJourneyFrom': avgJourneyFrom,
+                'avgJourneyTo': avgJourneyTo
+            }
+        })
+    } catch (e) {
+        next(e)
+    }
+}
