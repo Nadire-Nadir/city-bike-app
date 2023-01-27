@@ -41,20 +41,20 @@ export const countJourneys = async (req: Request, res: Response, next: NextFunct
     try {
         const journeyNumberFrom = await prisma.journey.count({
             where: {
-                departureStationId: req.body.departureStationId
+                departureStationId: req.body.departureStationId,
             }
         })
 
-        // const journeyNumberTo = await prisma.journey.count({
-        //     where: {
-        //         returnStationId: req.body.returnStationId
-        //     }
-        // })
+        const journeyNumberTo = await prisma.journey.count({
+            where: {
+                returnStationId: req.body.returnStationId
+            }
+        })
 
         res.json({
             data: {
                 'departureJourneyNum': journeyNumberFrom,
-                // 'returnJourneyNum': journeyNumberTo
+                'returnJourneyNum': journeyNumberTo
             }
         })
     } catch (e) {
