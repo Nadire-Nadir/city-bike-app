@@ -1,6 +1,6 @@
 import { Router } from 'express'
 import { body } from 'express-validator'
-import { countJourneys, createJourneys, getJourneys } from './handlers/journey'
+import { avgJourneys, countJourneys, createJourneys, getJourneys } from './handlers/journey'
 import { createStations, deleteStation, getOneStation, getStations, updateStation } from './handlers/station'
 import { handleInputErrors } from './modules/middleware'
 
@@ -15,6 +15,8 @@ router.get('/journey', getJourneys)
 router.post('/journey', createJourneys)
 
 router.post('/journey/count', countJourneys)
+
+router.post('/journey/avg', avgJourneys)
 
 /**
  * Stations

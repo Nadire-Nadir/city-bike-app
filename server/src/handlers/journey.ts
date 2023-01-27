@@ -51,6 +51,19 @@ export const countJourneys = async (req: Request, res: Response, next: NextFunct
             }
         })
 
+        res.json({
+            data: {
+                'departureJourneyNum': journeyNumberFrom,
+                'returnJourneyNum': journeyNumberTo
+            }
+        })
+    } catch (e) {
+        next(e)
+    }
+}
+
+export const avgJourneys = async (req: Request, res: Response, next: NextFunction) => {
+    try {
         const avgJourneyFrom = await prisma.journey.aggregate({
             where: {
                 departureStationId: req.body.departureStationId
@@ -67,13 +80,10 @@ export const countJourneys = async (req: Request, res: Response, next: NextFunct
             _avg: {
                 coveredDistanceInMeter: true
             }
-
         })
 
         res.json({
             data: {
-                'departureJourneyNum': journeyNumberFrom,
-                'returnJourneyNum': journeyNumberTo,
                 'avgJourneyFrom': avgJourneyFrom,
                 'avgJourneyTo': avgJourneyTo
             }
