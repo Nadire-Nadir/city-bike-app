@@ -1,18 +1,17 @@
 import { Routes, Route } from 'react-router-dom';
-import NavBar from './components/navBar';
-import SideBar from './components/sideBar';
 import SingleStationPage from './pages/singleStationPage';
 import JourneyPage from './pages/journeyPage';
 import LoginPage from './pages/loginPage';
 import NotFoundPage from './pages/notFoundPage';
 import StationPage from './pages/stationPage';
+import NavBar from './components/navBar';
+import './styles/App.css';
 
 const App = () => {
 
   return (
-    <div>
+    <div className='App'>
       <NavBar />
-      <SideBar />
       <Routes>
         <Route path='/journey' element={<JourneyPage />} />
         <Route path='/station' element={<StationPage />} />
