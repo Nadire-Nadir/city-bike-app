@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import axios from 'axios';
 import { useNavigate } from "react-router-dom";
+import axios from 'axios';
 
 import RegisterForm from '../components/registerForm';
-import '../styles/registerForm.css'
+import '../styles/registerForm.css';
 
 const LoginPage = () => {
     const [username, setUsername] = useState<string>();
@@ -11,31 +11,28 @@ const LoginPage = () => {
     const [loading, setLoading] = useState<boolean>(false);
     const [error, setError] = useState<string>();
 
-    const navigate = useNavigate(); 
+    const navigate = useNavigate();
 
-    const handleLogin = () => {
+    const postData = {
+        "username": username,
+        "password": password
+    };
+
+    const handleLogin = async () => {
         if (username && password) {
+            setError(undefined);
             setLoading(true);
-            axios.post('/signin', {
-                "username": username,
-                "password": password
-            }).then((response) => {
-                console.log("res", response)
-                if (response.data.message) {
-                    setError(response.data.message);
-                }
-                if (response.data.token) {
-                    localStorage.setItem('token', JSON.stringify(response.data.token));
-                    navigate('/journey');
-                }
+            axios.post('/signin', postData).then((response) => {
+                localStorage.setItem('token', JSON.stringify(response.data.token));
+                navigate('/journey');
                 setLoading(false);
             }).catch(e => {
-                console.log(e);
+                setError(e.response.data.message);
                 setLoading(false);
-            })
-        }
-    }
-    
+            });
+        };
+    };
+
     return (
         <div className='body'>
             <RegisterForm
@@ -47,7 +44,7 @@ const LoginPage = () => {
                 error={error}
             />
         </div>
-    )
-}
+    );
+};
 
 export default LoginPage;

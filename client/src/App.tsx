@@ -4,6 +4,7 @@ import JourneyPage from './pages/journeyPage';
 import LoginPage from './pages/loginPage';
 import NotFoundPage from './pages/notFoundPage';
 import StationPage from './pages/stationPage';
+import SignupPage from './pages/signupPage';
 import './styles/App.css';
 
 const App = () => {
@@ -11,9 +12,11 @@ const App = () => {
   return (
     <div className='App'>
       <Routes>
+        <Route path='/login' element={<LoginPage />} />
+        <Route path='/signup' element={<SignupPage />} />
         <Route path='/journey' element={<JourneyPage />} />
         <Route path='/station' element={<StationPage />} />
-        <Route path='station/:id' element={ <SingleStationPage />} />
+        <Route path='station/:id' element={<SingleStationPage />} />
         <Route path='/' element={<LoginPage />} />
         <Route element={<NotFoundPage />} />
       </Routes>

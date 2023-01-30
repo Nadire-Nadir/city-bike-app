@@ -11,30 +11,27 @@ const SignupPage = () => {
     const [loading, setLoading] = useState<boolean>(false);
     const [error, setError] = useState<string>();
 
-    const navigate = useNavigate(); 
+    const navigate = useNavigate();
 
-    const handleSingup = () => { 
+    const postData = {
+        "username": username,
+        "password": password
+    };
+
+    const handleSingup = () => {
         if (username && password) {
+            setError(undefined);
             setLoading(true);
-            axios.post('/user', {               
-                "username": username,
-                "password": password                
-            }).then((response) => {
-                if (response.data.message) {
-                    setError(response.data.message);
-                }
-                if (response.data.token) {
-                    localStorage.setItem('token', JSON.stringify(response.data.token));
-                    navigate('/journey');
-
-                }
+            axios.post('/user', postData).then((response) => {
+                localStorage.setItem('token', JSON.stringify(response.data.token));
+                navigate('/journey');
                 setLoading(false);
             }).catch(e => {
-                console.log(e);
+                setError(e.response.data.message);
                 setLoading(false);
-            })
-        }
-    }
+            });
+        };
+    };
 
     return (
         <div className='body'>
