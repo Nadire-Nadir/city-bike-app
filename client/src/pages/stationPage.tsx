@@ -28,7 +28,7 @@ const StationPage = () => {
 
     const fetchData = () => {
         setLoading(true);
-        fetch('https://helsinki-city-bike-281t.onrender.com/api/station', {
+        fetch('/api/station', {
             method: 'GET',
             headers: {
                 'Authorization': 'Bearer ' + localStorage.getItem('token')

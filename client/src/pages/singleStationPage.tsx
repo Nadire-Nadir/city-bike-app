@@ -21,7 +21,7 @@ const SingleStationPage = (props: any) => {
         //     // formData.append('departureStationId', JSON.stringify({departureStationId: '4'}));
         //     // formData.append('returnStationId', JSON.stringify({returnStationId: '4'}));
         //     setLoading(true);
-        //     fetch('https://helsinki-city-bike-281t.onrender.com/api/journey/count', {
+        //     fetch('/api/journey/count', {
         //         method: "POST",
         //         headers: {
         //             "Authorization": "Bearer " + localStorage.getItem("token")

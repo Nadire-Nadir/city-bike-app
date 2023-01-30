@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import RegisterForm from '../components/registerForm';
 import '../styles/registerForm.css'
 
-const LoginPage = () => {
+const SignupPage = () => {
     const [username, setUsername] = useState<string>();
     const [password, setPassword] = useState<string>();
     const [loading, setLoading] = useState<boolean>(false);
@@ -13,20 +13,20 @@ const LoginPage = () => {
 
     const navigate = useNavigate(); 
 
-    const handleLogin = () => {
+    const handleSingup = () => { 
         if (username && password) {
             setLoading(true);
-            axios.post('/signin', {
+            axios.post('/user', {               
                 "username": username,
-                "password": password
+                "password": password                
             }).then((response) => {
-                console.log("res", response)
                 if (response.data.message) {
                     setError(response.data.message);
                 }
                 if (response.data.token) {
                     localStorage.setItem('token', JSON.stringify(response.data.token));
                     navigate('/journey');
+
                 }
                 setLoading(false);
             }).catch(e => {
@@ -35,12 +35,11 @@ const LoginPage = () => {
             })
         }
     }
-    
+
     return (
         <div className='body'>
             <RegisterForm
-                onSubmit={handleLogin}
-                signup={true}
+                onSubmit={handleSingup}
                 setUsername={setUsername}
                 setPassword={setPassword}
                 loading={loading}
@@ -50,4 +49,4 @@ const LoginPage = () => {
     )
 }
 
-export default LoginPage;
+export default SignupPage;

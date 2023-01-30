@@ -19,7 +19,7 @@ const JourneyPage = () => {
 
     const fetchData = () => {       
         setLoading(true);
-        fetch('https://helsinki-city-bike-281t.onrender.com/api/journey', {
+        fetch('/api/journey', {
             method: 'GET',
             headers: {
                 'Authorization': 'Bearer ' + localStorage.getItem('token')
