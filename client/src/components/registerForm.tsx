@@ -1,5 +1,3 @@
-import React, { useState } from 'react';
-import { AiOutlineClose } from 'react-icons/ai';
 import { IoPersonCircle } from 'react-icons/io5';
 
 
@@ -33,7 +31,9 @@ const RegisterForm = (props: any) => {
                                 }
                             </button>
                         }
-                        {error && <p className='error'>{ error}</p>}
+                        {error &&
+                            <p className='error'>{error}</p>
+                        }
                         
                         <div className='message'>
                             {signup ?

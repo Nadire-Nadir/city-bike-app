@@ -17,31 +17,7 @@ const SingleStationPage = (props: any) => {
     }, []);
 
     const fetchCountData = () => {
-        // if (itemData && !countData) {
-        //     // var formData = new FormData();
-        //     // formData.append('departureStationId', JSON.stringify({departureStationId: '4'}));
-        //     // formData.append('returnStationId', JSON.stringify({returnStationId: '4'}));
-        //     setLoading(true);
-        //     fetch('/api/journey/count', {
-        //         method: "POST",
-        //         headers: {
-        //             "Authorization": "Bearer " + localStorage.getItem("token")
-        //         },
-        //         body: JSON.stringify({
-        //             departureStationId: itemData.stationId,
-        //             returnStationId: itemData.stationId
-        //         })
-                
-        //     }).then(res => res.json()).then((result) => {
-        //         console.log("res", result);
-        //         setCountData(result.data);
-        //         localStorage.setItem('countJourneyData', JSON.stringify(countData));
-        //         setLoading(false);
-        //     }).catch(e => {
-        //         console.log(e);
-        //         setLoading(false);
-        //     });
-        // }
+   
     }
 
     console.log("data", itemData);

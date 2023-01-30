@@ -1,63 +1,64 @@
+import axios from 'axios';
 import { useState, useEffect } from 'react';
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { axiosConfig, STATION_HEADER } from '../utils';
 import DataTable from '../components/dataTable';
 import NavBar from '../components/navBar';
 import '../styles/dataTable.css';
 
-export const STATION_HEADER = [
-    { accessor: 'stationNameFi', Header: 'Station Name' },
-    { accessor: 'addressFi', Header: 'Station Address' },
-    { accessor: 'operator', Header: 'Operator' },
-    { accessor: 'capacities', Header: 'Capacities' },
-]
 
 const StationPage = () => {
     const [stationData, setStationData] = useState<any>();
     const [loading, setLoading] = useState<boolean>(false);
+    const [error, setError] = useState<string>();
+
+    const navigate = useNavigate();
 
     useEffect(() => {
         fetchData()
     }, []);
 
-    let navigate = useNavigate(); 
     const navigatePage = (item: any) => {
-        let path = window.location.pathname + `/${item.stationId}`    
+        let path = window.location.pathname + `/${item.stationId}`
         navigate(path);
-        localStorage.setItem('item', JSON.stringify(item));
-        
-    }
+        localStorage.setItem('stationItem', JSON.stringify(item));
+    };
 
     const fetchData = () => {
         setLoading(true);
-        fetch('/api/station', {
-            method: 'GET',
-            headers: {
-                'Authorization': 'Bearer ' + localStorage.getItem('token')
-            }
-        }).then(res => res.json()).then((result) => {
-            setStationData(result.data);
+        axios.get('/api/station', axiosConfig).then((response) => {
+            setStationData(response.data.data);
             setLoading(false);
         }).catch(e => {
-            console.log(e);
+            setError(e.response.data.message);
             setLoading(false);
-        })
-    }
+        });
+    };
 
     return (
         <div>
             <NavBar />
-            {loading ? "loading" :
-                <DataTable
-                    headers={STATION_HEADER}
-                    rows={stationData}
-                    onRowSelect={(item: any) => navigatePage(item)}
-                    isLoading={false}
-                    showPagination={true}
-                    initialPageSize={25}
-                    keyPrefix={'departureStationName'}
-                />}
+            {loading
+                ?
+                "loading"
+                :
+                (
+                    error ?
+                        <div>{error}</div>
+                        :
+                        <DataTable
+                            headers={STATION_HEADER}
+                            rows={stationData}
+                            onRowSelect={(item: any) => navigatePage(item)}
+                            isLoading={false}
+                            showPagination={true}
+                            initialPageSize={25}
+                            keyPrefix={'departureStationName'}
+                        />
+                )
+            };
         </div>
-    )
-}
+    );
+};
 
 export default StationPage;

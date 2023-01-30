@@ -1,54 +1,55 @@
+import axios from 'axios';
 import { useState, useEffect } from 'react';
+import { axiosConfig, JOURNEY_HEADER } from '../utils';
 import DataTable from '../components/dataTable';
 import NavBar from '../components/navBar';
 import '../styles/dataTable.css';
 
-export const JOURNEY_HEADER = [
-    { accessor: 'departureStationName', Header: 'Departure Station' },
-    { accessor: 'returnStationName', Header: 'Return Station' },
-    { accessor: 'coveredDistanceInMeter', Header: 'Distance (km)' },
-    { accessor: 'durationInSecond', Header: 'Duration (min)' },
-]
-
 const JourneyPage = () => {
     const [journeyData, setJourneyData] = useState<any>();
     const [loading, setLoading] = useState<boolean>(false);
+    const [error, setError] = useState<string>();
 
     useEffect(() => {
         fetchData()
     }, []);
 
-    const fetchData = () => {       
+    const fetchData = () => {
         setLoading(true);
-        fetch('/api/journey', {
-            method: 'GET',
-            headers: {
-                'Authorization': 'Bearer ' + localStorage.getItem('token')
-            }
-        }).then(res => res.json()).then((result) => {
-            setJourneyData(result.data);
+        setError(undefined);
+        axios.get('/api/journey', axiosConfig).then((response) => {
+            setJourneyData(response.data.data);
             setLoading(false);
         }).catch(e => {
-            console.log(e);
+            setError(e.response.data.message);
             setLoading(false);
-        })           
-    }
+        })
+    };
 
     return (
         <div>
             <NavBar />
-            {loading ? "loading" :
-                <DataTable
-                    headers={JOURNEY_HEADER}
-                    rows={journeyData}
-                    onRowSelect={(item: any) => console.log(item)}
-                    isLoading={false}
-                    showPagination={true}
-                    initialPageSize={25}
-                    keyPrefix={'departureStationName'}
-                />}
+            {loading ?
+                <div> "loading"</div>
+                :
+                (
+                    error
+                        ?
+                        <div>{error}</div>
+                        :
+                        <DataTable
+                            headers={JOURNEY_HEADER}
+                            rows={journeyData}
+                            onRowSelect={(item: any) => console.log(item)}
+                            isLoading={false}
+                            showPagination={true}
+                            initialPageSize={25}
+                            keyPrefix={'departureStationName'}
+                        />
+                )
+            }
         </div>
-    )
-}
+    );
+};
 
 export default JourneyPage;
