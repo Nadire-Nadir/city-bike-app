@@ -4,6 +4,7 @@ import { axiosConfig, JOURNEY_HEADER } from '../utils';
 import DataTable from '../components/dataTable';
 import NavBar from '../components/navBar';
 import '../styles/dataTable.css';
+import '../styles/navBar.css';
 
 const JourneyPage = () => {
     const [journeyData, setJourneyData] = useState<any>();
@@ -49,7 +50,7 @@ const JourneyPage = () => {
                 )
             }
         </div>
-    );
+    )
 };
 
 export default JourneyPage;

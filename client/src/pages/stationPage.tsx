@@ -5,6 +5,7 @@ import { axiosConfig, STATION_HEADER } from '../utils';
 import DataTable from '../components/dataTable';
 import NavBar from '../components/navBar';
 import '../styles/dataTable.css';
+import '../styles/navBar.css';
 
 
 const StationPage = () => {
@@ -56,7 +57,7 @@ const StationPage = () => {
                             keyPrefix={'departureStationName'}
                         />
                 )
-            };
+            }
         </div>
     );
 };

@@ -1,54 +1,111 @@
-import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import { useState, useEffect } from 'react';
 import NavBar from '../components/navBar';
+import { axiosConfig } from '../utils';
+import '../styles/navBar.css';
 
-const SingleStationPage = (props: any) => {
-    // const jData = localStorage.getItem('countJourneyData');
-    // console.log("jsd", jData);
-    // const localCountData = jData ? JSON.parse(jData) : undefined;
-    
+export interface stateType { avgFrom: string | null; avgTo: string | null }
+
+const SingleStationPage = () => {
     const [countData, setCountData] = useState<any>();
-    const [loading, setLoading] = useState<boolean>(false);
+    const [avgData, setAvgData] = useState<any>({ avgFrom: '', avgTo: '' });
+    const [countError, setCountError] = useState<string>();
+    const [avgError, setAvgError] = useState<string>();
 
-    const item = localStorage.getItem('item');
-    const itemData = item && JSON.parse(item) 
+    const item = localStorage.getItem('stationItem');
+    const itemData = JSON.parse(item || '[]');
 
+    
     useEffect(() => {
-        fetchCountData()
+        fetchCountData();
+        fetchAvgData();
     }, []);
 
-    const fetchCountData = () => {
-   
-    }
 
-    console.log("data", itemData);
+    const postData = {
+        departureStationId: itemData.stationId,
+        returnStationId: itemData.stationId
+    };
+
+
+    const fetchCountData = async () => {
+        setCountError(undefined);
+        await axios.post('/api/journey/count', postData, axiosConfig).then((response) => {
+            setCountData(response.data.data);
+        }).catch(e => {
+            setCountError(e.response.data.message);
+        });
+    };
+
+
+    const fetchAvgData = async () => {
+        setAvgError(undefined);
+        await axios.post('/api/journey/avg', postData, axiosConfig).then((response) => {
+            setAvgData({
+                avgFrom: response.data.data.avgJourneyFrom._avg.coveredDistanceInMeter,
+                avgTo: response.data.data.avgJourneyTo._avg.coveredDistanceInMeter
+            });
+        }).catch(e => {
+            setAvgError(e.response.data.message);
+        });
+    };
+
+
     return (
         <div>
             <NavBar />
-            {loading ?
-                "loading" :
+            <div>
+                {itemData &&
+                    <div>
+                        <p>Station Name:
+                            <span>{itemData.stationNameFi}</span>
+                        </p>
+                        <p>Station Address:
+                            <span>{itemData.addressFi}, {itemData.cityFi}</span>
+                        </p>
+                    </div>
+                }
                 <div>
-                    <div>
-                        <p>Station Name: </p>
-                        <span>{itemData.stationNameFi}</span>
-                    </div>
-                    <div>
-                        <p>Station Address: </p>
-                        <span>{itemData.addressFi}</span>
-                    </div>
-                    <div>
-                        <p>Total number of journeys starting from this station</p>
-                        {/* <span>{countData.departureJourneyNum}</span> */}
-                    </div>
-                    <div>
-                        <p>Total number of journeys ending at the station</p>
-                        {/* <span>{countData.returnJourneyNum}</span> */}
-                    </div>
-                </div>
-            }
-        </div>
-    )
-}
+                    {countData &&
+                        <div>
+                            <p>Total number of journeys starting from this station:
+                                <span>{countData.departureJourneyNum}</span>
+                            </p>
 
+                            <p>Total number of journeys ending at the station:
+                                <span>{countData.returnJourneyNum}</span>
+                            </p>
+                        </div>
+                    }
+                    {
+                        countError && <p>{countError}</p>
+                    }
+                </div>
+                <div>
+                    {avgData &&
+                        <div>
+                            <p>The average distance of a journey starting from this station:
+                                <span>
+                                    {avgData.avgFrom ? (avgData.avgFrom) / 1000 : "0"} {"km"}
+                                </span>
+                            </p>
+
+                            <p>The average distance of a journey ending at this station:
+                                <span>
+                                    {avgData.avgTo ? (avgData.avgTo) / 1000 : "0"} {"km"}
+                                </span>
+                            </p>
+
+                        </div>
+                    }
+                    {
+                        avgError && <p>{avgError}</p>
+                    }
+                </div>
+            </div>
+        </div>
+    );
+};
 
 
 export default SingleStationPage;

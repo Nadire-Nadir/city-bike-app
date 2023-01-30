@@ -4,7 +4,6 @@ import { IconContext } from 'react-icons';
 import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 import { AiOutlineClose, AiOutlineUser } from 'react-icons/ai';
-import '../styles/navBar.css';
 
 
 const NavBar = () => {
