@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import DataTable from '../components/dataTable';
+import NavBar from '../components/navBar';
 import '../styles/dataTable.css';
 
 export const JOURNEY_HEADER = [
@@ -35,6 +36,7 @@ const JourneyPage = () => {
 
     return (
         <div>
+            <NavBar />
             {loading ? "loading" :
                 <DataTable
                     headers={JOURNEY_HEADER}

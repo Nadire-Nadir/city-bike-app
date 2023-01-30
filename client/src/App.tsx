@@ -4,14 +4,12 @@ import JourneyPage from './pages/journeyPage';
 import LoginPage from './pages/loginPage';
 import NotFoundPage from './pages/notFoundPage';
 import StationPage from './pages/stationPage';
-import NavBar from './components/navBar';
 import './styles/App.css';
 
 const App = () => {
 
   return (
     <div className='App'>
-      <NavBar />
       <Routes>
         <Route path='/journey' element={<JourneyPage />} />
         <Route path='/station' element={<StationPage />} />

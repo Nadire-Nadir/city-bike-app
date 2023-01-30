@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate, useParams } from "react-router-dom";
 import DataTable from '../components/dataTable';
+import NavBar from '../components/navBar';
 import '../styles/dataTable.css';
 
 export const STATION_HEADER = [
@@ -44,6 +45,7 @@ const StationPage = () => {
 
     return (
         <div>
+            <NavBar />
             {loading ? "loading" :
                 <DataTable
                     headers={STATION_HEADER}

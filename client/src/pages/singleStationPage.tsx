@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import NavBar from '../components/navBar';
 
 const SingleStationPage = (props: any) => {
     // const jData = localStorage.getItem('countJourneyData');
@@ -46,6 +47,7 @@ const SingleStationPage = (props: any) => {
     console.log("data", itemData);
     return (
         <div>
+            <NavBar />
             {loading ?
                 "loading" :
                 <div>
