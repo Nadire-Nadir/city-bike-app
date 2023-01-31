@@ -6,6 +6,7 @@ import Map from '../components/googleMap';
 import { avgDataType, countDataType, stationType } from '../types';
 import { axiosConfig } from '../utils';
 import '../styles/navBar.css';
+import '../styles/singleStationPage.css';
 
 
 const SingleStationPage = (props: any) => {
@@ -51,73 +52,76 @@ const SingleStationPage = (props: any) => {
         ((avgData.avgJourneyFrom._avg.coveredDistanceInMeter) / 1000).toFixed(3);
 
     const avgJourneyTo = avgData &&
-        ((avgData.avgJourneyTo._avg.coveredDistanceInMeter) / 1000).toFixed(3)
-
+        ((avgData.avgJourneyTo._avg.coveredDistanceInMeter) / 1000).toFixed(3);
 
     const center = {
         lat: stationData.yCoordinate,
         lng: stationData.xCoordinate,
-    }
+    };
 
     return (
         <>
             <NavBar />
             <div className='page-container'>
                 <h2 className='page-title'>Station Details</h2>
+                {stationData && countData && avgData ?
+                    <div className='details-container'>
+                        <div className='details-content'>
+                            <div>
+                                <p>
+                                    <span className='details-title'>Station Name:</span>
+                                    <span>{stationData.stationNameFi}</span>
+                                </p>
+                                <p>
+                                    <span className='details-title'>Station Address: </span>
+                                    <span>{stationData.addressFi}, {stationData.cityFi}</span>
+                                </p>
+                            </div>
 
-                <div>
-                    {stationData &&
-                        <div>
-                            <p>Station Name:
-                                <span>{stationData.stationNameFi}</span>
-                            </p>
-                            <p>Station Address:
-                                <span>{stationData.addressFi}, {stationData.cityFi}</span>
-                            </p>
-                        </div>
-                    }
-                </div>
-                <div>
-                    {countData &&
-                        <div>
-                            <p>Total number of journeys starting from this station:
-                                <span>{countData.departureJourneyNum}</span>
-                            </p>
+                            <div>
+                                <p>
+                                    <span className='details-title'>
+                                        Total number of journeys starting from this station:
+                                    </span>
+                                    <span>
+                                        {countError ? 'Not found' : countData.departureJourneyNum}
+                                    </span>
+                                </p>
+                                <p>
+                                    <span className='details-title'>
+                                        Total number of journeys ending at the station:
+                                    </span>
+                                    <span>{countError ? 'Not found' : countData.returnJourneyNum}</span>
+                                </p>
+                            </div>
 
-                            <p>Total number of journeys ending at the station:
-                                <span>{countData.returnJourneyNum}</span>
-                            </p>
+                            <div>
+                                <p>
+                                    <span className='details-title'>
+                                        The average distance of a journey starting from this station:
+                                    </span>
+                                    <span>
+                                        {avgError ? 'Not found' : avgJourneyFrom} {"km"}
+                                    </span>
+                                </p>
+                                <p>
+                                    <span className='details-title'>
+                                        The average distance of a journey ending at this station:
+                                    </span>
+                                    <span>
+                                        {avgError ? 'Not found' : avgJourneyTo} {"km"}
+                                    </span>
+                                </p>
+                            </div>
                         </div>
-                    }
-                    {
-                        countError && <p>{countError}</p>
-                    }
-                </div>
-                <div>
-                    {avgData &&
-                        <div>
-                            <p>The average distance of a journey starting from this station:
-                                <span>
-                                    {avgJourneyFrom} {"km"}
-                                </span>
-                            </p>
-
-                            <p>The average distance of a journey ending at this station:
-                                <span>
-                                    {avgJourneyTo} {"km"}
-                                </span>
-                            </p>
-                        </div>
-                    }
-                    {
-                        avgError && <p>{avgError}</p>
-                    }
-                </div>
-                <Map center={center} />               
+                    </div>
+                    :
+                    <div className="loader data-loader"></div>
+                }
+                <Map center={center} />
             </div>
         </>
     );
 };
-
 
 export default SingleStationPage;

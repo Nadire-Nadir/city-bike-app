@@ -35,7 +35,7 @@ const JourneyPage = () => {
 
     if (error) {
         return <div>{error}</div>
-    }
+    };
 
     return (
         <>
@@ -52,10 +52,11 @@ const JourneyPage = () => {
                         showPagination={true}
                         initialPageSize={25}
                         keyPrefix={'departureStationName'}
-                    />}
+                    />
+                }
             </div>
         </>
-    )
+    );
 };
 
 export default JourneyPage;

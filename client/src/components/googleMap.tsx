@@ -10,9 +10,9 @@ const SimpleMap = (props: any) => {
     };
 
     return (
-        <div style={{ height: '600px', width: '100vw' }}>
+        <div style={{ height: '600px', width: '95vw', margin: "0 auto" }}>
             <GoogleMapReact
-                bootstrapURLKeys={{ key: "AIzaSyAZJkpuSzY-TqicpzAAOb6w0vmQZ58uGBk" }}
+                bootstrapURLKeys={{ key: "" }}
                 defaultCenter={defaultProps.center}
                 defaultZoom={defaultProps.zoom}
                 yesIWantToUseGoogleMapApiInternals

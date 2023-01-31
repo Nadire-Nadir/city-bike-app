@@ -26,6 +26,7 @@ const NavBar = () => {
                         <AiOutlineUser
                             onClick={logout}
                         />
+                        <span className='tooltip-text'>Logout</span>
                     </Link>
                 </div>
                 <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
