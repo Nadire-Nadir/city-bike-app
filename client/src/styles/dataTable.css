@@ -111,6 +111,10 @@
     text-overflow: ellipsis
 }
 
+.sort-icon {
+    margin-left: 16px;
+}
+
 .table .table-body {
     -webkit-box-flex: 99999;
     -ms-flex: 99999 1 auto;
