@@ -6,7 +6,7 @@ export const getJourneys = async (req: Request, res: Response, next: NextFunctio
     try {
         const journeys = await prisma.journey.findMany();
 
-        res.json({ data: journeys })
+        res.json(journeys)
 
     } catch (e) {
         next(e)
@@ -30,7 +30,7 @@ export const createJourneys = async (req: Request, res: Response, next: NextFunc
             }
         })
 
-        res.json({ data: journey })
+        res.json(journey)
 
     } catch (e) {
         next(e)
@@ -41,21 +41,19 @@ export const countJourneys = async (req: Request, res: Response, next: NextFunct
     try {
         const journeyNumberFrom = await prisma.journey.count({
             where: {
-                departureStationId: req.body.departureStationId,
+                departureStationId: req.body.id,
             }
         })
 
         const journeyNumberTo = await prisma.journey.count({
             where: {
-                returnStationId: req.body.returnStationId
+                returnStationId: req.body.id
             }
         })
 
         res.json({
-            data: {
-                'departureJourneyNum': journeyNumberFrom,
-                'returnJourneyNum': journeyNumberTo
-            }
+            'departureJourneyNum': journeyNumberFrom,
+            'returnJourneyNum': journeyNumberTo
         })
     } catch (e) {
         next(e)
@@ -66,7 +64,7 @@ export const avgJourneys = async (req: Request, res: Response, next: NextFunctio
     try {
         const avgJourneyFrom = await prisma.journey.aggregate({
             where: {
-                departureStationId: req.body.departureStationId
+                departureStationId: req.body.id
             },
             _avg: {
                 coveredDistanceInMeter: true
@@ -75,7 +73,7 @@ export const avgJourneys = async (req: Request, res: Response, next: NextFunctio
 
         const avgJourneyTo = await prisma.journey.aggregate({
             where: {
-                returnStationId: req.body.returnStationId
+                returnStationId: req.body.id
             },
             _avg: {
                 coveredDistanceInMeter: true
@@ -83,10 +81,8 @@ export const avgJourneys = async (req: Request, res: Response, next: NextFunctio
         })
 
         res.json({
-            data: {
-                'avgJourneyFrom': avgJourneyFrom,
-                'avgJourneyTo': avgJourneyTo
-            }
+            'avgJourneyFrom': avgJourneyFrom,
+            'avgJourneyTo': avgJourneyTo
         })
     } catch (e) {
         next(e)

@@ -21,7 +21,7 @@ export const createStations = async (req: Request, res: Response, next: NextFunc
             }
         })
 
-        res.json({ data: stations })
+        res.json(stations)
     } catch (e) {
         next(e)
     }
@@ -32,7 +32,7 @@ export const getStations = async (req: Request, res: Response, next: NextFunctio
     try {
         const stations = await prisma.station.findMany();
 
-        res.json({ data: stations })
+        res.json(stations)
 
     } catch (e) {
         next(e)
@@ -48,7 +48,7 @@ export const getOneStation = async (req: Request, res: Response, next: NextFunct
             }
         })
 
-        res.json({ data: station })
+        res.json(station)
 
     } catch (e) {
         next(e)
@@ -68,7 +68,7 @@ export const updateStation = async (req: Request, res: Response, next: NextFunct
             }
         })
 
-        res.json({ data: updated })
+        res.json(updated)
 
     } catch (e) {
         next(e)
