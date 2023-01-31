@@ -41,6 +41,9 @@ export interface avgDataType {
             coveredDistanceInMeter: number
         }
     }
-
 };
 
+export interface MarkerType {
+    lat: number,
+    lng: number,
+};

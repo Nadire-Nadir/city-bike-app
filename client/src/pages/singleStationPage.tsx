@@ -2,11 +2,13 @@ import axios from 'axios';
 import { useState, useEffect } from 'react';
 import { get } from "local-storage";
 import NavBar from '../components/navBar';
+import Map from '../components/googleMap';
 import { avgDataType, countDataType, stationType } from '../types';
 import { axiosConfig } from '../utils';
 import '../styles/navBar.css';
 
-const SingleStationPage = () => {
+
+const SingleStationPage = (props: any) => {
     const [countData, setCountData] = useState<countDataType>();
     const [avgData, setAvgData] = useState<avgDataType>();
     const [countError, setCountError] = useState<string>();
@@ -51,6 +53,11 @@ const SingleStationPage = () => {
     const avgJourneyTo = avgData &&
         ((avgData.avgJourneyTo._avg.coveredDistanceInMeter) / 1000).toFixed(3)
 
+
+    const center = {
+        lat: stationData.yCoordinate,
+        lng: stationData.xCoordinate,
+    }
 
     return (
         <>
@@ -106,6 +113,7 @@ const SingleStationPage = () => {
                         avgError && <p>{avgError}</p>
                     }
                 </div>
+                <Map center={center} />               
             </div>
         </>
     );
