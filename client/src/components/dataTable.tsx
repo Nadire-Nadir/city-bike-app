@@ -1,6 +1,6 @@
 import { useState, useEffect, FormEvent, ChangeEvent } from 'react'
 import { journeyType, stationType } from '../types';
-import { BsSortDownAlt, BsSortDown  } from "react-icons/bs";
+import { BsSortDownAlt, BsSortDown } from "react-icons/bs";
 
 const DataTable = (props: any) => {
     const [active, setActive] = useState<boolean>(false);
@@ -130,19 +130,19 @@ const DataTable = (props: any) => {
                                         className='header-content'
                                     >
                                         {value.Header}
-                                    
+
                                         {
                                             sortDirection === 'desc' &&
-                                                <BsSortDownAlt
-                                                    className='sort-icon'
-                                             />
+                                            <BsSortDownAlt
+                                                className='sort-icon'
+                                            />
                                         }
                                         {
                                             sortDirection === 'asc' &&
-                                                <BsSortDown
-                                                    className='sort-icon'
-                                                />
-                                        }                                       
+                                            <BsSortDown
+                                                className='sort-icon'
+                                            />
+                                        }
                                     </div>
                                 </div>
                             ))

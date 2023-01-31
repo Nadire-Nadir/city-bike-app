@@ -1,11 +1,11 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import { axiosConfig, JOURNEY_HEADER } from '../utils';
+import { journeyType } from '../types';
 import DataTable from '../components/dataTable';
 import NavBar from '../components/navBar';
 import '../styles/dataTable.css';
 import '../styles/navBar.css';
-import { journeyType } from '../types';
 
 const JourneyPage = () => {
     const [journeyData, setJourneyData] = useState<journeyType>();
@@ -19,13 +19,14 @@ const JourneyPage = () => {
     const fetchData = async () => {
         setLoading(true);
         setError(undefined);
-        await axios.get('/api/journey', axiosConfig).then((response) => {
-            setJourneyData(response.data);
-            setLoading(false);
-        }).catch(e => {
-            setError(e.response.data.message);
-            setLoading(false);
-        })
+        await axios.get('/api/journey', axiosConfig)
+            .then((response) => {
+                setJourneyData(response.data);
+                setLoading(false);
+            }).catch(e => {
+                setError(e.response.data.message);
+                setLoading(false);
+            })
     };
 
     if (loading) {
@@ -37,19 +38,23 @@ const JourneyPage = () => {
     }
 
     return (
-        <div>
+        <>
             <NavBar />
-            {journeyData &&
-                <DataTable
-                    headers={JOURNEY_HEADER}
-                    rows={journeyData}
-                    onRowSelect={(item: journeyType) => console.log(item)}
-                    isLoading={false}
-                    showPagination={true}
-                    initialPageSize={25}
-                    keyPrefix={'departureStationName'}
-                />}
-        </div>
+            <div className='page-container'>
+                <h1 className='page-title'>Journeys List</h1>
+
+                {journeyData &&
+                    <DataTable
+                        headers={JOURNEY_HEADER}
+                        rows={journeyData}
+                        onRowSelect={(item: journeyType) => item}
+                        isLoading={false}
+                        showPagination={true}
+                        initialPageSize={25}
+                        keyPrefix={'departureStationName'}
+                    />}
+            </div>
+        </>
     )
 };
 

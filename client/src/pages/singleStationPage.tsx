@@ -2,9 +2,9 @@ import axios from 'axios';
 import { useState, useEffect } from 'react';
 import { get } from "local-storage";
 import NavBar from '../components/navBar';
+import { avgDataType, countDataType, stationType } from '../types';
 import { axiosConfig } from '../utils';
 import '../styles/navBar.css';
-import { avgDataType, countDataType, stationType } from '../types';
 
 const SingleStationPage = () => {
     const [countData, setCountData] = useState<countDataType>();
@@ -26,21 +26,23 @@ const SingleStationPage = () => {
 
     const fetchCountData = async () => {
         setCountError(undefined);
-        await axios.post('/api/journey/count', postData, axiosConfig).then((response) => {
-            setCountData(response.data);
-        }).catch(e => {
-            setCountError(e.response.data.message);
-        });
+        await axios.post('/api/journey/count', postData, axiosConfig)
+            .then((response) => {
+                setCountData(response.data);
+            }).catch(e => {
+                setCountError(e.response.data.message);
+            });
     };
 
 
     const fetchAvgData = async () => {
         setAvgError(undefined);
-        await axios.post('/api/journey/avg', postData, axiosConfig).then((response) => {
-            setAvgData(response.data);
-        }).catch(e => {
-            setAvgError(e.response.message);
-        });
+        await axios.post('/api/journey/avg', postData, axiosConfig)
+            .then((response) => {
+                setAvgData(response.data);
+            }).catch(e => {
+                setAvgError(e.response.message);
+            });
     };
 
     const avgJourneyFrom = avgData &&
@@ -51,19 +53,23 @@ const SingleStationPage = () => {
 
 
     return (
-        <div>
+        <>
             <NavBar />
-            <div>
-                {stationData &&
-                    <div>
-                        <p>Station Name:
-                            <span>{stationData.stationNameFi}</span>
-                        </p>
-                        <p>Station Address:
-                            <span>{stationData.addressFi}, {stationData.cityFi}</span>
-                        </p>
-                    </div>
-                }
+            <div className='page-container'>
+                <h2 className='page-title'>Station Details</h2>
+
+                <div>
+                    {stationData &&
+                        <div>
+                            <p>Station Name:
+                                <span>{stationData.stationNameFi}</span>
+                            </p>
+                            <p>Station Address:
+                                <span>{stationData.addressFi}, {stationData.cityFi}</span>
+                            </p>
+                        </div>
+                    }
+                </div>
                 <div>
                     {countData &&
                         <div>
@@ -101,7 +107,7 @@ const SingleStationPage = () => {
                     }
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 

@@ -47,20 +47,24 @@ const StationPage = () => {
     }
 
     return (
-        <div>
+        <>
             <NavBar />
-            {stationData &&
-                <DataTable
-                    headers={STATION_HEADER}
-                    rows={stationData}
-                    onRowSelect={(item: stationType) => navigatePage(item)}
-                    isLoading={false}
-                    showPagination={true}
-                    initialPageSize={25}
-                    keyPrefix={'departureStationName'}
-                />
-            }
-        </div>
+            <div className='page-container'>
+                <h2 className='page-title'>Stations List</h2>
+
+                {stationData &&
+                    <DataTable
+                        headers={STATION_HEADER}
+                        rows={stationData}
+                        onRowSelect={(item: stationType) => navigatePage(item)}
+                        isLoading={false}
+                        showPagination={true}
+                        initialPageSize={25}
+                        keyPrefix={'departureStationName'}
+                    />
+                }
+            </div>
+        </>
     );
 };
 

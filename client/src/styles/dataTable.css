@@ -14,7 +14,7 @@
     box-sizing: border-box
 }
 
-.table .rt-table {
+.rt-table {
     -webkit-box-flex: 1;
     -ms-flex: auto 1;
     flex: auto 1;
@@ -33,7 +33,7 @@
     overflow: auto
 }
 
-.table .table-head {
+.table-head {
     -webkit-box-flex: 1;
     -ms-flex: 1 0 auto;
     flex: 1 0 auto;
@@ -52,13 +52,13 @@
     user-select: none;
 }
 
-.table .table-head.filters {
+.table-head.filters {
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     padding-right: 16px;
 }
 
-.table .table-head.filters input,
-.table .table-head.filters select {
+.table-head.filters input,
+.table-head.filters select {
     border: 1px solid rgba(0, 0, 0, 0.1);
     background: #fff;
     padding: 5px 7px;
@@ -69,44 +69,40 @@
     width: 100%;
 }
 
-.table .table-head.filters .column-header {
+.column-header {
     border-right: 1px solid rgba(0, 0, 0, 0.02)
 }
 
-.table .table-head.header {
+.header {
     box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.15);
     padding-right: 16px;
 }
 
-.table .table-head .table-row {
+.table-head .table-row {
     text-align: center
 }
 
-.table .table-head .column-header,
-.table .table-head .table-cell {
+.column-header,
+.table-cell {
     padding: 5px 5px;
     line-height: normal;
     position: relative;
     border-right: 1px solid rgba(0, 0, 0, 0.05);
     transition: box-shadow .3s cubic-bezier(.175, .885, .32, 1.275);
     box-shadow: inset 0 0 0 0 transparent;
-}
-
-.table .table-head .column-header,
-.table .table-head .table-cell {
     cursor: pointer
 }
 
-.table .table-head .column-header:last-child,
-.table .table-head .table-cell:last-child {
+.column-header:last-child,
+.table-cell:last-child {
     border-right: 0
 }
 
-.table .table-head .column-header:focus {
+.column-header:focus {
     outline-width: 0
 }
 
-.table .table-head .header-content {
+.header-content {
     overflow: hidden;
     text-overflow: ellipsis
 }
@@ -115,7 +111,7 @@
     margin-left: 16px;
 }
 
-.table .table-body {
+.table-body {
     -webkit-box-flex: 99999;
     -ms-flex: 99999 1 auto;
     flex: 99999 1 auto;
@@ -129,23 +125,23 @@
     overflow: auto;
 }
 
-.table .table-body .row-group {
+.row-group {
     border-bottom: solid 1px rgba(0, 0, 0, 0.05);
 }
 
-.table .table-body .row-group:last-child {
+.row-group:last-child {
     border-bottom: 0
 }
 
-.table .table-body .table-cell {
+.table-cell {
     border-right: 1px solid rgba(0, 0, 0, 0.02);
 }
 
-.table .table-body .table-cell:last-child {
+.table-cell:last-child {
     border-right: 0
 }
 
-.table .row-group {
+.row-group {
     -webkit-box-flex: 1;
     -ms-flex: 1 0 auto;
     flex: 1 0 auto;
@@ -161,7 +157,7 @@
     align-items: stretch
 }
 
-.table .table-row {
+.table-row {
     -webkit-box-flex: 1;
     -ms-flex: 1 0 auto;
     flex: 1 0 auto;
@@ -170,8 +166,8 @@
     display: inline-flex
 }
 
-.table .column-header,
-.table .table-cell {
+.column-header,
+.table-cell {
     -webkit-box-flex: 1;
     -ms-flex: 1 0 0px;
     flex: 1 0 0;
@@ -183,11 +179,11 @@
     transition-property: width, min-width, padding, opacity;
 }
 
-.table.striped .table-row.-odd {
+.table-row.-odd {
     background: rgba(0, 0, 0, 0.03)
 }
 
-.table .pagination {
+.pagination {
     z-index: 1;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -205,8 +201,7 @@
     border-top: 2px solid rgba(0, 0, 0, 0.1);
 }
 
-.table .pagination input,
-.table .pagination select {
+.pagination select {
     border: 1px solid rgba(0, 0, 0, 0.1);
     background: #fff;
     padding: 5px 7px;
@@ -216,7 +211,7 @@
     outline-width: 0
 }
 
-.table .pagination .btn {
+.btn {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -234,25 +229,25 @@
     outline-width: 0;
 }
 
-.table .pagination .btn[disabled] {
+.btn[disabled] {
     opacity: .5;
     cursor: default
 }
 
-.table .pagination .btn:not([disabled]):hover {
+.btn:not([disabled]):hover {
     background: rgba(0, 0, 0, 0.3);
     color: #fff
 }
 
-.table .pagination .previous,
-.table .pagination .next {
+.previous,
+.next {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
     text-align: center
 }
 
-.table .pagination .center {
+.center {
     -webkit-box-flex: 1.5;
     -ms-flex: 1.5;
     flex: 1.5;
@@ -274,13 +269,13 @@
     justify-content: space-around
 }
 
-.table .pagination .page-info {
+.page-info {
     display: inline-block;
     margin: 3px 10px;
     white-space: nowrap
 }
 
-.table .pagination .page-jump {
+.page-jump {
     display: inline-block;
     width: 48px;
     text-align: center;
@@ -288,17 +283,17 @@
     font-weight: 500;
 }
 
-.table .pagination .total-pages {
+.total-pages {
     width: 48px;
     text-align: center;
     display: inline-block;
 }
 
-.table .pagination .page-size-options {
+.page-size-options {
     margin: 3px 10px
 }
 
-.table .no-data {
+.no-data {
     display: block;
     position: absolute;
     left: 50%;
@@ -313,7 +308,7 @@
     color: rgba(0, 0, 0, 0.5)
 }
 
-.table .loading {
+.loading {
     display: block;
     position: absolute;
     left: 0;
@@ -327,7 +322,7 @@
     pointer-events: none;
 }
 
-.table .loading>div {
+.loading>div {
     position: absolute;
     display: block;
     text-align: center;
@@ -341,21 +336,21 @@
     transition: all .3s cubic-bezier(.25, .46, .45, .94)
 }
 
-.table .loading.active {
+.loading.active {
     opacity: 1;
     z-index: 2;
     pointer-events: all;
 }
 
-.table .loading.active>div {
+.loading.active>div {
     -webkit-transform: translateY(50%);
     transform: translateY(50%)
 }
 
-.table .table-body .row-group.selected-row {
+.selected-row {
     background-color: rgb(0, 138, 186);
 }
 
-.table .table-body .row-group.selected-row .table-row .table-cell {
+.selected-row .table-row .table-cell {
     color: #fff;
 }

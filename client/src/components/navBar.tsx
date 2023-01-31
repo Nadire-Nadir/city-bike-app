@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { SidebarData } from './navbarData';
+import { SidebarData } from '../utils';
 import { IconContext } from 'react-icons';
 import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';

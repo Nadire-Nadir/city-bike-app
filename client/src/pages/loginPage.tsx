@@ -1,10 +1,9 @@
 import { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import axios from 'axios';
-
+import { set } from 'local-storage';
 import RegisterForm from '../components/registerForm';
 import '../styles/registerForm.css';
-import { set } from 'local-storage';
 
 const LoginPage = () => {
     const [username, setUsername] = useState<string>();
@@ -23,14 +22,15 @@ const LoginPage = () => {
         if (username && password) {
             setError(undefined);
             setLoading(true);
-            axios.post('/signin', postData).then((response) => {
-                set('token', response.data.token);
-                navigate('/journey');
-                setLoading(false);
-            }).catch(e => {
-                setError(e.response.data.message);
-                setLoading(false);
-            });
+            axios.post('/signin', postData)
+                .then((response) => {
+                    set('token', response.data.token);
+                    navigate('/journey');
+                    setLoading(false);
+                }).catch(e => {
+                    setError(e.response.data.message);
+                    setLoading(false);
+                });
         };
     };
 

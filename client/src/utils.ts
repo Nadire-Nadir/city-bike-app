@@ -1,8 +1,22 @@
 import { get } from "local-storage";
 
+export const SidebarData = [
+    {
+        title: 'Journeys',
+        path: '/journey',
+        cName: 'nav-text'
+    },
+    {
+        title: 'Stations',
+        path: '/station',
+        cName: 'nav-text'
+    }
+];
+
+
 export const axiosConfig = {
     headers: {
-        'Authorization': 'Bearer ' +  get('token')
+        'Authorization': 'Bearer ' + get('token')
     }
 };
 

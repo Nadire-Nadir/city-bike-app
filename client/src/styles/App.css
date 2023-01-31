@@ -1,7 +1,17 @@
-body, html {
+body,
+html {
   padding: 0;
   margin: 0;
   font-size: 16px;
+}
+
+.page-container {
+  margin: 20px;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 24px;
 }
 
 .loader {
