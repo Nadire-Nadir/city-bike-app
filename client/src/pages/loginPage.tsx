@@ -4,6 +4,7 @@ import axios from 'axios';
 
 import RegisterForm from '../components/registerForm';
 import '../styles/registerForm.css';
+import { set } from 'local-storage';
 
 const LoginPage = () => {
     const [username, setUsername] = useState<string>();
@@ -23,7 +24,7 @@ const LoginPage = () => {
             setError(undefined);
             setLoading(true);
             axios.post('/signin', postData).then((response) => {
-                localStorage.setItem('token', JSON.stringify(response.data.token));
+                set('token', response.data.token);
                 navigate('/journey');
                 setLoading(false);
             }).catch(e => {

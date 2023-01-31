@@ -1,16 +1,19 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { SidebarData } from './navbarData';
 import { IconContext } from 'react-icons';
 import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 import { AiOutlineClose, AiOutlineUser } from 'react-icons/ai';
+import * as ls from "local-storage";
 
 
 const NavBar = () => {
     const [sidebar, setSidebar] = useState(false);
 
     const showSidebar = () => setSidebar(!sidebar);
-    const logout = () => { };
+    const logout = () => {
+        ls.clear();
+    };
 
     return (
         <>
@@ -19,7 +22,7 @@ const NavBar = () => {
                     <Link to='#' className='menu-bars'>
                         <FaBars onClick={showSidebar} />
                     </Link>
-                    <Link to='#' className='logout'>
+                    <Link to='/' className='logout'>
                         <AiOutlineUser
                             onClick={logout}
                         />

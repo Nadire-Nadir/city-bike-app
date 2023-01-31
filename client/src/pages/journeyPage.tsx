@@ -16,10 +16,10 @@ const JourneyPage = () => {
         fetchData()
     }, []);
 
-    const fetchData = () => {
+    const fetchData = async () => {
         setLoading(true);
         setError(undefined);
-        axios.get('/api/journey', axiosConfig).then((response) => {
+        await axios.get('/api/journey', axiosConfig).then((response) => {
             setJourneyData(response.data);
             setLoading(false);
         }).catch(e => {
