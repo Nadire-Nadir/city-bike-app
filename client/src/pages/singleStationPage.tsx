@@ -1,37 +1,33 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react';
+import { get } from "local-storage";
 import NavBar from '../components/navBar';
 import { axiosConfig } from '../utils';
 import '../styles/navBar.css';
-
-export interface stateType { avgFrom: string | null; avgTo: string | null }
+import { avgDataType, countDataType, stationType } from '../types';
 
 const SingleStationPage = () => {
-    const [countData, setCountData] = useState<any>();
-    const [avgData, setAvgData] = useState<any>({ avgFrom: '', avgTo: '' });
+    const [countData, setCountData] = useState<countDataType>();
+    const [avgData, setAvgData] = useState<avgDataType>();
     const [countError, setCountError] = useState<string>();
     const [avgError, setAvgError] = useState<string>();
 
-    const item = localStorage.getItem('stationItem');
-    const itemData = JSON.parse(item || '[]');
+    const stationData = get<stationType>('stationItem');
 
-    
     useEffect(() => {
         fetchCountData();
         fetchAvgData();
-    }, []);
+    }, []);  // eslint-disable-line react-hooks/exhaustive-deps
 
 
     const postData = {
-        departureStationId: itemData.stationId,
-        returnStationId: itemData.stationId
+        id: stationData.stationId
     };
-
 
     const fetchCountData = async () => {
         setCountError(undefined);
         await axios.post('/api/journey/count', postData, axiosConfig).then((response) => {
-            setCountData(response.data.data);
+            setCountData(response.data);
         }).catch(e => {
             setCountError(e.response.data.message);
         });
@@ -41,27 +37,30 @@ const SingleStationPage = () => {
     const fetchAvgData = async () => {
         setAvgError(undefined);
         await axios.post('/api/journey/avg', postData, axiosConfig).then((response) => {
-            setAvgData({
-                avgFrom: response.data.data.avgJourneyFrom._avg.coveredDistanceInMeter,
-                avgTo: response.data.data.avgJourneyTo._avg.coveredDistanceInMeter
-            });
+            setAvgData(response.data);
         }).catch(e => {
-            setAvgError(e.response.data.message);
+            setAvgError(e.response.message);
         });
     };
+
+    const avgJourneyFrom = avgData &&
+        ((avgData.avgJourneyFrom._avg.coveredDistanceInMeter) / 1000).toFixed(3);
+
+    const avgJourneyTo = avgData &&
+        ((avgData.avgJourneyTo._avg.coveredDistanceInMeter) / 1000).toFixed(3)
 
 
     return (
         <div>
             <NavBar />
             <div>
-                {itemData &&
+                {stationData &&
                     <div>
                         <p>Station Name:
-                            <span>{itemData.stationNameFi}</span>
+                            <span>{stationData.stationNameFi}</span>
                         </p>
                         <p>Station Address:
-                            <span>{itemData.addressFi}, {itemData.cityFi}</span>
+                            <span>{stationData.addressFi}, {stationData.cityFi}</span>
                         </p>
                     </div>
                 }
@@ -86,16 +85,15 @@ const SingleStationPage = () => {
                         <div>
                             <p>The average distance of a journey starting from this station:
                                 <span>
-                                    {avgData.avgFrom ? (avgData.avgFrom) / 1000 : "0"} {"km"}
+                                    {avgJourneyFrom} {"km"}
                                 </span>
                             </p>
 
                             <p>The average distance of a journey ending at this station:
                                 <span>
-                                    {avgData.avgTo ? (avgData.avgTo) / 1000 : "0"} {"km"}
+                                    {avgJourneyTo} {"km"}
                                 </span>
                             </p>
-
                         </div>
                     }
                     {

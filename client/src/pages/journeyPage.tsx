@@ -5,9 +5,10 @@ import DataTable from '../components/dataTable';
 import NavBar from '../components/navBar';
 import '../styles/dataTable.css';
 import '../styles/navBar.css';
+import { journeyType } from '../types';
 
 const JourneyPage = () => {
-    const [journeyData, setJourneyData] = useState<any>();
+    const [journeyData, setJourneyData] = useState<journeyType>();
     const [loading, setLoading] = useState<boolean>(false);
     const [error, setError] = useState<string>();
 
@@ -19,7 +20,7 @@ const JourneyPage = () => {
         setLoading(true);
         setError(undefined);
         axios.get('/api/journey', axiosConfig).then((response) => {
-            setJourneyData(response.data.data);
+            setJourneyData(response.data);
             setLoading(false);
         }).catch(e => {
             setError(e.response.data.message);
@@ -41,7 +42,7 @@ const JourneyPage = () => {
                         <DataTable
                             headers={JOURNEY_HEADER}
                             rows={journeyData}
-                            onRowSelect={(item: any) => console.log(item)}
+                            onRowSelect={(item: journeyType) => console.log(item)}
                             isLoading={false}
                             showPagination={true}
                             initialPageSize={25}

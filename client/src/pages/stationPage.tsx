@@ -1,15 +1,17 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
+import { set } from "local-storage";
 import { axiosConfig, STATION_HEADER } from '../utils';
 import DataTable from '../components/dataTable';
 import NavBar from '../components/navBar';
 import '../styles/dataTable.css';
 import '../styles/navBar.css';
+import { stationType } from '../types';
 
 
 const StationPage = () => {
-    const [stationData, setStationData] = useState<any>();
+    const [stationData, setStationData] = useState<stationType>();
     const [loading, setLoading] = useState<boolean>(false);
     const [error, setError] = useState<string>();
 
@@ -19,16 +21,16 @@ const StationPage = () => {
         fetchData()
     }, []);
 
-    const navigatePage = (item: any) => {
+    const navigatePage = (item: stationType) => {
         let path = window.location.pathname + `/${item.stationId}`
         navigate(path);
-        localStorage.setItem('stationItem', JSON.stringify(item));
+        set<stationType>('stationItem', item);
     };
 
     const fetchData = () => {
         setLoading(true);
         axios.get('/api/station', axiosConfig).then((response) => {
-            setStationData(response.data.data);
+            setStationData(response.data);
             setLoading(false);
         }).catch(e => {
             setError(e.response.data.message);
@@ -50,7 +52,7 @@ const StationPage = () => {
                         <DataTable
                             headers={STATION_HEADER}
                             rows={stationData}
-                            onRowSelect={(item: any) => navigatePage(item)}
+                            onRowSelect={(item: stationType) => navigatePage(item)}
                             isLoading={false}
                             showPagination={true}
                             initialPageSize={25}

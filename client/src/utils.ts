@@ -1,6 +1,8 @@
+import { get } from "local-storage";
+
 export const axiosConfig = {
     headers: {
-        'Authorization': 'Bearer ' + JSON.parse(localStorage.getItem('token') || '[]')
+        'Authorization': 'Bearer ' +  get('token')
     }
 };
 

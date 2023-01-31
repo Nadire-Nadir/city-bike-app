@@ -1,12 +1,13 @@
-import react, { useState, useEffect, FormEvent } from 'react'
+import { useState, useEffect, FormEvent, ChangeEvent } from 'react'
+import { journeyType, stationType } from '../types';
 
 const DataTable = (props: any) => {
-    const [active, setActive] = useState(false);
-    const [selectedIdx, setSelectedIdx] = useState(-1);
-    const [selected, setSelected] = useState(null);
-    const [sortDirection, setSortDirection] = useState('asc');
-    const [page, setPage] = useState(0);
-    const [rowsPerPage, setRowsPerPage] = useState(25);
+    const [active, setActive] = useState<boolean>(false);
+    const [selectedIdx, setSelectedIdx] = useState<number>(-1);
+    const [selected, setSelected] = useState<journeyType | stationType | null>(null);
+    const [sortDirection, setSortDirection] = useState<string>('asc');
+    const [page, setPage] = useState<number>(0);
+    const [rowsPerPage, setRowsPerPage] = useState<number>(25);
     const [sortedData, setSortedData] = useState([]);
 
     const { rows, headers, onRowSelect, isLoading, showPagination, initialPageSize, keyPrefix } = props;
@@ -14,12 +15,12 @@ const DataTable = (props: any) => {
     useEffect(() => {
         setSortedData(rows);
         setRowsPerPage(initialPageSize);
-    }, [rows]);
+    }, [rows]);  // eslint-disable-line react-hooks/exhaustive-deps
 
-    const handleSort = (sortKey: any) => {
+    const handleSort = (sortKey: string) => {
         setSortDirection(sortDirection === 'asc' ? 'desc' : 'asc');
 
-        const newSortedData: any = [...sortedData].sort((a, b) => {
+        const newSortedData = [...sortedData].sort((a, b) => {
             if (sortDirection === 'asc') {
                 if (a[sortKey] < b[sortKey]) {
                     return -1;
@@ -42,7 +43,7 @@ const DataTable = (props: any) => {
 
     };
 
-    const handleSelect = (item: any, index: any) => {
+    const handleSelect = (item: journeyType | stationType, index: number) => {
         if (selected === null) {
             setSelected(item);
             setSelectedIdx(index);
@@ -62,7 +63,7 @@ const DataTable = (props: any) => {
         };
     };
 
-    const handleFilter = (e: any, dataKey: any) => {
+    const handleFilter = (e: ChangeEvent<HTMLInputElement>, dataKey: string) => {
         const newSortedData = rows.filter((item: any) => {
             return item[dataKey].toString().toLowerCase().includes(e.target.value.toLowerCase());
         })
@@ -84,8 +85,8 @@ const DataTable = (props: any) => {
         page * rowsPerPage + rowsPerPage
     );
 
-    const renderCellValue = (item: any, accessor: any, width: any) => {
-        if (item[accessor] == undefined) return (
+    const renderCellValue = (item: any, accessor: string, width: number) => {
+        if (item[accessor] === undefined) return (
             <div>{''}</div>
         )
         if (accessor === 'coveredDistanceInMeter') {
@@ -115,7 +116,7 @@ const DataTable = (props: any) => {
                 <div className='table-head header'>
                     <div className='table-row' role='row'>
                         {
-                            headers.map((value: any, index: any) => (
+                            headers.map((value: any, index: number) => (
                                 <div
                                     style={{ maxWidth: value.width }}
                                     className='column-header'
@@ -136,7 +137,7 @@ const DataTable = (props: any) => {
                 </div>
                 <div className='table-head filters'>
                     <div className='table-row' role='row'>
-                        {headers.map((value: any, index: any) => (
+                        {headers.map((value: any, index: number) => (
                             <div
                                 style={{ maxWidth: value.width }}
                                 className='column-header'
@@ -166,7 +167,7 @@ const DataTable = (props: any) => {
                                 role='row'
                                 onClick={() => handleSelect(item, index)}
                             >
-                                {headers.map((value: any, index: any) => (
+                                {headers.map((value: any, index: number) => (
                                     <div
                                         style={{ maxWidth: value.width }}
                                         className={`table-cell width-${value.width}`}
