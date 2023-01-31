@@ -38,27 +38,27 @@ const StationPage = () => {
         });
     };
 
+    if (loading) {
+        return <div className="loader data-loader"></div>
+    };
+
+    if (error) {
+        return <div>{error}</div>
+    }
+
     return (
         <div>
             <NavBar />
-            {loading
-                ?
-                "loading"
-                :
-                (
-                    error ?
-                        <div>{error}</div>
-                        :
-                        <DataTable
-                            headers={STATION_HEADER}
-                            rows={stationData}
-                            onRowSelect={(item: stationType) => navigatePage(item)}
-                            isLoading={false}
-                            showPagination={true}
-                            initialPageSize={25}
-                            keyPrefix={'departureStationName'}
-                        />
-                )
+            {stationData &&
+                <DataTable
+                    headers={STATION_HEADER}
+                    rows={stationData}
+                    onRowSelect={(item: stationType) => navigatePage(item)}
+                    isLoading={false}
+                    showPagination={true}
+                    initialPageSize={25}
+                    keyPrefix={'departureStationName'}
+                />
             }
         </div>
     );

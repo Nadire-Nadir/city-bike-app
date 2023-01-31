@@ -28,28 +28,27 @@ const JourneyPage = () => {
         })
     };
 
+    if (loading) {
+        return <div className="loader data-loader"></div>
+    };
+
+    if (error) {
+        return <div>{error}</div>
+    }
+
     return (
         <div>
             <NavBar />
-            {loading ?
-                <div> "loading"</div>
-                :
-                (
-                    error
-                        ?
-                        <div>{error}</div>
-                        :
-                        <DataTable
-                            headers={JOURNEY_HEADER}
-                            rows={journeyData}
-                            onRowSelect={(item: journeyType) => console.log(item)}
-                            isLoading={false}
-                            showPagination={true}
-                            initialPageSize={25}
-                            keyPrefix={'departureStationName'}
-                        />
-                )
-            }
+            {journeyData &&
+                <DataTable
+                    headers={JOURNEY_HEADER}
+                    rows={journeyData}
+                    onRowSelect={(item: journeyType) => console.log(item)}
+                    isLoading={false}
+                    showPagination={true}
+                    initialPageSize={25}
+                    keyPrefix={'departureStationName'}
+                />}
         </div>
     )
 };

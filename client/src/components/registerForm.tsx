@@ -21,7 +21,7 @@ const RegisterForm = (props: any) => {
                             <input type='password' placeholder='Password' onChange={(event) => setPassword(event.target.value)} />
                         </div>
                         {loading ?
-                            <div>"loading"</div>
+                            <div className="loader register-loader"></div>
                             :
                             <button type='button' onClick={onSubmit}>
                                 {signup ?
