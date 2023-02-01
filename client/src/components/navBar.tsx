@@ -22,10 +22,8 @@ const NavBar = () => {
                     <Link to='#' className='menu-bars'>
                         <FaBars onClick={showSidebar} />
                     </Link>
-                    <Link to='/' className='logout'>
-                        <AiOutlineUser
-                            onClick={logout}
-                        />
+                    <Link to='/' className='logout' onClick={logout}>
+                        <AiOutlineUser />
                         <span className='tooltip-text'>Logout</span>
                     </Link>
                 </div>

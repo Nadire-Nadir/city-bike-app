@@ -1,11 +1,12 @@
 import { useState, useEffect, FormEvent, ChangeEvent } from 'react'
-import { journeyType, stationType } from '../types';
+import { DataTablePropsType, HeadersType, JourneyType, StationType } from '../types';
 import { BsSortDownAlt, BsSortDown } from "react-icons/bs";
 
-const DataTable = (props: any) => {
+
+const DataGrid: React.FC<DataTablePropsType> = (props) => {
     const [active, setActive] = useState<boolean>(false);
     const [selectedIdx, setSelectedIdx] = useState<number>(-1);
-    const [selected, setSelected] = useState<journeyType | stationType | null>(null);
+    const [selected, setSelected] = useState<JourneyType | StationType | null>(null);
     const [sortDirection, setSortDirection] = useState<string>('asc');
     const [page, setPage] = useState<number>(0);
     const [rowsPerPage, setRowsPerPage] = useState<number>(25);
@@ -44,7 +45,7 @@ const DataTable = (props: any) => {
 
     };
 
-    const handleSelect = (item: journeyType | stationType, index: number) => {
+    const handleSelect = (item: JourneyType | StationType, index: number) => {
         if (selected === null) {
             setSelected(item);
             setSelectedIdx(index);
@@ -64,8 +65,10 @@ const DataTable = (props: any) => {
         };
     };
 
-    const handleFilter = (e: ChangeEvent<HTMLInputElement>, dataKey: string) => {
-        const newSortedData = rows.filter((item: any) => {
+
+    const handleFilter = (e: ChangeEvent<HTMLInputElement>, dataKey: any) => {
+
+        const newSortedData = rows.filter((item: JourneyType[] | StationType[]) => {
             return item[dataKey].toString().toLowerCase().includes(e.target.value.toLowerCase());
         })
         setSortedData(newSortedData);
@@ -86,7 +89,7 @@ const DataTable = (props: any) => {
         page * rowsPerPage + rowsPerPage
     );
 
-    const renderCellValue = (item: any, accessor: string, width: number) => {
+    const renderCellValue = (item: any, accessor: string, width?: number) => {
         if (item[accessor] === undefined) return (
             <div>{''}</div>
         )
@@ -117,7 +120,7 @@ const DataTable = (props: any) => {
                 <div className='table-head header'>
                     <div className='table-row' role='row'>
                         {
-                            headers.map((value: any, index: number) => (
+                            headers.map((value: HeadersType, index: number) => (
                                 <div
                                     style={{ maxWidth: value.width }}
                                     className='column-header'
@@ -151,7 +154,7 @@ const DataTable = (props: any) => {
                 </div>
                 <div className='table-head filters'>
                     <div className='table-row' role='row'>
-                        {headers.map((value: any, index: number) => (
+                        {headers.map((value: HeadersType, index: number) => (
                             <div
                                 style={{ maxWidth: value.width }}
                                 className='column-header'
@@ -181,7 +184,7 @@ const DataTable = (props: any) => {
                                 role='row'
                                 onClick={() => handleSelect(item, index)}
                             >
-                                {headers.map((value: any, index: number) => (
+                                {headers.map((value: HeadersType, index: number) => (
                                     <div
                                         style={{ maxWidth: value.width }}
                                         className={`table-cell width-${value.width}`}
@@ -256,4 +259,4 @@ const DataTable = (props: any) => {
     )
 }
 
-export default DataTable;
+export default DataGrid;

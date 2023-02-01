@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
-import { set } from 'local-storage';
+import * as ls from "local-storage";
 import RegisterForm from '../components/registerForm';
 import '../styles/registerForm.css'
 
@@ -18,13 +18,14 @@ const SignupPage = () => {
         "password": password
     };
 
-    const handleSingup = () => {
+    const handleSingup = async () => {
+        ls.clear();
         if (username && password) {
             setError(undefined);
             setLoading(true);
-            axios.post('/user', postData)
+            await axios.post('/user', postData)
                 .then((response) => {
-                    set('token', response.data.token);
+                    ls.set('token', response.data.token);
                     navigate('/journey');
                     setLoading(false);
 

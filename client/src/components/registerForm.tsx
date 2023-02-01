@@ -1,7 +1,8 @@
 import { IoPersonCircle } from 'react-icons/io5';
+import { RegisterFormProps } from '../types';
 
 
-const RegisterForm = (props: any) => {
+const RegisterForm: React.FC<RegisterFormProps> = (props) => {
     const { onSubmit, signup, setUsername, setPassword, loading, error } = props;
 
     return (

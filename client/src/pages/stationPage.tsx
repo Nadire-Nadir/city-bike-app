@@ -3,15 +3,15 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
 import { set } from "local-storage";
 import { axiosConfig, STATION_HEADER } from '../utils';
-import DataTable from '../components/dataTable';
+import DataGrid from '../components/dataGrid';
 import NavBar from '../components/navBar';
 import '../styles/dataTable.css';
 import '../styles/navBar.css';
-import { stationType } from '../types';
+import { StationType } from '../types';
 
 
 const StationPage = () => {
-    const [stationData, setStationData] = useState<stationType>();
+    const [stationData, setStationData] = useState<StationType>();
     const [loading, setLoading] = useState<boolean>(false);
     const [error, setError] = useState<string>();
 
@@ -21,10 +21,10 @@ const StationPage = () => {
         fetchData()
     }, []);
 
-    const navigatePage = (item: stationType) => {
+    const navigatePage = (item: StationType) => {
         let path = window.location.pathname + `/${item.stationId}`
         navigate(path);
-        set<stationType>('stationItem', item);
+        set<StationType>('stationItem', item);
     };
 
     const fetchData = () => {
@@ -53,10 +53,10 @@ const StationPage = () => {
                 <h2 className='page-title'>Stations List</h2>
 
                 {stationData &&
-                    <DataTable
+                    <DataGrid
                         headers={STATION_HEADER}
                         rows={stationData}
-                        onRowSelect={(item: stationType) => navigatePage(item)}
+                        onRowSelect={(item: StationType) => navigatePage(item)}
                         isLoading={false}
                         showPagination={true}
                         initialPageSize={25}

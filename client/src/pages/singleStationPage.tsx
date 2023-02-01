@@ -3,19 +3,19 @@ import { useState, useEffect } from 'react';
 import { get } from "local-storage";
 import NavBar from '../components/navBar';
 import Map from '../components/googleMap';
-import { avgDataType, countDataType, stationType } from '../types';
+import { AvgDataType, CountDataType, StationType } from '../types';
 import { axiosConfig } from '../utils';
 import '../styles/navBar.css';
 import '../styles/singleStationPage.css';
 
 
-const SingleStationPage = (props: any) => {
-    const [countData, setCountData] = useState<countDataType>();
-    const [avgData, setAvgData] = useState<avgDataType>();
+const SingleStationPage = () => {
+    const [countData, setCountData] = useState<CountDataType>();
+    const [avgData, setAvgData] = useState<AvgDataType>();
     const [countError, setCountError] = useState<string>();
     const [avgError, setAvgError] = useState<string>();
 
-    const stationData = get<stationType>('stationItem');
+    const stationData = get<StationType>('stationItem');
 
     useEffect(() => {
         fetchCountData();
@@ -53,11 +53,7 @@ const SingleStationPage = (props: any) => {
 
     const avgJourneyTo = avgData &&
         ((avgData.avgJourneyTo._avg.coveredDistanceInMeter) / 1000).toFixed(3);
-
-    const center = {
-        lat: stationData.yCoordinate,
-        lng: stationData.xCoordinate,
-    };
+    
 
     return (
         <>
@@ -118,7 +114,7 @@ const SingleStationPage = (props: any) => {
                     :
                     <div className="loader data-loader"></div>
                 }
-                <Map center={center} />
+                <Map lat={stationData.yCoordinate} lng={stationData.xCoordinate} />
             </div>
         </>
     );

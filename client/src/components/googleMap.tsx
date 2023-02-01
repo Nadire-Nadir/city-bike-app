@@ -1,9 +1,9 @@
 import GoogleMapReact from 'google-map-react';
+import { CoordinateType } from '../types';
 import { Marker } from './mapMarker';
 
 
-const SimpleMap = (props: any) => {
-    const { center } = props;
+const Map = (props: CoordinateType ) => {
     const defaultProps = {
         center: { lat: 60.205490, lng: 24.655899 },
         zoom: 11
@@ -18,12 +18,12 @@ const SimpleMap = (props: any) => {
                 yesIWantToUseGoogleMapApiInternals
             >
                 <Marker
-                    lat={center.lat}
-                    lng={center.lng}
+                    lat={props.lat}
+                    lng={props.lng}
                 />
             </GoogleMapReact>
         </div>
     );
 }
 
-export default SimpleMap;
+export default Map;

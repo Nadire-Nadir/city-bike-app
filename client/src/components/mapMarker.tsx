@@ -1,7 +1,7 @@
 import { IoLocationSharp } from "react-icons/io5";
-import { MarkerType } from "../types";
+import { CoordinateType } from "../types";
 
-export const Marker = (props: MarkerType) => 
+export const Marker = (props: CoordinateType) => 
     <div
         style={{
             color: 'red',

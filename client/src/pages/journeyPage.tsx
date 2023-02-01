@@ -1,14 +1,14 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import { axiosConfig, JOURNEY_HEADER } from '../utils';
-import { journeyType } from '../types';
-import DataTable from '../components/dataTable';
+import { JourneyType } from '../types';
+import DataGrid from '../components/dataGrid';
 import NavBar from '../components/navBar';
 import '../styles/dataTable.css';
 import '../styles/navBar.css';
 
 const JourneyPage = () => {
-    const [journeyData, setJourneyData] = useState<journeyType>();
+    const [journeyData, setJourneyData] = useState<JourneyType[]>();
     const [loading, setLoading] = useState<boolean>(false);
     const [error, setError] = useState<string>();
 
@@ -44,10 +44,10 @@ const JourneyPage = () => {
                 <h1 className='page-title'>Journeys List</h1>
 
                 {journeyData &&
-                    <DataTable
+                    <DataGrid
                         headers={JOURNEY_HEADER}
                         rows={journeyData}
-                        onRowSelect={(item: journeyType) => item}
+                        onRowSelect={(item: JourneyType) => item}
                         isLoading={false}
                         showPagination={true}
                         initialPageSize={25}

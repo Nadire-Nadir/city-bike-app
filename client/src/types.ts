@@ -1,4 +1,6 @@
-export interface stationType {
+import { Dispatch, SetStateAction } from "react"
+
+export interface StationType {
     stationId: string,
     stationNameFi: string,
     stationNameSe: string,
@@ -13,7 +15,7 @@ export interface stationType {
     yCoordinate: number,
 };
 
-export interface journeyType {
+export interface JourneyType {
     journeyId: string,
     departureTime: string,
     departureStationId: string,
@@ -25,12 +27,12 @@ export interface journeyType {
     durationInSecond: number,
 };
 
-export interface countDataType {
+export interface CountDataType {
     departureJourneyNum: string,
     returnJourneyNum: string
 };
 
-export interface avgDataType {
+export interface AvgDataType {
     avgJourneyFrom: {
         _avg: {
             coveredDistanceInMeter: number
@@ -43,7 +45,32 @@ export interface avgDataType {
     }
 };
 
-export interface MarkerType {
+export interface CoordinateType {
     lat: number,
     lng: number,
+};
+
+export interface RegisterFormProps {
+    onSubmit: any,
+    signup?: boolean,
+    setUsername: Dispatch<SetStateAction<string | undefined>>,
+    setPassword: Dispatch<SetStateAction<string | undefined>>,
+    loading: boolean,
+    error: string | undefined
+};
+
+export interface HeadersType {
+    accessor: string,
+    Header: string,
+    width?: number | undefined
+};
+
+export interface DataTablePropsType {
+    rows: any,
+    headers: HeadersType[],
+    onRowSelect: any,
+    isLoading: boolean,
+    showPagination: boolean,
+    initialPageSize: number,
+    keyPrefix: string
 };
