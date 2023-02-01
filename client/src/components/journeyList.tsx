@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 import { axiosConfig, JOURNEY_HEADER } from '../utils';
 import { JourneyType } from '../types';
 import DataGrid from '../components/dataGrid';
-import { get } from "local-storage";
 
 const JourneyList = () => {
     const [journeyData, setJourneyData] = useState<JourneyType[]>();
