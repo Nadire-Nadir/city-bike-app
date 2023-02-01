@@ -65,7 +65,7 @@ export interface HeadersType {
     width?: number | undefined
 };
 
-export interface DataTablePropsType {
+export interface DataGridPropsType {
     rows: any,
     headers: HeadersType[],
     onRowSelect: any,
@@ -74,3 +74,7 @@ export interface DataTablePropsType {
     initialPageSize: number,
     keyPrefix: string
 };
+
+export interface SingleStatePropsType {
+    stationId: string
+}

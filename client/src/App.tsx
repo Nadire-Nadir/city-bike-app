@@ -18,7 +18,7 @@ const App = () => {
         <Route path='/station' element={<StationPage />} />
         <Route path='station/:id' element={<SingleStationPage />} />
         <Route path='/' element={<LoginPage />} />
-        <Route element={<NotFoundPage />} />
+        <Route path='*' element={<NotFoundPage />} />
       </Routes>
     </div>
   );

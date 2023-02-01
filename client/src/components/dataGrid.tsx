@@ -1,9 +1,9 @@
 import { useState, useEffect, FormEvent, ChangeEvent } from 'react'
-import { DataTablePropsType, HeadersType, JourneyType, StationType } from '../types';
+import { DataGridPropsType, HeadersType, JourneyType, StationType } from '../types';
 import { BsSortDownAlt, BsSortDown } from "react-icons/bs";
 
 
-const DataGrid: React.FC<DataTablePropsType> = (props) => {
+const DataGrid: React.FC<DataGridPropsType> = (props) => {
     const [active, setActive] = useState<boolean>(false);
     const [selectedIdx, setSelectedIdx] = useState<number>(-1);
     const [selected, setSelected] = useState<JourneyType | StationType | null>(null);
@@ -64,7 +64,6 @@ const DataGrid: React.FC<DataTablePropsType> = (props) => {
             onRowSelect(null);
         };
     };
-
 
     const handleFilter = (e: ChangeEvent<HTMLInputElement>, dataKey: any) => {
 
