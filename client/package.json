@@ -26,7 +26,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "testcafe chrome ./src/__test__/",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
