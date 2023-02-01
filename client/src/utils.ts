@@ -1,5 +1,3 @@
-import { get } from "local-storage";
-
 export const SidebarData = [
     {
         title: 'Journeys',
@@ -12,13 +10,6 @@ export const SidebarData = [
         cName: 'nav-text'
     }
 ];
-
-
-export const axiosConfig = {
-    headers: {
-        'Authorization': 'Bearer ' + get('token')
-    }
-};
 
 export const JOURNEY_HEADER = [
     { accessor: 'departureStationName', Header: 'Departure Station' },

@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
+import { get } from "local-storage";
 import Map from '../components/googleMap';
 import SingleStationData from './singleStationData';
 import { StationType } from '../types';
-import { axiosConfig } from '../utils';
 
 
 const SingleStationDetails = () => {
@@ -18,6 +18,12 @@ const SingleStationDetails = () => {
         fetchData()
     }, []);  // eslint-disable-line react-hooks/exhaustive-deps
 
+
+    const axiosConfig = {
+        headers: {
+            'Authorization': 'Bearer ' + get('token')
+        }
+    };
 
     const fetchData = async () => {
         setLoading(true);
@@ -34,32 +40,32 @@ const SingleStationDetails = () => {
 
 
     return (
-        <>
-            <div className='details-container'>
-                <div className='details-content'>
-                    {stationData &&
-                        <div>
-                            <p>
-                                <span className='details-title'>Station Name:</span>
-                                <span>{stationData.stationNameFi}</span>
-                            </p>
-                            <p>
-                                <span className='details-title'>Station Address: </span>
-                                <span>{stationData.addressFi}, {stationData.cityFi}</span>
-                            </p>
-
+        <div>
+            {stationData &&
+                <div>
+                    <div className='details-container'>
+                        <div className='details-content'>
+                            <div>
+                                <p>
+                                    <span className='details-title'>Station Name:</span>
+                                    <span>{stationData.stationNameFi}</span>
+                                </p>
+                                <p>
+                                    <span className='details-title'>Station Address: </span>
+                                    <span>{stationData.addressFi}, {stationData.cityFi}</span>
+                                </p>
+                            </div>
                             <SingleStationData stationId={stationData.stationId} />
-
-                            <Map lat={stationData.yCoordinate} lng={stationData.xCoordinate} />
                         </div>
-                    }
-
-                    {loading && <div className="loader data-loader"></div>}
-
-                    {error && <div>{error} </div>}                  
+                    </div>
+                    <Map lat={stationData.yCoordinate} lng={stationData.xCoordinate} />
                 </div>
-            </div>
-        </>
+            }
+
+            {loading && <div className="loader data-loader"></div>}
+
+            {error && <div>{error} </div>}
+        </div>
     );
 };
 

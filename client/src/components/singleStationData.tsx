@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import { get } from "local-storage";
 import { AvgDataType, CountDataType, SingleStatePropsType } from '../types';
-import { axiosConfig } from '../utils';
 
 const SingleStationData: React.FC<SingleStatePropsType> = ({ stationId }) => {
     const [countData, setCountData] = useState<CountDataType>();
@@ -17,6 +17,12 @@ const SingleStationData: React.FC<SingleStatePropsType> = ({ stationId }) => {
 
     const postData = {
         id: stationId
+    };
+
+    const axiosConfig = {
+        headers: {
+            'Authorization': 'Bearer ' + get('token')
+        }
     };
 
     const fetchCountData = async () => {
@@ -67,7 +73,6 @@ const SingleStationData: React.FC<SingleStatePropsType> = ({ stationId }) => {
                             <span>{countError ? 'Not found' : countData.returnJourneyNum}</span>
                         </p>
                     </div>
-
                     <div>
                         <p>
                             <span className='details-title'>

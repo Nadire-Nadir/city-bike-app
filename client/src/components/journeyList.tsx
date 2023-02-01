@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react';
-import { axiosConfig, JOURNEY_HEADER } from '../utils';
+import { get } from "local-storage";
+import { JOURNEY_HEADER } from '../utils';
 import { JourneyType } from '../types';
 import DataGrid from '../components/dataGrid';
 
@@ -9,10 +10,15 @@ const JourneyList = () => {
     const [loading, setLoading] = useState<boolean>(false);
     const [error, setError] = useState<string>();
 
-    useEffect(() => {
+    useEffect(() => {   
         fetchData()
-        
-    }, []);
+    }, []);  // eslint-disable-line react-hooks/exhaustive-deps
+
+    const axiosConfig = {
+        headers: {
+            'Authorization': 'Bearer ' + get('token')
+        }
+    };
 
     const fetchData = async () => {
         setLoading(true);

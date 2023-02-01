@@ -1,7 +1,8 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
-import { axiosConfig, STATION_HEADER } from '../utils';
+import { get } from "local-storage";
+import { STATION_HEADER } from '../utils';
 import { StationType } from '../types';
 import DataGrid from '../components/dataGrid';
 
@@ -15,11 +16,17 @@ const StationList = () => {
 
     useEffect(() => {
         fetchData()
-    }, []);
+    }, []);  // eslint-disable-line react-hooks/exhaustive-deps
 
     const navigatePage = (item: StationType) => {
         let path = window.location.pathname + `/${item.stationId}`
         navigate(path);
+    };
+
+    const axiosConfig = {
+        headers: {
+            'Authorization': 'Bearer ' + get('token')
+        }
     };
 
     const fetchData = () => {

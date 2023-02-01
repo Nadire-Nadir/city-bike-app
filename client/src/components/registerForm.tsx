@@ -16,15 +16,15 @@ const RegisterForm: React.FC<RegisterFormProps> = (props) => {
                 <div className='body-form'>
                     <form>
                         <div className='input'>
-                            <input type='text' placeholder='Username' onChange={(event) => setUsername(event.target.value)} />
+                            <input className='username-input' type='text' placeholder='Username' onChange={(event) => setUsername(event.target.value)} />
                         </div>
                         <div className='input'>
-                            <input type='password' placeholder='Password' onChange={(event) => setPassword(event.target.value)} />
+                            <input className='password-input' type='password' placeholder='Password' onChange={(event) => setPassword(event.target.value)} />
                         </div>
                         {loading ?
                             <div className="loader register-loader"></div>
                             :
-                            <button type='button' onClick={onSubmit}>
+                            <button className='register-btn' type='button' onClick={onSubmit}>
                                 {signup ?
                                     'LOGIN'
                                     :
