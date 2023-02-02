@@ -1,4 +1,5 @@
 import { IoPersonCircle } from 'react-icons/io5';
+import { Link } from 'react-router-dom';
 import { RegisterFormProps } from '../types';
 
 
@@ -38,9 +39,9 @@ const RegisterForm: React.FC<RegisterFormProps> = (props) => {
                         
                         <div className='message'>
                             {signup ?
-                                <a href='/signup'>New user? Please sign up here</a>
+                                <Link to='/signup'>New user? Please sign up here</Link>
                                 :
-                                <a href='/login'>Already have an account? login here</a>
+                                <Link to='/login'>Already have an account? login here</Link>
                             }
                         </div>
                             
