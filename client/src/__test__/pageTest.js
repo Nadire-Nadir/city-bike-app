@@ -6,7 +6,7 @@ test("Test pages", async (t) => {
     const usernameInput = Selector(".username-input");
     const passwordInput = Selector(".password-input");
 
-    await t.typeText(usernameInput, "nadire").typeText(passwordInput, "1234");
+    await t.typeText(usernameInput, "newuser").typeText(passwordInput, "1234");
 
     const clickLogin = Selector("button").withText("LOGIN");
     await t.click(clickLogin);
@@ -15,8 +15,8 @@ test("Test pages", async (t) => {
     await t.click(clickMenuBar);
 
     const clickJourneys = Selector("li").withText("Journeys");
-
     await t.click(clickJourneys);
+    
     const journeyTitle = Selector(".page-title").textContent;
     await t.expect(await journeyTitle).eql("Journeys List");
 

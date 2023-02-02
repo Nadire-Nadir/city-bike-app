@@ -6,7 +6,7 @@ test("Test Table", async (t) => {
     const usernameInput = Selector(".username-input");
     const passwordInput = Selector(".password-input");
 
-    await t.typeText(usernameInput, "nadire").typeText(passwordInput, "1234");
+    await t.typeText(usernameInput, "newuser").typeText(passwordInput, "1234");
 
     const clickLogin = Selector("button").withText("LOGIN");
     await t.click(clickLogin);
