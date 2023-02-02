@@ -14,17 +14,17 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 
-app.get('/', (req, res) => {
-    console.log('Hello from express')
-    res.status(200)
-    res.json({ message: 'Hello' })
-})
-
-
 app.use('/api', protect, router)
 
 app.post('/user', createNewUser)
 app.post('/signin', signin)
+
+// serving the react app
+const root = require('path').join(__dirname, '..', 'build')
+app.use(express.static(root))
+app.get('*', (req, res) => {
+    res.sendFile('index.html', (root))
+})
 
 
 app.use((err: any, req: Request, res: Response, next: NextFunction) => {
