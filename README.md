@@ -1,4 +1,4 @@
-# Helsinki-city-bike-app
+# City-bike-app
 
 This is a fullstack web application,  It provides a plateform to display data from journeys made with city bikes in the Helsinki Capital area, and display all existing city bicycle staions data, and also display related datas of each station, like station basic infomation, total number of journeys starting from and ending at this station, average distance of journeys starting from and ending at this station, and a map marked the station location.
 
